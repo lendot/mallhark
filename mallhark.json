@@ -97,16 +97,60 @@
 		"#townField#field"],
 
 
-    "familys":["family's","parents'","mother's","father's","grandparents'","grandmother's","grandfather's","brother's",
-	       "sister's","aunt's","uncle's"],
+    "familys":["family's",
+	       "parents'",
+	       "mother's",
+	       "father's",
+	       "grandparents'",
+	       "grandmother's",
+	       "grandfather's",
+	       "brother's",
+	       "sister's",
+	       "aunt's",
+	       "uncle's"
+	      ],
 
-    "business":["general store","bakery","restaurant","sensory deprivation chamber","inn","b&b",
-		"diner","ski resort","lingerie store","toy emporium","library","Santa village","ice rink",
-		"cocoa stand","bookstore","ski village","cranberry bog"],
+    "business":["general store",
+		"bakery",
+		"restaurant",
+		"sensory deprivation chamber",
+		"inn",
+		"b&b",
+		"diner",
+		"ski resort",
+		"lingerie store",
+		"toy emporium",
+		"library",
+		"Santa village",
+		"ice rink",
+		"cocoa stand",
+		"bookstore",
+		"ski village",
+		"cranberry bog"],
 
-    "animal": ["kangaroo","platypus","penguin","puffin","meerkat","giraffe","hippopotamus","kakapo","okapi","polar bear",
-	       "chupacabra","unicorn","bonobo","lemur","gazelle","armadillo","dingo","tarantula","mongoose","llama",
-	       "peacock","kraken"],
+    "animal": ["kangaroo",
+	       "platypus",
+	       "penguin",
+	       "puffin",
+	       "meerkat",
+	       "giraffe",
+	       "hippopotamus",
+	       "kakapo",
+	       "okapi",
+	       "polar bear",
+	       "chupacabra",
+	       "unicorn",
+	       "bonobo",
+	       "lemur",
+	       "gazelle",
+	       "armadillo",
+	       "dingo",
+	       "tarantula",
+	       "mongoose",
+	       "llama",
+	       "peacock",
+	       "kraken"
+	      ],
 
     "bodyPart": ["elbows","feet","nipples","neck","knees","nose","ears","navel"],
 
@@ -1611,14 +1655,20 @@
     "withCondition": ["#hisHer# broken #broken#",
 		      "#hisHer# #missing# missing"
 		     ],
+
+    "notHomeInTimeCondition": ["only #withOnly# to use",
+			       "#withCondition#"
+			      ],
     
-    "pairPlotTravelDontMakeIt": ["With only #withOnly# to use they won't get home in time",
+    "pairPlotTravelDontMakeIt": ["With #notHomeInTimeCondition# they won't get home in time",
 				"They're lost and with #withCondition# they won't get home in time"],
     "ownChristmasIn": ["a mine shaft",
 		       "a cave",
 		       "a tauntaun",
 		       "an abandoned house",
-		       "a missile silo"
+		       "a missile silo",
+		       "an abandoned warehouse",
+		       "an ancient pyramid"
 		      ],
     "christmasTreeOutOf": ["a transmission",
 			   "a bear carcass",
@@ -1661,7 +1711,8 @@
 		     "patriotism",
 		     "cat owners",
 		     "appearances",
-		     "the town #townPerson#"
+		     "the town #townPerson#",
+		     "the town #animal#"
 		    ],
     "getAlong": ["for the sake of #forTheSakeOf#"],
     "placate": ["#relative#","#animal#"],
@@ -1673,11 +1724,15 @@
 		       "paparazzi",
 		       "ATM fees",
 		       "mockery",
-		       "arrest"
+		       "arrest",
+		       "the mafia",
+		       "the freemasons"
 		      ],
-    "pretendDating": ["to placate #hisHer# #placate#",
+    "toPlacate": ["#hisHer# #placate#",
+		  "the town #townPerson#"
+		 ],
+    "pretendDating": ["to placate #toPlacate#",
 		      "to get into #pretendGetInto#",
-		      "to placate the town #townPerson#",
 		      "to avoid #pretendToAvoid#"],
     "pretendToBe": ["dating",
 		    "married",
@@ -1687,6 +1742,7 @@
 		    "cousins",
 		    "zombies",
 		    "Christian",
+		    "Catholic",
 		    "cats"
 		   ],
 
@@ -1739,10 +1795,13 @@
     "thwartedByPerson": ["an angel",
 			 "a witch",
 			 "Santa",
-			 "some old guy"
+			 "some old guy",
+			 "Krampus",
+			 "mischievous children"
 			],
     "thwartedBy": ["#maleFemaleActor#",
 		   "the town #townPerson#",
+		   "#animal.a#",
 		   "#thwartedByPerson#"
 		  ],
 
