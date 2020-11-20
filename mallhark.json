@@ -1666,10 +1666,29 @@
     "getAlong": ["for the sake of #forTheSakeOf#"],
     "placate": ["#relative#","#animal#"],
     "pretendGetInto": ["#christmasEvent#"],
+    "pretendToAvoid": ["extradition",
+		       "scorn",
+		       "excommunication",
+		       "high taxes",
+		       "paparazzi",
+		       "ATM fees",
+		       "mockery",
+		       "arrest"
+		      ],
     "pretendDating": ["to placate #hisHer# #placate#",
 		      "to get into #pretendGetInto#",
-		      "to placate the town #townPerson#"],
-    "pretendToBe": ["dating","married","#jobTitleBare.s#"],
+		      "to placate the town #townPerson#",
+		      "to avoid #pretendToAvoid#"],
+    "pretendToBe": ["dating",
+		    "married",
+		    "#jobTitleBare.s#",
+		    "engaged",
+		    "virgins",
+		    "cousins",
+		    "zombies",
+		    "Christian",
+		    "cats"
+		   ],
 
     "townPerson": ["sheriff",
 		   "baker",
@@ -1708,7 +1727,13 @@
 		   "stuck to the same light pole",
 		   "in the same jail cell",
 		   "superglued together",
-		   "in the same tar pit"
+		   "in the same tar pit",
+		   "locked in a vault",
+		   "trapped in an elevator",
+		   "in a bottle episode",
+		   "chained to a tree",
+		   "sharing the only bed",
+		   "sequestered"
 		  ],
 
     "thwartedByPerson": ["an angel",
@@ -1729,7 +1754,7 @@
 		     "They have to put aside their differences to #actionClause#",
 		     "The town #townPerson# forces them to #actionClause#",
 		     "They try to avoid each other but end up #avoidEndUp#",
-		     "Their attempts to #pairAvoidVerb# each other keep getting thwarted by #thwartedBy#"
+		     "Their attempts to #pairAvoidVerb# each other are thwarted by #thwartedBy#"
 		    ],
     
     "pairPlot": ["#pairPlotSetup#. #pairPlotGoal#. #pairPlotActionSentence#"],
