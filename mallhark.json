@@ -353,12 +353,39 @@
 
     "kickedOffOf": ["Tumblr","Facebook","Instagram","Pinterest","Twitter","Reddit","4chan","American Idol","LinkedIn",
 		    "a dance show","Youtube","a Zoom call","TikTok","Battle of the Blades","Netflix",
-		    "Great British Bake Off"],
+		    "Great British Bake Off",
+		    "a 3rd floor balcony",
+		    "Jeopardy",
+		    "her softball team",
+		    "the swim team",
+		    "the International Space Station",
+		    "a sitcom",
+		    "a pub trivia team"
+		   ],
+    "kickedOutOf": ["a hair metal band",
+		    "her city",
+		    "her apartment",
+		    "Target",
+		    "Walmart",
+		    "Home Depot",
+		    "Mensa",
+		    "a movie theater",
+		    "a comic book store",
+		    "a secret society",
+		    "church",
+		    "the chess club",
+		    "a night club",
+		    "the Justice League",
+		    "a spelling bee",
+		    "a sorority"
+		   ],
     "whenSheMisc1":["falls out of a plane at 25,000 ft.","locks herself in the trunk of a car","loses a bet",
 		    "gets lost","enters a fugue state","falls through a portal",
 		    "misses her flight","gets amnesia",
 		    "goes in pursuit of a loofah","gets writer's block","wanders into a time machine",
-		    "gets kicked off of #kickedOffOf#","smashes the patriarchy","agrees to Facebook's new terms of service",
+		    "gets kicked off of #kickedOffOf#",
+		    "gets kicked out of #kickedOutOf#",
+		    "smashes the patriarchy","agrees to Facebook's new terms of service",
 		    "receives a cease and desist letter"],
     "whenSheMisc2":["researches a big cow","contracts a virus","is chased by wizards","finds a magical doorway",
 		    "eats quinoa","fulfills an ancient prophecy",
@@ -370,9 +397,9 @@
     "inheritance":["donkey","tiara","piglet","cheeseburger","rare book","yarn store","house",
 		   "orphanage","table saw","family meatloaf recipe","Juicero","cursed doll","player piano",
 		   "hair metal band","treasure map","bone saw","circular saw","pony","wishing well","toothpick",
-		   "butler","mystical Fiero","goose"],
+		   "butler","mystical Fiero","goose","TV station"],
 
-    "strange":["strange","mysterious","creepy","mystical","manipulative"],
+    "strange":["strange","mysterious","creepy","mystical","manipulative","suspicious"],
     "ladyMan":["lady","woman","man","guy","gentleman","alien","child","apparition","#animal#","pastry","elf",
 	       "proto-Santa","gingerbread man","reindeer","cookie","Christmas tree","advent calendar",
 	       "#adventModifier# advent calendar","snowman","nutcracker"],
@@ -383,10 +410,19 @@
 			 "barn","subway"],
     
     "whenShe":["receives a call from #distressedCaller#",
-	       "receives a call from #letterSender#","is kidnapped by #kidnapper#","drinks #drink.a#",
-	       "loses her #lost#","turns into #turnsIntoA.a#","inherits #inheritance.a#"
-	       ,"#whenSheMisc1#","#whenSheMisc2#","encounters a #strange# #ladyMan# in a #strangePersonMeet#",
-	       "encounters a #strange# #ladyMan#","becomes #becomes#","eats #food.a#","opens #opensAdj.a# #opensA#"],
+	       "receives a call from #letterSender#",
+	       "is kidnapped by #kidnapper#",
+	       "drinks #drink.a#",
+	       "loses her #lost#",
+	       "turns into #turnsIntoA.a#",
+	       "inherits #inheritance.a#",
+	       "#whenSheMisc1#",
+	       "#whenSheMisc2#",
+	       "encounters a #strange# #ladyMan# in a #strangePersonMeet#",
+	       "encounters a #strange# #ladyMan#",
+	       "becomes #becomes#",
+	       "eats #food.a#",
+	       "opens #opensAdj.a# #opensA#"],
     
     "meets":["meets",
 	     "reunites with",
@@ -403,7 +439,7 @@
 
     "lotsOf": ["lots of","an abundance of","too many","many"],
     "dudeWithLotsOf": ["cats","candy canes","reindeer","toys","wives"],
-    "symptom": ["coronavirus","flu"],
+    "symptom": ["coronavirus","flu","scurvy"],
     "dudeWith": ["secrets","insomnia","medieval torture devices","Chocodiles","principles",
 		 "debts","anger management issues","#lotsOf# #dudeWithLotsOf#","flashbacks",
 		 "purple boots","children","psychic powers","superpowers","Photoshop","swagger",
@@ -442,7 +478,7 @@
 
     "dudeWorships":["Satan","cheese","socks","penguins","himself","his #animal#","cinnamon","#maleActor#",
 		    "#femaleActor#","#challenge_count_noun.s#","corn","copper","mistletoe","Santa",
-		    "the sun"],
+		    "the sun","#broken#","#animal#"],
 
     "transplantDonor":["transplant","donor"],
 
@@ -470,7 +506,8 @@
 		    "slushies","Norway","pączki","brutalism","metal","the Oxford comma","dangling participles",
 		    "jewelry","socialism","bitcoin","Vantablack","yoga","prime numbers","recursive functions",
 		    "'Hamilton'","solipsism","breathing","forensics shows","Blue Man Group","appraisers","change",
-		    "Yngwie Malmsteen","The Walking Dead","yacht rock","Trans Siberian Orchestra"],
+		    "Yngwie Malmsteen","The Walking Dead","yacht rock","Trans Siberian Orchestra",
+		    "spoons"],
 
     "dudeWhoVerb":["hiccups","wheezes","raps","glows","burps","juggles","cooks","paints","levitates","shapeshifts"],
     
@@ -988,6 +1025,8 @@
 		     "solve a Christmas #crime#","#saveTownVerb# the town from #enemy# for Christmas",
 		     "brutally impose the way Christmas used to be",
 		     "save the town from the way Christmas used to be",
+		     "save the town from itself for Christmas",
+		     "save Christmas from itself",
 		     "binge watch #bingeWatch# for Christmas",
 		     "build #build.a#",
 		     "eat #eat# for Christmas",
@@ -1102,13 +1141,13 @@
 		    "gives #himName# #givesHim# for Christmas",
 		    "takes #himName# #takesHim# for Christmas",
 		    "#bests# #himName# in the Christmas #competeEvent#",
-		    "builds #himName# #build.a#"],
+		    "builds #himName# #build.a# for Christmas"],
 
     "helpsHer": ["find her #findHer#"],
     "heHerClause": ["helps #herName# #helpsHer# #forChristmas#",
 		    "gives #herName# #givesHer# for Christmas",
 		    "takes #herName# #takesHer# for Christmas",
-		    "builds #herName# #build.a#"],
+		    "builds #herName# #build.a# for Christmas"],
 
 
     "disarm": ["bomb","nuclear weapon"],
@@ -1148,7 +1187,9 @@
 		   "An encounter with a #strange# #ladyMan# in a #strangePersonMeet#",
 		   "An encounter with a #strange# #ladyMan#","Becoming #becomes#",
 		   "Inheriting #inheritance.a#","Turning into #turnsIntoA.a#",
-		   "Getting kicked off of #kickedOffOf#","Opening #opensAdj.a# #opensA#",
+		   "Getting kicked off of #kickedOffOf#",
+		   "Getting kicked out of #kickedOutOf#",
+		   "Opening #opensAdj.a# #opensA#",
 		   "#leadsEventMisc#"],
     "leadsToTownMisc": ["her hometown","a Christmas town","a remote town",
 			"a cozy town","a folksy town","her childhood home","a 1950s town"],
@@ -1487,13 +1528,25 @@
     "willTheySentence": ["Will they fall in love on Christmas or will #sheName# #orWillShe#?",
 			 "Will they fall in love or will #sheName# #orWillShe# on Christmas?"
 			],
+
+    "doesntExpectManSetup": ["#jobTitle.capitalize# #femaleNameActor# doesn't let personal feelings affect her work"],
     
+    "unexpectedManSentence": ["Until she #meets# #meetsObject#"] ,
+    
+    "unexpectedActionSentence": ["#sheHeActionSentence#",
+				  "#theyActionSentence#",
+				  "#heSheActionSentence#",
+				  "#willTheySentence#",
+				  "#sheNoLoveSentence#"
+				 ],
+				  
     "smallTownPlot":["#smallTownSetup#. #sheActionSentence#. #sheHeActionSentence#",
 		     "#smallTownSetup#. #sheActionSentence#. #theyActionSentence#",
 		     "#smallTownSetup#. #dudeActionSentence#. #heSheActionSentence#",
 		     "#smallTownSetup#. #dudeActionSentence#. #theyActionSentence#",
 		     "#smallTownNoLoveSetup#. #dudeActionSentence#. #sheNoLoveSentence#",
-		     "#smallTownSetup#. #dudeActionSentence#. #willTheySentence#"],
+		     "#smallTownSetup#. #dudeActionSentence#. #willTheySentence#",
+		     "#doesntExpectManSetup#. #unexpectedManSentence#. #unexpectedActionSentence#"],
 
     "longActionSentence": ["They #longActionClause# and fall in love.",
 			  "To #longActionSaveObjectBegin#, they #longActionSaveActivity# and fall in love."],
@@ -1599,7 +1652,12 @@
 		     "are both sent to #townAdj# #townName#"
 		    ],
 
-    "pairPlotRivals": ["#rival.capitalize# #jobTitleBare.s# #characterNameIntros# #rivalPremise#"],
+    "sparksFly": ["Sparks fly between #jobTitleBare# #femaleNameActor# and rival #maleNameActor# when they #rivalPremise#",
+		  "Sparks fly between #rival# #jobTitleBare.s# #characterNameIntros# when they #rivalPremise#"
+		 ],
+    "pairPlotRivals": ["#rival.capitalize# #jobTitleBare.s# #characterNameIntros# #rivalPremise#",
+		       "#sparksFly#"
+		      ],
     "pairPlotFormer": ["Former #former# #characterNameIntros# #formerPremise#"],
     "pairPlotSetup": ["#pairPlotRivals#","#pairPlotFormer#"],
 
@@ -1806,12 +1864,19 @@
 		  ],
 
     "pairAvoidVerb": ["avoid","ignore"],
-    
+
+    "forces": ["forces",
+	       "persuades",
+	       "begs",
+	       "enlists",
+	       "bribes"
+	      ],
+
     "pairPlotGoal": ["They pretend to get along #getAlong#",
 		     "They have to work together to #actionClause#",
 		     "They pretend to be #pretendToBe# #pretendDating#",
 		     "They have to put aside their differences to #actionClause#",
-		     "The town #townPerson# forces them to #actionClause#",
+		     "The town #townPerson# #forces# them to #actionClause#",
 		     "They try to avoid each other but end up #avoidEndUp#",
 		     "Their attempts to #pairAvoidVerb# each other are thwarted by #thwartedBy#"
 		    ],
