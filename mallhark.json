@@ -1711,7 +1711,8 @@
     "broken": ["arm","finger","spirit","leg","phone","scooter","skateboard","glasses"],
     "missing": ["foot","eye","nose","tongue","phone","pants","shoe","hand","elf","#animal#"],
     "withCondition": ["#hisHer# broken #broken#",
-		      "#hisHer# #missing# missing"
+		      "#hisHer# #missing# missing",
+		      "the weather getting worse"
 		     ],
 
     "notHomeInTimeCondition": ["only #withOnly# to use",
@@ -1726,7 +1727,10 @@
 		       "an abandoned house",
 		       "a missile silo",
 		       "an abandoned warehouse",
-		       "an ancient pyramid"
+		       "an ancient pyramid",
+		       "a shack",
+		       "an abandoned IHOP",
+		       "a cemetery"
 		      ],
     "christmasTreeOutOf": ["a transmission",
 			   "a bear carcass",
@@ -1872,11 +1876,38 @@
 	       "bribes"
 	      ],
 
+    "actionClauseNoChristmas": ["save #saveThe#",
+				"#fightVerb# #fightThe#",
+				"learn #learn#",
+				"get #get#",
+				"make #make#",
+				"buy #buyNoun.a#",
+				"take up #takeUp#",
+				"reopen #reopen#",
+				"launch #launch.a#",
+				"repair #repairObject#",
+				"fix #fixObject#",
+				"adopt #adopt.a#",
+				"rediscover #rediscover#",
+				"help #helpClause#",
+				"protest #protest#",
+				"form #theyForm.a#",
+				"become #become#",
+				"#watchVerb# #theyWatch#",
+				"find her #findHer#",
+				"find his #findHis#",
+				"binge watch #bingeWatch#",
+				"build #build.a#",
+				"eat #eat#",
+				"stan #maleFemaleActor#",
+				"embrace #embrace#"
+			       ],
+    
     "pairPlotGoal": ["They pretend to get along #getAlong#",
-		     "They have to work together to #actionClause#",
+		     "They have to work together to #actionClauseNoChristmas#",
 		     "They pretend to be #pretendToBe# #pretendDating#",
-		     "They have to put aside their differences to #actionClause#",
-		     "The town #townPerson# #forces# them to #actionClause#",
+		     "They have to put aside their differences to #actionClauseNoChristmas#",
+		     "The town #townPerson# #forces# them to #actionClauseNoChristmas#",
 		     "They try to avoid each other but end up #avoidEndUp#",
 		     "Their attempts to #pairAvoidVerb# each other are thwarted by #thwartedBy#"
 		    ],
@@ -1908,8 +1939,21 @@
 		   "#hiresVerb# her to #hiresHer#",
 		   "becomes her unexpected #becomesUnexpected#"
 		  ],
-		   
-    "singleMomPlotSetup": ["#jobTitle.capitalize# #femaleNameActor# faces Christmas alone until #maleNameActor# #aloneUntil#"],
+
+    "swornOff": ["men",
+		 "relationships",
+		 "WooHoo",
+		 "therapy",
+		 "butt stuff",
+		 "alcohol",
+		 "one night stands",
+		 "swearing"
+		],
+    "facesAlone": ["faces Christmas alone",
+		   "has sworn off #swornOff# for Christmas,"
+		  ],
+    
+    "singleMomPlotSetup": ["#jobTitle.capitalize# #femaleNameActor# #facesAlone# until #maleNameActor# #aloneUntil#"],
     "singleMomPlotGoal": ["#pairPlotGoal#"],
     "singleMomPlotActionSentence": ["#pairPlotActionSentence#"],
     "singleMomPlot": ["#singleMomPlotSetup#. #singleMomPlotGoal#. #singleMomPlotActionSentence#"],
