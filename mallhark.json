@@ -725,6 +725,7 @@
 		 "trailer park","compound","cranberry bog"],
     "familyDestination":["on her #familys# #onFamilys#", "at her #familys# #atFamilys#","in her #familys# #inFamilys#"],
     "town":["#namedTown#","#unnamedTown#","#familyDestination#"],
+    "townNoFamily": ["#namedTown#","#unnamedTown#"],
 
     "enemy":["a parasite infestation","robber barons","demon children","a gonorrhea outbreak","ghost piranhas",
 	     "a dinocroc","ice spiders","a supergator","a frankenfish","a sharktopus","a chupacabra",
@@ -1595,7 +1596,8 @@
 			"carpooling",
 			"driving",
 			"cruising",
-			"speeding"
+			"speeding",
+			"motoring"
 		       ],
     "carType": ["Chevy Vega",
 		"Chevy Nova",
@@ -1649,11 +1651,17 @@
 		     "are #town#",
 		     "find they are both #namedTown#",
 		     "come face to face #town#",
-		     "are both sent to #townAdj# #townName#"
+		     "are both sent to #townAdj# #townName#",
+		     "bump into each other #town#"
 		    ],
 
-    "sparksFly": ["Sparks fly between #jobTitleBare# #femaleNameActor# and rival #maleNameActor# when they #rivalPremise#",
-		  "Sparks fly between #rival# #jobTitleBare.s# #characterNameIntros# when they #rivalPremise#"
+    "sparksFlyPhrase": ["Sparks fly",
+			"Tensions mount",
+			"Tempers flare up"
+		       ],
+
+    "sparksFly": ["#sparksFlyPhrase# between #jobTitleBare# #femaleNameActor# and rival #maleNameActor# when they #rivalPremise#",
+		  "#sparksFlyPhrase# between #rival# #jobTitleBare.s# #characterNameIntros# when they #rivalPremise#"
 		 ],
     "pairPlotRivals": ["#rival.capitalize# #jobTitleBare.s# #characterNameIntros# #rivalPremise#",
 		       "#sparksFly#"
@@ -1676,7 +1684,7 @@
 		 "a soccer trophy",
 		 "their parachute pants",
 		 "barbecue sauce",
-		 "a Friedrich Nietzsche primer",
+		 "a Nietzsche primer",
 		 "her Blackberry",
 		 "his compass",
 		 "his shoelace",
@@ -1693,6 +1701,8 @@
 
     "travelNeedToFind": ["#maleFemaleActor#",
 			 "a restroom",
+			 "pot",
+			 "a 1.21 gigawatt source",
 			 "#hisHer# #lost#",
 			 "#challenge_count_noun.s#"
 			],
@@ -1702,10 +1712,33 @@
 			  ],
     "theyLocate": ["locate","find","uncover"],
     "locateMagical": ["#opensA#","#drinkType#"],
+    "powerOf": ["science",
+		"yoga",
+		"capitalism",
+		"country music",
+		"rainbows and kittens",
+		"Gritty",
+		"Chaucer",
+		"Chuck Tingle",
+		"Philip K. Dick",
+		"tungsten",
+		"Red Bull",
+		"witchcraft",
+		"alien technology",
+		"spite",
+		"reiki",
+		"special relativity",
+		"turkey",
+		"good skin care",
+		"beatboxing",
+		"baking soda",
+		"cynicism"
+	       ],
     "pairPlotTravelActionSentence": [
 	"#withHelp# #helpFrom# they make it home for Christmas and fall in love.",
 	"They get home for Christmas with help from #helpFrom# and fall in love.",
-	"They #theyLocate# a magical #locateMagical# that takes them home for Christmas and fall in love."
+	"They #theyLocate# a magical #locateMagical# that takes them home for Christmas and fall in love.",
+	"Through the power of #powerOf# they make it home for Christmas and fall in love."
     ],
 
     "broken": ["arm","finger","spirit","leg","phone","scooter","skateboard","glasses"],
@@ -1730,7 +1763,9 @@
 		       "an ancient pyramid",
 		       "a shack",
 		       "an abandoned IHOP",
-		       "a cemetery"
+		       "a cemetery",
+		       "a bunker",
+		       "a fallout shelter"
 		      ],
     "christmasTreeOutOf": ["a transmission",
 			   "a bear carcass",
@@ -1959,6 +1994,7 @@
     "singleMomPlot": ["#singleMomPlotSetup#. #singleMomPlotGoal#. #singleMomPlotActionSentence#"],
 
     "themed": ["Lovecraft",
+	       "cat",
 	       "bagel",
 	       "leg",
 	       "Star Trek",
@@ -2031,12 +2067,47 @@
     "alwaysWantedPlot": ["#alwaysWantedSetup#. #sheActionSentence#. #longActionSentence#",
 			 "#alwaysWantedSetup#. #dudeActionSentence#. #longActionSentence#"
 			],
+
+
+    "accidentalPremise": ["are #travelingMethod# to #bigCity# when #travelingWhen#"],
+    "accidentalPlotSetup": ["Former #former# #characterNameIntros# #accidentalPremise#"],
+    "accidentalEndUp": ["end up"
+		       ],
+    "townEverythingIs": ["moist",
+			 "a fantasy",
+			 "flammable",
+			 "#themed# themed",
+			 "leaning",
+			 "underground",
+			 "Christmas lingerie stores",
+			 "uniform",
+			 "purple",
+			 "transparent",
+			 "invisible",
+			 "radioactive",
+			 "gender neutral",
+			 "made of cheese",
+			 "pastel",
+			 "shiny",
+			 "toxic",
+			 "neon",
+			 "fuzzy",
+			 "blurry",
+			 "inside out"
+			],
+			 
+    "accidentalGoalWhere": ["everything is #townEverythingIs#"],
+    "accidentalGoalClause": ["where #accidentalGoalWhere#"
+			    ],
+    "accidentalPlotGoal": ["They #accidentalEndUp# #townNoFamily# #accidentalGoalClause#" ],
+    "accidentalPlot": ["#accidentalPlotSetup#. #accidentalPlotGoal#. #actionSentence#"],
     
     "normalPlot":["#[sheName:she][herName:her][heName:he][himName:him]smallTownPlot#",
 		  "#[sheName:she][herName:her][heName:he][himName:him]smallTownPlotLongAction#",
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]pairPlot#",
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]pairPlotTravel#",
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]singleMomPlot#",
+		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]accidentalPlot#",
 		  "#[sheName:she][herName:her][heName:he][himName:him]alwaysWantedPlot#"
 		 ],
 
