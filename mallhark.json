@@ -35,7 +35,7 @@
 		  "Hugh Jackman","Eriq La Salle","Kyle MacLachlan","Matthew McConaughey","Bradley Cooper",
 		  "Benicio Del Toro","Jonah Hill","Samuel L. Jackson","Matthew Modine","Morgan Freeman","Gary Oldman",
 		  "Mads Mikkelsen","Chad Michael Murray","Pee-wee Herman","Anthony Fauci",
-		  "Marwan Kenzari","Paul Hollywood","Lakeith Stanfield","Dylan O'Brien",
+		  "Marwan Kenzari","Paul Hollywood","Lakeith Stanfield","Dylan O'Brien","Marc Blucas",
 		  "ghost of #deadMaleActor#"],
 
     "deadFemaleActor": ["Lucille Ball","Audrey Hepburn","Elizabeth Taylor","Hedy Lamarr","Carol Channing","Joan Rivers"],
@@ -59,7 +59,8 @@
 		    "Lizzy Caplan","Reese Witherspoon","Elisabeth Moss","Lily Tomlin","Zoe Saldana","Elizabeth Olsen",
 		    "Frances McDormand","Zoë Kravitz","Anne Hathaway","Karen Gillan","Margot Robbie","Olivia Wilde",
 		    "Olivia Munn","Viola Davis","Maria Bello","Uma Thurman","Erin Cahill","Kellie Pickler",
-		    "Sarah Cooper","Cardi B","Florence Pugh","Sophie Turner","Yara Shahidi",
+		    "Sarah Cooper","Cardi B","Florence Pugh","Sophie Turner","Yara Shahidi","Kristen Stewart",
+		    "Alison Brie","Mackenzie Davis","Lauren Lapkus",
 		    "ghost of #deadFemaleActor#"],
 
     "maleFemaleActor": ["#maleActor#","#femaleActor#"],
@@ -165,7 +166,7 @@
 		 "Alice","Beth","Belle","Sydney","Maddie","Madison","Cara","Kara","Claire","Zoey","Taylor",
 		 "Elle","Gretchen","Samantha","Lacey","Whitney","Allison","Emily","Belinda","Peppermint",
 		 "Miracle","Aria","Jessica","Margot","Anna","Jess","Megan","Vivienne","Sam","Erin",
-		 "Avery","Michelle","Kayleigh","Lina","Lila","Christina"],
+		 "Avery","Michelle","Kayleigh","Lina","Lila","Christina","Charity"],
 
     "conservationist": ["elephant","emu","turtle","platypus","tiger","walrus","fish","soil","tree","flower","otter","moose"],
     "expert": ["cybersecurity","makeup","sex","cheese","wine","beer","hummus","solar power","furniture",
@@ -700,8 +701,44 @@
     "doesntUnderstand": ["her #doesntUnderstandHer#"],
     "understandVerb": ["understand","appreciate","approve of"],
 
-    "becomesUnexpected": ["houseguest","servant","housepet","life coach","rent boy","coffee table","defense lawyer",
-			  "roommate"],
+    "becomesUnexpected": ["houseguest",
+			  "servant",
+			  "housepet",
+			  "life coach",
+			  "rent boy",
+			  "coffee table",
+			  "defense lawyer",
+			  "roommate",
+			  "houseplant",
+			  "chauffer",
+			  "pool boy",
+			  "conquistador",
+			  "acupuncturist",
+			  "druid",
+			  "tax writeoff",
+			  "drain cleaner",
+			  "dungeon master",
+			  "nude model",
+			  "pony",
+			  "cushion",
+			  "organ donor",
+			  "intern",
+			  "tennis partner",
+			  "neighbor",
+			  "valet",
+			  "fishmonger",
+			  "podiatrist",
+			  "experimental subject",
+			  "#monger#monger",
+			  "inspiration",
+			  "co-conspirator",
+			  "fanboy",
+			  "student",
+			  "claims adjuster",
+			  "financial consultant",
+			  "surge protector",
+			  "high pass filter"
+			 ],
     
     "dudeActionMisc": ["lends her his #dudeLends#",
 		       "#accidentallyAdverb# #dudeAccidentally#",
@@ -734,12 +771,54 @@
 	     "an existential dread","a blizzard","a tornado","scorpions","tainted eggnog","aliens",
 	     "late capitalism","tainted romaine lettuce","ebola","Manbearpig","bankers","a real estate developer",
 	     "the Whamageddon","the patriarchy","bad weather","a Whole Foods","an Airbnb","a dairy conglomerate",
-	     "condominiums","murder hornets","a Bennu collision"],
+	     "condominiums","murder hornets"],
 
-    "learn":["how to dance","Tuvan throat singing","how to bake","accounting","Python","knitting",
-	     "arc welding","'Back Door Santa'","taekwondo","math","juggling","CPR","painting","surface-mount soldering",
-	     "how to ski","how to change brake pads","how to pole dance","#language#","about blockchain",
-	     "reiki","hypnosis","to undulate","linear algebra"],
+    "learnSkill": ["how to dance",
+		   "Tuvan throat singing",
+		   "how to bake",
+		   "accounting",
+		   "Python",
+		   "knitting",
+		   "arc welding",
+		   "taekwondo",
+		   "math",
+		   "juggling",
+		   "CPR",
+		   "painting",
+		   "surface-mount soldering",
+		   "how to ski",
+		   "how to change brake pads",
+		   "how to pole dance",
+		   "linear algebra",
+		   "reiki",
+		   "hypnosis",
+		   "to undulate",
+		   "about blockchain"
+		  ],
+    "learnMusic": ["'Back Door Santa'"
+		  ],
+    "learnMeaning": ["'More Than Words'",
+		     "polyamory",
+		     "the three seashells",
+		     "dystopia",
+		     "covfefe",
+		     "wincest",
+		     "omniverse",
+		     "'banal'",
+		     "'facetious'",
+		     "'incongruous'",
+		     "donut holes",
+		     "golf ball dimples",
+		     "p-value",
+		     "embezzlement",
+		     "the Voynich manuscript",
+		     "the Constitution"
+		    ],
+    "learn":["#learnMusic#",
+	     "#language#",
+	     "#learnSkill#",
+	     "the true meaning of #learnMeaning#"
+	    ],
 
     "takeUp": ["dancing","Tuvan throat singing","breakdancing","baking","accounting","knitting",
 	       "arc welding","taekwondo","math","juggling","painting","skiing","car repair","pole dancing",
@@ -808,7 +887,8 @@
 		    "sauna championship","baby jumping competition","toe wrestling championship","bed race",
 		    "reindeer race","ugliest dog contest","oil wrestling championship","cherry spitting championship",
 		    "rock-paper-scissors championship","shovel race","chessboxing match","caroling contest",
-		    "ice skating competition","tree decorating contest","scavenger hunt"],
+		    "ice skating competition","tree decorating contest","scavenger hunt",
+		    "three-legged wreath race"],
     "compete":["#competeVerb# in the Christmas #competeEvent#"],
     "competeShort": ["#competeVerb# in the #competeEvent#"],
     "organize":["organize","plan"],
@@ -1011,6 +1091,15 @@
 			 "defund the police for Christmas",
 			 "adjust to the new normal for Christmas"
 			],
+
+    "deadActor": ["#deadMaleActor#",
+		  "#deadFemaleActor#"
+		 ],
+    
+    "theyResurrect": ["#hisHer# #relative#",
+		      "#animal.a#",
+		      "#deadActor#"
+		     ],
     
     "actionClause": ["save #saveThe#","#fightVerb# #fightThe#","learn #learn# for Christmas","get #get# for Christmas",
 		     "make #make# for Christmas","#organize# a Christmas #putOn#",
@@ -1034,7 +1123,8 @@
 		     "eat #eat# for Christmas",
 		     "stan #maleFemaleActor# for Christmas",
 		     "embrace #embrace# for Christmas",
-		     "add #addTradition# to the Christmas tradition"
+		     "add #addTradition# to the Christmas tradition",
+		     "resurrect #theyResurrect# for Christmas"
 		    ],
 
     "longActionSaveActivity": ["become #become#",
@@ -1531,7 +1621,44 @@
 			 "Will they fall in love or will #sheName# #orWillShe# on Christmas?"
 			],
 
-    "doesntExpectManSetup": ["#jobTitle.capitalize# #femaleNameActor# doesn't let personal feelings affect her work"],
+    "doesntLet": ["personal feelings",
+		  "constipation",
+		  "#animal.s#",
+		  "#maleFemaleActor#",
+		  "hunger",
+		  "deadlines",
+		  "twitter",
+		  "men",
+		  "thirst",
+		  "astrology",
+		  "bacteria",
+		  "holidays",
+		  "lust",
+		  "horniness"
+		 ],
+    "trafficking": ["drug","organ"],
+    "affectHer": ["work",
+		  "confidence",
+		  "yoga",
+		  "serotonin",
+		  "knitting",
+		  "spreadsheets",
+		  "plans",
+		  "brand",
+		  "vacation",
+		  "target practice",
+		  "writing",
+		  "welding",
+		  "#trafficking# trafficking",
+		  "sleep cycle",
+		  "clog dancing",
+		  "tuba playing",
+		  "spite"
+		 ],
+    "affectHerVerb": ["affect her",
+		      "get in the way of"
+		     ],
+    "doesntExpectManSetup": ["#jobTitle.capitalize# #femaleNameActor# doesn't let #doesntLet# #affectHerVerb# #affectHer#"],
     
     "unexpectedManSentence": ["Until she #meets# #meetsObject#"] ,
     
@@ -1576,16 +1703,44 @@
 		     "steak",
 		     "cocaine"
 		    ],
+    "crashInto": ["Dave Matthews",
+		  "Santa's workshop",
+		  "an orphanage",
+		  "a Denny's",
+		  "a cow",
+		  "a nativity scene",
+		  "a sleigh",
+		  "a tree farm",
+		  "a meth lab"
+		 ],
+    "fallsOn": ["#maleFemaleActor#",
+		"#animal.a#",
+		"#vehicle.a#",
+		"#crashInto#"
+	       ],
+    "fallOns": ["#animal.s#",
+		"#jobTitleBare.s#",
+		"#relative.s#",
+		"dead #animal.s#",
+		"dead #jobTitleBare.s#",
+		"dead #relative.s#"
+	       ],
     "travelingWhen": ["a storm hits",
 		      "a meteor hits them",
-		      "they drive off a cliff",
+		      "they go off a cliff",
 		      "a bridge collapses",
 		      "a volcano erupts",
 		      "an earthquake strikes",
 		      "an avalanche covers them",
 		      "their car explodes",
+		      "they get carjacked",
+		      "crumbling infrastructure gives out",
+		      "the brakes stop working",
+		      "they crash into #crashInto#",
 		      "#rainHeavens# rain from the heavens",
-		      "#rainsHeavens# rains from the heavens"
+		      "#rainsHeavens# rains from the heavens",
+		      "#fallsOn# falls on them",
+		      "#fallOns# fall on them"
 		     ],
     "formerPremise": ["bump into each other #town#",
 		      "end up on the same #vehicle# to #toTown#",
@@ -1741,6 +1896,7 @@
 
     "broken": ["arm","finger","spirit","leg","phone","scooter","skateboard","glasses"],
     "missing": ["foot","eye","nose","tongue","phone","pants","shoe","hand","elf","#animal#"],
+
     "withCondition": ["#hisHer# broken #broken#",
 		      "#hisHer# #missing# missing",
 		      "the weather getting worse"
@@ -2048,7 +2204,6 @@
 		     "microscopic",
 		     "post-modern",
 		     "hallucinogenic",
-		     "Roman",
 		     "phosphine",
 		     "#themed#-themed"
 		    ],
@@ -2144,7 +2299,8 @@
 		  "sees them",
 		  "ages",
 		  "flosses",
-		  "breathes"
+		  "breathes",
+		  "is neurotypical"
 		 ],
 
     "townEveryone": ["waxes",
@@ -2163,7 +2319,8 @@
 		     "is Santa",
 		     "levitates",
 		     "has #disease#",
-		     "yodels"
+		     "yodels",
+		     "is neurotypical"
 		    ],
 
 
@@ -2188,14 +2345,41 @@
 		     ],
     "accidentalTownRunBy": ["#animal.s#",
 			    "#maleFemaleActor#",
-			    "#townRunByMisc#"],
-    
+			    "#townRunByMisc#",
+			    "#mayorAdj.a# mayor"],
+
+
+    "mayorAdj": ["#dudeAdj#","#jobTitleModifier#"],
+    "townAuraAdj": ["Icelandic",
+		    "ominous",
+		    "Christmassy",
+		    "nutmeg",
+		    "viscous",
+		    "Christ-like",
+		    "acrid",
+		    "bloody"
+		   ],
+    "townAuraNoun": ["aura",
+		     "smell",
+		     "energy",
+		     "history",
+		     "statue",
+		     "water supply",
+		     "gazebo",
+		     "general store",
+		     "cocoa"
+		    ],
+    "townAura": ["its #townAuraAdj# #townAuraNoun#"],
+    "accidentalGoalWith": ["#townAura#"],
+
+
     "accidentalGoalWhere": ["everything is #townEverythingIs#",
 			    "nothing is #townNothingIs#",
 			    "no one #townNoOne#",
 			    "everyone #townEveryone#"],
     "accidentalGoalClause": ["where #accidentalGoalWhere#",
-			     "run by #accidentalTownRunBy#"
+			     "run by #accidentalTownRunBy#",
+			     "with #accidentalGoalWith#"
 			    ],
     "accidentalPlotGoal": ["They #accidentalEndUp# #townNoFamily#, #accidentalGoalClause#" ],
     "accidentalPlot": ["#accidentalPlotSetup#. #accidentalPlotGoal#. #actionSentence#"],
