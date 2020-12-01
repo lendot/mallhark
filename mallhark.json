@@ -35,7 +35,7 @@
 		  "Hugh Jackman","Eriq La Salle","Kyle MacLachlan","Matthew McConaughey","Bradley Cooper",
 		  "Benicio Del Toro","Jonah Hill","Samuel L. Jackson","Matthew Modine","Morgan Freeman","Gary Oldman",
 		  "Mads Mikkelsen","Chad Michael Murray","Pee-wee Herman","Anthony Fauci",
-		  "Marwan Kenzari","Paul Hollywood","Lakeith Stanfield","Dylan O'Brien","Marc Blucas",
+		  "Marwan Kenzari","Paul Hollywood","Lakeith Stanfield","Dylan O'Brien","Marc Blucas","Jason Priestley",
 		  "ghost of #deadMaleActor#"],
 
     "deadFemaleActor": ["Lucille Ball","Audrey Hepburn","Elizabeth Taylor","Hedy Lamarr","Carol Channing","Joan Rivers"],
@@ -182,13 +182,13 @@
 		    "poet","anarchist","robot","kleptomaniac","gerbil","duck","bartender","professor",
 		    "loan officer","forensic scientist","phlebotomist","sous chef","chemist","sandwich artist","key grip",
 		    "astronaut","cosmologist","life coach","travel agent","florist","somnambulist","flautist",
-		    "masseuse","statistician","bougie","#conservationist# conservationist#","influencer","hypebeast",
+		    "masseuse","statistician","bougie","#conservationist# conservationist#","influencer",
 		    "hockey player","extreme sports photographer","tour guide","dominatrix","blogger","choir director",
 		    "cryptographer","spy","pop star","demon","feng shui consultant","nail polish namer",
 		    "deodorant tester","#expert# expert","science teacher","heiress","accountant",
 		    "Cats extra","epidemiologist","nurse","virologist","immunologist","lab tech",
 		    "wedding planner","pianist","violinist","romance writer","omniverse writer","single mom",
-		    "resistance leader","#prodigy# prodigy"],
+		    "resistance leader","#prodigy# prodigy","podcaster"],
     "jobTitleModifier":["twitchy","arrogant","messy","demanding","vegan","ambidextrous","recalcitrant",
 			"aggressive","ambitious","high-strung","paranoid","boring","mopey","Methodist","lonely",
 			"pointy","frumpy","smart","brilliant","salty","nihilist","friendly","pedantic",
@@ -737,7 +737,9 @@
 			  "claims adjuster",
 			  "financial consultant",
 			  "surge protector",
-			  "high pass filter"
+			  "high pass filter",
+			  "body double",
+			  "stunt double"
 			 ],
     
     "dudeActionMisc": ["lends her his #dudeLends#",
@@ -793,7 +795,8 @@
 		   "reiki",
 		   "hypnosis",
 		   "to undulate",
-		   "about blockchain"
+		   "about blockchain",
+		   "glass blowing"
 		  ],
     "learnMusic": ["'Back Door Santa'"
 		  ],
@@ -1270,7 +1273,10 @@
 			   "#jobTitleModifier# #jobTitleBare# #firstName##fActor#",
 			   "#jobTitleModifier.a# #bigCity# #jobTitleBare##fActor#"],
     "endsUp":["ends up","winds up","finds herself","turns up","wakes up","gets stranded"],
-    "afterWhen":["after #triggeringEvent#","after she #whenShe#"],
+    "afterWhen":["after #triggeringEvent#",
+		 "after she #whenShe#",
+		 "after her bestie #whenShe#"
+		],
 
     "leadsEventMisc": ["A job assignment"],
     "leadsEvent": ["A call from #distressedCaller#","A call from #letterSender#",
@@ -1448,7 +1454,7 @@
 		    "#strangePersonMeet#"],
     "noTownIn": ["debt","trouble","spanx","heels","the Christmas spirit","latex","plaid","a wig","a meltdown",
 		 "a breakdown","a divorce","denial","the red","her prime","a slump","a Santa suit","a yurt",
-		 "a cult","Purgatory","ketosis","retrograde","love","a pickle","a sticky situation",
+		 "a cult","Purgatory","ketosis","love","a pickle","a sticky situation",
 		 "a black pit of despair","jail","time out","flagrante delicto","pants","over her head",
 		 "hot water","a tight spot"],
     "noTownClause": ["with a secret #withASecret#","in need of #inTownNeeds.a#","in #noTownIn#"],
@@ -1650,17 +1656,22 @@
 		  "writing",
 		  "welding",
 		  "#trafficking# trafficking",
-		  "sleep cycle",
 		  "clog dancing",
 		  "tuba playing",
 		  "spite"
 		 ],
     "affectHerVerb": ["affect her",
-		      "get in the way of"
+		      "get in the way of",
+		      "interfere with her"
 		     ],
     "doesntExpectManSetup": ["#jobTitle.capitalize# #femaleNameActor# doesn't let #doesntLet# #affectHerVerb# #affectHer#"],
     
-    "unexpectedManSentence": ["Until she #meets# #meetsObject#"] ,
+
+    "unexpectedManUntil": ["#maleNameActor# #aloneUntil#",
+			   "she #meets# #meetsObject#"
+			  ],
+
+    "unexpectedManSentence": ["Until #unexpectedManUntil#"] ,
     
     "unexpectedActionSentence": ["#sheHeActionSentence#",
 				  "#theyActionSentence#",
@@ -1769,13 +1780,14 @@
 		"AMC Pacer",
 		"Le Car",
 		"VW Rabbit",
-		"DeLorean"
+		"DeLorean",
+		"VW microbus"
 	       ],
-    "travelingVehicle": ["in a rental car",
+    "travelingVehicle": ["in a rental #carType#",
 			 "in #hisHer# #carType#",
 			 "in #hisHer# #relative#'s #carType#",
-			 "in #hisHer# #animal#'s #carType#",
-			 "in a stolen #carType#"
+			 "in a stolen #carType#",
+			 "in a decrepit #carType#"
 			],
 
     "forHolidays": ["Christmas",
@@ -1849,7 +1861,8 @@
 		 "a Funko pop",
 		 "a magnet",
 		 "a SCSI cable",
-		 "silly putty"
+		 "silly putty",
+		 "an Ernest Saves Christmas VHS"
 		],
 
     "travelNeedToFind": ["#maleFemaleActor#",
@@ -1887,11 +1900,42 @@
 		"baking soda",
 		"cynicism"
 	       ],
+
+    "pairBuildTravel": ["Camaro",
+			"time machine",
+			"transporter",
+			"wormhole",
+			"helicopter",
+			"trebuchet",
+			"rocket",
+			"cannon",
+			"sleigh",
+			"potato battery",
+			"transmission",
+			"hang glider",
+			"wheelbarrow",
+			"travois",
+			"robot horse",
+			"robot #animal#",
+			"warp drive",
+			"tricycle",
+			"zamboni",
+			"funicular",
+			"catapult",
+			"hoverboard",
+			"earth mover",
+			"particle accelerator",
+			"hot air balloon",
+			"tank",
+			"snowmobile",
+			"engine block"
+		       ],
+    
     "pairPlotTravelActionSentence": [
 	"#withHelp# #helpFrom# they make it home for Christmas and fall in love.",
-	"They get home for Christmas with help from #helpFrom# and fall in love.",
 	"They #theyLocate# a magical #locateMagical# that takes them home for Christmas and fall in love.",
-	"Through the power of #powerOf# they make it home for Christmas and fall in love."
+	"Through the power of #powerOf# they make it home for Christmas and fall in love.",
+	"After building #pairBuildTravel.a# they make it home for Christmas and fall in love."
     ],
 
     "broken": ["arm","finger","spirit","leg","phone","scooter","skateboard","glasses"],
@@ -1936,9 +1980,44 @@
 			   "burlap",
 			   "ice"
 			  ],
+
+
+    "abandonedBusiness": ["Denny's",
+			  "IHOP",
+			  "Walmart",
+			  "Waffle House",
+			  "Best Buy",
+			  "Radio Shack",
+			  "Circuit City",
+			  "Applebee's"
+			 ],
+    
+    "pretendSanta": ["lopsided boulder",
+		     "pizza box",
+		     "beer bottle",
+		     "groundhog",
+		     "moose",
+		     "bear",
+		     "chipmunk",
+		     "pine cone",
+		     "plastic bag",
+		     "gravestone",
+		     "obelisk",
+		     "pentagram",
+		     "human skull",
+		     "abandoned #abandonedBusiness#",
+		     "streetlight",
+		     "pile of rocks",
+		     "large crab",
+		     "soccer ball",
+		     "dumpster"
+		    ],
+		     
     
     "pairPlotTravelAdHocChristmas": ["They make Christmas in #ownChristmasIn# and fall in love.",
-				    "They fashion a Christmas tree out of #christmasTreeOutOf# and fall in love."],
+				     "They fashion a Christmas tree out of #christmasTreeOutOf# and fall in love.",
+				     "They pretend #pretendSanta.a# is Santa and fall in love."
+				    ],
     "pairPlotTravel": ["#pairPlotTravelSetup#. #pairPlotTravelGoal#. #pairPlotTravelActionSentence#",
 		      "#pairPlotTravelSetup#. #pairPlotTravelDontMakeIt#. #pairPlotTravelAdHocChristmas#"],
     
@@ -2188,10 +2267,8 @@
     "christmasAdj": ["frenetic",
 		     "deadly",
 		     "dysfunctional",
-		     "janky",
 		     "coked-up",
 		     "helter-skelter",
-		     "feral",
 		     "nihilistic",
 		     "godless",
 		     "draconian",
@@ -2357,7 +2434,22 @@
 		    "viscous",
 		    "Christ-like",
 		    "acrid",
-		    "bloody"
+		    "bloody",
+		    "bitter",
+		    "toxic",
+		    "mania-inducing",
+		    "alcoholic",
+		    "corporate-owned",
+		    "creepy",
+		    "salty",
+		    "quantum",
+		    "rat-infested",
+		    "trippy",
+		    "baby",
+		    "eerie",
+		    "mesmerizing",
+		    "invisible",
+		    "disappearing"
 		   ],
     "townAuraNoun": ["aura",
 		     "smell",
@@ -2367,9 +2459,38 @@
 		     "water supply",
 		     "gazebo",
 		     "general store",
-		     "cocoa"
+		     "cocoa",
+		     "lodge",
+		     "trees",
+		     "cranberries",
+		     "cakes",
+		     "waste disposal",
+		     "wishing well",
+		     "duck pond",
+		     "monolith",
+		     "hellmouth",
+		     "train depot",
+		     "sinkhole",
+		     "marching band",
+		     "football team",
+		     "baker",
+		     "brownies",
+		     "sheriff",
+		     "gas station",
+		     "woods",
+		     "cemetery",
+		     "church",
+		     "painter",
+		     "library",
+		     "gift shop",
+		     "boutique",
+		     "bookshop",
+		     "town square",
+		     "hardware store",
+		     "bakery",
+		     "antique shop"
 		    ],
-    "townAura": ["its #townAuraAdj# #townAuraNoun#"],
+    "townAura": ["#townAuraAdj# #townAuraNoun#"],
     "accidentalGoalWith": ["#townAura#"],
 
 
@@ -2377,9 +2498,16 @@
 			    "nothing is #townNothingIs#",
 			    "no one #townNoOne#",
 			    "everyone #townEveryone#"],
+    "accidentalGoalWhose": ["mayor is also #dudeOccupationBare.a#",
+			    "mayor is also #dudeOccupationBare.a# and #dudeOccupationBare.a#"
+			   ],
+
+    "famousAdj": ["famous","known"],
+    
     "accidentalGoalClause": ["where #accidentalGoalWhere#",
 			     "run by #accidentalTownRunBy#",
-			     "with #accidentalGoalWith#"
+			     "#famousAdj# for its #accidentalGoalWith#",
+			     "whose #accidentalGoalWhose#"
 			    ],
     "accidentalPlotGoal": ["They #accidentalEndUp# #townNoFamily#, #accidentalGoalClause#" ],
     "accidentalPlot": ["#accidentalPlotSetup#. #accidentalPlotGoal#. #actionSentence#"],
