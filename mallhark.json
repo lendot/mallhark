@@ -478,9 +478,9 @@
 		    "banana labels","toothpaste","napkins","leg lamps","butt plugs","skin","femurs",
 		    "license plates","lawn decorations","beer cans"],
 
-    "dudeWorships":["Satan","cheese","socks","penguins","himself","his #animal#","cinnamon","#maleActor#",
+    "dudeWorships":["Satan","cheese","socks","penguins","cinnamon","#maleActor#",
 		    "#femaleActor#","#challenge_count_noun.s#","corn","copper","mistletoe","Santa",
-		    "the sun","#broken#","#animal#"],
+		    "the sun","#animal.s#"],
 
     "transplantDonor":["transplant","donor"],
 
@@ -531,7 +531,7 @@
     "olderDecade": ["1","2","3","4","5","6","7"],
     "whoIsYounger": ["#youngerDecade##digit#"],
     "whoIsOlder": ["#olderDecade##digit#"],
-    "whoIs": ["#whoIsYounger# years younger than her","#whoIsOlder# years older than her"],
+    "whoIs": ["#whoIsYounger# years her junior","#whoIsOlder# years her senior"],
     
     "dudeWho":["looks like #dudeLooksLike#",
 	       "collects #dudeCollects#",
@@ -739,7 +739,10 @@
 			  "surge protector",
 			  "high pass filter",
 			  "body double",
-			  "stunt double"
+			  "stunt double",
+			  "toxicologist",
+			  "pilot",
+			  "IT support"
 			 ],
     
     "dudeActionMisc": ["lends her his #dudeLends#",
@@ -1163,7 +1166,7 @@
 		    "disembowels","takes out a hit on","undresses","circumcises","shaves",
 		    "airbrushes","imprisons","crates","blackmails","hits","spills #spills# on",
 		    "rear ends"],
-    "accidentallyAdverb":["accidentally","unintentionally","inadvertently"],
+    "accidentallyAdverb":["accidentally","unintentionally","inadvertently","passive-aggressively"],
 
     "helpFrom":["psilocybin","Mark Wahlberg","a rival gang","dolphins","CWA Local 2101","a secret Santa","her inheritence",
 		"GoFundMe","reddit","the town fathers","his brother","her best friend","Santa","Santa's elves",
@@ -1791,15 +1794,14 @@
 			],
 
     "forHolidays": ["Christmas",
-		    "the holidays",
-		    "Christmastime"
+		    "the holidays"
 		   ],
     "homeDescriptor": ["to #townName#",
 		       "to #townName#",
-		       "back home"
+		       "home"
 		      ],
-    "travelingHome": ["#homeDescriptor#",
-		      "#homeDescriptor# #travelingVehicle#"
+    "travelingHome": ["#homeDescriptor# for #forHolidays#",
+		      "#homeDescriptor# for #forHolidays# #travelingVehicle#"
 		     ],
 			 
     "formerTravelingPremise": [
@@ -1872,9 +1874,38 @@
 			 "#hisHer# #lost#",
 			 "#challenge_count_noun.s#"
 			],
-    "pairPlotTravelGoal": ["With only #withOnly# they must continue their #journey#",
-			   "They must #finishJourney# their #journey# with only #withOnly#",
-			   "Time's running out and they must find #travelNeedToFind# fast"
+
+
+    "ifNotHomeObjectMisc": ["fruitcake",
+			    "glitter",
+			    "dolls",
+			    "boots",
+			    "teeth",
+			    "Christmas tree",
+			    "phone"
+			   ],
+
+
+    "ifNotHomeObject": ["#animal#",
+			"#relative#",
+			"#familys# #business#",
+			"#ifNotHomeObjectMisc#"
+		       ],
+
+    "ifNotHomeConsequence": ["evaporate",
+			     "disintegrate",
+			     "transmigrate",
+			     "explode",
+			     "become deadly",
+			     "become rabid"
+			    ],
+    
+    "ifNotHomeInTime": ["If they don't hurry #hisHer# #ifNotHomeObject# will #ifNotHomeConsequence#"
+		       ],
+
+    "pairPlotTravelGoal": ["They must #finishJourney# their #journey# with only #withOnly#",
+			   "Time's running out and they must find #travelNeedToFind# fast",
+			   "#ifNotHomeInTime#"
 			  ],
     "theyLocate": ["locate","find","uncover"],
     "locateMagical": ["#opensA#","#drinkType#"],
@@ -1930,10 +1961,28 @@
 			"snowmobile",
 			"engine block"
 		       ],
+
+
+    "locateNotMagical": ["ketamine",
+			 "pot",
+			 "meth candy",
+			 "an IPA",
+			 "a Satanic Bible",
+			 "a tuba",
+			 "an oracle",
+			 "a drunken Santa",
+			 "a snow globe",
+			 "a hockey mascot",
+			 "a jet pack",
+			 "egg nog",
+			 "a Chick tract",
+			 "a bone saw"
+			],
     
     "pairPlotTravelActionSentence": [
 	"#withHelp# #helpFrom# they make it home for Christmas and fall in love.",
 	"They #theyLocate# a magical #locateMagical# that takes them home for Christmas and fall in love.",
+	"They #theyLocate# #locateNotMagical# that helps them get home for Christmas and fall in love.",
 	"Through the power of #powerOf# they make it home for Christmas and fall in love.",
 	"After building #pairBuildTravel.a# they make it home for Christmas and fall in love."
     ],
@@ -1949,9 +1998,13 @@
     "notHomeInTimeCondition": ["only #withOnly# to use",
 			       "#withCondition#"
 			      ],
+
+
+
     
     "pairPlotTravelDontMakeIt": ["With #notHomeInTimeCondition# they won't get home in time",
-				"They're lost and with #withCondition# they won't get home in time"],
+				 "They're lost and with #withCondition# they won't get home in time"
+				],
     "ownChristmasIn": ["a mine shaft",
 		       "a cave",
 		       "a tauntaun",
@@ -2216,7 +2269,8 @@
 		 "butt stuff",
 		 "alcohol",
 		 "one night stands",
-		 "swearing"
+		 "swearing",
+		 "cocaine"
 		],
     "facesAlone": ["faces Christmas alone",
 		   "has sworn off #swornOff# for Christmas,"
@@ -2300,7 +2354,7 @@
 			],
 
 
-    "accidentalPremise": ["are #travelingMethod# to #bigCity# when #travelingWhen#"],
+    "accidentalPremise": ["are #travelingMethod# to #bigCity# for #forHolidays# when #travelingWhen#"],
     "accidentalPlotSetup": ["Former #former# #characterNameIntros# #accidentalPremise#"],
     "accidentalEndUp": ["end up"
 		       ],
@@ -2392,7 +2446,7 @@
 		     "is libertarian",
 		     "gyrates",
 		     "is on the paleo diet",
-		     "worships #dudeWorships#",
+		     "worships #dudeWorships.s#",
 		     "is Santa",
 		     "levitates",
 		     "has #disease#",
@@ -2449,7 +2503,12 @@
 		    "eerie",
 		    "mesmerizing",
 		    "invisible",
-		    "disappearing"
+		    "disappearing",
+		    "dull",
+		    "shiny",
+		    "outrageous",
+		    "shocking",
+		    "risqué"
 		   ],
     "townAuraNoun": ["aura",
 		     "smell",
@@ -2511,6 +2570,46 @@
 			    ],
     "accidentalPlotGoal": ["They #accidentalEndUp# #townNoFamily#, #accidentalGoalClause#" ],
     "accidentalPlot": ["#accidentalPlotSetup#. #accidentalPlotGoal#. #actionSentence#"],
+
+    "timeReversePlotSetup": ["Time reverses on Christmas #namedTown#"],
+    "findsHimIncreasingly": ["immature",
+			     "smarmy",
+			     "obnoxious",
+			     "pompous",
+			     "distant",
+			     "cranky",
+			     "hairy",
+			     "cocky",
+			     "creepy",
+			     "unreliable",
+			     "greasy",
+			     "gross",
+			     "snippy",
+			     "untidy",
+			     "selfish",
+			     "impatient",
+			     "disobedient",
+			     "pessimistic",
+			     "overbearing",
+			     "arrogant"
+			    ],
+
+    "timeReverseMeetClause": ["backs up from the dent in #possessive# car",
+			      "takes the hot coffee from #possessive# coat and puts it in #possessiveSubj# cup" 
+			     ],
+
+    "sheReverseSoloAction": ["takes down all the Christmas decorations",
+			     "depletes the orphan fund"
+			    ],
+    
+    "timeReverseMeet": ["She #[object:him][possessive:his][possessiveSubj:her]timeReverseMeetClause# and",
+			"He #[object:her][possessive:her][possessiveSubj:his]timeReverseMeetClause# and she",
+			"She #sheReverseSoloAction# and"
+		       ],
+    
+    "timeReversePlotAction": ["#femaleNameActor# no longer loves #maleNameActor#, who gets increasingly #findsHimIncreasingly#"],
+    "timeReversePlotConclusion": ["#timeReverseMeet# leaves him and the town for #bigCity# to work her #jobTitleBare# dream job."],
+    "timeReversePlot": ["#timeReversePlotSetup#. #timeReversePlotAction#. #timeReversePlotConclusion#"],
     
     "normalPlot":["#[sheName:she][herName:her][heName:he][himName:him]smallTownPlot#",
 		  "#[sheName:she][herName:her][heName:he][himName:him]smallTownPlotLongAction#",
@@ -2518,7 +2617,8 @@
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]pairPlotTravel#",
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]singleMomPlot#",
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]accidentalPlot#",
-		  "#[sheName:she][herName:her][heName:he][himName:him]alwaysWantedPlot#"
+		  "#[sheName:she][herName:her][heName:he][himName:him]alwaysWantedPlot#",
+		  "#[sheName:she][herName:her][heName:he][himName:him]timeReversePlot#"
 		 ],
 
     "origin":["#[mActor: (#maleActor#)][fActor: (#femaleActor#)][firstName:#firstName#][dude:#dude#]normalPlot#"]
