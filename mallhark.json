@@ -187,7 +187,7 @@
 		    "cryptographer","spy","pop star","demon","feng shui consultant","nail polish namer",
 		    "deodorant tester","#expert# expert","science teacher","heiress","accountant",
 		    "Cats extra","epidemiologist","nurse","virologist","immunologist","lab tech",
-		    "wedding planner","pianist","violinist","romance writer","omniverse writer","single mom",
+		    "wedding planner","pianist","violinist","romance writer","omniverse writer",
 		    "resistance leader","#prodigy# prodigy","podcaster"],
     "jobTitleModifier":["twitchy","arrogant","messy","demanding","vegan","ambidextrous","recalcitrant",
 			"aggressive","ambitious","high-strung","paranoid","boring","mopey","Methodist","lonely",
@@ -615,7 +615,7 @@
     "dudeLends":["truck","typewriter","mixer","jackhammer","laptop","children","book of spells",
 		 "spleen","underwear","sewing machine","guitar","magic crystal","legal expertise",
 		 "foot","binoculars","reindeer","snow machine","wig collection","enchanted #enchanted#",
-		 "chainsaw","scythe","cousin","bulldozer"],
+		 "chainsaw","scythe","cousin","bulldozer","#organ#"],
     "dudeGives":["a ride","his debit card","a dead body to dispose of","a magic ring","a manicure","a pedicure"],
     "dudeMemories":["comes back into her life","reminds her of someone","brings back memories for her","opens old wounds for her"],
     "dudeQuestion":["makes her rethink everything","makes her question her choices"],
@@ -774,9 +774,10 @@
 	     "a dinocroc","ice spiders","a supergator","a frankenfish","a sharktopus","a chupacabra",
 	     "a Mongolian death worm","inner demons","fascism","ninjas","baby boomers","a widespread panic",
 	     "an existential dread","a blizzard","a tornado","scorpions","tainted eggnog","aliens",
-	     "late capitalism","tainted romaine lettuce","ebola","Manbearpig","bankers","a real estate developer",
+	     "late capitalism","tainted romaine lettuce","ebola","bankers","a real estate developer",
 	     "the Whamageddon","the patriarchy","bad weather","a Whole Foods","an Airbnb","a dairy conglomerate",
-	     "condominiums","murder hornets"],
+	     "condominiums","murder hornets","coronavirus","zombies","vampires","food poisoning",
+	     "dysentery","a chemical spill","a motorcycle gang","Juggalos"],
 
     "learnSkill": ["how to dance",
 		   "Tuvan throat singing",
@@ -1022,8 +1023,13 @@
     "launch": ["TV show","missile","satellite","production company","toy line","clothing line","ad campaign"],
 
     "crime": ["burglary","murder","heist","abduction","mass disappearance","vandalism",
-	      "thought crime","hijacking","fraud","arson","extortion","embezzlement"],
+	      "thought crime","hijacking","fraud","arson","extortion","embezzlement"
+	     ],
 
+    "solvePuzzle": ["cryptogram","riddle","equation","puzzle","crossword","virus"],
+    
+    "solve": ["#crime#","#solvePuzzle#"],
+    
     "saveTownVerb": ["save","rescue"],
 
     "bingeWatch": ["America's Most Wanted",
@@ -1074,14 +1080,33 @@
 		"socialism",
 		"communism",
 		"feudalism",
+		"anarchy",
+		"libertarianism",
+		"objectivism",
 		"country music",
 		"butter",
 		"yoga",
 		"pants",
 		"kale",
-		"the abyss"
+		"the abyss",
+		"cryptocurrency",
+		"chopsticks",
+		"vaccination",
+		"the McRib",
+		"gerrymandering",
+		"electricity",
+		"Polish food",
+		"Satan",
+		"corn",
+		"the robot uprising",
+		"vore",
+		"Catholicism"
 	       ],
 
+    "embraceVerb": ["embrace",
+		    "accept"
+		   ],
+    
     "addTradition": ["human sacrifice",
 		     "animal worship",
 		     "trepanation",
@@ -1119,7 +1144,7 @@
 		     "protest #protest# for Christmas","form #theyForm.a# for Christmas",
 		     "become #become# for Christmas","#watchVerb# #theyWatch# for Christmas",
 		     "find her #findHer# for Christmas","find his #findHis# for Christmas",
-		     "solve a Christmas #crime#","#saveTownVerb# the town from #enemy# for Christmas",
+		     "solve a Christmas #solve#","#saveTownVerb# the town from #enemy# for Christmas",
 		     "brutally impose the way Christmas used to be",
 		     "save the town from the way Christmas used to be",
 		     "save the town from itself for Christmas",
@@ -1147,7 +1172,7 @@
     "longActionSaveObject": ["save #saveThe#",
 			     "repair #repairObject# for Christmas",
 			     "fix #fixObject# for Christmas",
-			     "solve a Christmas #crime#",
+			     "solve a Christmas #solve#",
 			     "#saveTownVerb# the town from #enemy# for Christmas"],
     "longActionSaveObjectBegin": ["save #saveTheNoChristmas# for Christmas",
 				  "save #saveTheChristmasEvent#",
@@ -1186,7 +1211,7 @@
     
     "helpsHimMisc":["dye his hair","deal with #dealWith#","fix his laptop","shave his yak"],
     "helpsHim":["learn to #helpsHimLearnTo#","clean his #cleanHis#","restore his #business#",
-		"#helpsHimMisc#"],
+		"#helpsHimMisc#","rebuild his #rebuild#"],
 
     "givesHimSubscription": ["Audible","CuriosityStream","New York Time","Hulu","Meowbox","CSA"],
     "lessons": ["dance","ballet","yoga","kung fu","SEO","cowbell","fencing"],
@@ -1241,7 +1266,37 @@
 		    "#bests# #himName# in the Christmas #competeEvent#",
 		    "builds #himName# #build.a# for Christmas"],
 
-    "helpsHer": ["find her #findHer#"],
+    "rebuild": ["confidence",
+		"engine",
+		"Lego castle",
+		"#animal#",
+		"#relative#",
+		"space ship",
+		"time machine",
+		"particle accelerator",
+		"yurt",
+		"pyramid",
+		"dungeon",
+		"chimney",
+		"belief in Christmas",
+		"robot",
+		"shoe collection",
+		"muscle memory",
+		"trust in Santa",
+		"faith in humanity",
+		"cult",
+		"sex shop",
+		"septic tank",
+		"kimchi stand",
+		"onions and liver truck",
+		"vestibule",
+		"skull collection"
+	       ],
+
+
+    "rebuildVerb": ["rebuild","restore"],
+    
+    "helpsHer": ["find her #findHer#","#rebuildVerb# her #rebuild#"],
     "heHerClause": ["helps #herName# #helpsHer# #forChristmas#",
 		    "gives #herName# #givesHer# for Christmas",
 		    "takes #herName# #takesHer# for Christmas",
@@ -1754,7 +1809,12 @@
 		      "#rainHeavens# rain from the heavens",
 		      "#rainsHeavens# rains from the heavens",
 		      "#fallsOn# falls on them",
-		      "#fallOns# fall on them"
+		      "#fallOns# fall on them",
+		      "they black out",
+		      "they enter a fugue state",
+		      "the wheels come off the car",
+		      "the car becomes possessed",
+		      "they get knocked unconscious"
 		     ],
     "formerPremise": ["bump into each other #town#",
 		      "end up on the same #vehicle# to #toTown#",
@@ -1808,6 +1868,25 @@
 	"are #travelingMethod# #travelingHome# when #travelingWhen#"
     ],
 
+
+    "bothLove": ["haggis",
+		 "ska",
+		 "#maleFemaleActor#",
+		 "collective bargaining",
+		 "Satan",
+		 "breath play",
+		 "autopsies",
+		 "hoarding",
+		 "lutefisk",
+		 "brutalism",
+		 "manga",
+		 "pro wrestling",
+		 "cocaine",
+		 "disco",
+		 "ritual sacrifice",
+		 "wire fraud"
+		],
+    
     
     "maleNameActor": ["#dude##mActor#"],
     "femaleNameActor": ["#firstName##fActor#"],
@@ -1828,7 +1907,8 @@
 		       ],
 
     "sparksFly": ["#sparksFlyPhrase# between #jobTitleBare# #femaleNameActor# and rival #maleNameActor# when they #rivalPremise#",
-		  "#sparksFlyPhrase# between #rival# #jobTitleBare.s# #characterNameIntros# when they #rivalPremise#"
+		  "#sparksFlyPhrase# between #rival# #jobTitleBare.s# #characterNameIntros# when they #rivalPremise#",
+		  "#sparksFlyPhrase# between #jobTitleBare# #femaleNameActor# and #dudeAdj# rival #maleNameActor# when they #rivalPremise#"
 		 ],
     "pairPlotRivals": ["#rival.capitalize# #jobTitleBare.s# #characterNameIntros# #rivalPremise#",
 		       "#sparksFly#"
@@ -2000,7 +2080,6 @@
 			      ],
 
 
-
     
     "pairPlotTravelDontMakeIt": ["With #notHomeInTimeCondition# they won't get home in time",
 				 "They're lost and with #withCondition# they won't get home in time"
@@ -2110,7 +2189,8 @@
 		       "mockery",
 		       "arrest",
 		       "the mafia",
-		       "the freemasons"
+		       "the freemasons",
+		       "hospital EHR problems"
 		      ],
     "toPlacate": ["#hisHer# #placate#",
 		  "the town #townPerson#"
@@ -2127,7 +2207,8 @@
 		    "zombies",
 		    "Christian",
 		    "Catholic",
-		    "cats"
+		    "cats",
+		    "#animal.s#"
 		   ],
 
     "townPerson": ["sheriff",
@@ -2231,7 +2312,9 @@
 		     "They have to put aside their differences to #actionClauseNoChristmas#",
 		     "The town #townPerson# #forces# them to #actionClauseNoChristmas#",
 		     "They try to avoid each other but end up #avoidEndUp#",
-		     "Their attempts to #pairAvoidVerb# each other are thwarted by #thwartedBy#"
+		     "Their attempts to #pairAvoidVerb# each other are thwarted by #thwartedBy#",
+		     "They soon discover they share a love of #bothLove#",
+		     "He's #dudeCuteAdj# but #dudeCuteBut#"
 		    ],
     
     "pairPlot": ["#pairPlotSetup#. #pairPlotGoal#. #pairPlotActionSentence#"],
@@ -2270,7 +2353,23 @@
 		 "alcohol",
 		 "one night stands",
 		 "swearing",
-		 "cocaine"
+		 "cocaine",
+		 "medication",
+		 "sleep",
+		 "being straight",
+		 "Satan worship",
+		 "jazzercise",
+		 "gingerbread",
+		 "the patriarchy",
+		 "assassinations",
+		 "showering",
+		 "British authors",
+		 "Netflix",
+		 "meat",
+		 "electricity",
+		 "yodeling",
+		 "bank heists",
+		 "role playing"
 		],
     "facesAlone": ["faces Christmas alone",
 		   "has sworn off #swornOff# for Christmas,"
@@ -2356,7 +2455,11 @@
 
     "accidentalPremise": ["are #travelingMethod# to #bigCity# for #forHolidays# when #travelingWhen#"],
     "accidentalPlotSetup": ["Former #former# #characterNameIntros# #accidentalPremise#"],
-    "accidentalEndUp": ["end up"
+    "accidentalEndUp": ["end up",
+			"come to",
+			"somehow end up",
+			"wake up",
+			"materialize"
 		       ],
     "townEverythingIs": ["Danish",
 			 "moist",
@@ -2571,6 +2674,81 @@
     "accidentalPlotGoal": ["They #accidentalEndUp# #townNoFamily#, #accidentalGoalClause#" ],
     "accidentalPlot": ["#accidentalPlotSetup#. #accidentalPlotGoal#. #actionSentence#"],
 
+
+    "dudeCuteAdj": ["sexy",
+		    "hot",
+		    "cute",
+		    "handsome",
+		    "rich",
+		    "romantic",
+		    "buff",
+		    "charming"
+		   ],
+
+    "zodiac": ["aquarius",
+	       "pisces",
+	       "aries",
+	       "tarus",
+	       "gemini",
+	       "cancer",
+	       "leo",
+	       "virgo",
+	       "libra",
+	       "scorpio",
+	       "sagittarius",
+	       "capricorn"
+	      ],
+
+    
+    "shutUpAbout": ["blockchain",
+		    "objectivism",
+		    "paleo cooking",
+		    "crossfit",
+		    "Infinite Jest",
+		    "skeet shooting",
+		    "Wes Anderson",
+		    "free jazz",
+		    "world building",
+		    "Fight Club",
+		    "multi-level marketing",
+		    "Twin Peaks",
+		    "Martin Scorcese",
+		    "chi",
+		    "kale",
+		    "his #relative#",
+		    "his #animal#"
+		   ],
+
+    "convictedOf": ["arson",
+		    "bribery",
+		    "extortion",
+		    "shoplifting",
+		    "burglary",
+		    "theft",
+		    "grand theft auto",
+		    "embezzlement",
+		    "insider trading"
+		   ],
+
+    "truther": ["moon landing"
+	       ],
+    
+    
+    "dudeCuteBut": ["he chews tobacco",
+		    "he's a #zodiac#",
+		    "he lives in his mother's basement",
+		    "he won't stop talking about #shutUpAbout#",
+		    "he was convicted of #convictedOf#",
+		    "he has his own cult",
+		    "his middle name is Wayne",
+		    "he's a #truther# truther",
+		    "he only speaks Klingon",
+		    "he only dates Naruto fans",
+		    "he has a spray tan addiction",
+		    "he's very religious"
+		   ],
+
+    
     "timeReversePlotSetup": ["Time reverses on Christmas #namedTown#"],
     "findsHimIncreasingly": ["immature",
 			     "smarmy",
@@ -2591,25 +2769,43 @@
 			     "disobedient",
 			     "pessimistic",
 			     "overbearing",
-			     "arrogant"
+			     "arrogant",
+			     "cryptic"
 			    ],
 
-    "timeReverseMeetClause": ["backs up from the dent in #possessive# car",
+    "timeReverseMeetClause": ["removes the dent from #possessive# car",
 			      "takes the hot coffee from #possessive# coat and puts it in #possessiveSubj# cup" 
 			     ],
 
-    "sheReverseSoloAction": ["takes down all the Christmas decorations",
-			     "depletes the orphan fund"
+    "sheReverseSoloAction": ["takes down the Christmas decorations",
+			     "depletes the orphan fund",
+			     "becomes disillusioned with Christmas",
+			     "loses the magic of Christmas",
+			     "rejects the Christmas tradition",
+			     "stops believing in Christmas"
 			    ],
+
     
     "timeReverseMeet": ["She #[object:him][possessive:his][possessiveSubj:her]timeReverseMeetClause# and",
 			"He #[object:her][possessive:her][possessiveSubj:his]timeReverseMeetClause# and she",
 			"She #sheReverseSoloAction# and"
 		       ],
     
-    "timeReversePlotAction": ["#femaleNameActor# no longer loves #maleNameActor#, who gets increasingly #findsHimIncreasingly#"],
-    "timeReversePlotConclusion": ["#timeReverseMeet# leaves him and the town for #bigCity# to work her #jobTitleBare# dream job."],
-    "timeReversePlot": ["#timeReversePlotSetup#. #timeReversePlotAction#. #timeReversePlotConclusion#"],
+    "timeReversePlotAction": ["#femaleNameActor# is loving #maleNameActor# less and he's getting increasingly #findsHimIncreasingly#",
+			      "#femaleNameActor# thought she loved #maleNameActor# but he's getting increasingly #findsHimIncreasingly#"
+			     ],
+    "timeReversePlotActionLong": ["#femaleNameActor# thought she loved #maleNameActor# but the more she #sheReverseSoloAction# the more #findsHimIncreasingly# he gets"
+			     ],
+    
+    "timeReversePlotConclusion": ["#timeReverseMeet# leaves him and the town for #jobTitleBare.a# dream job in #bigCity#."],
+
+    "timeReversePlotConclusionShort": ["She leaves him and the town for #jobTitleBare.a# dream job in #bigCity#."],
+
+
+    
+
+    "timeReversePlot": ["#timeReversePlotSetup#. #timeReversePlotAction#. #timeReversePlotConclusion#",
+			"#timeReversePlotSetup#. #timeReversePlotActionLong#. #timeReversePlotConclusionShort#"],
     
     "normalPlot":["#[sheName:she][herName:her][heName:he][himName:him]smallTownPlot#",
 		  "#[sheName:she][herName:her][heName:he][himName:him]smallTownPlotLongAction#",
