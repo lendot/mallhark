@@ -25,7 +25,7 @@
 		  "Marc Maron","Chris Hemsworth","James Duval","Idris Elba","Morrissey","Glenn Danzig","Ted Danson",
 		  "Seth Rogen","Adam Devine","Ken Jeong","Russell Brand","Weird Al Yankovic","Chris Jericho",
 		  "Thomas Middleditch","Dax Shepard","David Cross","Joseph Gordon-Levitt","Ashton Kutcher","Joe Keery",
-		  "Corey Feldman","Daniel Radcliffe","Shia LaBeouf","Nicolas Cage","Matthew Gray Gubler","Timothée Chalamet",
+		  "Corey Feldman","Daniel Radcliffe","Nicolas Cage","Matthew Gray Gubler","Timothée Chalamet",
 		  "John Boyega","Ezra Miller","Hugh Dancy","Oscar Isaac","Robert Pattinson","Tom Holland",
 		  "Tyler Hoechlin","Lee Pace","Cole Sprouce","Alfonso Herrera","Jason Momoa","Jake Gyllenhaal",
 		  "Sebastian Bach","Mike Colter","Tom Hiddleston","Benedict Cumberbatch","Patrick Duffy","Manny Jacinto",
@@ -60,7 +60,7 @@
 		    "Frances McDormand","Zoë Kravitz","Anne Hathaway","Karen Gillan","Margot Robbie","Olivia Wilde",
 		    "Olivia Munn","Viola Davis","Maria Bello","Uma Thurman","Erin Cahill","Kellie Pickler",
 		    "Sarah Cooper","Cardi B","Florence Pugh","Sophie Turner","Yara Shahidi","Kristen Stewart",
-		    "Alison Brie","Mackenzie Davis","Lauren Lapkus",
+		    "Alison Brie","Mackenzie Davis","Lauren Lapkus","Angela Lansbury",
 		    "ghost of #deadFemaleActor#"],
 
     "maleFemaleActor": ["#maleActor#","#femaleActor#"],
@@ -204,7 +204,7 @@
     "dude":["Brad","Chad","Travis","Joe","Kevin","Tanner","Connor","Jack","Scott","Jake","Cole","Garrett",
 	    "Jacob","Brett","Dylan","Chris","Noel","Luke","Sean","Devin","Mark","Michael","Thor","Carter","Gage",
 	    "Heath","Alec","Max","Blake","Brant","Brian","Andrew","Derrick","Duke","Todd","Gabe","Jax","Ryder",
-	    "Aidan","Trey","Charlie","Dustin","Logan","Jackson","X AE A-12","Lucas","Gavin","Mike","Brandon",
+	    "Aidan","Trey","Charlie","Dustin","Logan","Jackson","Lucas","Gavin","Mike","Brandon",
 	    "Noah","William","Roman","Elliot","Nate","NXIVM"],
     "dudeAdj":["cranky","neat freak","narcoleptic","immature","free-spirited","passionate","incontinent",
 	       "sexy","dreamy","rich","hairy","hairless","cocky","Buddhist","gluten-free","tall","brooding",
@@ -1814,7 +1814,8 @@
 		      "they enter a fugue state",
 		      "the wheels come off the car",
 		      "the car becomes possessed",
-		      "they get knocked unconscious"
+		      "they get knocked unconscious",
+		      "a bomb explodes"
 		     ],
     "formerPremise": ["bump into each other #town#",
 		      "end up on the same #vehicle# to #toTown#",
@@ -2438,8 +2439,16 @@
 		     "#themed#-themed"
 		    ],
 
+    "traditional": ["traditional",
+		    "old fashioned",
+		    "old timey",
+		    "time-honored",
+		    "conventional",
+		    "folksy"
+		   ],
+    
     "alwaysWantedObject": ["#christmasAdj.a# Christmas",
-			  "a traditional #christmasAdj# Christmas"],
+			  "#traditional.a# #christmasAdj# Christmas"],
     "alwaysWanted": ["always wanted",
 		     "never had",
 		     "wants",
@@ -2727,25 +2736,102 @@
 		    "theft",
 		    "grand theft auto",
 		    "embezzlement",
-		    "insider trading"
+		    "insider trading",
+		    "indecent exposure"
 		   ],
 
     "truther": ["moon landing"
 	       ],
+
+
+    "phobia": [
+	"taphophobia",
+	"eisoptrophobia",
+	"ombrophobia",
+	"phonophobia",
+	"numerophobia",
+	"myrmecophobia",
+	"thalassophobia",
+	"ephebiphobia",
+	"aerophobia",
+	"alektorophobia",
+	"amathophobia",
+	"globophobia",
+	"phobophobia",
+	"zoophobia",
+	"emetophobia",
+	"nomophobia",
+	"urophobia",
+	"somniphobia",
+	"ranidaphobia",
+	"panophobia",
+	"athazagoraphobia",
+	"vestiphobia",
+	"cibophobia",
+	"erythrophobia",
+	"frigophobia",
+	"deipnophobia",
+	"ergophobia"
+    ],
+
+    "butHeHas": ["leprosy",
+		 "head lice",
+		 "a spray tan",
+		 "a bitcoin tattoo",
+		 "duck hallucinations",
+		 "steak nightmares",
+		 "several extra nipples",
+		 "mafia debts",
+		 "no affect",
+		 "no boundaries",
+		 "pyromania",
+		 "no skin",
+		 "an exoskeleton",
+		 "poor eyesight",
+		 "six wives",
+		 "a criminal history",
+		 "fleas",
+		 "two heads",
+		 "dial-up",
+		 "parachute pants",
+		 "a tin foil hat",
+		 "imaginary friends",
+		 "conspiracy theories",
+		 "libertarian tendencies",
+		 "a female-presenting nipple",
+		 "#phobia#"
+		],
     
+    "dudeCuteButHe": ["he chews tobacco",
+		      "he's a #zodiac#",
+		      "he lives in his mother's basement",
+		      "he won't stop talking about #shutUpAbout#",
+		      "he was convicted of #convictedOf#",
+		      "he has his own cult",
+		      "his middle name is Wayne",
+		      "he's a #truther# truther",
+		      "he only speaks Klingon",
+		      "he only dates Naruto fans",
+		      "he has a spray tan addiction",
+		      "he's very religious",
+		      "he has #butHeHas#"
+		     ],
+
+    "doesntLikeHis": ["#animal#",
+		      "#relative#",
+		      "#organ#",
+		      "#dudeWithA#"
+		     ],
+
+    "sheFindsHim": ["#findsHimIncreasingly#"],
     
-    "dudeCuteBut": ["he chews tobacco",
-		    "he's a #zodiac#",
-		    "he lives in his mother's basement",
-		    "he won't stop talking about #shutUpAbout#",
-		    "he was convicted of #convictedOf#",
-		    "he has his own cult",
-		    "his middle name is Wayne",
-		    "he's a #truther# truther",
-		    "he only speaks Klingon",
-		    "he only dates Naruto fans",
-		    "he has a spray tan addiction",
-		    "he's very religious"
+    "dudeCuteButShe": ["she doesn't like his #doesntLikeHis#",
+		       "she finds him #sheFindsHim#"
+		      ],
+    
+
+    "dudeCuteBut": ["#dudeCuteButHe#",
+		    "#dudeCuteButShe#"
 		   ],
 
     
@@ -2770,7 +2856,8 @@
 			     "pessimistic",
 			     "overbearing",
 			     "arrogant",
-			     "cryptic"
+			     "cryptic",
+			     "hostile"
 			    ],
 
     "timeReverseMeetClause": ["removes the dent from #possessive# car",
@@ -2813,8 +2900,7 @@
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]pairPlotTravel#",
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]singleMomPlot#",
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]accidentalPlot#",
-		  "#[sheName:she][herName:her][heName:he][himName:him]alwaysWantedPlot#",
-		  "#[sheName:she][herName:her][heName:he][himName:him]timeReversePlot#"
+		  "#[sheName:she][herName:her][heName:he][himName:him]alwaysWantedPlot#"
 		 ],
 
     "origin":["#[mActor: (#maleActor#)][fActor: (#femaleActor#)][firstName:#firstName#][dude:#dude#]normalPlot#"]
