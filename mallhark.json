@@ -205,7 +205,7 @@
 	    "Jacob","Brett","Dylan","Chris","Noel","Luke","Sean","Devin","Mark","Michael","Thor","Carter","Gage",
 	    "Heath","Alec","Max","Blake","Brant","Brian","Andrew","Derrick","Duke","Todd","Gabe","Jax","Ryder",
 	    "Aidan","Trey","Charlie","Dustin","Logan","Jackson","Lucas","Gavin","Mike","Brandon",
-	    "Noah","William","Roman","Elliot","Nate","NXIVM"],
+	    "Noah","William","Roman","Elliot","Nate"],
     "dudeAdj":["cranky","neat freak","narcoleptic","immature","free-spirited","passionate","incontinent",
 	       "sexy","dreamy","rich","hairy","hairless","cocky","Buddhist","gluten-free","tall","brooding",
 	       "creepy","bumbling","smarmy","local","lonely","square-jawed","manic","moody",
@@ -834,7 +834,8 @@
     "christmasEvent":["the Christmas Festival","the Christmas pageant","Christmas Jubilee","the Christmas Sacrifice",
 		      "the Christmas musical","the Christmas Concert","the Christmas Reckoning",
 		      "the Christmas cookie crawl","the Christmas Charity Gala","the Christmas dance","the Christmas SnowBall",
-		      "the Christmas tradition","the Christmas Carnival","the Christmas parade","the Christmas carousel"],
+		      "the Christmas tradition","the Christmas Carnival","the Christmas parade","the Christmas carousel",
+		      "the gingergread house competition"],
     "miscSaveStuff":["the whales","the orphaned children","the chestnuts","the planet","the bees","the pies","Medicare",
 		     "the park","the lake","the town tractor","the town mayor","the town lemur","the English language",
 		     "the elementary school","the town statue","the arts program","Majestic Playhouse",
@@ -2370,7 +2371,8 @@
 		 "electricity",
 		 "yodeling",
 		 "bank heists",
-		 "role playing"
+		 "role playing",
+		 "gluten"
 		],
     "facesAlone": ["faces Christmas alone",
 		   "has sworn off #swornOff# for Christmas,"
@@ -2379,8 +2381,21 @@
     "singleMomPlotSetup": ["#jobTitle.capitalize# #femaleNameActor# #facesAlone# until #maleNameActor# #aloneUntil#"],
     "singleMomPlotGoal": ["#pairPlotGoal#"],
     "singleMomPlotActionSentence": ["#pairPlotActionSentence#"],
-    "singleMomPlot": ["#singleMomPlotSetup#. #singleMomPlotGoal#. #singleMomPlotActionSentence#"],
 
+    "singleMomRegularTwoThree": ["#sheActionSentence#. #sheHeActionSentence#",
+				 "#sheActionSentence#. #theyActionSentence#",
+				 "#dudeActionSentence#. #heSheActionSentence#",
+				 "#dudeActionSentence#. #theyActionSentence#"
+
+				],
+    "singleMomSetupNoMale": ["#jobTitle.capitalize# #femaleNameActor# #facesAlone# until she #whenShe#"],
+
+    "singleMomPlot": ["#singleMomPlotSetup#. #singleMomPlotGoal#. #singleMomPlotActionSentence#"
+		     ],
+
+    "aloneUntilNoMalePlot": ["#singleMomSetupNoMale#. #singleMomRegularTwoThree#"],
+
+    
     "themed": ["Lovecraft",
 	       "cat",
 	       "bagel",
@@ -2416,7 +2431,8 @@
 	       "kidney",
 	       "Cleveland",
 	       "mummy",
-	       "zombie"
+	       "zombie",
+	       "Faust"
 	      ],
     "christmasAdj": ["frenetic",
 		     "deadly",
@@ -2436,6 +2452,9 @@
 		     "post-modern",
 		     "hallucinogenic",
 		     "phosphine",
+		     "Kafkaesque",
+		     "Lynchian",
+		     "televised",
 		     "#themed#-themed"
 		    ],
 
@@ -2501,7 +2520,8 @@
 			 "velvet",
 			 "vibrating",
 			 "sticky",
-			 "contaminated"
+			 "contaminated",
+			 "moist"
 			],
 
     "townNothingIs": ["real",
@@ -2517,7 +2537,10 @@
 		      "illegal",
 		      "regulated",
 		      "sacred",
-		      "sustainable"
+		      "sustainable",
+		      "dry",
+		      "recyclable",
+		      "biodegradable"
 		     ],
     
     "townNoOne": ["has skin",
@@ -2691,7 +2714,8 @@
 		    "rich",
 		    "romantic",
 		    "buff",
-		    "charming"
+		    "charming",
+		    "smart"
 		   ],
 
     "zodiac": ["aquarius",
@@ -2900,6 +2924,7 @@
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]pairPlotTravel#",
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]singleMomPlot#",
 		  "#[sheName:#firstName#][herName:#firstName#][heName:#dude#][himName:#dude#]accidentalPlot#",
+		  "#[sheName:she][herName:her][heName:he][himName:him]aloneUntilNoMalePlot#",
 		  "#[sheName:she][herName:her][heName:he][himName:him]alwaysWantedPlot#"
 		 ],
 
