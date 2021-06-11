@@ -1337,10 +1337,10 @@
     "rebuildVerb": ["rebuild","restore"],
     
     "helpsHer": ["find #hersName2# #findHer#","#rebuildVerb# #hersName2# #rebuild#"],
-    "heHerClause": ["helps #herName# #helpsHer# #forChristmas#",
-		    "gives #herName# #givesHer# for Christmas",
-		    "takes #herName# #takesHer# for Christmas",
-		    "builds #herName# #build.a# for Christmas"],
+    "heHerClause": ["helps #firstName# #helpsHer# #forChristmas#",
+		    "gives #firstName# #givesHer# for Christmas",
+		    "takes #firstName# #takesHer# for Christmas",
+		    "builds #firstName# #build.a# for Christmas"],
 
 
     "disarm": ["bomb","nuclear weapon"],
@@ -2970,7 +2970,7 @@
     "plotStart": ["#normalPlot#"],
     
     "origin":["#[mActor: (#maleActor#)][fActor: (#femaleActor#)][firstName:#firstName#][dude:#dude#][heName:he][himName:him][hisName:his][sheName:she][herName:her][hersName:her][hisName2:his][himName2:him][hersName2:her][herName2:her]plotStart#",
-	      "#[mActor: (#maleActor#)][fActor: (#maleActor#)][firstName:#dude#][dude:#dude2#][heName:he][himName:him][hisName:his][sheName:he][herName:him][hersName:his][hisName2:his][himName2:him][hersName2:his][herName2:his]plotStart#",
+	      "#[mActor: (#maleActor#)][fActor: (#maleActor#)][firstName:#dude#][dude:#dude2#][heName:he][himName:him][hisName:his][sheName:he][herName:him][hersName:his][hisName2:his][himName2:him][hersName2:his][herName2:him]plotStart#",
 	      "#[mActor: (#femaleActor#)][fActor: (#femaleActor#)][dude:#firstName#][firstName:#firstName2#][heName:she][himName:her][hisName:her][sheName:she][herName:her][hersName:her][hersName2:her][herName2:her][hisName2:her][himName2:her]plotStart#"
 	     ]
 }
