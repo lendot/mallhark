@@ -189,7 +189,7 @@
 		    "deodorant tester","#expert# expert","science teacher","heiress","accountant",
 		    "Cats extra","epidemiologist","nurse","virologist","immunologist","lab tech",
 		    "wedding planner","pianist","violinist","romance writer","omegaverse writer",
-		    "resistance leader","#prodigy# prodigy","podcaster"],
+		    "resistance leader","#prodigy# prodigy","podcaster","queen","crown princess"],
     "jobTitleModifier":["twitchy","arrogant","messy","demanding","vegan","ambidextrous","recalcitrant",
 			"aggressive","ambitious","high-strung","paranoid","boring","mopey","Methodist","lonely",
 			"pointy","frumpy","smart","brilliant","salty","nihilist","friendly","pedantic",
@@ -248,7 +248,7 @@
 			  "music teacher","gamer","zombie","millionaire","plague doctor","telemarketer",
 			  "color expert","hippotherapist","pick-up artist","rental boyfriend","chicken sexer",
 			  "rat-catcher","#monger#monger","medieval knight","Christmas movie bot","grinch",
-			  "steel magnate","yule lad","tiger king","local","storm trooper","jedi"],
+			  "steel magnate","yule lad","tiger king","local","storm trooper","jedi","king","crown prince"],
     "dudeOccupation":["#dudeAdj# #dudeOccupationBare#"],
 
     "distressedCaller":["#hersName# #relative#","#hersName# childhood friend","the sheriff","a Nigerian prince","Pizza Hut",
@@ -318,7 +318,7 @@
 	     "coughs","hiccups","sneezes","spits","trips","falls","transmigrates","burps",
 	     "decomposes","glows","bleeds","shrinks","explodes","combusts","implodes"],
     
-    "triggeringMisc1":["falling out of a plane at 25,000 ft","locking #herName#self in the trunk of a car",
+    "triggeringMisc1":["falling out of a plane at 25,000 ft","locking #herName2#self in the trunk of a car",
 		       "a night of drinking","losing a bet","getting lost","another fugue state",
 		       "an experiment goes awry","falling through a portal","an alien abduction",
 		       "a snow storm","falling off a milk truck","an incident with an Uber driver",
@@ -388,7 +388,7 @@
 		    "a spelling bee",
 		    "a sorority"
 		   ],
-    "whenSheMisc1":["falls out of a plane at 25,000 ft.","locks #herName#self in the trunk of a car","loses a bet",
+    "whenSheMisc1":["falls out of a plane at 25,000 ft.","locks #herName2#self in the trunk of a car","loses a bet",
 		    "gets lost","enters a fugue state","falls through a portal",
 		    "misses #hersName# flight","gets amnesia",
 		    "goes in pursuit of a loofah","gets writer's block","wanders into a time machine",
@@ -493,8 +493,8 @@
 
     "dudeWhoCant": ["whistle","gyrate","emote","sneeze","fly","manscape","levitate","undulate","ski","burp"],
     
-    "dudeWhoMisc":["chews with his mouth open","hates to dance",
-		   "listens to ska","never has his phone charger",
+    "dudeWhoMisc":["chews with #hisName# mouth open","hates to dance",
+		   "listens to ska","never has #hisName# phone charger",
 		   "talks like a cartoon character","writes bad poetry","wears jorts","hates tomatoes",
 		   "is always late","mansplains","refers to himself in third person",
 		   "jumps to conclusions","speaks only in riddles",
@@ -606,41 +606,41 @@
     "spills": ["tea","coffee","oil","brake fluid","lighter fluid","acetone","blood","molasses","ball bearings","cocoa",
 	       "cider","soup","salt","sugar","nutmeg","cloves","cat litter","tree ornaments","vinegar","tar"],
     
-    "dudeAccidentally":["breaks #hersName# arm",
-			"hits #hersName# car",
-			"loses #hersName# phone",
-			"erases #hersName# laptop",
+    "dudeAccidentally":["breaks #hersName2# arm",
+			"hits #hersName2# car",
+			"loses #hersName2# phone",
+			"erases #hersName2# laptop",
 			"spills coffee on #herName#",
-			"eats #hersName# sandwich",
-			"insults #hersName# father",
-			"drops #dropsA.a# on #herName#",
-			"sees #hersName# password",
-			"pokes #hersName# eye",
-			"throws up on #herName#",
-			"kisses #herName#",
-			"infects #herName#",
-			"poisons #herName#",
-			"undresses #herName#",
-			"bites #herName#",
-			"shoots #herName#",
-			"stabs #herName#",
-			"trips #herName#",
-			"impregnates #herName#",
-			"licks #herName#",
-			"shellacs #herName#",
-			"hypnotizes #herName#",
-			"bankrupts #herName#",
-			"shocks #herName#",
-			"takes out a hit on #herName#",
-			"buries #herName#",
-			"shaves #herName#",
-			"airbrushes #herName#",
-			"spills #spills# on #herName#",
-			"rear ends #herName#"],
+			"eats #hersName2# sandwich",
+			"insults #hersName2# father",
+			"drops #dropsA.a# on #herName2#",
+			"sees #hersName2# password",
+			"pokes #hersName2# eye",
+			"throws up on #herName2#",
+			"kisses #herName2#",
+			"infects #herName2#",
+			"poisons #herName2#",
+			"undresses #herName2#",
+			"bites #herName2#",
+			"shoots #herName2#",
+			"stabs #herName2#",
+			"trips #herName2#",
+			"impregnates #herName2#",
+			"licks #herName2#",
+			"shellacs #herName2#",
+			"hypnotizes #herName2#",
+			"bankrupts #herName2#",
+			"shocks #herName2#",
+			"takes out a hit on #herName2#",
+			"buries #herName2#",
+			"shaves #herName2#",
+			"airbrushes #herName2#",
+			"spills #spills# on #herName2#",
+			"rear ends #herName2#"],
     "dudeHelpsGrow": ["poinsettias","corn","weed","wiser","stronger","taller"],
-    "dudeHelps":["fix her car","write a song","hack into a bank","score some weed","hunt a turkey","upgrade her phone",
-		 "dye her hair","get a car loan","grow #dudeHelpsGrow#","find a long-lost friend","write fic",
-		 "change her baby","lose her big city accent","sell her baby"],
+    "dudeHelps":["fix #hersName2# car","write a song","hack into a bank","score some weed","hunt a turkey","upgrade #hersName2# phone",
+		 "dye #hersName2# hair","get a car loan","grow #dudeHelpsGrow#","find a long-lost friend","write fic",
+		 "change #hersName2# baby","lose #hersName2# big city accent","sell #hersName2# baby"],
     "callsHerVerb":["calls #herName#","insists on calling #herName#"],
     "dudeCallsHer":["Jenny","Dudette","Petunia","Steak","7-162","Vinny","Burrito","Number Two"],
     "enchanted":["lawnmower","rolling pin","comb","CPAP","toothbrush","candy cane"],
@@ -648,10 +648,10 @@
 		 "spleen","underwear","sewing machine","guitar","magic crystal","legal expertise",
 		 "foot","binoculars","reindeer","snow machine","wig collection","enchanted #enchanted#",
 		 "chainsaw","scythe","cousin","bulldozer","#organ#"],
-    "dudeGives":["a ride","his debit card","a dead body to dispose of","a magic ring","a manicure","a pedicure"],
-    "dudeMemories":["comes back into her life","reminds her of someone","brings back memories for her","opens old wounds for her"],
-    "dudeQuestion":["makes her rethink everything","makes her question her choices"],
-    "dudeAnnoys":["follows her everywhere","gets on her nerves","annoys her to no end"],
+    "dudeGives":["a ride","#hisName# debit card","a dead body to dispose of","a magic ring","a manicure","a pedicure"],
+    "dudeMemories":["comes back into #hersName# life","reminds #herName# of someone","brings back memories for #herName#","opens old wounds for #herName#"],
+    "dudeQuestion":["makes #herName rethink everything","makes #herName# question #hersName# choices"],
+    "dudeAnnoys":["follows #herName# everywhere","gets on #hersName# nerves","annoys #herName# to no end"],
     "showsHer":["sexy forearms","bullet wound","sensitive side","birthmark","tractor","power tools","plumbing leak","scrapbook"],
     "showsHerHeCanBe": ["#dudeAdj#"],
     
@@ -676,27 +676,27 @@
     "subdueHis": ["#relative#","#animal#"],
     
     "hiresVerb": ["hires","persuades","convinces","begs"],
-    "hiresHerMisc": ["floss #hisName# teeth","do #hisName# taxes","play #hisName# wife","juggle","whistle",
-		     "rotate #hisName# tires","kill #hisName# #relative#","fake #hisName# death","wrestle",
+    "hiresHerMisc": ["floss #hisName2# teeth","do #hisName2# taxes","play #hisName2# wife","juggle","whistle",
+		     "rotate #hisName2# tires","kill #hisName2# #relative#","fake #hisName2# death","wrestle",
 		     "hypnotize #himName#"],
     "beHis": ["tour guide","nurse","driver","gardener","nuclear physicist","cellist",
 	      "ghost writer","bodyguard","assistant","date","DJ","#jobTitleBare#",
 	      "tutor","neurosurgeon","biochemist","electrical engineer","philosopher",
 	      "senator","biographer","#relative#","#animal#"],
-    "hiresHer":["watch #hisName# #watchHis#","train #hisName# #watchHis#","clean #hisName# #watchHis#",
-		"teach #himName# #learn#",
-		"fix #hisName# #fixHis#",
-		"find #hisName# #findHis#",
-		"massage #hisName# #massageHis#",
+    "hiresHer":["watch #hisName2# #watchHis#","train #hisName2# #watchHis#","clean #hisName2# #watchHis#",
+		"teach #himName2# #learn#",
+		"fix #hisName2# #fixHis#",
+		"find #hisName2# #findHis#",
+		"massage #hisName2# #massageHis#",
 		"#hiresHerMisc#",
-		"be #hisName# #beHis#","subdue #hisName# #subdueHis#"],
+		"be #hisName# #beHis#","subdue #hisName2# #subdueHis#"],
 
     "thinksHes":["#dudeAdj#","#jobTitleModifier#"],
     "thinksShes":["#dudeAdj#","#jobTitleModifier#","#femaleActor#","too #dudeAdj#","too #jobTitleModifier#","#jobTitleBare.a#"],
 
     "makesHerDoubtHer": ["virginity","career choice","makeup","height","passion","hair","shoes","necklace",
 			 "#animal#","mental health","age"],
-    "makesHerDoubt": ["her #makesHerDoubtHer#"],
+    "makesHerDoubt": ["#hersName# #makesHerDoubtHer#"],
     "doubtVerb": ["question","second guess","rethink"],
     
     "makesHerVerb": ["vomit","cringe","swoon","vacuum","cook","bleed","contort","schnitzel","burp","hiccup","sneeze",
@@ -734,7 +734,7 @@
 			    "piercings","hair","religion","typography","color palette","ring tone",
 			    "puns","mating call","social distancing"
 			   ],
-    "doesntUnderstand": ["her #doesntUnderstandHer#"],
+    "doesntUnderstand": ["#hersName# #doesntUnderstandHer#"],
     "understandVerb": ["understand","appreciate","approve of"],
 
     "becomesUnexpected": ["houseguest",
@@ -781,20 +781,20 @@
 			  "IT support"
 			 ],
     
-    "dudeActionMisc": ["lends her his #dudeLends#",
+    "dudeActionMisc": ["lends #herName# #hisName2# #dudeLends#",
 		       "#accidentallyAdverb# #dudeAccidentally#",
-		       "#showsUpAtVerb# her #showsUpAtHer#","thinks #sheName#'s #thinksShes#",
+		       "#showsUpAtVerb# #hersName# #showsUpAtHer#","thinks #sheName#'s #thinksShes#",
 		       "makes #herName# #makesHer#","helps #herName# #dudeHelps#","tries to #triesTo#",
 		       "#hiresVerb# #herName# to #hiresHer#",
-		       "#judgesVerb# #herName# #judgesHer#","doesn't #understandVerb# #doesntUnderstand#",
-		       "becomes #herName# unexpected #becomesUnexpected#"],
+		       "#judgesVerb# #hersName# #judgesHer#","doesn't #understandVerb# #doesntUnderstand#",
+		       "becomes #hersName# unexpected #becomesUnexpected#"],
 
     "dudeAction":["#dudeActionMisc#"],
 
     "townAdj": ["small-town","charming","quaint","folksy","cozy","sleepy"],
     "namedTown":["in #townName#","in #townAdj# #townName#"],
-    "unnamedTown":["in a quaint, small town", "in her hometown","in a Christmas town",
-		   "in a cozy town","in a folksy town","in her childhood home","in a 1950s town",
+    "unnamedTown":["in a quaint, small town", "in #hersName# hometown","in a Christmas town",
+		   "in a cozy town","in a folksy town","in #hersName# childhood home","in a 1950s town",
 		   "in a remote town","in a festive small town"],
     "namedOrUnnamedTown": ["#namedTown#"],
 
@@ -803,7 +803,9 @@
 		"music store"],
     "inFamilys":["prepper bunker","cookie factory","workshop","mansion","mine shaft","bog","trailer home",
 		 "trailer park","compound","cranberry bog"],
-    "familyDestination":["on her #familys# #onFamilys#", "at her #familys# #atFamilys#","in her #familys# #inFamilys#"],
+    "familyDestination":["on #hersName# #familys# #onFamilys#", 
+        "at #hersName# #familys# #atFamilys#",
+        "in #hersName# #familys# #inFamilys#"],
     "town":["#namedTown#","#unnamedTown#","#familyDestination#"],
     "townNoFamily": ["#namedTown#","#unnamedTown#"],
 
@@ -1051,7 +1053,7 @@
 		   "Wilco","Saturnalia","cinnamon","Atlantis","Ovaltine","leg lamps","vore","Akron","arson",
 		   "Carol Channing","yoga","propane","Clarence Darrow"],
 
-    "helpClause": ["#jobTitleBare.a# find her #lost#","#dudeOccupationBare.a# find his #lost#"],
+    "helpClause": ["#jobTitleBare.a# find #hersName# #lost#","#dudeOccupationBare.a# find #hisName# #lost#"],
 
     "protest": ["wage disparity","avocados","cilantro","self-driving cars","halibut","monopolies","Big Dairy",
 		"first-person shooters","elf working conditions","commercialism","meat husks","taxes"],
@@ -1181,7 +1183,7 @@
 		     "rediscover #rediscover# for Christmas","help #helpClause# for Christmas",
 		     "protest #protest# for Christmas","form #theyForm.a# for Christmas",
 		     "become #become# for Christmas","#watchVerb# #theyWatch# for Christmas",
-		     "find her #findHer# for Christmas","find his #findHis# for Christmas",
+		     "find #hersName# #findHer# for Christmas","find #hersName# #findHis# for Christmas",
 		     "solve a Christmas #solve#","#saveTownVerb# the town from #enemy# for Christmas",
 		     "brutally impose the way Christmas used to be",
 		     "save the town from the way Christmas used to be",
@@ -1231,8 +1233,8 @@
 		    "rear ends"],
     "accidentallyAdverb":["accidentally","unintentionally","inadvertently","passive-aggressively"],
 
-    "helpFrom":["psilocybin","Mark Wahlberg","a rival gang","dolphins","CWA Local 2101","a secret Santa","her inheritence",
-		"GoFundMe","reddit","the town fathers","his brother","her best friend","Santa","Santa's elves",
+    "helpFrom":["psilocybin","Mark Wahlberg","a rival gang","dolphins","CWA Local 2101","a secret Santa","#hersName# inheritence",
+		"GoFundMe","reddit","the town fathers","#hisName# brother","#hersName# best friend","Santa","Santa's elves",
 		"a higher power","the internet","child labor","the writings of Thoreau","the football team","pencils",
 		"real estate law","an old friend","an unlikely source","the mafia","The Necronomicon","a benefactor",
 		"the war veterans","the dark web","Sebastian Bach","Todd Rundgren","Jaromir Jagr","Xena: Warrior Princess",
@@ -1241,15 +1243,15 @@
 
     "hatch":["work","work together","join forces","unite","come together"],
 
-    "helpsHimLearnTo":["tie his shoes","take care of himself","do dishes","show emotions"],
+    "helpsHimLearnTo":["tie #hisName2# shoes","take care of #himName2#self","do dishes","show emotions"],
     "cleanHis": ["basement","registry","knife wound","social media","criminal record","fish tank","browser history",
 		 "septic tank"],
 
-    "dealWith": ["rejection","his past","bills","insomnia","termites"],
+    "dealWith": ["rejection","#hisName# past","bills","insomnia","termites"],
     
-    "helpsHimMisc":["dye his hair","deal with #dealWith#","fix his laptop","shave his yak"],
-    "helpsHim":["learn to #helpsHimLearnTo#","clean his #cleanHis#","restore his #business#",
-		"#helpsHimMisc#","rebuild his #rebuild#"],
+    "helpsHimMisc":["dye #hisName2# hair","deal with #dealWith#","fix #hisName2# laptop","shave #hisName2# yak"],
+    "helpsHim":["learn to #helpsHimLearnTo#","clean #hisName2# #cleanHis#","restore #hisName2# #business#",
+		"#helpsHimMisc#","rebuild #hisName2# #rebuild#"],
 
     "givesHimSubscription": ["Audible","CuriosityStream","New York Time","Hulu","Meowbox","CSA"],
     "lessons": ["dance","ballet","yoga","kung fu","SEO","cowbell","fencing"],
@@ -1334,7 +1336,7 @@
 
     "rebuildVerb": ["rebuild","restore"],
     
-    "helpsHer": ["find #hersName# #findHer#","#rebuildVerb# #hersName# #rebuild#"],
+    "helpsHer": ["find #hersName2# #findHer#","#rebuildVerb# #hersName2# #rebuild#"],
     "heHerClause": ["helps #herName# #helpsHer# #forChristmas#",
 		    "gives #herName# #givesHer# for Christmas",
 		    "takes #herName# #takesHer# for Christmas",
@@ -1376,7 +1378,7 @@
 
     "leadsEventMisc": ["A job assignment"],
     "leadsEvent": ["A call from #distressedCaller#","A call from #letterSender#",
-		   "A visit from #visitor#","Losing her #lost#","A kidnapping by #kidnapper#",
+		   "A visit from #visitor#","Losing #hersName# #lost#","A kidnapping by #kidnapper#",
 		   "Needing #inTownNeeds.a#","Drinking #drink.a#","Eating #food.a#",
 		   "An encounter with a #strange# #ladyMan# in a #strangePersonMeet#",
 		   "An encounter with a #strange# #ladyMan#","Becoming #becomes#",
@@ -1386,7 +1388,7 @@
 		   "Opening #opensAdj.a# #opensA#",
 		   "#leadsEventMisc#"],
     "leadsToTownMisc": ["#hersName# hometown","a Christmas town","a remote town",
-			"a cozy town","a folksy town","her childhood home","a 1950s town"],
+			"a cozy town","a folksy town","#hersName# childhood home","a 1950s town"],
     "leadsToHerFamilys": ["#onFamilys#","#atFamilys#","#inFamilys#"],
     "leadsToTown": ["#townName#","#townAdj# #townName#","#leadsToTownMisc#","#hersName# #familys# #leadsToHerFamilys#"],
     
@@ -1426,7 +1428,7 @@
 		       "is having #inTownIsHaving#","is #becomeAdj# af","is social distancing","is in quarantine",
 		       "is in lockdown","is having trouble adjusting to the new normal"],
 
-    "hasJustLost": ["has just lost her #inTownLost#","has lost her #inTownLost#"],
+    "hasJustLost": ["has just lost #hersName# #inTownLost#","has lost #hersName# #inTownLost#"],
     "hasJustBecome": ["has just become #becomes#","has become #becomes#"],
 
 
@@ -1488,7 +1490,7 @@
     
     "butGoalDoesntBelieve": ["Santa","solstices","December","capitalism","reindeer","magic","holidays",
 			     "rampant consumerism","Jesus","the North Pole","reindeer"],
-    "butGoalDoesnt": ["have #butGoalDoesntHave#","believe in #butGoalDoesntBelieve#","have her #butGoalDoesntHaveHer#"],
+    "butGoalDoesnt": ["have #butGoalDoesntHave#","believe in #butGoalDoesntBelieve#","have #hersName# #butGoalDoesntHaveHer#"],
 
     "planet": ["Mercury", "Venus", "Mars","Jupiter","Saturn","Uranus","Pluto"],
     "busyThinkingAboutMisc": ["calculus","bathtubs","physics","microcontrollers","blenders","concrete","fertilizer",
@@ -1505,12 +1507,12 @@
     "worryingAboutMisc": ["climate change","aliens","gnomes","asteroids","armageddon","bikers","capitalism",
 			  "fire extinguishers","Krampus","the pandemic"],
     "busyWorryingAbout": ["#worryingAboutMisc#","#kidnapper#","#becomeNoun.s#"],
-    "butGoalBusy": ["thinking about #busyThinkingAbout#","with her #busyWithHer#","worrying about #busyWorryingAbout#"],
+    "butGoalBusy": ["thinking about #busyThinkingAbout#","with #hersName# #busyWithHer#","worrying about #busyWorryingAbout#"],
 
     "oneThing": ["#busyThinkingAbout#","#busyWorryingAbout#"],
 
     "inTownBusyGoal": ["is busy #butGoalBusy#","is too busy #butGoalBusy#"],
-    "inTownButGoal": ["doesn't #butGoalDoesnt#","#inTownBusyGoal#","has only one thing on her mind: #oneThing#"],
+    "inTownButGoal": ["doesn't #butGoalDoesnt#","#inTownBusyGoal#","has only one thing on #hersName# mind: #oneThing#"],
 
     "alreadyInTownSetup": ["It's #christmasTime# #namedOrUnnamedTown# and #inTownProtagonist##fActor# #alreadyInTownGoal#",
 			   "As Christmas approaches #namedOrUnnamedTown#, #inTownProtagonist##fActor# #alreadyInTownGoal#",
@@ -1526,7 +1528,7 @@
 				"It's #christmasTime# #namedOrUnnamedTown# but #inTownProtagonistShort##fActor# #inTownButGoal#"
 			       ],
 
-    "protagonistReturns":["home","to #townName#","to her family's #business#"],
+    "protagonistReturns":["home","to #townName#","to #hersName# family's #business#"],
     "relativePurposeVerb": ["bury","rotate","burp","kick","cremate","bail out","exfoliate","disown","slap",
 			    "deprogram","euthanize","decorate","assassinate","harvest","infect","defenestrate",
 			    "poison","bite","hypnotize","sue","annoy","ensorcel","innoculate","vaccinate"],
@@ -1535,7 +1537,7 @@
 		  "snow globe","lawnmower","poster","sandwich","toxin","manuscript","laxative","cheese",
 		  "rave drug","toaster","tabby","tea","potato chip","steak","pony","herb"],
     "toFind": ["a rare #findARare#"],
-    "returnsPurpose": ["#returnPurposeFindVerb# her #lost#","#relativePurposeVerb# her #relative#","find #toFind#"],
+    "returnsPurpose": ["#returnPurposeFindVerb# #hersName# #lost#","#relativePurposeVerb# #hersName# #relative#","find #toFind#"],
     
     "endsUpInTownSetup":["#protagonistIntroBegin# #endsUp# #town# #afterWhen#",
 			 "#afterWhen.capitalize#, #protagonistIntroMid# #endsUp# #town#",
@@ -1549,9 +1551,9 @@
     "withASecret": ["#animal#","#fetish# fetish","#foodType#","#adventModifier# advent calendar","#opensA#",
 		    "#strangePersonMeet#"],
     "noTownIn": ["debt","trouble","spanx","heels","the Christmas spirit","latex","plaid","a wig","a meltdown",
-		 "a breakdown","a divorce","denial","the red","her prime","a slump","a Santa suit","a yurt",
+		 "a breakdown","a divorce","denial","the red","#hersName# prime","a slump","a Santa suit","a yurt",
 		 "a cult","Purgatory","ketosis","love","a pickle","a sticky situation",
-		 "a black pit of despair","jail","time out","flagrante delicto","pants","over her head",
+		 "a black pit of despair","jail","time out","flagrante delicto","pants","over #hersName# head",
 		 "hot water","a tight spot"],
     "noTownClause": ["with a secret #withASecret#","in need of #inTownNeeds.a#","in #noTownIn#"],
     "noTownSetup": ["#firstName##fActor# is #jobTitle.a# #noTownClause#"],
@@ -1631,20 +1633,20 @@
     
     "decideHerObject": ["#relative#","#animal#","family's #business#"],
     "decideObject": ["#femaleActor#","#maleActor#","the town's #repairTheTowns#"],
-    "decideObjectLiving": ["#femaleActor#","#maleActor#","her #relative#","her #animal#"],
-    "decideOtherOption": ["#decideBetweenVerb# her #decideHerObject#",
+    "decideObjectLiving": ["#femaleActor#","#maleActor#","#hersName# #relative#","#hersName# #animal#"],
+    "decideOtherOption": ["#decideBetweenVerb# #hersName# #decideHerObject#",
 			  "#decideBetweenVerb# #decideObject#",
 			  "taking #decideObjectLiving# #takesHim#"],
     "decideFirstOption": ["#decideBetweenVerb# him",
 			  "taking him #takesHim#",
-			  "#decideBetweenVerb# his #dudeWithA#",
+			  "#decideBetweenVerb# #hisName# #dudeWithA#",
 			  "giving him #givesHim#"],
     "decideBetween": ["#decideFirstOption# and #decideOtherOption#"],
 
     "chooseFirstOption": ["#chooseBetweenVerb# him",
 			  "take him #takesHim#",
-			  "#chooseBetweenVerb# his #dudeWithA#"],
-    "chooseOtherOption": ["#chooseBetweenVerb# her #decideHerObject#",
+			  "#chooseBetweenVerb# #hisName# #dudeWithA#"],
+    "chooseOtherOption": ["#chooseBetweenVerb# #hersName# #decideHerObject#",
 			  "#chooseBetweenVerb# #decideObject#",
 			  "take #decideObjectLiving# #takesHim#"],
     "chooseTo": ["#chooseFirstOption# or #chooseOtherOption#"],
@@ -1652,8 +1654,8 @@
     "looming": ["looming","approaching","near"],
     "christmasNearIntro": ["With Christmas #looming#",
 			   "Christmas is #looming# and"],
-    "noLoveSentenceChoose": ["#christmasNearIntro# #sheName# must choose between #himName# and #chooseBetween#.",
-			     "Will #sheName# choose #himName# or #chooseBetween# for Christmas?"
+    "noLoveSentenceChoose": ["#christmasNearIntro# #firstName# must choose between #himName# and #chooseBetween#.",
+			     "Will #firstName# choose #himName# or #chooseBetween# for Christmas?"
 			     ],
     "sheNoLoveSentence": ["#noLoveSentenceChoose#"],
     
@@ -1706,16 +1708,16 @@
     
     "orWillShe": ["#willSheVerb# #himName#",
 		  "give #himName# #disease#",
-		  "poison his #drinkType#",
-		  "harvest his #organ#",
+		  "poison #hisName# #drinkType#",
+		  "harvest #hisName# #organ#",
 		  "become #willSheBecome#",
 		  "buy #buyNoun.a#",
 		  "take up #takeUp#",
 		  "learn #learn#",
-		  "find her #findHer#",
+		  "find #hersName2# #findHer#",
 		  "rediscover #rediscover#",
-		  "break his #breakHis#",
-		  "accept her #jobTitleBare# job offer",
+		  "break #hisName# #breakHis#",
+		  "accept #hersName2# #jobTitleBare# job offer",
 		  "embrace #embrace#",
 		  "become #becomeLGBTQ#"
 		 ],
@@ -1756,9 +1758,9 @@
 		  "tuba playing",
 		  "spite"
 		 ],
-    "affectHerVerb": ["affect her",
+    "affectHerVerb": ["affect #hersName#",
 		      "get in the way of",
-		      "interfere with her"
+		      "interfere with #hersName#"
 		     ],
     "doesntExpectManSetup": ["#jobTitle.capitalize# #femaleNameActor# doesn't let #doesntLet# #affectHerVerb# #affectHer#"],
     
@@ -1971,14 +1973,14 @@
 		 "their parachute pants",
 		 "barbecue sauce",
 		 "a Nietzsche primer",
-		 "her Blackberry",
-		 "his compass",
-		 "his shoelace",
-		 "her lipstick",
-		 "her yoga mat",
+		 "#hersName# Blackberry",
+		 "#hisName# compass",
+		 "#hisName# shoelace",
+		 "#hersName# lipstick",
+		 "#hersName# yoga mat",
 		 "a decorative geode",
 		 "a pair of chopsticks",
-		 "his stress ball",
+		 "#hisName# stress ball",
 		 "a Funko pop",
 		 "a magnet",
 		 "a SCSI cable",
@@ -2336,8 +2338,8 @@
 				"form #theyForm.a#",
 				"become #become#",
 				"#watchVerb# #theyWatch#",
-				"find her #findHer#",
-				"find his #findHis#",
+				"find #hersName# #findHer#",
+				"find #hisName# #findHis#",
 				"binge watch #bingeWatch#",
 				"build #build.a#",
 				"eat #eat#",
@@ -2371,7 +2373,7 @@
 		     "#dudeActionSentence#. #sheNoLoveSentence# #timeTravelSetup#.",
 		     "#dudeActionSentence#. #willTheySentence# #timeTravelSetup#."],
 
-    "lastChristmas": ["#protagonistIntroBegin# gets Last Christmas stuck in her head. Last Christmas I gave you my heart, but the very next day you gave it away. This year, to save me from tears, I'll give it to someone special."],
+    "lastChristmas": ["#protagonistIntroBegin# gets Last Christmas stuck in #hersName# head. Last Christmas I gave you my heart, but the very next day you gave it away. This year, to save me from tears, I'll give it to someone special."],
 
     "herself": ["She #sheActionClause#"],
     "herselfPlot": ["#smallTownSetup#. #herself# herself (#femaleActor#). #theyActionSentence#"],
@@ -2379,9 +2381,9 @@
     "absurdistPlot": ["#lastChristmas#","#herselfPlot#"],
 
     "aloneUntil": ["accidentally #dudeAccidentally#",
-		   "lends #herName# #hisName# #dudeLends#",
+		   "lends #herName# #hisName2# #dudeLends#",
 		   "#hiresVerb# #herName# to #hiresHer#",
-		   "becomes #hersName# unexpected #becomesUnexpected#"
+		   "becomes #hersName2# unexpected #becomesUnexpected#"
 		  ],
 
     "swornOff": ["men",
@@ -2785,8 +2787,8 @@
 		    "Martin Scorcese",
 		    "chi",
 		    "kale",
-		    "his #relative#",
-		    "his #animal#"
+		    "#hisName# #relative#",
+		    "#hisName# #animal#"
 		   ],
 
     "convictedOf": ["arson",
@@ -2863,19 +2865,19 @@
 		 "#phobia#"
 		],
     
-    "dudeCuteButHe": ["he chews tobacco",
-		      "he's a #zodiac#",
-		      "he lives in his mother's basement",
-		      "he won't stop talking about #shutUpAbout#",
-		      "he was convicted of #convictedOf#",
-		      "he has his own cult",
-		      "his middle name is Wayne",
-		      "he's a #truther# truther",
-		      "he only speaks Klingon",
-		      "he only dates Naruto fans",
-		      "he has a spray tan addiction",
-		      "he's very religious",
-		      "he has #butHeHas#"
+    "dudeCuteButHe": ["#heName# chews tobacco",
+		      "#heName#'s a #zodiac#",
+		      "#heName# lives in #hisName# mother's basement",
+		      "#heName# won't stop talking about #shutUpAbout#",
+		      "#heName# was convicted of #convictedOf#",
+		      "#heName# has #hisName# own cult",
+		      "#hisName# middle name is Wayne",
+		      "#heName#'s a #truther# truther",
+		      "#heName# only speaks Klingon",
+		      "#heName# only dates Naruto fans",
+		      "#heName# has a spray tan addiction",
+		      "#heName#'s very religious",
+		      "#heName# has #butHeHas#"
 		     ],
 
     "doesntLikeHis": ["#animal#",
@@ -2967,8 +2969,8 @@
 
     "plotStart": ["#normalPlot#"],
     
-    "origin":["#[mActor: (#maleActor#)][fActor: (#femaleActor#)][firstName:#firstName#][dude:#dude#][heName:he][himName:him][hisName:his][sheName:she][herName:her][hersName:her]plotStart#",
-	      "#[mActor: (#maleActor#)][fActor: (#maleActor#)][firstName:#dude#][dude:#dude2#][heName:he][himName:him][hisName:his][sheName:he][herName:him][hersName:his]plotStart#",
-	      "#[mActor: (#femaleActor#)][fActor: (#femaleActor#)][dude:#firstName#][firstName:#firstName2#][heName:she][himName:her][hisName:her][sheName:she][herName:her][hersName:her]plotStart#"
+    "origin":["#[mActor: (#maleActor#)][fActor: (#femaleActor#)][firstName:#firstName#][dude:#dude#][heName:he][himName:him][hisName:his][sheName:she][herName:her][hersName:her][hisName2:his][himName2:him][hersName2:her][herName2:her]plotStart#",
+	      "#[mActor: (#maleActor#)][fActor: (#maleActor#)][firstName:#dude#][dude:#dude2#][heName:he][himName:him][hisName:his][sheName:he][herName:him][hersName:his][hisName2:his][himName2:him][hersName2:his][herName2:his]plotStart#",
+	      "#[mActor: (#femaleActor#)][fActor: (#femaleActor#)][dude:#firstName#][firstName:#firstName2#][heName:she][himName:her][hisName:her][sheName:she][herName:her][hersName:her][hersName2:her][herName2:her][hisName2:her][himName2:her]plotStart#"
 	     ]
 }
