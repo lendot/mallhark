@@ -248,7 +248,8 @@
 			  "music teacher","gamer","zombie","millionaire","plague doctor","telemarketer",
 			  "color expert","hippotherapist","pick-up artist","rental boyfriend","chicken sexer",
 			  "rat-catcher","#monger#monger","medieval knight","Christmas movie bot","grinch",
-			  "steel magnate","yule lad","tiger king","local","storm trooper","jedi","king","crown prince"],
+			  "steel magnate","yule lad","tiger king","local","storm trooper","jedi","king","crown prince",
+              "non-fungible token"],
     "dudeOccupation":["#dudeAdj# #dudeOccupationBare#"],
 
     "distressedCaller":["#hersName# #relative#","#hersName# childhood friend","the sheriff","a Nigerian prince","Pizza Hut",
@@ -692,7 +693,7 @@
 		"be #hisName# #beHis#","subdue #hisName2# #subdueHis#"],
 
     "thinksHes":["#dudeAdj#","#jobTitleModifier#"],
-    "thinksShes":["#dudeAdj#","#jobTitleModifier#","#femaleActor#","too #dudeAdj#","too #jobTitleModifier#","#jobTitleBare.a#"],
+    "thinksShes":["#dudeAdj#","#jobTitleModifier#","#fActorAlt#","too #dudeAdj#","too #jobTitleModifier#","#jobTitleBare.a#"],
 
     "makesHerDoubtHer": ["virginity","career choice","makeup","height","passion","hair","shoes","necklace",
 			 "#animal#","mental health","age"],
@@ -1261,7 +1262,7 @@
     "givesHim":["#disease#","a bath","vegemite","a baby","tofu","incense",
 		"#givesHimSubscription.a# subscription","a nervous tic","bacon","steak",
 		"a mummy","coffee grounds","anthrax","collages",
-		"a pentagram","an alibi","a conniption","a WAP",
+		"a pentagram","an alibi","a conniption","a WAP","a Members Only jacket",
 		"fleas","tuna","butter","yak milk","toner","nootropics","acetone","Belgium","staples",
 		"migraines","RAM","electrolytes","#femaleActor#","#maleActor#","cole slaw","otters",
 		"spam","lithium","bratwurst","cognitive behavioral therapy","plaster","magnets","algae",
@@ -1318,7 +1319,8 @@
 		"pyramid",
 		"dungeon",
 		"chimney",
-		"belief in Christmas",
+		"belief in Santa",
+        "belief in magic",
 		"robot",
 		"shoe collection",
 		"muscle memory",
@@ -2870,7 +2872,7 @@
 		      "#heName# lives in #hisName# mother's basement",
 		      "#heName# won't stop talking about #shutUpAbout#",
 		      "#heName# was convicted of #convictedOf#",
-		      "#heName# has #hisName# own cult",
+		      "#heName# has #hisName2# own cult",
 		      "#hisName# middle name is Wayne",
 		      "#heName#'s a #truther# truther",
 		      "#heName# only speaks Klingon",
@@ -2969,8 +2971,8 @@
 
     "plotStart": ["#normalPlot#"],
     
-    "origin":["#[mActor: (#maleActor#)][fActor: (#femaleActor#)][firstName:#firstName#][dude:#dude#][heName:he][himName:him][hisName:his][sheName:she][herName:her][hersName:her][hisName2:his][himName2:him][hersName2:her][herName2:her]plotStart#",
-	      "#[mActor: (#maleActor#)][fActor: (#maleActor#)][firstName:#dude#][dude:#dude2#][heName:he][himName:him][hisName:his][sheName:he][herName:him][hersName:his][hisName2:his][himName2:him][hersName2:his][herName2:him]plotStart#",
-	      "#[mActor: (#femaleActor#)][fActor: (#femaleActor#)][dude:#firstName#][firstName:#firstName2#][heName:she][himName:her][hisName:her][sheName:she][herName:her][hersName:her][hersName2:her][herName2:her][hisName2:her][himName2:her]plotStart#"
+    "origin":["#[mActor: (#maleActor#)][fActor: (#femaleActor#)][firstName:#firstName#][dude:#dude#][heName:he][himName:him][hisName:his][sheName:she][herName:her][hersName:her][hisName2:his][himName2:him][hersName2:her][herName2:her][fActorAlt:#femaleActor#]plotStart#",
+	      "#[mActor: (#maleActor#)][fActor: (#maleActor#)][firstName:#dude#][dude:#dude2#][heName:he][himName:him][hisName:his][sheName:he][herName:him][hersName:his][hisName2:his][himName2:him][hersName2:his][herName2:him][fActorAlt:#maleActor#]plotStart#",
+	      "#[mActor: (#femaleActor#)][fActor: (#femaleActor#)][dude:#firstName#][firstName:#firstName2#][heName:she][himName:her][hisName:her][sheName:she][herName:her][hersName:her][hersName2:her][herName2:her][hisName2:her][himName2:her][fActorAlt:#femaleActor#]plotStart#"
 	     ]
 }
