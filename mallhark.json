@@ -186,7 +186,7 @@
 		    "masseuse","statistician","bougie","#conservationist# conservationist#","influencer",
 		    "hockey player","extreme sports photographer","tour guide","dominatrix","blogger","choir director",
 		    "cryptographer","spy","pop star","demon","feng shui consultant","nail polish namer",
-		    "deodorant tester","#expert# expert","science teacher","heiress","accountant",
+		    "deodorant tester","#expert# expert","science teacher","heir","accountant",
 		    "Cats extra","epidemiologist","nurse","virologist","immunologist","lab tech",
 		    "wedding planner","pianist","violinist","romance writer","omegaverse writer",
 		    "resistance leader","#prodigy# prodigy","podcaster","queen","crown princess"],
@@ -1598,10 +1598,10 @@
     "smallTownMeetSentence":["#sheActionSentence#","#dudeActionSentence#"],
 
     "chooseMeetsObjectShort":["#dude# (#maleActor#), #dudeOccupation.a#","#dudeOccupation.a# (#maleActor#)"],
-    "chooseBetween": ["#chooseMeetsObjectShort#","#hersName# #lost#",
+    "chooseBetween": ["#chooseMeetsObjectShort#","#hersName2# #lost#",
 		      "the family #business#",
-		      "#hersName# #fetish# fetish",
-		      "#hersName# agency",
+		      "#hersName2# #fetish# fetish",
+		      "#hersName2# agency",
 		      "#decideOtherOption#"],
     "sheNoLoveClause": ["must choose between #himName# and #chooseBetween#"],
 
@@ -2972,7 +2972,7 @@
     "plotStart": ["#normalPlot#"],
     
     "origin":["#[mActor: (#maleActor#)][fActor: (#femaleActor#)][firstName:#firstName#][dude:#dude#][heName:he][himName:him][hisName:his][sheName:she][herName:her][hersName:her][hisName2:his][himName2:him][hersName2:her][herName2:her][fActorAlt:#femaleActor#]plotStart#",
-	      "#[mActor: (#maleActor#)][fActor: (#maleActor#)][firstName:#dude#][dude:#dude2#][heName:he][himName:him][hisName:his][sheName:he][herName:him][hersName:his][hisName2:his][himName2:him][hersName2:his][herName2:him][fActorAlt:#maleActor#]plotStart#",
-	      "#[mActor: (#femaleActor#)][fActor: (#femaleActor#)][dude:#firstName#][firstName:#firstName2#][heName:she][himName:her][hisName:her][sheName:she][herName:her][hersName:her][hersName2:her][herName2:her][hisName2:her][himName2:her][fActorAlt:#femaleActor#]plotStart#"
+	      "🏳️‍🌈🏗#[mActor: (#maleActor#)][fActor: (#maleActor#)][firstName:#dude#][dude:#dude2#][heName:he][himName:him][hisName:his][sheName:he][herName:him][hersName:his][hisName2:his][himName2:him][hersName2:his][herName2:him][fActorAlt:#maleActor#]plotStart#",
+	      "🏳️‍🌈🏗#[mActor: (#femaleActor#)][fActor: (#femaleActor#)][dude:#firstName#][firstName:#firstName2#][heName:she][himName:her][hisName:her][sheName:she][herName:her][hersName:her][hersName2:her][herName2:her][hisName2:her][himName2:her][fActorAlt:#femaleActor#]plotStart#"
 	     ]
 }
