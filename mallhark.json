@@ -1196,7 +1196,8 @@
 		     "stan #maleFemaleActor# for Christmas",
 		     "embrace #embrace# for Christmas",
 		     "add #addTradition# to the Christmas tradition",
-		     "resurrect #theyResurrect# for Christmas"
+		     "resurrect #theyResurrect# for Christmas",
+             "invent #invent# for Christmas"
 		    ],
 
     "longActionSaveActivity": ["become #become#",
@@ -2191,7 +2192,8 @@
     
     "pairPlotTravelAdHocChristmas": ["They make Christmas in #ownChristmasIn# and fall in love.",
 				     "They fashion a Christmas tree out of #christmasTreeOutOf# and fall in love.",
-				     "They pretend #pretendSanta.a# is Santa and fall in love."
+				     "They pretend #pretendSanta.a# is Santa and fall in love.",
+                     "They invent #invent# for Christmas and fall in love."
 				    ],
     "pairPlotTravel": ["#pairPlotTravelSetup#. #pairPlotTravelGoal#. #pairPlotTravelActionSentence#",
 		      "#pairPlotTravelSetup#. #pairPlotTravelDontMakeIt#. #pairPlotTravelAdHocChristmas#"],
@@ -2322,6 +2324,35 @@
 	       "bribes"
 	      ],
 
+
+    "inventPre": ["crypto",
+        "hyper",
+        "cloud ",
+        "indie ",
+        "virtual ",
+        "ransom",
+        "space ",
+        "non-fungible "
+    ],
+
+    "inventRoot": ["tuna",
+        "hummus",
+        "toothpaste",
+        "yoga",
+        "judo",
+        "borscht",
+        "welding",
+        "foosball",
+        "jeans",
+        "ferrets",
+        "angst",
+        "humor",
+        "magnets",
+        "pasta"
+    ],
+
+    "invent": ["#inventPre##inventRoot#"],
+
     "actionClauseNoChristmas": ["save #saveThe#",
 				"#fightVerb# #fightThe#",
 				"learn #learn#",
@@ -2346,7 +2377,8 @@
 				"build #build.a#",
 				"eat #eat#",
 				"stan #maleFemaleActor#",
-				"embrace #embrace#"
+				"embrace #embrace#",
+                "invent #invent#"
 			       ],
     
     "pairPlotGoal": ["They pretend to get along #getAlong#",
