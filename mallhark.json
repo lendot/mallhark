@@ -174,7 +174,7 @@
 	       "#animal#","knife","balloon","#fixOutbreak#","diaper","fertilizer","positron","butter",
 	       "virus","infection","vaccine","containment","pandemic","covid-19"],
     "prodigy": ["polka","origami","sourdough","ASMR","juggling","machine learning"],
-    "jobTitleBare":["television producer","ad executive","event planner","architect","biologist","market researcher",
+    "person1Job":["television producer","ad executive","event planner","architect","biologist","market researcher",
 		    "teacher","baker","chef","psychic","banker","socialite","financier","lawyer","nanny","entrepreneur",
 		    "model","actor","artist","doctor","dancer","widow","real estate agent",
 		    "city planner","property developer","CEO","singer","coroner","capybara","DJ","hipster","millennial",
@@ -190,7 +190,7 @@
 		    "Cats extra","epidemiologist","nurse","virologist","immunologist","lab tech",
 		    "wedding planner","pianist","violinist","romance writer","omegaverse writer",
 		    "resistance leader","#prodigy# prodigy","podcaster","queen","crown princess"],
-    "jobTitleModifier":["twitchy","arrogant","messy","demanding","vegan","ambidextrous","recalcitrant",
+    "person1Adj":["twitchy","arrogant","messy","demanding","vegan","ambidextrous","recalcitrant",
 			"aggressive","ambitious","high-strung","paranoid","boring","mopey","Methodist","lonely",
 			"pointy","frumpy","smart","brilliant","salty","nihilist","friendly","pedantic",
 			"carefree","gullible","divorced","optimistic","brokenhearted","quirky",
@@ -200,7 +200,7 @@
 			"obstreperous","high-profile","wistful","stubborn","career-focused","busy",
 			"independent","passive-aggressive","famous","award-winning","infamous",
 			"workaholic","career-driven","antifa","world-renowned"],
-    "jobTitle":["#jobTitleBare#","#jobTitleModifier# #jobTitleBare#","#christmasCompany# #bossPosition#"],
+    "jobTitle":["#person1Job#","#person1Adj# #person1Job#","#christmasCompany# #bossPosition#"],
     
     "dude":["Brad","Chad","Travis","Joe","Kevin","Tanner","Connor","Jack","Scott","Jake","Cole","Garrett",
 	    "Jacob","Brett","Dylan","Chris","Noel","Luke","Sean","Devin","Mark","Michael","Thor","Carter","Gage",
@@ -208,7 +208,7 @@
 	    "Aidan","Trey","Charlie","Dustin","Logan","Jackson","Lucas","Gavin","Mike","Brandon",
 	    "Noah","William","Roman","Elliot","Nate"],
     "dude2": ["#dude#"],
-    "dudeAdj":["cranky","neat freak","narcoleptic","immature","free-spirited","passionate","incontinent",
+    "person2Adj":["cranky","neat freak","narcoleptic","immature","free-spirited","passionate","incontinent",
 	       "sexy","dreamy","rich","hairy","hairless","cocky","Buddhist","gluten-free","tall","brooding",
 	       "creepy","bumbling","smarmy","local","lonely","square-jawed","manic","moody",
 	       "unreliable","libertarian","forgetful","incorrigible","jolly","privileged","loquacious",
@@ -234,7 +234,7 @@
 	      ],
     "whisperer": ["horse","dog","ghost","frog","dudebro","cheese"],
     "monger": ["cheese","fish","war","hate","news","iron","scare","fashion","coster","fell","soup","wheel"],
-    "dudeOccupationBare":["musician","gator wrestler","veterinarian","male dancer","doctor","mechanic","teacher",
+    "person2Job":["musician","gator wrestler","veterinarian","male dancer","doctor","mechanic","teacher",
 			  "hacker","IT professional","fisherman","duck","gopher","lumberjack","tow truck driver",
 			  "drug dealer","drifter","ghost","serial killer","artist","soldier","magician","priest",
 			  "bounty hunter","hermit","landscaper","ex-fiance","contractor","healer",
@@ -250,7 +250,7 @@
 			  "rat-catcher","#monger#monger","medieval knight","Christmas movie bot","grinch",
 			  "steel magnate","yule lad","tiger king","local","storm trooper","jedi","king","crown prince",
               "non-fungible token"],
-    "dudeOccupation":["#dudeAdj# #dudeOccupationBare#"],
+    "person2Occupation":["#person2Adj# #person2Job#"],
 
     "distressedCaller":["#hersName# #relative#","#hersName# childhood friend","the sheriff","a Nigerian prince","Pizza Hut",
 			"Baby Jesus","Gary Busey","the president","the UN","a casino","a child","an elf","a fax machine",
@@ -279,7 +279,7 @@
 		 "evil","forgetful","freckled","blonde","famous","notorious","canonized","viral","stylish",
 		 "hairy","#makesHerAdj#"],
 
-    "becomeNoun":["#jobTitleBare#","#dudeOccupationBare#"],
+    "becomeNoun":["#person1Job#","#person2Job#"],
 
     
     "reading":["Kerouac","Wittgenstein","Kafka","Nietzsche","Kierkegaard","'A Christmas Carol'","a Tingler",
@@ -387,9 +387,10 @@
 		    "a night club",
 		    "the Justice League",
 		    "a spelling bee",
-		    "a sorority"
+		    "a sorority",
+            "Applebee's"
 		   ],
-    "whenSheMisc1":["falls out of a plane at 25,000 ft.","locks #herName2#self in the trunk of a car","loses a bet",
+    "whenPerson1Misc1":["falls out of a plane at 25,000 ft.","locks #herName2#self in the trunk of a car","loses a bet",
 		    "gets lost","enters a fugue state","falls through a portal",
 		    "misses #hersName# flight","gets amnesia",
 		    "goes in pursuit of a loofah","gets writer's block","wanders into a time machine",
@@ -397,7 +398,7 @@
 		    "gets kicked out of #kickedOutOf#",
 		    "smashes the patriarchy","agrees to Facebook's new terms of service",
 		    "receives a cease and desist letter"],
-    "whenSheMisc2":["researches a big cow","contracts a virus","is chased by wizards","finds a magical doorway",
+    "whenPerson1Misc2":["researches a big cow","contracts a virus","is chased by wizards","finds a magical doorway",
 		    "eats quinoa","fulfills an ancient prophecy",
 		    "searches for a long-lost twin","scouts podcast locations",
 		    "has a bad acid trip","transmigrates","exfoliates","falls off #fallingOff.a#","dies","does a U-turn",
@@ -419,15 +420,15 @@
 			 "cave","bank vault","labyrinth","renaissance fair","shed","graveyard","restroom",
 			 "barn","subway"],
     
-    "whenShe":["receives a call from #distressedCaller#",
+    "whenPerson1":["receives a call from #distressedCaller#",
 	       "receives a call from #letterSender#",
 	       "is kidnapped by #kidnapper#",
 	       "drinks #drink.a#",
 	       "loses #hersName# #lost#",
 	       "turns into #turnsIntoA.a#",
 	       "inherits #inheritance.a#",
-	       "#whenSheMisc1#",
-	       "#whenSheMisc2#",
+	       "#whenPerson1Misc1#",
+	       "#whenPerson1Misc2#",
 	       "encounters a #strange# #ladyMan# in a #strangePersonMeet#",
 	       "encounters a #strange# #ladyMan#",
 	       "becomes #becomes#",
@@ -444,14 +445,14 @@
 	     "teams up with",
 	     "clashes with"],
 
-    "dudeTattoo":["Sugar Ray","Mom","Don't Stop Believing","Keep It Together","Rock On","Steak","Stawberry",
+    "person2Tattoo":["Sugar Ray","Mom","Don't Stop Believing","Keep It Together","Rock On","Steak","Stawberry",
 		  "No Regerts","Santa","Krampus","Bing Crosby","#maleActor#","#femaleActor#"],
 
     "lotsOf": ["lots of","an abundance of","too many","many"],
-    "dudeWithLotsOf": ["cats","candy canes","reindeer","toys","wives"],
+    "person2WithLotsOf": ["cats","candy canes","reindeer","toys","wives"],
     "symptom": ["coronavirus","flu","scurvy"],
-    "dudeWith": ["secrets","insomnia","medieval torture devices","Chocodiles","principles",
-		 "debts","anger management issues","#lotsOf# #dudeWithLotsOf#","flashbacks",
+    "person2With": ["secrets","insomnia","medieval torture devices","Chocodiles","principles",
+		 "debts","anger management issues","#lotsOf# #person2WithLotsOf#","flashbacks",
 		 "purple boots","children","psychic powers","superpowers","Photoshop","swagger",
 		 "sexy moves","connections","delusions of grandeur","fleas","jackhammers","pizzazz",
 		 "big dick energy","thimbles","hockey jaw","male pattern baldness","elf socks",
@@ -464,54 +465,54 @@
 	       "underwear","foot","snow","mistletoe","Santa","gift","wrapping paper","Rudolph",
 	       "sneezing","breathplay","vore","food","candy cane","clown","latex","nurse","brimping"],
     
-    "dudeWithA":["troubled past","astigmatism","soul patch","man bun","Ford Pinto","invisible friend","man cave",
+    "person2WithA":["troubled past","astigmatism","soul patch","man bun","Ford Pinto","invisible friend","man cave",
 		 "third eye","chihuahua","prehensile tail","book club","mafia debt","hangnail","#fetish# fetish",
 		 "time machine","law degree","instagram","death ray","pot farm","yule log",
 		 "swimming pool","migraine","space ship","pet rock","photographic memory",
-		 "Hello Kitty collection","mullet","#dudeAdj# son","#dudeAdj# daughter","DeLorean","horse",
+		 "Hello Kitty collection","mullet","#person2Adj# son","#person2Adj# daughter","DeLorean","horse",
 		 "chiseled torso","homunculus","hot tub","cape","pouch","Oedipus complex","helicopter",
-		 "#dudeTattoo# tattoo","funicular","magpie","fainting couch","cultural appropriation problem",
+		 "#person2Tattoo# tattoo","funicular","magpie","fainting couch","cultural appropriation problem",
 		 "divining rod","snow globe collection","goat","big head",
 		 "tiny head","airplane","scooter","pink convertible","robotic Santa","manger",
 		 "chimney","stocking stuffer","quarantine beard"],
 
-    "dudeLooksLike":["Elvis","a potato","Jesus","Santa","Spongebob","Darth Vader",
+    "person2LooksLike":["Elvis","a potato","Jesus","Santa","Spongebob","Darth Vader",
 		     "#hersName# father","#hersName# brother","a serial killer","a foot",
 		     "a squirrel","a butt plug","#heName#'s seen some shit","Abraham Lincoln",
 		     "#heName# should be named #dude#","Mothra","Winston Churchill","#heName# could bench a lot","a child",
 		     "an elf","#maleActor#","Krampus","Baby Yoda"],
 
-    "dudeCollects":["meat","pudding","razors","tires","Christmas sweaters","disco","video games","navel fluff",
+    "person2Collects":["meat","pudding","razors","tires","Christmas sweaters","disco","video games","navel fluff",
 		    "air sickness bags","handcuffs","toilet seats","sugar packets","chocolate wrappers",
 		    "banana labels","toothpaste","napkins","leg lamps","butt plugs","skin","femurs",
 		    "license plates","lawn decorations","beer cans"],
 
-    "dudeWorships":["Satan","cheese","socks","penguins","cinnamon","#maleActor#",
+    "person2Worships":["Satan","cheese","socks","penguins","cinnamon","#maleActor#",
 		    "#femaleActor#","#challenge_count_noun.s#","corn","copper","mistletoe","Santa",
 		    "the sun","#animal.s#"],
 
     "transplantDonor":["transplant","donor"],
 
-    "dudeWhoCant": ["whistle","gyrate","emote","sneeze","fly","manscape","levitate","undulate","ski","burp"],
+    "person2WhoCant": ["whistle","gyrate","emote","sneeze","fly","manscape","levitate","undulate","ski","burp"],
     
-    "dudeWhoMisc":["chews with #hisName# mouth open","hates to dance",
+    "person2WhoMisc":["chews with #hisName# mouth open","hates to dance",
 		   "listens to ska","never has #hisName# phone charger",
 		   "talks like a cartoon character","writes bad poetry","wears jorts","hates tomatoes",
 		   "is always late","mansplains","refers to himself in third person",
 		   "jumps to conclusions","speaks only in riddles",
 		   "speaks only in rhyme","speaks only in #language#"],
 
-    "dudeWhoRaces":["snails","horses","chipmunks","wiener dogs","in a Santa speedo","sleighs"],
+    "person2WhoRaces":["snails","horses","chipmunks","wiener dogs","in a Santa speedo","sleighs"],
 
-    "dudeWhoSings":["karaoke","tenor","death metal","baritone","bass","soprano","alto","show tunes",
+    "person2WhoSings":["karaoke","tenor","death metal","baritone","bass","soprano","alto","show tunes",
 		    "in just intonation","flat","out of tune"],
 
-    "dudeWhoWalks":["saunters","struts","gallops","meanders","moseys","bounces","strolls","stomps","hops",
+    "person2WhoWalks":["saunters","struts","gallops","meanders","moseys","bounces","strolls","stomps","hops",
 		    "sashays","gyrates","wobbles","undulates"],
 
     "likes":["likes","loves","is fond of","is into","hates","dislikes","digs"],
 
-    "dudeWhoLikes":["Lars von Trier films","dubstep","chocolate","gardening","knitting","giraffes","pastries",
+    "person2WhoLikes":["Lars von Trier films","dubstep","chocolate","gardening","knitting","giraffes","pastries",
 		    "anime","roleplaying","squatting","juggling","laundry","energy drinks","pistachios",
 		    "slushies","Norway","pączki","brutalism","metal","the Oxford comma","dangling participles",
 		    "jewelry","socialism","bitcoin","Vantablack","yoga","prime numbers","recursive functions",
@@ -519,12 +520,12 @@
 		    "Yngwie Malmsteen","The Walking Dead","yacht rock","Trans Siberian Orchestra",
 		    "spoons"],
 
-    "dudeWhoVerb":["hiccups","wheezes","raps","glows","burps","juggles","cooks","paints","levitates","shapeshifts"],
+    "person2WhoVerb":["hiccups","wheezes","raps","glows","burps","juggles","cooks","paints","levitates","shapeshifts"],
     
-    "dudeWhoIsAlso": ["#jobTitleBare#","#turnsIntoA#"],
-    "dudeAlso": ["also","secretly"],
+    "person2WhoIsAlso": ["#person1Job#","#turnsIntoA#"],
+    "person2Also": ["also","secretly"],
 
-    "dudeWhoNeeds":["#organ.a# #transplantDonor#","antibiotics","yogurt","oil","therapy","servants","pudding",
+    "person2WhoNeeds":["#organ.a# #transplantDonor#","antibiotics","yogurt","oil","therapy","servants","pudding",
 		    "quiet","paint thinner","#challenge_count_noun.a#"],
 
     "whoHas": ["who has","with"],
@@ -532,8 +533,8 @@
     "pastPresentFuture": ["past","present","future"],
     "secretlyPersonMisc": ["Santa","Jesus","Elvis","Krampus",
 			   "the ghost of Christmas #pastPresentFuture#"],
-    "secretlyPerson": ["#maleActor#","#femaleActor#","#dudeAdj#","#secretlyPersonMisc#"],
-    "isAlso": ["#dudeAlso# #dudeWhoIsAlso.a#","secretly #secretlyPerson#"],
+    "secretlyPerson": ["#maleActor#","#femaleActor#","#person2Adj#","#secretlyPersonMisc#"],
+    "isAlso": ["#person2Also# #person2WhoIsAlso.a#","secretly #secretlyPerson#"],
 
     "youngerDecade": ["1","2"],
     "olderDecade": ["1","2","3","4","5","6","7"],
@@ -541,21 +542,21 @@
     "whoIsOlder": ["#olderDecade##digit#"],
     "whoIs": ["#whoIsYounger# years #hersName# junior","#whoIsOlder# years #hersName# senior"],
     
-    "dudeWho":["looks like #dudeLooksLike#",
-	       "collects #dudeCollects#",
-	       "races #dudeWhoRaces#",
-	       "#likes# #dudeWhoLikes#",
-	       "#dudeWhoVerb#",
-	       "#dudeWhoMisc#",
-	       "#dudeWhoWalks#",
-	       "needs #dudeWhoNeeds#",
+    "person2Who":["looks like #person2LooksLike#",
+	       "collects #person2Collects#",
+	       "races #person2WhoRaces#",
+	       "#likes# #person2WhoLikes#",
+	       "#person2WhoVerb#",
+	       "#person2WhoMisc#",
+	       "#person2WhoWalks#",
+	       "needs #person2WhoNeeds#",
 	       "is #isAlso#",
 	       "is #whoIs#",
-	       "can't #dudeWhoCant#"
+	       "can't #person2WhoCant#"
 	      ],
 
 
-    "dudeFrom": ["Australia","#planet#","hell","London","Tennessee","Alpha Centauri","Antarctica",
+    "person2From": ["Australia","#planet#","hell","London","Tennessee","Alpha Centauri","Antarctica",
 		 "the bayou","Colorado","the mountains","Middle-earth","the mayor's office",
 		 "the foothills","the lake","the #business#",
 		 "Harvard","Easter Island","under a rock",
@@ -563,7 +564,7 @@
 		 "Wichita","low earth orbit","Montana","West Virginia",
 		 "Wales","Scotland","Cincinnati","Nashville","Gainesville","the year #year#","the future"],
 
-    "dudeKnownFor": ["g-string","rice","tattoo","piercing","sponge","bracelet","electrode","octopus","Faraday cage",
+    "person2KnownFor": ["g-string","rice","tattoo","piercing","sponge","bracelet","electrode","octopus","Faraday cage",
 		     "hot sauce","taco","mortgage","sausage","crocodile","tiara","goat","cow","bungee cord",
 		     "kilt","tongue","spork","speculum","hairspray","toilet","lawnmower","haircut",
 		     "mummy","corpse","fist","liver","kidney","baby","toothbrush","blanket","nipple",
@@ -582,32 +583,32 @@
 		     "pecs","chest hair","abs","money","forearms","beard","leather","punctuality","bankruptcy",
 		     "free will"],
 
-    "dudeKnownForModifier": ["#dudeKnownFor#","#dudeAdj# #dudeKnownFor#"],
-    "dudeKnownForAdj": ["known","famous"],
-    "dudeModifier":["#whoHas# #dudeWithA.a#","who #dudeWho#","from #dudeFrom#","#dudeKnownForAdj# for #hisName# #dudeKnownForModifier#",
-		    "#whoHas# #dudeWith#"],
+    "person2KnownForModifier": ["#person2KnownFor#","#person2Adj# #person2KnownFor#"],
+    "person2KnownForAdj": ["known","famous"],
+    "person2Modifier":["#whoHas# #person2WithA.a#","who #person2Who#","from #person2From#","#person2KnownForAdj# for #hisName# #person2KnownForModifier#",
+		    "#whoHas# #person2With#"],
 
-    "dudeAfraidOf": ["Christmas","Santa","elves","eggnog","holidays","family","December","snow","presents","wise men",
+    "person2AfraidOf": ["Christmas","Santa","elves","eggnog","holidays","family","December","snow","presents","wise men",
 		     "tradition","advent calendars","Christmas carols","sleighs","gifts","wrapping paper","mistletoe",
 		     "nativity scenes","Christmas trees","Christmas ornaments","the way Christmas used to be",
 		     "#butGoalDoesntBelieve#"],
-    "dudeChristmasWhos": ["afraid of #dudeAfraidOf#"],
-    "dudeChristmasLoves": ["loves","hates","loathes","despises","is all about"],
-    "dudeMightBe": ["Santa","an angel","Jesus","Santa's son","Krampus","immortal","a mall Santa","King Wenceslas",
+    "person2ChristmasWhos": ["afraid of #person2AfraidOf#"],
+    "person2ChristmasLoves": ["loves","hates","loathes","despises","is all about"],
+    "person2MightBe": ["Santa","an angel","Jesus","Santa's son","Krampus","immortal","a mall Santa","King Wenceslas",
 		    "Blitzen","Prancer","Scrooge","St. Nick","Anthony Fauci"],
-    "dudeLacks": ["holiday spirit","holiday joy"],
-    "dudeChristmasWho": ["#dudeChristmasLoves# #dudeAfraidOf#","lacks #dudeLacks#","might be #dudeMightBe#"],
-    "dudeWhosFrom": ["the North Pole","Heaven","#townName#","the Christmas committee"],
-    "dudeChristmasModifier": ["who's #dudeChristmasWhos#","who #dudeChristmasWho#","from #dudeWhosFrom#"],
+    "person2Lacks": ["holiday spirit","holiday joy"],
+    "person2ChristmasWho": ["#person2ChristmasLoves# #person2AfraidOf#","lacks #person2Lacks#","might be #person2MightBe#"],
+    "person2WhosFrom": ["the North Pole","Heaven","#townName#","the Christmas committee"],
+    "person2ChristmasModifier": ["who's #person2ChristmasWhos#","who #person2ChristmasWho#","from #person2WhosFrom#"],
 
-    "dudeDesc":["#dudeOccupation.a#","#dudeOccupationBare.a# #dudeModifier#","#dudeOccupationBare.a# #dudeChristmasModifier#"],
+    "person2Desc":["#person2Occupation.a#","#person2Job.a# #person2Modifier#","#person2Job.a# #person2ChristmasModifier#"],
 
     "dropsA": ["engine block","llama","cadaver","sleigh"],
 
     "spills": ["tea","coffee","oil","brake fluid","lighter fluid","acetone","blood","molasses","ball bearings","cocoa",
 	       "cider","soup","salt","sugar","nutmeg","cloves","cat litter","tree ornaments","vinegar","tar"],
     
-    "dudeAccidentally":["breaks #hersName2# arm",
+    "person2Accidentally":["breaks #hersName2# arm",
 			"hits #hersName2# car",
 			"loses #hersName2# phone",
 			"erases #hersName2# laptop",
@@ -638,23 +639,23 @@
 			"airbrushes #herName2#",
 			"spills #spills# on #herName2#",
 			"rear ends #herName2#"],
-    "dudeHelpsGrow": ["poinsettias","corn","weed","wiser","stronger","taller"],
-    "dudeHelps":["fix #hersName2# car","write a song","hack into a bank","score some weed","hunt a turkey","upgrade #hersName2# phone",
-		 "dye #hersName2# hair","get a car loan","grow #dudeHelpsGrow#","find a long-lost friend","write fic",
+    "person2HelpsGrow": ["poinsettias","corn","weed","wiser","stronger","taller"],
+    "person2Helps":["fix #hersName2# car","write a song","hack into a bank","score some weed","hunt a turkey","upgrade #hersName2# phone",
+		 "dye #hersName2# hair","get a car loan","grow #person2HelpsGrow#","find a long-lost friend","write fic",
 		 "change #hersName2# baby","lose #hersName2# big city accent","sell #hersName2# baby"],
     "callsHerVerb":["calls #herName#","insists on calling #herName#"],
-    "dudeCallsHer":["Jenny","Dudette","Petunia","Steak","7-162","Vinny","Burrito","Number Two"],
+    "person2CallsHer":["Jenny","Dudette","Petunia","Steak","7-162","Vinny","Burrito","Number Two"],
     "enchanted":["lawnmower","rolling pin","comb","CPAP","toothbrush","candy cane"],
-    "dudeLends":["truck","typewriter","mixer","jackhammer","laptop","children","book of spells",
+    "person2Lends":["truck","typewriter","mixer","jackhammer","laptop","children","book of spells",
 		 "spleen","underwear","sewing machine","guitar","magic crystal","legal expertise",
 		 "foot","binoculars","reindeer","snow machine","wig collection","enchanted #enchanted#",
 		 "chainsaw","scythe","cousin","bulldozer","#organ#"],
-    "dudeGives":["a ride","#hisName# debit card","a dead body to dispose of","a magic ring","a manicure","a pedicure"],
-    "dudeMemories":["comes back into #hersName# life","reminds #herName# of someone","brings back memories for #herName#","opens old wounds for #herName#"],
-    "dudeQuestion":["makes #herName rethink everything","makes #herName# question #hersName# choices"],
-    "dudeAnnoys":["follows #herName# everywhere","gets on #hersName# nerves","annoys #herName# to no end"],
+    "person2Gives":["a ride","#hisName# debit card","a dead body to dispose of","a magic ring","a manicure","a pedicure"],
+    "person2Memories":["comes back into #hersName# life","reminds #herName# of someone","brings back memories for #herName#","opens old wounds for #herName#"],
+    "person2Question":["makes #herName rethink everything","makes #herName# question #hersName# choices"],
+    "person2Annoys":["follows #herName# everywhere","gets on #hersName# nerves","annoys #herName# to no end"],
     "showsHer":["sexy forearms","bullet wound","sensitive side","birthmark","tractor","power tools","plumbing leak","scrapbook"],
-    "showsHerHeCanBe": ["#dudeAdj#"],
+    "showsHerHeCanBe": ["#person2Adj#"],
     
     "triesToVerb":["buy","sell","renovate","demolish","take over","bankrupt"],
     "triesToObject":["#business#","#familys# #business#"],
@@ -681,7 +682,7 @@
 		     "rotate #hisName2# tires","kill #hisName2# #relative#","fake #hisName2# death","wrestle",
 		     "hypnotize #himName#"],
     "beHis": ["tour guide","nurse","driver","gardener","nuclear physicist","cellist",
-	      "ghost writer","bodyguard","assistant","date","DJ","#jobTitleBare#",
+	      "ghost writer","bodyguard","assistant","date","DJ","#person1Job#",
 	      "tutor","neurosurgeon","biochemist","electrical engineer","philosopher",
 	      "senator","biographer","#relative#","#animal#"],
     "hiresHer":["watch #hisName2# #watchHis#","train #hisName2# #watchHis#","clean #hisName2# #watchHis#",
@@ -692,8 +693,8 @@
 		"#hiresHerMisc#",
 		"be #hisName# #beHis#","subdue #hisName2# #subdueHis#"],
 
-    "thinksHes":["#dudeAdj#","#jobTitleModifier#"],
-    "thinksShes":["#dudeAdj#","#jobTitleModifier#","#fActorAlt#","too #dudeAdj#","too #jobTitleModifier#","#jobTitleBare.a#"],
+    "thinksHes":["#person2Adj#","#person1Adj#"],
+    "thinksShes":["#person2Adj#","#person1Adj#","#fActorAlt#","too #person2Adj#","too #person1Adj#","#person1Job.a#"],
 
     "makesHerDoubtHer": ["virginity","career choice","makeup","height","passion","hair","shoes","necklace",
 			 "#animal#","mental health","age"],
@@ -730,7 +731,7 @@
 
     "constant": ["laughing","beatboxing","burping","bench pressing","jumping","blinking","yodeling"],
     "doesntUnderstandHer": ["reasoning","grammar","motivations","clothing choices","innuendo","reproductive system",
-			    "perfume choices","psychic powers","constant #constant#","fear of #dudeAfraidOf#",
+			    "perfume choices","psychic powers","constant #constant#","fear of #person2AfraidOf#",
 			    "diet","Santa Conspiracy Wall","martial arts","#fetish# fetish","birthmark","tattoos",
 			    "piercings","hair","religion","typography","color palette","ring tone",
 			    "puns","mating call","social distancing"
@@ -782,15 +783,15 @@
 			  "IT support"
 			 ],
     
-    "dudeActionMisc": ["lends #herName# #hisName2# #dudeLends#",
-		       "#accidentallyAdverb# #dudeAccidentally#",
+    "person2ActionMisc": ["lends #herName# #hisName1# #person2Lends#",
+		       "#accidentallyAdverb# #person2Accidentally#",
 		       "#showsUpAtVerb# #hersName# #showsUpAtHer#","thinks #sheName#'s #thinksShes#",
-		       "makes #herName# #makesHer#","helps #herName# #dudeHelps#","tries to #triesTo#",
+		       "makes #herName# #makesHer#","helps #herName# #person2Helps#","tries to #triesTo#",
 		       "#hiresVerb# #herName# to #hiresHer#",
 		       "#judgesVerb# #hersName# #judgesHer#","doesn't #understandVerb# #doesntUnderstand#",
 		       "becomes #hersName# unexpected #becomesUnexpected#"],
 
-    "dudeAction":["#dudeActionMisc#"],
+    "person2Action":["#person2ActionMisc#"],
 
     "townAdj": ["small-town","charming","quaint","folksy","cozy","sleepy"],
     "namedTown":["in #townName#","in #townAdj# #townName#"],
@@ -1054,7 +1055,7 @@
 		   "Wilco","Saturnalia","cinnamon","Atlantis","Ovaltine","leg lamps","vore","Akron","arson",
 		   "Carol Channing","yoga","propane","Clarence Darrow"],
 
-    "helpClause": ["#jobTitleBare.a# find #hersName# #lost#","#dudeOccupationBare.a# find #hisName# #lost#"],
+    "helpClause": ["#person1Job.a# find #hersName# #lost#","#person2Job.a# find #hisName# #lost#"],
 
     "protest": ["wage disparity","avocados","cilantro","self-driving cars","halibut","monopolies","Big Dairy",
 		"first-person shooters","elf working conditions","commercialism","meat husks","taxes"],
@@ -1356,27 +1357,27 @@
 		    "#heName.capitalize# #heHerClause# and they fall in love."],
     "actionSentence":["#theySentence#"],
 
-    "meetsObject":["#dude##mActor#, #dudeDesc#","#dudeOccupationBare.a##mActor# #dudeModifier#","#dudeOccupation.a##mActor# #dudeModifier#"],
-    "meetsObjectBeginNamed":["#dude##mActor#, #dudeDesc#,"],
-    "meetsObjectBeginUnnamed":["#dudeOccupationBare.a##mActor# #dudeModifier#","#dudeOccupation.a##mActor# #dudeModifier#"],
+    "meetsObject":["#dude##mActor#, #person2Desc#","#person2Job.a##mActor# #person2Modifier#","#person2Occupation.a##mActor# #person2Modifier#"],
+    "meetsObjectBeginNamed":["#dude##mActor#, #person2Desc#,"],
+    "meetsObjectBeginUnnamed":["#person2Job.a##mActor# #person2Modifier#","#person2Occupation.a##mActor# #person2Modifier#"],
     "meetsObjectBegin":["#meetsObjectBeginNamed#","#meetsObjectBeginUnnamed#"],
 
-    "meetsObjectShort":["#dude##mActor#, #dudeOccupation.a#","#dudeOccupation.a##mActor#"],
-    "meetsObjectBeginNamedShort":["#dude##mActor#, #dudeOccupation.a#,"],
-    "meetsObjectBeginUnnamedShort":["#dudeOccupationBare.a##mActor#","#dudeOccupation.a##mActor#"],
+    "meetsObjectShort":["#dude##mActor#, #person2Occupation.a#","#person2Occupation.a##mActor#"],
+    "meetsObjectBeginNamedShort":["#dude##mActor#, #person2Occupation.a#,"],
+    "meetsObjectBeginUnnamedShort":["#person2Job.a##mActor#","#person2Occupation.a##mActor#"],
     "meetsObjectBeginShort": ["#meetsObjectBeginNamedShort#","#meetsObjectBeginUnnamedShort#"],
     
 
     "protagonistIntroBegin":["#jobTitle.a.capitalize# from #bigCity##fActor#",
-			     "#jobTitleModifier.capitalize# #bigCity# #jobTitleBare# #firstName##fActor#"],
+			     "#person1Adj.capitalize# #bigCity# #person1Job# #firstName##fActor#"],
     "protagonistIntroMid":["#firstName##fActor#, #jobTitle.a# from #bigCity#,",
 			   "#jobTitle.a# from #bigCity##fActor#",
-			   "#jobTitleModifier# #jobTitleBare# #firstName##fActor#",
-			   "#jobTitleModifier.a# #bigCity# #jobTitleBare##fActor#"],
+			   "#person1Adj# #person1Job# #firstName##fActor#",
+			   "#person1Adj.a# #bigCity# #person1Job##fActor#"],
     "endsUp":["ends up","winds up","finds herself","turns up","wakes up","gets stranded"],
     "afterWhen":["after #triggeringEvent#",
-		 "after #sheName# #whenShe#",
-		 "after #hersName# bestie #whenShe#"
+		 "after #sheName# #whenPerson1#",
+		 "after #hersName# bestie #whenPerson1#"
 		],
 
     "leadsEventMisc": ["A job assignment"],
@@ -1483,7 +1484,7 @@
 			  "#sheThinksSheIs#"
 			 ],
 
-    "inTownProtagonist": ["#firstName#","#jobTitleModifier# #firstName#"],
+    "inTownProtagonist": ["#firstName#","#person1Adj# #firstName#"],
     "inTownProtagonistShort": ["#firstName#"],
 
     "approaching": ["approaching","coming","near","fast approaching","almost here"],
@@ -1544,7 +1545,7 @@
     
     "endsUpInTownSetup":["#protagonistIntroBegin# #endsUp# #town# #afterWhen#",
 			 "#afterWhen.capitalize#, #protagonistIntroMid# #endsUp# #town#",
-			 "#protagonistIntroBegin# #whenShe# and #endsUp# #town#",
+			 "#protagonistIntroBegin# #whenPerson1# and #endsUp# #town#",
 			 "#leadsEvent# leads #protagonistIntroMid# to #leadsToTown#",
 			 "#protagonistIntroBegin# returns #protagonistReturns# to #returnsPurpose#"],
     "endsUpInTownSetupShort":["#protagonistIntroBegin# #endsUp# #town#"],
@@ -1566,9 +1567,9 @@
     "smallTownSetupShort":["#endsUpInTownSetupShort#","#alreadyInTownSetupShort#"],
 
     
-    "dudeActionSentence":["#meetsObjectBegin.capitalize# #dudeAction#","#meetsObjectBeginUnnamed.capitalize# #dudeAction#"],
+    "person2ActionSentence":["#meetsObjectBegin.capitalize# #person2Action#","#meetsObjectBeginUnnamed.capitalize# #person2Action#"],
 
-    "dudeActionSentenceShort":["#meetsObjectBegin.capitalize# #dudeAction#","#meetsObjectBeginUnnamed.capitalize# #dudeAction#"],
+    "person2ActionSentenceShort":["#meetsObjectBegin.capitalize# #person2Action#","#meetsObjectBeginUnnamed.capitalize# #person2Action#"],
 
     "sheActionMisc": ["stalks","serenades","patronizes","sabotages","dehydrates","searches for","sedates",
 		      "can read the thoughts of","anesthetizes","robs","locates","abducts","finds","wrestles",
@@ -1596,9 +1597,9 @@
     "sheActionSentenceShort": ["#sheName.capitalize# #sheActionClause# #meetsObjectShort#"],
 
 
-    "smallTownMeetSentence":["#sheActionSentence#","#dudeActionSentence#"],
+    "smallTownMeetSentence":["#sheActionSentence#","#person2ActionSentence#"],
 
-    "chooseMeetsObjectShort":["#dude# (#maleActor#), #dudeOccupation.a#","#dudeOccupation.a# (#maleActor#)"],
+    "chooseMeetsObjectShort":["#dude# (#maleActor#), #person2Occupation.a#","#person2Occupation.a# (#maleActor#)"],
     "chooseBetween": ["#chooseMeetsObjectShort#","#hersName2# #lost#",
 		      "the family #business#",
 		      "#hersName2# #fetish# fetish",
@@ -1642,13 +1643,13 @@
 			  "taking #decideObjectLiving# #takesHim#"],
     "decideFirstOption": ["#decideBetweenVerb# him",
 			  "taking him #takesHim#",
-			  "#decideBetweenVerb# #hisName# #dudeWithA#",
+			  "#decideBetweenVerb# #hisName# #person2WithA#",
 			  "giving him #givesHim#"],
     "decideBetween": ["#decideFirstOption# and #decideOtherOption#"],
 
     "chooseFirstOption": ["#chooseBetweenVerb# him",
 			  "take him #takesHim#",
-			  "#chooseBetweenVerb# #hisName# #dudeWithA#"],
+			  "#chooseBetweenVerb# #hisName# #person2WithA#"],
     "chooseOtherOption": ["#chooseBetweenVerb# #hersName# #decideHerObject#",
 			  "#chooseBetweenVerb# #decideObject#",
 			  "take #decideObjectLiving# #takesHim#"],
@@ -1681,7 +1682,7 @@
 			  "a pirate","antimatter","dark energy","a supernova",
 			  "one with the universe","a witch","a reality TV star",
 			  "a vampire"],
-    "willSheBecome":["#jobTitleBare.a#",
+    "willSheBecome":["#person1Job.a#",
 		     "#willSheBecomeMisc#"],
 
     "breakHis": [
@@ -1720,7 +1721,7 @@
 		  "find #hersName2# #findHer#",
 		  "rediscover #rediscover#",
 		  "break #hisName# #breakHis#",
-		  "accept #hersName2# #jobTitleBare# job offer",
+		  "accept #hersName2# #person1Job# job offer",
 		  "embrace #embrace#",
 		  "become #becomeLGBTQ#"
 		 ],
@@ -1783,18 +1784,18 @@
 				  
     "smallTownPlot":["#smallTownSetup#. #sheActionSentence#. #sheHeActionSentence#",
 		     "#smallTownSetup#. #sheActionSentence#. #theyActionSentence#",
-		     "#smallTownSetup#. #dudeActionSentence#. #heSheActionSentence#",
-		     "#smallTownSetup#. #dudeActionSentence#. #theyActionSentence#",
-		     "#smallTownNoLoveSetup#. #dudeActionSentence#. #sheNoLoveSentence#",
-		     "#smallTownSetup#. #dudeActionSentence#. #willTheySentence#",
+		     "#smallTownSetup#. #person2ActionSentence#. #heSheActionSentence#",
+		     "#smallTownSetup#. #person2ActionSentence#. #theyActionSentence#",
+		     "#smallTownNoLoveSetup#. #person2ActionSentence#. #sheNoLoveSentence#",
+		     "#smallTownSetup#. #person2ActionSentence#. #willTheySentence#",
 		     "#doesntExpectManSetup#. #unexpectedManSentence#. #unexpectedActionSentence#"],
 
     "longActionSentence": ["They #longActionClause# and fall in love.",
 			  "To #longActionSaveObjectBegin#, they #longActionSaveActivity# and fall in love."],
     "smallTownPlotLongAction": ["#smallTownSetupShort#. #sheActionSentence#. #longActionSentence#",
-				"#smallTownSetupShort#. #dudeActionSentence#. #longActionSentence#",
+				"#smallTownSetupShort#. #person2ActionSentence#. #longActionSentence#",
 				"#smallTownSetup#. #sheActionSentenceShort#. #longActionSentence#",
-				"#smallTownSetup#. #dudeActionSentenceShort#. #longActionSentence#"],
+				"#smallTownSetup#. #person2ActionSentenceShort#. #longActionSentence#"],
 
     "pairPlotActionSentence": ["#sheHeActionSentence#",
 			       "#heSheActionSentence#",
@@ -1831,10 +1832,10 @@
 		"#crashInto#"
 	       ],
     "fallOns": ["#animal.s#",
-		"#jobTitleBare.s#",
+		"#person1Job.s#",
 		"#relative.s#",
 		"dead #animal.s#",
-		"dead #jobTitleBare.s#",
+		"dead #person1Job.s#",
 		"dead #relative.s#"
 	       ],
     "travelingWhen": ["a storm hits",
@@ -1950,11 +1951,11 @@
 			"Tempers flare up"
 		       ],
 
-    "sparksFly": ["#sparksFlyPhrase# between #jobTitleBare# #femaleNameActor# and rival #maleNameActor# when they #rivalPremise#",
-		  "#sparksFlyPhrase# between #rival# #jobTitleBare.s# #characterNameIntros# when they #rivalPremise#",
-		  "#sparksFlyPhrase# between #jobTitleBare# #femaleNameActor# and #dudeAdj# rival #maleNameActor# when they #rivalPremise#"
+    "sparksFly": ["#sparksFlyPhrase# between #person1Job# #femaleNameActor# and rival #maleNameActor# when they #rivalPremise#",
+		  "#sparksFlyPhrase# between #rival# #person1Job.s# #characterNameIntros# when they #rivalPremise#",
+		  "#sparksFlyPhrase# between #person1Job# #femaleNameActor# and #person2Adj# rival #maleNameActor# when they #rivalPremise#"
 		 ],
-    "pairPlotRivals": ["#rival.capitalize# #jobTitleBare.s# #characterNameIntros# #rivalPremise#",
+    "pairPlotRivals": ["#rival.capitalize# #person1Job.s# #characterNameIntros# #rivalPremise#",
 		       "#sparksFly#"
 		      ],
     "pairPlotFormer": ["Former #former# #characterNameIntros# #formerPremise#"],
@@ -2245,7 +2246,7 @@
 		      "to avoid #pretendToAvoid#"],
     "pretendToBe": ["dating",
 		    "married",
-		    "#jobTitleBare.s#",
+		    "#person1Job.s#",
 		    "engaged",
 		    "virgins",
 		    "cousins",
@@ -2389,7 +2390,7 @@
 		     "They try to avoid each other but end up #avoidEndUp#",
 		     "Their attempts to #pairAvoidVerb# each other are thwarted by #thwartedBy#",
 		     "They soon discover they share a love of #bothLove#",
-		     "He's #dudeCuteAdj# but #dudeCuteBut#"
+		     "He's #person2CuteAdj# but #person2CuteBut#"
 		    ],
     
     "pairPlot": ["#pairPlotSetup#. #pairPlotGoal#. #pairPlotActionSentence#"],
@@ -2402,10 +2403,10 @@
     
     "timeTravelPlot": ["#sheActionSentence#. #sheHeActionSentence# #timeTravelSetup#.",
 		     "#sheActionSentence#. #theyActionSentence# #timeTravelSetup#.",
-		     "#dudeActionSentence#. #heSheActionSentence# #timeTravelSetup#.",
-		     "#dudeActionSentence#. #theyActionSentence# #timeTravelSetup#.",
-		     "#dudeActionSentence#. #sheNoLoveSentence# #timeTravelSetup#.",
-		     "#dudeActionSentence#. #willTheySentence# #timeTravelSetup#."],
+		     "#person2ActionSentence#. #heSheActionSentence# #timeTravelSetup#.",
+		     "#person2ActionSentence#. #theyActionSentence# #timeTravelSetup#.",
+		     "#person2ActionSentence#. #sheNoLoveSentence# #timeTravelSetup#.",
+		     "#person2ActionSentence#. #willTheySentence# #timeTravelSetup#."],
 
     "lastChristmas": ["#protagonistIntroBegin# gets Last Christmas stuck in #hersName# head. Last Christmas I gave you my heart, but the very next day you gave it away. This year, to save me from tears, I'll give it to someone special."],
 
@@ -2414,8 +2415,8 @@
     
     "absurdistPlot": ["#lastChristmas#","#herselfPlot#"],
 
-    "aloneUntil": ["accidentally #dudeAccidentally#",
-		   "lends #herName# #hisName2# #dudeLends#",
+    "aloneUntil": ["accidentally #person2Accidentally#",
+		   "lends #herName# #hisName2# #person2Lends#",
 		   "#hiresVerb# #herName# to #hiresHer#",
 		   "becomes #hersName2# unexpected #becomesUnexpected#"
 		  ],
@@ -2457,11 +2458,11 @@
 
     "singleMomRegularTwoThree": ["#sheActionSentence#. #sheHeActionSentence#",
 				 "#sheActionSentence#. #theyActionSentence#",
-				 "#dudeActionSentence#. #heSheActionSentence#",
-				 "#dudeActionSentence#. #theyActionSentence#"
+				 "#person2ActionSentence#. #heSheActionSentence#",
+				 "#person2ActionSentence#. #theyActionSentence#"
 
 				],
-    "singleMomSetupNoMale": ["#jobTitle.capitalize# #femaleNameActor# #facesAlone# until #sheName# #whenShe#"],
+    "singleMomSetupNoMale": ["#jobTitle.capitalize# #femaleNameActor# #facesAlone# until #sheName# #whenPerson1#"],
 
     "singleMomPlot": ["#singleMomPlotSetup#. #singleMomPlotGoal#. #singleMomPlotActionSentence#"
 		     ],
@@ -2550,7 +2551,7 @@
     "alwaysWantedSetup": ["#jobTitle.capitalize# #femaleNameActor# #alwaysWanted# #alwaysWantedObject#"],
 
     "alwaysWantedPlot": ["#alwaysWantedSetup#. #sheActionSentence#. #longActionSentence#",
-			 "#alwaysWantedSetup#. #dudeActionSentence#. #longActionSentence#"
+			 "#alwaysWantedSetup#. #person2ActionSentence#. #longActionSentence#"
 			],
 
 
@@ -2654,7 +2655,7 @@
 		     "is libertarian",
 		     "gyrates",
 		     "is on the paleo diet",
-		     "worships #dudeWorships.s#",
+		     "worships #person2Worships.s#",
 		     "is Santa",
 		     "levitates",
 		     "has #disease#",
@@ -2688,7 +2689,7 @@
 			    "#mayorAdj.a# mayor"],
 
 
-    "mayorAdj": ["#dudeAdj#","#jobTitleModifier#"],
+    "mayorAdj": ["#person2Adj#","#person1Adj#"],
     "townAuraAdj": ["Icelandic",
 		    "ominous",
 		    "Christmassy",
@@ -2765,8 +2766,8 @@
 			    "nothing is #townNothingIs#",
 			    "no one #townNoOne#",
 			    "everyone #townEveryone#"],
-    "accidentalGoalWhose": ["mayor is also #dudeOccupationBare.a#",
-			    "mayor is also #dudeOccupationBare.a# and #dudeOccupationBare.a#"
+    "accidentalGoalWhose": ["mayor is also #person2Job.a#",
+			    "mayor is also #person2Job.a# and #person2Job.a#"
 			   ],
 
     "famousAdj": ["famous","known"],
@@ -2780,7 +2781,7 @@
     "accidentalPlot": ["#accidentalPlotSetup#. #accidentalPlotGoal#. #actionSentence#"],
 
 
-    "dudeCuteAdj": ["sexy",
+    "person2CuteAdj": ["sexy",
 		    "hot",
 		    "cute",
 		    "handsome",
@@ -2899,7 +2900,7 @@
 		 "#phobia#"
 		],
     
-    "dudeCuteButHe": ["#heName# chews tobacco",
+    "person2CuteButHe": ["#heName# chews tobacco",
 		      "#heName#'s a #zodiac#",
 		      "#heName# lives in #hisName# mother's basement",
 		      "#heName# won't stop talking about #shutUpAbout#",
@@ -2917,18 +2918,18 @@
     "doesntLikeHis": ["#animal#",
 		      "#relative#",
 		      "#organ#",
-		      "#dudeWithA#"
+		      "#person2WithA#"
 		     ],
 
     "sheFindsHim": ["#findsHimIncreasingly#"],
     
-    "dudeCuteButShe": ["#sheName# doesn't like #hisName# #doesntLikeHis#",
+    "person2CuteButShe": ["#sheName# doesn't like #hisName# #doesntLikeHis#",
 		       "#sheName# finds #himName# #sheFindsHim#"
 		      ],
     
 
-    "dudeCuteBut": ["#dudeCuteButHe#",
-		    "#dudeCuteButShe#"
+    "person2CuteBut": ["#person2CuteButHe#",
+		    "#person2CuteButShe#"
 		   ],
 
     
@@ -2981,9 +2982,9 @@
     "timeReversePlotActionLong": ["#femaleNameActor# thought #sheName# loved #maleNameActor# but the more #heName# #sheReverseSoloAction# the more #findsHimIncreasingly# #heName# gets"
 			     ],
     
-    "timeReversePlotConclusion": ["#timeReverseMeet# leaves #himName# and the town for #jobTitleBare.a# dream job in #bigCity#."],
+    "timeReversePlotConclusion": ["#timeReverseMeet# leaves #himName# and the town for #person1Job.a# dream job in #bigCity#."],
 
-    "timeReversePlotConclusionShort": ["She leaves him and the town for #jobTitleBare.a# dream job in #bigCity#."],
+    "timeReversePlotConclusionShort": ["She leaves him and the town for #person1Job.a# dream job in #bigCity#."],
 
 
     
