@@ -19,7 +19,7 @@
 		  "John Barrowman","Nathan Fillion","Neil Patrick Harris","Christian Slater","Jason Mewes","Michael C. Hall",
 		  "Keanu Reeves","Jackson Galaxy","Henry Rollins","Guy Fieri","Elon Musk","Adam Rippon","David Hasselhoff",
 		  "Gilbert Gottfried","Steve Guttenberg","Tom Hardy","Liam Neeson","Jean-Claude van Damme","Vin Diesel",
-		  "Jared Leto","Aaron Paul","Danny Trejo","Marilyn Manson","Mr. T","Gene Simmons","The Rock",
+		  "Jared Leto","Aaron Paul","Danny Trejo","Mr. T","Gene Simmons","The Rock",
 		  "Michael Ian Black","Mario Lopez","Steven Seagal","Justin Timberlake","Reggie Watts","David Boreanaz",
 		  "David Duchovny","Rainn Wilson","David Harbour","Joaquin Phoenix","Robert de Niro","Patrick Stewart",
 		  "Marc Maron","Chris Hemsworth","James Duval","Idris Elba","Morrissey","Glenn Danzig","Ted Danson",
@@ -161,14 +161,23 @@
 			 "candy cane company","ornament store","Christmas tree farm","poinsettia farm"],
     
     
-    "firstName":["Joy","Maggie","Brittany","Elizabeth","Eve","Ellie","Carol","Karen","Lisa","Laurel","Ruby",
+    "womanName":["Joy","Maggie","Brittany","Elizabeth","Eve","Ellie","Carol","Karen","Lisa","Laurel","Ruby",
 		 "Kate","Emma","Sarah","Noelle","Hope","Holly","Rebecca","Darcy","Harmony","Elise","Hannah",
 		 "Alice","Beth","Belle","Sydney","Maddie","Madison","Cara","Kara","Claire","Zoey","Taylor",
 		 "Elle","Gretchen","Samantha","Lacey","Whitney","Allison","Emily","Belinda","Peppermint",
 		 "Miracle","Aria","Jessica","Margot","Anna","Jess","Megan","Vivienne","Sam","Erin",
 		 "Avery","Michelle","Kayleigh","Lina","Lila","Christina","Charity"],
-    "firstName2": ["#firstName#"],
+    "womanName2": ["#womanName#"],
 
+    "manName":["Brad","Chad","Travis","Joe","Kevin","Tanner","Connor","Jack","Scott","Jake","Cole","Garrett",
+	    "Jacob","Brett","Dylan","Chris","Noel","Luke","Sean","Devin","Mark","Michael","Thor","Carter","Gage",
+	    "Heath","Alec","Max","Blake","Brant","Brian","Andrew","Derrick","Duke","Todd","Gabe","Jax","Ryder",
+	    "Aidan","Trey","Charlie","Dustin","Logan","Jackson","Lucas","Gavin","Mike","Brandon",
+	    "Noah","William","Roman","Elliot","Nate"],
+    "manName2": ["#manName#"],
+
+    "personName": ["#womanName#","#manName#"],
+ 
     "conservationist": ["elephant","emu","turtle","platypus","tiger","walrus","fish","soil","tree","flower","otter","moose"],
     "expert": ["cybersecurity","makeup","sex","cheese","wine","beer","hummus","solar power","furniture",
 	       "#animal#","knife","balloon","#fixOutbreak#","diaper","fertilizer","positron","butter",
@@ -202,13 +211,7 @@
 			"workaholic","career-driven","antifa","world-renowned"],
     "jobTitle":["#person1Job#","#person1Adj# #person1Job#","#christmasCompany# #bossPosition#"],
     
-    "dude":["Brad","Chad","Travis","Joe","Kevin","Tanner","Connor","Jack","Scott","Jake","Cole","Garrett",
-	    "Jacob","Brett","Dylan","Chris","Noel","Luke","Sean","Devin","Mark","Michael","Thor","Carter","Gage",
-	    "Heath","Alec","Max","Blake","Brant","Brian","Andrew","Derrick","Duke","Todd","Gabe","Jax","Ryder",
-	    "Aidan","Trey","Charlie","Dustin","Logan","Jackson","Lucas","Gavin","Mike","Brandon",
-	    "Noah","William","Roman","Elliot","Nate"],
-    "dude2": ["#dude#"],
-    "person2Adj":["cranky","neat freak","narcoleptic","immature","free-spirited","passionate","incontinent",
+   "person2Adj":["cranky","neat freak","narcoleptic","immature","free-spirited","passionate","incontinent",
 	       "sexy","dreamy","rich","hairy","hairless","cocky","Buddhist","gluten-free","tall","brooding",
 	       "creepy","bumbling","smarmy","local","lonely","square-jawed","manic","moody",
 	       "unreliable","libertarian","forgetful","incorrigible","jolly","privileged","loquacious",
@@ -479,7 +482,7 @@
     "person2LooksLike":["Elvis","a potato","Jesus","Santa","Spongebob","Darth Vader",
 		     "#hersName# father","#hersName# brother","a serial killer","a foot",
 		     "a squirrel","a butt plug","#heName#'s seen some shit","Abraham Lincoln",
-		     "#heName# should be named #dude#","Mothra","Winston Churchill","#heName# could bench a lot","a child",
+		     "#heName# should be named #manName#","Mothra","Winston Churchill","#heName# could bench a lot","a child",
 		     "an elf","#maleActor#","Krampus","Baby Yoda"],
 
     "person2Collects":["meat","pudding","razors","tires","Christmas sweaters","disco","video games","navel fluff",
@@ -694,7 +697,7 @@
 		"be #hisName# #beHis#","subdue #hisName2# #subdueHis#"],
 
     "thinksHes":["#person2Adj#","#person1Adj#"],
-    "thinksShes":["#person2Adj#","#person1Adj#","#fActorAlt#","too #person2Adj#","too #person1Adj#","#person1Job.a#"],
+    "thinksShes":["#person2Adj#","#person1Adj#","#person1ActorAlt#","too #person2Adj#","too #person1Adj#","#person1Job.a#"],
 
     "makesHerDoubtHer": ["virginity","career choice","makeup","height","passion","hair","shoes","necklace",
 			 "#animal#","mental health","age"],
@@ -783,7 +786,7 @@
 			  "IT support"
 			 ],
     
-    "person2ActionMisc": ["lends #herName# #hisName1# #person2Lends#",
+    "person2ActionMisc": ["lends #herName# #hisName2# #person2Lends#",
 		       "#accidentallyAdverb# #person2Accidentally#",
 		       "#showsUpAtVerb# #hersName# #showsUpAtHer#","thinks #sheName#'s #thinksShes#",
 		       "makes #herName# #makesHer#","helps #herName# #person2Helps#","tries to #triesTo#",
@@ -1341,10 +1344,10 @@
     "rebuildVerb": ["rebuild","restore"],
     
     "helpsHer": ["find #hersName2# #findHer#","#rebuildVerb# #hersName2# #rebuild#"],
-    "heHerClause": ["helps #firstName# #helpsHer# #forChristmas#",
-		    "gives #firstName# #givesHer# for Christmas",
-		    "takes #firstName# #takesHer# for Christmas",
-		    "builds #firstName# #build.a# for Christmas"],
+    "heHerClause": ["helps #person1Name# #helpsHer# #forChristmas#",
+		    "gives #person1Name# #givesHer# for Christmas",
+		    "takes #person1Name# #takesHer# for Christmas",
+		    "builds #person1Name# #build.a# for Christmas"],
 
 
     "disarm": ["bomb","nuclear weapon"],
@@ -1357,23 +1360,23 @@
 		    "#heName.capitalize# #heHerClause# and they fall in love."],
     "actionSentence":["#theySentence#"],
 
-    "meetsObject":["#dude##mActor#, #person2Desc#","#person2Job.a##mActor# #person2Modifier#","#person2Occupation.a##mActor# #person2Modifier#"],
-    "meetsObjectBeginNamed":["#dude##mActor#, #person2Desc#,"],
-    "meetsObjectBeginUnnamed":["#person2Job.a##mActor# #person2Modifier#","#person2Occupation.a##mActor# #person2Modifier#"],
+    "meetsObject":["#person2NameActor#, #person2Desc#","#person2Job.a##person2Actor# #person2Modifier#","#person2Occupation.a##person2Actor# #person2Modifier#"],
+    "meetsObjectBeginNamed":["#person2NameActor#, #person2Desc#,"],
+    "meetsObjectBeginUnnamed":["#person2Job.a##person2Actor# #person2Modifier#","#person2Occupation.a##person2Actor# #person2Modifier#"],
     "meetsObjectBegin":["#meetsObjectBeginNamed#","#meetsObjectBeginUnnamed#"],
 
-    "meetsObjectShort":["#dude##mActor#, #person2Occupation.a#","#person2Occupation.a##mActor#"],
-    "meetsObjectBeginNamedShort":["#dude##mActor#, #person2Occupation.a#,"],
-    "meetsObjectBeginUnnamedShort":["#person2Job.a##mActor#","#person2Occupation.a##mActor#"],
+    "meetsObjectShort":["#person2NameActor#, #person2Occupation.a#","#person2Occupation.a##person2Actor#"],
+    "meetsObjectBeginNamedShort":["#person2NameActor#, #person2Occupation.a#,"],
+    "meetsObjectBeginUnnamedShort":["#person2Job.a##person2Actor#","#person2Occupation.a##person2Actor#"],
     "meetsObjectBeginShort": ["#meetsObjectBeginNamedShort#","#meetsObjectBeginUnnamedShort#"],
     
 
-    "protagonistIntroBegin":["#jobTitle.a.capitalize# from #bigCity##fActor#",
-			     "#person1Adj.capitalize# #bigCity# #person1Job# #firstName##fActor#"],
-    "protagonistIntroMid":["#firstName##fActor#, #jobTitle.a# from #bigCity#,",
-			   "#jobTitle.a# from #bigCity##fActor#",
-			   "#person1Adj# #person1Job# #firstName##fActor#",
-			   "#person1Adj.a# #bigCity# #person1Job##fActor#"],
+    "protagonistIntroBegin":["#jobTitle.a.capitalize# from #bigCity##person1Actor#",
+			     "#person1Adj.capitalize# #bigCity# #person1Job# #person1Name##person1Actor#"],
+    "protagonistIntroMid":["#person1Name##person1Actor#, #jobTitle.a# from #bigCity#,",
+			   "#jobTitle.a# from #bigCity##person1Actor#",
+			   "#person1Adj# #person1Job# #person1Name##person1Actor#",
+			   "#person1Adj.a# #bigCity# #person1Job##person1Actor#"],
     "endsUp":["ends up","winds up","finds herself","turns up","wakes up","gets stranded"],
     "afterWhen":["after #triggeringEvent#",
 		 "after #sheName# #whenPerson1#",
@@ -1484,8 +1487,8 @@
 			  "#sheThinksSheIs#"
 			 ],
 
-    "inTownProtagonist": ["#firstName#","#person1Adj# #firstName#"],
-    "inTownProtagonistShort": ["#firstName#"],
+    "inTownProtagonist": ["#person1Name#","#person1Adj# #person1Name#"],
+    "inTownProtagonistShort": ["#person1Name#"],
 
     "approaching": ["approaching","coming","near","fast approaching","almost here"],
 
@@ -1518,18 +1521,18 @@
     "inTownBusyGoal": ["is busy #butGoalBusy#","is too busy #butGoalBusy#"],
     "inTownButGoal": ["doesn't #butGoalDoesnt#","#inTownBusyGoal#","has only one thing on #hersName# mind: #oneThing#"],
 
-    "alreadyInTownSetup": ["It's #christmasTime# #namedOrUnnamedTown# and #inTownProtagonist##fActor# #alreadyInTownGoal#",
-			   "As Christmas approaches #namedOrUnnamedTown#, #inTownProtagonist##fActor# #alreadyInTownGoal#",
-			   "Christmas is #approaching# #namedOrUnnamedTown# and #inTownProtagonist##fActor# #alreadyInTownGoal#",
-			   "Christmas is #approaching# #namedOrUnnamedTown# but #inTownProtagonist##fActor# #inTownButGoal#",
-			   "#namedTown.capitalize#, Christmas is #approaching# and #inTownProtagonist##fActor# #alreadyInTownGoal#",
-			   "It's #christmasTime# #namedOrUnnamedTown# but #inTownProtagonist##fActor# #inTownButGoal#"],
-    "alreadyInTownSetupShort": ["It's #christmasTime# #namedOrUnnamedTown# and #inTownProtagonistShort##fActor# #alreadyInTownGoal#",
-				"As Christmas approaches #namedOrUnnamedTown#, #inTownProtagonistShort##fActor# #alreadyInTownGoal#",
-				"Christmas is #approaching# #namedOrUnnamedTown# and #inTownProtagonistShort##fActor# #alreadyInTownGoal#",
-				"Christmas is #approaching# #namedOrUnnamedTown# but #inTownProtagonistShort##fActor# #inTownButGoal#",
-				"#namedTown.capitalize#, Christmas is #approaching# and #inTownProtagonistShort##fActor# #alreadyInTownGoal#",
-				"It's #christmasTime# #namedOrUnnamedTown# but #inTownProtagonistShort##fActor# #inTownButGoal#"
+    "alreadyInTownSetup": ["It's #christmasTime# #namedOrUnnamedTown# and #inTownProtagonist##person1Actor# #alreadyInTownGoal#",
+			   "As Christmas approaches #namedOrUnnamedTown#, #inTownProtagonist##person1Actor# #alreadyInTownGoal#",
+			   "Christmas is #approaching# #namedOrUnnamedTown# and #inTownProtagonist##person1Actor# #alreadyInTownGoal#",
+			   "Christmas is #approaching# #namedOrUnnamedTown# but #inTownProtagonist##person1Actor# #inTownButGoal#",
+			   "#namedTown.capitalize#, Christmas is #approaching# and #inTownProtagonist##person1Actor# #alreadyInTownGoal#",
+			   "It's #christmasTime# #namedOrUnnamedTown# but #inTownProtagonist##person1Actor# #inTownButGoal#"],
+    "alreadyInTownSetupShort": ["It's #christmasTime# #namedOrUnnamedTown# and #inTownProtagonistShort##person1Actor# #alreadyInTownGoal#",
+				"As Christmas approaches #namedOrUnnamedTown#, #inTownProtagonistShort##person1Actor# #alreadyInTownGoal#",
+				"Christmas is #approaching# #namedOrUnnamedTown# and #inTownProtagonistShort##person1Actor# #alreadyInTownGoal#",
+				"Christmas is #approaching# #namedOrUnnamedTown# but #inTownProtagonistShort##person1Actor# #inTownButGoal#",
+				"#namedTown.capitalize#, Christmas is #approaching# and #inTownProtagonistShort##person1Actor# #alreadyInTownGoal#",
+				"It's #christmasTime# #namedOrUnnamedTown# but #inTownProtagonistShort##person1Actor# #inTownButGoal#"
 			       ],
 
     "protagonistReturns":["home","to #townName#","to #hersName# family's #business#"],
@@ -1560,7 +1563,7 @@
 		 "a black pit of despair","jail","time out","flagrante delicto","pants","over #hersName# head",
 		 "hot water","a tight spot"],
     "noTownClause": ["with a secret #withASecret#","in need of #inTownNeeds.a#","in #noTownIn#"],
-    "noTownSetup": ["#firstName##fActor# is #jobTitle.a# #noTownClause#"],
+    "noTownSetup": ["#person1Name##person1Actor# is #jobTitle.a# #noTownClause#"],
     
     "smallTownSetup":["#endsUpInTownSetup#","#alreadyInTownSetup#","#noTownSetup#"],
     "smallTownNoLoveSetup":["#endsUpInTownSetup#","#noTownSetup#"],
@@ -1599,7 +1602,7 @@
 
     "smallTownMeetSentence":["#sheActionSentence#","#person2ActionSentence#"],
 
-    "chooseMeetsObjectShort":["#dude# (#maleActor#), #person2Occupation.a#","#person2Occupation.a# (#maleActor#)"],
+    "chooseMeetsObjectShort":["#manName# (#maleActor#), #person2Occupation.a#","#person2Occupation.a# (#maleActor#)"],
     "chooseBetween": ["#chooseMeetsObjectShort#","#hersName2# #lost#",
 		      "the family #business#",
 		      "#hersName2# #fetish# fetish",
@@ -1658,8 +1661,8 @@
     "looming": ["looming","approaching","near"],
     "christmasNearIntro": ["With Christmas #looming#",
 			   "Christmas is #looming# and"],
-    "noLoveSentenceChoose": ["#christmasNearIntro# #firstName# must choose between #himName# and #chooseBetween#.",
-			     "Will #firstName# choose #himName# or #chooseBetween# for Christmas?"
+    "noLoveSentenceChoose": ["#christmasNearIntro# #person1Name# must choose between #himName# and #chooseBetween#.",
+			     "Will #person1Name# choose #himName# or #chooseBetween# for Christmas?"
 			     ],
     "sheNoLoveSentence": ["#noLoveSentenceChoose#"],
     
@@ -1766,10 +1769,10 @@
 		      "get in the way of",
 		      "interfere with #hersName#"
 		     ],
-    "doesntExpectManSetup": ["#jobTitle.capitalize# #femaleNameActor# doesn't let #doesntLet# #affectHerVerb# #affectHer#"],
+    "doesntExpectManSetup": ["#jobTitle.capitalize# #person1NameActor# doesn't let #doesntLet# #affectHerVerb# #affectHer#"],
     
 
-    "unexpectedManUntil": ["#maleNameActor# #aloneUntil#",
+    "unexpectedManUntil": ["#person2NameActor# #aloneUntil#",
 			   "#sheName# #meets# #meetsObject#"
 			  ],
 
@@ -1933,9 +1936,9 @@
 		],
     
     
-    "maleNameActor": ["#dude##mActor#"],
-    "femaleNameActor": ["#firstName##fActor#"],
-    "characterNameIntros": ["#femaleNameActor# and #maleNameActor#"],
+    "person1NameActor": ["#person1Name##person1Actor#"],
+    "person2NameActor": ["#person2Name##person2Actor#"],
+    "characterNameIntros": ["#person1NameActor# and #person2NameActor#"],
 
     "rival": ["rival","competing","enemy"],
     "rivalPremise": ["both end up #namedTown#",
@@ -1951,9 +1954,9 @@
 			"Tempers flare up"
 		       ],
 
-    "sparksFly": ["#sparksFlyPhrase# between #person1Job# #femaleNameActor# and rival #maleNameActor# when they #rivalPremise#",
+    "sparksFly": ["#sparksFlyPhrase# between #person1Job# #person1NameActor# and rival #person2NameActor# when they #rivalPremise#",
 		  "#sparksFlyPhrase# between #rival# #person1Job.s# #characterNameIntros# when they #rivalPremise#",
-		  "#sparksFlyPhrase# between #person1Job# #femaleNameActor# and #person2Adj# rival #maleNameActor# when they #rivalPremise#"
+		  "#sparksFlyPhrase# between #person1Job# #person1NameActor# and #person2Adj# rival #person2NameActor# when they #rivalPremise#"
 		 ],
     "pairPlotRivals": ["#rival.capitalize# #person1Job.s# #characterNameIntros# #rivalPremise#",
 		       "#sparksFly#"
@@ -2390,7 +2393,7 @@
 		     "They try to avoid each other but end up #avoidEndUp#",
 		     "Their attempts to #pairAvoidVerb# each other are thwarted by #thwartedBy#",
 		     "They soon discover they share a love of #bothLove#",
-		     "He's #person2CuteAdj# but #person2CuteBut#"
+		     "#person2Name.capitalize#'s #person2CuteAdj# but #person2CuteBut#"
 		    ],
     
     "pairPlot": ["#pairPlotSetup#. #pairPlotGoal#. #pairPlotActionSentence#"],
@@ -2452,7 +2455,7 @@
 		   "has sworn off #swornOff# for Christmas,"
 		  ],
     
-    "singleMomPlotSetup": ["#jobTitle.capitalize# #femaleNameActor# #facesAlone# until #maleNameActor# #aloneUntil#"],
+    "singleMomPlotSetup": ["#jobTitle.capitalize# #person1NameActor# #facesAlone# until #person2NameActor# #aloneUntil#"],
     "singleMomPlotGoal": ["#pairPlotGoal#"],
     "singleMomPlotActionSentence": ["#pairPlotActionSentence#"],
 
@@ -2462,7 +2465,7 @@
 				 "#person2ActionSentence#. #theyActionSentence#"
 
 				],
-    "singleMomSetupNoMale": ["#jobTitle.capitalize# #femaleNameActor# #facesAlone# until #sheName# #whenPerson1#"],
+    "singleMomSetupNoMale": ["#jobTitle.capitalize# #person1NameActor# #facesAlone# until #sheName# #whenPerson1#"],
 
     "singleMomPlot": ["#singleMomPlotSetup#. #singleMomPlotGoal#. #singleMomPlotActionSentence#"
 		     ],
@@ -2548,7 +2551,7 @@
 		     "longs for",
 		     "yearns for"
 		    ],
-    "alwaysWantedSetup": ["#jobTitle.capitalize# #femaleNameActor# #alwaysWanted# #alwaysWantedObject#"],
+    "alwaysWantedSetup": ["#jobTitle.capitalize# #person1NameActor# #alwaysWanted# #alwaysWantedObject#"],
 
     "alwaysWantedPlot": ["#alwaysWantedSetup#. #sheActionSentence#. #longActionSentence#",
 			 "#alwaysWantedSetup#. #person2ActionSentence#. #longActionSentence#"
@@ -2900,19 +2903,19 @@
 		 "#phobia#"
 		],
     
-    "person2CuteButHe": ["#heName# chews tobacco",
-		      "#heName#'s a #zodiac#",
-		      "#heName# lives in #hisName# mother's basement",
-		      "#heName# won't stop talking about #shutUpAbout#",
-		      "#heName# was convicted of #convictedOf#",
-		      "#heName# has #hisName2# own cult",
-		      "#hisName# middle name is Wayne",
-		      "#heName#'s a #truther# truther",
-		      "#heName# only speaks Klingon",
-		      "#heName# only dates Naruto fans",
-		      "#heName# has a spray tan addiction",
-		      "#heName#'s very religious",
-		      "#heName# has #butHeHas#"
+    "person2CuteButHe": ["#heName2# chews tobacco",
+		      "#heName2#'s a #zodiac#",
+		      "#heName2# lives in #hisName# mother's basement",
+		      "#heName2# won't stop talking about #shutUpAbout#",
+		      "#heName2# was convicted of #convictedOf#",
+		      "#heName2# has #hisName2# own cult",
+		      "#hisName2# middle name is Wayne",
+		      "#heName2#'s a #truther# truther",
+		      "#heName2# only speaks Klingon",
+		      "#heName2# only dates Naruto fans",
+		      "#heName2# has a spray tan addiction",
+		      "#heName2#'s very religious",
+		      "#heName2# has #butHeHas#"
 		     ],
 
     "doesntLikeHis": ["#animal#",
@@ -2923,8 +2926,8 @@
 
     "sheFindsHim": ["#findsHimIncreasingly#"],
     
-    "person2CuteButShe": ["#sheName# doesn't like #hisName# #doesntLikeHis#",
-		       "#sheName# finds #himName# #sheFindsHim#"
+    "person2CuteButShe": ["#sheName# doesn't like #hisName2# #doesntLikeHis#",
+		       "#sheName# finds #himName2# #sheFindsHim#"
 		      ],
     
 
@@ -2976,10 +2979,10 @@
 			"#sheName.capitalize# #sheReverseSoloAction# and"
 		       ],
     
-    "timeReversePlotAction": ["#femaleNameActor# is loving #maleNameActor# less and #heName# is getting increasingly #findsHimIncreasingly#",
-			      "#femaleNameActor# thought #sheName# loved #maleNameActor# but #heName# is getting increasingly #findsHimIncreasingly#"
+    "timeReversePlotAction": ["#person1NameActor# is loving #person2NameActor# less and #heName# is getting increasingly #findsHimIncreasingly#",
+			      "#person1NameActor# thought #sheName# loved #person2NameActor# but #heName# is getting increasingly #findsHimIncreasingly#"
 			     ],
-    "timeReversePlotActionLong": ["#femaleNameActor# thought #sheName# loved #maleNameActor# but the more #heName# #sheReverseSoloAction# the more #findsHimIncreasingly# #heName# gets"
+    "timeReversePlotActionLong": ["#person1NameActor# thought #sheName# loved #person2NameActor# but the more #heName# #sheReverseSoloAction# the more #findsHimIncreasingly# #heName# gets"
 			     ],
     
     "timeReversePlotConclusion": ["#timeReverseMeet# leaves #himName# and the town for #person1Job.a# dream job in #bigCity#."],
@@ -2994,18 +2997,18 @@
     
     "normalPlot":["#smallTownPlot#",
 		  "#smallTownPlotLongAction#",
-		  "#[sheName:#firstName#][herName:#firstName#][hersName:#firstName#'s][heName:#dude#][himName:#dude#][hisName:#dude#'s]pairPlot#",
-		  "#[sheName:#firstName#][herName:#firstName#][hersName:#firstName#'s][heName:#dude#][himName:#dude#][hisName:#dude#'s]pairPlotTravel#",
-		  "#[sheName:#firstName#][herName:#firstName#][hersName:#firstName#'s][heName:#dude#][himName:#dude#][hisName:#dude#'s]singleMomPlot#",
-		  "#[sheName:#firstName#][herName:#firstName#][hersName:#firstName#'s][heName:#dude#][himName:#dude#][hisName:#dude#'s]accidentalPlot#",
+		  "#[sheName:#person1Name#][herName:#person1Name#][hersName:#person1Name#'s][heName:#person2Name#][himName:#person2Name#][hisName:#person2Name#'s]pairPlot#",
+		  "#[sheName:#person1Name#][herName:#person1Name#][hersName:#person1Name#'s][heName:#person2Name#][himName:#person2Name#][hisName:#person2Name#'s]pairPlotTravel#",
+		  "#[sheName:#person1Name#][herName:#person1Name#][hersName:#person1Name#'s][heName:#person2Name#][himName:#person2Name#][hisName:#person2Name#'s]singleMomPlot#",
+		  "#[sheName:#person1Name#][herName:#person1Name#][hersName:#person1Name#'s][heName:#person2Name#][himName:#person2Name#][hisName:#person2Name#'s]accidentalPlot#",
 		  "#aloneUntilNoMalePlot#",
 		  "#alwaysWantedPlot#"
 		 ],
 
     "plotStart": ["#normalPlot#"],
     
-    "origin":["#[mActor: (#maleActor#)][fActor: (#femaleActor#)][firstName:#firstName#][dude:#dude#][heName:he][himName:him][hisName:his][sheName:she][herName:her][hersName:her][hisName2:his][himName2:him][hersName2:her][herName2:her][fActorAlt:#femaleActor#]plotStart#",
-	      "🏳️‍🌈🏗#[mActor: (#maleActor#)][fActor: (#maleActor#)][firstName:#dude#][dude:#dude2#][heName:he][himName:him][hisName:his][sheName:he][herName:him][hersName:his][hisName2:his][himName2:him][hersName2:his][herName2:him][fActorAlt:#maleActor#]plotStart#",
-	      "🏳️‍🌈🏗#[mActor: (#femaleActor#)][fActor: (#femaleActor#)][dude:#firstName#][firstName:#firstName2#][heName:she][himName:her][hisName:her][sheName:she][herName:her][hersName:her][hersName2:her][herName2:her][hisName2:her][himName2:her][fActorAlt:#femaleActor#]plotStart#"
+    "origin":["#[person2Actor: (#maleActor#)][person1Actor: (#femaleActor#)][person1Name:#womanName#][person2Name:#manName#][heName:he][himName:him][hisName:his][sheName:she][herName:her][hersName:her][heName2:he][hisName2:his][himName2:him][hersName2:her][herName2:her][person1ActorAlt:#femaleActor#]plotStart#",
+	      "🏳️‍🌈🏗#[person2Actor: (#maleActor#)][person1Actor: (#maleActor#)][person1Name:#manName#][person2Name:#manName#][heName:he][himName:him][hisName:his][sheName:he][herName:him][hersName:his][heName2:he][hisName2:his][himName2:him][hersName2:his][herName2:him][person1ActorAlt:#maleActor#]plotStart#",
+	      "🏳️‍🌈🏗#[person2Actor: (#femaleActor#)][person1Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#womanName#][heName:she][himName:her][hisName:her][sheName:she][herName:her][hersName:her][hersName2:her][herName2:her][heName2:she][hisName2:her][himName2:her][person1ActorAlt:#femaleActor#]plotStart#"
 	     ]
 }
