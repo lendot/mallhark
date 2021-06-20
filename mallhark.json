@@ -67,7 +67,8 @@
 
     "bigCity": ["New York","Chicago","Los Angeles","Boston","Philadelphia","San Francisco","Seattle","DC","Portland",
 		"San Diego","Big City","Brooklyn","Manhattan","Queens","Denver","Bed-Stuy","Pittsburgh","Cleveland",
-		"Vancouver","Toronto","Baltimore"],
+		"Vancouver","Toronto","Baltimore","Houston","Phoenix","Dallas","San Jose","Indianapolis","Las Vegas",
+    "Milwaukee","Fresno","Kansas City","Miami"],
 
     "townTree": ["Evergreen","Pine","Fir","Spruce","Maple"],
     "townBay": ["Nilson's","Hope","Yule"],
@@ -156,7 +157,7 @@
 
     "bodyPart": ["elbows","feet","nipples","neck","knees","nose","ears","navel"],
 
-    "bossPosition": ["CEO","president","executive","manager","PR manager"],
+    "bossPosition": ["CEO","president","executive","manager","PR manager","CTO"],
     "christmasCompany": ["bakery","toy store","toy company","greeting card company","ice rink","Santa Wonderland",
 			 "candy cane company","ornament store","Christmas tree farm","poinsettia farm"],
     
@@ -209,7 +210,7 @@
 			"obstreperous","high-profile","wistful","stubborn","career-focused","busy",
 			"independent","passive-aggressive","famous","award-winning","infamous",
 			"workaholic","career-driven","antifa","world-renowned"],
-    "jobTitle":["#person1Job#","#person1Adj# #person1Job#","#christmasCompany# #bossPosition#"],
+    "person1Desc":["#person1Job#","#person1Adj# #person1Job#","#christmasCompany# #bossPosition#"],
     
    "person2Adj":["cranky","neat freak","narcoleptic","immature","free-spirited","passionate","incontinent",
 	       "sexy","dreamy","rich","hairy","hairless","cocky","Buddhist","gluten-free","tall","brooding",
@@ -1089,7 +1090,9 @@
 		   "Here Comes Honey Boo Boo",
 		   "Jersey Shore",
 		   "American Gladiators",
-		   "Reading Rainbow"
+		   "Reading Rainbow",
+           "Dexter",
+           "Dr. Who"
 		  ],
 
     "build": [
@@ -1145,7 +1148,8 @@
 		"corn",
 		"the robot uprising",
 		"vore",
-		"Catholicism"
+		"Catholicism",
+        "kombucha"
 	       ],
 
     "embraceVerb": ["embrace",
@@ -1371,10 +1375,10 @@
     "meetsObjectBeginShort": ["#meetsObjectBeginNamedShort#","#meetsObjectBeginUnnamedShort#"],
     
 
-    "protagonistIntroBegin":["#jobTitle.a.capitalize# from #bigCity##person1Actor#",
+    "protagonistIntroBegin":["#person1Desc.a.capitalize# from #bigCity##person1Actor#",
 			     "#person1Adj.capitalize# #bigCity# #person1Job# #person1Name##person1Actor#"],
-    "protagonistIntroMid":["#person1Name##person1Actor#, #jobTitle.a# from #bigCity#,",
-			   "#jobTitle.a# from #bigCity##person1Actor#",
+    "protagonistIntroMid":["#person1Name##person1Actor#, #person1Desc.a# from #bigCity#,",
+			   "#person1Desc.a# from #bigCity##person1Actor#",
 			   "#person1Adj# #person1Job# #person1Name##person1Actor#",
 			   "#person1Adj.a# #bigCity# #person1Job##person1Actor#"],
     "endsUp":["ends up","winds up","finds herself","turns up","wakes up","gets stranded"],
@@ -1563,7 +1567,7 @@
 		 "a black pit of despair","jail","time out","flagrante delicto","pants","over #hersName# head",
 		 "hot water","a tight spot"],
     "noTownClause": ["with a secret #withASecret#","in need of #inTownNeeds.a#","in #noTownIn#"],
-    "noTownSetup": ["#person1Name##person1Actor# is #jobTitle.a# #noTownClause#"],
+    "noTownSetup": ["#person1Name##person1Actor# is #person1Desc.a# #noTownClause#"],
     
     "smallTownSetup":["#endsUpInTownSetup#","#alreadyInTownSetup#","#noTownSetup#"],
     "smallTownNoLoveSetup":["#endsUpInTownSetup#","#noTownSetup#"],
@@ -1769,7 +1773,7 @@
 		      "get in the way of",
 		      "interfere with #hersName#"
 		     ],
-    "doesntExpectManSetup": ["#jobTitle.capitalize# #person1NameActor# doesn't let #doesntLet# #affectHerVerb# #affectHer#"],
+    "doesntExpectManSetup": ["#person1Desc.capitalize# #person1NameActor# doesn't let #doesntLet# #affectHerVerb# #affectHer#"],
     
 
     "unexpectedManUntil": ["#person2NameActor# #aloneUntil#",
@@ -2455,7 +2459,7 @@
 		   "has sworn off #swornOff# for Christmas,"
 		  ],
     
-    "singleMomPlotSetup": ["#jobTitle.capitalize# #person1NameActor# #facesAlone# until #person2NameActor# #aloneUntil#"],
+    "singleMomPlotSetup": ["#person1Desc.capitalize# #person1NameActor# #facesAlone# until #person2NameActor# #aloneUntil#"],
     "singleMomPlotGoal": ["#pairPlotGoal#"],
     "singleMomPlotActionSentence": ["#pairPlotActionSentence#"],
 
@@ -2465,7 +2469,7 @@
 				 "#person2ActionSentence#. #theyActionSentence#"
 
 				],
-    "singleMomSetupNoMale": ["#jobTitle.capitalize# #person1NameActor# #facesAlone# until #sheName# #whenPerson1#"],
+    "singleMomSetupNoMale": ["#person1Desc.capitalize# #person1NameActor# #facesAlone# until #sheName# #whenPerson1#"],
 
     "singleMomPlot": ["#singleMomPlotSetup#. #singleMomPlotGoal#. #singleMomPlotActionSentence#"
 		     ],
@@ -2551,7 +2555,7 @@
 		     "longs for",
 		     "yearns for"
 		    ],
-    "alwaysWantedSetup": ["#jobTitle.capitalize# #person1NameActor# #alwaysWanted# #alwaysWantedObject#"],
+    "alwaysWantedSetup": ["#person1Desc.capitalize# #person1NameActor# #alwaysWanted# #alwaysWantedObject#"],
 
     "alwaysWantedPlot": ["#alwaysWantedSetup#. #sheActionSentence#. #longActionSentence#",
 			 "#alwaysWantedSetup#. #person2ActionSentence#. #longActionSentence#"
