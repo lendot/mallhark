@@ -281,7 +281,7 @@
     "become": ["#becomeAdj#","#becomeNoun.s#"],
     "becomeAdj":["old","sick","ripped","contagious","sticky","scabby","poor","rich","smart","stupid","wanted","Baptist",
 		 "evil","forgetful","freckled","blonde","famous","notorious","canonized","viral","stylish",
-		 "hairy","#makesHerAdj#"],
+		 "hairy","#makesPerson1Adj#"],
 
     "becomeNoun":["#person1Job#","#person2Job#"],
 
@@ -305,7 +305,7 @@
 
     "organ":["heart","liver","kidney","lung","bone marrow"],
 
-    "peopleTellHer":["#person1Possessive# therapist tells #person1Object#","#person1Possessive# best friend tells #person1Object#",
+    "peopleTellPerson1":["#person1Possessive# therapist tells #person1Object#","#person1Possessive# best friend tells #person1Object#",
 		     "#person1Possessive# mom tells #person1Object#",
 		     "#person1Possessive# boss tells #person1Object#",
 		     "spirits tell #person1Object#",
@@ -337,7 +337,7 @@
 		       "receiving a call from #letterSender#","being kidnapped by #kidnapper#",
 		       "drinking #drink.a#","losing #person1Possessive# #lost#","#person1Possessive# #getsIll# gets ill",
 		       "being visited by #visitor#","#person1Possessive# #relative# #dies#",
-		       "#peopleTellHer# #person1Subject# needs a break","#triggeringMisc1#","#triggeringMisc2#",
+		       "#peopleTellPerson1# #person1Subject# needs a break","#triggeringMisc1#","#triggeringMisc2#",
 		       "eating #food.a#","opening #opensAdj.a# #opensA#","leaving quarantine"],
 
     "drinkAdj": ["magical","curious","possessed","mysterious","ceremonial","cursed","enchanted"],
@@ -415,7 +415,7 @@
 		   "butler","mystical Fiero","goose","TV station"],
 
     "strange":["strange","mysterious","creepy","mystical","manipulative","suspicious"],
-    "ladyMan":["lady","woman","man","guy","gentleman","alien","child","apparition","#animal#","pastry","elf",
+    "strangeNoun":["lady","woman","man","guy","gentleman","alien","child","apparition","#animal#","pastry","elf",
 	       "proto-Santa","gingerbread man","reindeer","cookie","Christmas tree","advent calendar",
 	       "#adventModifier# advent calendar","snowman","nutcracker"],
     "strangePersonMeet":["coffee shop","craft store","toy store","dumpster","carousel","Santa bar","head shop",
@@ -433,8 +433,8 @@
 	       "inherits #inheritance.a#",
 	       "#whenPerson1Misc1#",
 	       "#whenPerson1Misc2#",
-	       "encounters a #strange# #ladyMan# in a #strangePersonMeet#",
-	       "encounters a #strange# #ladyMan#",
+	       "encounters a #strange# #strangeNoun# in a #strangePersonMeet#",
+	       "encounters a #strange# #strangeNoun#",
 	       "becomes #becomes#",
 	       "eats #food.a#",
 	       "opens #opensAdj.a# #opensA#"],
@@ -647,8 +647,6 @@
     "person2Helps":["fix #person1PossessivePronoun# car","write a song","hack into a bank","score some weed","hunt a turkey","upgrade #person1PossessivePronoun# phone",
 		 "dye #person1PossessivePronoun# hair","get a car loan","grow #person2HelpsGrow#","find a long-lost friend","write fic",
 		 "change #person1PossessivePronoun# baby","lose #person1PossessivePronoun# big city accent","sell #person1PossessivePronoun# baby"],
-    "callsHerVerb":["calls #person1Object#","insists on calling #person1Object#"],
-    "person2CallsHer":["Jenny","Dudette","Petunia","Steak","7-162","Vinny","Burrito","Number Two"],
     "enchanted":["lawnmower","rolling pin","comb","CPAP","toothbrush","candy cane"],
     "person2Lends":["truck","typewriter","mixer","jackhammer","laptop","children","book of spells",
 		 "spleen","underwear","sewing machine","guitar","magic crystal","legal expertise",
@@ -658,8 +656,6 @@
     "person2Memories":["comes back into #person1Possessive# life","reminds #person1Object# of someone","brings back memories for #person1Object#","opens old wounds for #person1Object#"],
     "person2Question":["makes #person1Object# rethink everything","makes #person1Object# question #person1Possessive# choices"],
     "person2Annoys":["follows #person1Object# everywhere","gets on #person1Possessive# nerves","annoys #person1Object# to no end"],
-    "showsHer":["sexy forearms","bullet wound","sensitive side","birthmark","tractor","power tools","plumbing leak","scrapbook"],
-    "showsHerHeCanBe": ["#person2Adj#"],
     
     "triesToVerb":["buy","sell","renovate","demolish","take over","bankrupt"],
     "triesToObject":["#business#","#familys# #business#"],
@@ -679,35 +675,35 @@
     "cleanHisMisc": ["ducts","bathroom","kitchen","chicken coop","carpets","barn"],
     "cleanHis": ["#watchHis#","#cleanHisMisc#"],
 
-    "subdueHis": ["#relative#","#animal#"],
+    "subdueTheir": ["#relative#","#animal#"],
     
     "hiresVerb": ["hires","persuades","convinces","begs"],
-    "hiresHerMisc": ["floss #person2PossessivePronoun# teeth","do #person2PossessivePronoun# taxes","play #person2PossessivePronoun# wife","juggle","whistle",
+    "hiresPerson1Misc": ["floss #person2PossessivePronoun# teeth","do #person2PossessivePronoun# taxes","play #person2PossessivePronoun# wife","juggle","whistle",
 		     "rotate #person2PossessivePronoun# tires","kill #person2PossessivePronoun# #relative#","fake #person2PossessivePronoun# death","wrestle",
 		     "hypnotize #person2Object#"],
-    "beHis": ["tour guide","nurse","driver","gardener","nuclear physicist","cellist",
+    "beTheir": ["tour guide","nurse","driver","gardener","nuclear physicist","cellist",
 	      "ghost writer","bodyguard","assistant","date","DJ","#person1Job#",
 	      "tutor","neurosurgeon","biochemist","electrical engineer","philosopher",
 	      "senator","biographer","#relative#","#animal#"],
-    "hiresHer":["watch #person2PossessivePronoun# #watchHis#","train #person2PossessivePronoun# #watchHis#","clean #person2PossessivePronoun# #watchHis#",
+    "hiresPerson1":["watch #person2PossessivePronoun# #watchHis#","train #person2PossessivePronoun# #watchHis#","clean #person2PossessivePronoun# #watchHis#",
 		"teach #person2ObjectPronoun# #learn#",
 		"fix #person2PossessivePronoun# #fixHis#",
 		"find #person2PossessivePronoun# #findHis#",
 		"massage #person2PossessivePronoun# #massageHis#",
-		"#hiresHerMisc#",
-		"be #person2Possessive# #beHis#","subdue #person2PossessivePronoun# #subdueHis#"],
+		"#hiresPerson1Misc#",
+		"be #person2Possessive# #beTheir#","subdue #person2PossessivePronoun# #subdueTheir#"],
 
     "thinksHes":["#person2Adj#","#person1Adj#"],
     "thinksShes":["#person2Adj#","#person1Adj#","#person1ActorAlt#","too #person2Adj#","too #person1Adj#","#person1Job.a#"],
 
-    "makesHerDoubtHer": ["virginity","career choice","makeup","height","passion","hair","shoes","necklace",
+    "makesPerson1DoubtHer": ["virginity","career choice","makeup","height","passion","hair","shoes","necklace",
 			 "#animal#","mental health","age"],
-    "makesHerDoubt": ["#person1Possessive# #makesHerDoubtHer#"],
+    "makesPerson1Doubt": ["#person1Possessive# #makesPerson1DoubtHer#"],
     "doubtVerb": ["question","second guess","rethink"],
     
-    "makesHerVerb": ["vomit","cringe","swoon","vacuum","cook","bleed","contort","schnitzel","burp","hiccup","sneeze",
-		     "gyrate","#doubtVerb# #makesHerDoubt#"],
-    "makesHerAdj": ["twitchy","arrogant","messy","vegan","ambidextrous","recalcitrant",
+    "makesPerson1Verb": ["vomit","cringe","swoon","vacuum","cook","bleed","contort","schnitzel","burp","hiccup","sneeze",
+		     "gyrate","#doubtVerb# #makesPerson1Doubt#"],
+    "makesPerson1Adj": ["twitchy","arrogant","messy","vegan","ambidextrous","recalcitrant",
 		    "aggressive","ambitious","high-strung","paranoid","boring","mopey","Methodist","purple",
 		    "pointy","frumpy","smart","brilliant","salty","pedantic",
 		    "gullible","optimistic","brokenhearted","quirky",
@@ -723,7 +719,7 @@
 		    "greasy","funky","snippy","stinky","beefy","thick","daring","grimy","gross",
 		    "fiberous","wooly","villainous","rusty","chill","oozy","floppy",
 		    "shirtless","buff","eccentric","bicurious"],
-    "makesHer":["#makesHerVerb#","#makesHerAdj#","feel #makesHerAdj#"],
+    "makesPerson1":["#makesPerson1Verb#","#makesPerson1Adj#","feel #makesPerson1Adj#"],
     
     "judgesHer": ["nails","hair","lipstick","shoes","accent","profession","vocabulary","family","personality",
 		  "vocal fry","upspeak","cooking","baking","driving","lifestyle","posture","#animal#","talent",
@@ -790,8 +786,8 @@
     "person2ActionMisc": ["lends #person1Object# #person2PossessivePronoun# #person2Lends#",
 		       "#accidentallyAdverb# #person2Accidentally#",
 		       "#showsUpAtVerb# #person1Possessive# #showsUpAtHer#","thinks #person1Subject#'s #thinksShes#",
-		       "makes #person1Object# #makesHer#","helps #person1Object# #person2Helps#","tries to #triesTo#",
-		       "#hiresVerb# #person1Object# to #hiresHer#",
+		       "makes #person1Object# #makesPerson1#","helps #person1Object# #person2Helps#","tries to #triesTo#",
+		       "#hiresVerb# #person1Object# to #hiresPerson1#",
 		       "#judgesVerb# #person1Possessive# #judgesHer#","doesn't #understandVerb# #doesntUnderstand#",
 		       "becomes #person1Possessive# unexpected #becomesUnexpected#"],
 
@@ -1391,8 +1387,8 @@
     "leadsEvent": ["A call from #distressedCaller#","A call from #letterSender#",
 		   "A visit from #visitor#","Losing #person1Possessive# #lost#","A kidnapping by #kidnapper#",
 		   "Needing #inTownNeeds.a#","Drinking #drink.a#","Eating #food.a#",
-		   "An encounter with a #strange# #ladyMan# in a #strangePersonMeet#",
-		   "An encounter with a #strange# #ladyMan#","Becoming #becomes#",
+		   "An encounter with a #strange# #strangeNoun# in a #strangePersonMeet#",
+		   "An encounter with a #strange# #strangeNoun#","Becoming #becomes#",
 		   "Inheriting #inheritance.a#","Turning into #turnsIntoA.a#",
 		   "Getting kicked off of #kickedOffOf#",
 		   "Getting kicked out of #kickedOutOf#",
@@ -2424,7 +2420,7 @@
 
     "aloneUntil": ["accidentally #person2Accidentally#",
 		   "lends #person1Object# #person2PossessivePronoun# #person2Lends#",
-		   "#hiresVerb# #person1Object# to #hiresHer#",
+		   "#hiresVerb# #person1Object# to #hiresPerson1#",
 		   "becomes #person1PossessivePronoun# unexpected #becomesUnexpected#"
 		  ],
 
@@ -3012,6 +3008,7 @@
     "plotStart": ["#normalPlot#"],
     
     "origin":["#[person2Actor: (#maleActor#)][person1Actor: (#femaleActor#)][person1Name:#womanName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:she][person1Object:her][person1Possessive:her][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:her][person1ObjectPronoun:her][person1ActorAlt:#femaleActor#]plotStart#",
+            "#[person1Actor: (#maleActor#)][person2Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#manName#][person1Subject:he][person1Object:him][person1Possessive:his][person2Subject:she][person2Object:her][person2Possessive:her][person1SubjectPronoun:he][person1PossessivePronoun:his][person1ObjectPronoun:him][person2PossessivePronoun:her][person2ObjectPronoun:her][person2ActorAlt:#femaleActor#]plotStart#",
 	      "🏳️‍🌈🏗#[person2Actor: (#maleActor#)][person1Actor: (#maleActor#)][person1Name:#manName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:he][person1Object:him][person1Possessive:his][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:his][person1ObjectPronoun:him][person1ActorAlt:#maleActor#]plotStart#",
 	      "🏳️‍🌈🏗#[person2Actor: (#femaleActor#)][person1Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#womanName#][person2Subject:she][person2Object:her][person2Possessive:her][person1Subject:she][person1Object:her][person1Possessive:her][person1PossessivePronoun:her][person1ObjectPronoun:her][person2SubjectPronoun:she][person2PossessivePronoun:her][person2ObjectPronoun:her][person1ActorAlt:#femaleActor#]plotStart#"
 	     ]
