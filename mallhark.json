@@ -12,10 +12,12 @@
     "digit":["0","1","2","3","4","5","6","7","8","9"],
     "yeardigit":["1","2"],
     "year":["#yeardigit##digit##digit##digit#"],
+    "century2": ["20th","22nd","23rd","24th","25th","26th","27th","28th","29th"],
+    "century": ["1#digit#th","#century2#"],
 
     "deadMaleActor": ["Groucho Marx","Vincent Price","Jimmy Stewart","James Dean","Marlon Brando","James Doohan"],
     "maleActor": ["Steve Buscemi","Gary Busey","Vanilla Ice","Ice T","Billy Ray Cyrus","Gordon Ramsey","Kirk Cameron",
-		  "MC Hammer","Sam Waterston","Anthony Hopkins","Rami Malek", "Brendan Fraser","Hugh Grant", "Charlie Sheen",
+		  "MC Hammer","Sam Waterston","Anthony Hopkins","Rami Malek", "Brendan Fraser",
 		  "John Barrowman","Nathan Fillion","Neil Patrick Harris","Christian Slater","Jason Mewes","Michael C. Hall",
 		  "Keanu Reeves","Jackson Galaxy","Henry Rollins","Guy Fieri","Elon Musk","Adam Rippon","David Hasselhoff",
 		  "Gilbert Gottfried","Steve Guttenberg","Tom Hardy","Liam Neeson","Jean-Claude van Damme","Vin Diesel",
@@ -27,7 +29,7 @@
 		  "Thomas Middleditch","Dax Shepard","David Cross","Joseph Gordon-Levitt","Ashton Kutcher","Joe Keery",
 		  "Corey Feldman","Daniel Radcliffe","Nicolas Cage","Matthew Gray Gubler","Timothée Chalamet",
 		  "John Boyega","Ezra Miller","Hugh Dancy","Oscar Isaac","Robert Pattinson","Tom Holland",
-		  "Tyler Hoechlin","Lee Pace","Cole Sprouce","Alfonso Herrera","Jason Momoa","Jake Gyllenhaal",
+		  "Tyler Hoechlin","Lee Pace","Cole Sprouse","Alfonso Herrera","Jason Momoa","Jake Gyllenhaal",
 		  "Sebastian Bach","Mike Colter","Tom Hiddleston","Benedict Cumberbatch","Patrick Duffy","Manny Jacinto",
 		  "Fred Armisen","Ralph Macchio","Adam Driver","Macaulay Culkin","Sebastian Stan","Scott Baio",
 		  "Scott Bakula","Sean Penn","Ken Marino","Matt Damon","Christian Bale","Don Cheadle",
@@ -36,6 +38,9 @@
 		  "Benicio Del Toro","Jonah Hill","Samuel L. Jackson","Matthew Modine","Morgan Freeman","Gary Oldman",
 		  "Mads Mikkelsen","Chad Michael Murray","Pee-wee Herman","Anthony Fauci",
 		  "Marwan Kenzari","Paul Hollywood","Lakeith Stanfield","Dylan O'Brien","Marc Blucas","Jason Priestley",
+          "Rahul Kohli","Billy Porter","Raúl Esparza","Lil Nas X","Jensen Ackles","Jared Padalecki",
+          "Elliot Page","Jason Sudeikis","Brett Goldstein","John Cho","Manny Jacinto","Jared Harris","Joshua Jackson",
+          "Mark Hamill","Toby Stephens","Josh Thomas","Henry Cavill","Dev Patel","Tony Leung",
 		  "ghost of #deadMaleActor#"],
 
     "deadFemaleActor": ["Lucille Ball","Audrey Hepburn","Elizabeth Taylor","Hedy Lamarr","Carol Channing","Joan Rivers"],
@@ -60,7 +65,10 @@
 		    "Frances McDormand","Zoë Kravitz","Anne Hathaway","Karen Gillan","Margot Robbie","Olivia Wilde",
 		    "Olivia Munn","Viola Davis","Maria Bello","Uma Thurman","Erin Cahill","Kellie Pickler",
 		    "Sarah Cooper","Cardi B","Florence Pugh","Sophie Turner","Yara Shahidi","Kristen Stewart",
-		    "Alison Brie","Mackenzie Davis","Lauren Lapkus","Angela Lansbury",
+		    "Alison Brie","Mackenzie Davis","Lauren Lapkus","Angela Lansbury","Mj Rodriguez",
+            "Indya Moore","Beanie Feldstein","Tessa Thompson","Sarah Paulson","Emmy Raver-Lampman",
+            "Hannah Waddingham","Juno Temple","Allison Janney","Anya Taylor-Joy","Kathryn Hahn","Sandra Oh",
+            "Jennifer Coolidge","Mae Martin","Kayla Cromer","Jean Smart","Lana Condor","Carrie-Anne Moss",
 		    "ghost of #deadFemaleActor#"],
 
     "maleFemaleActor": ["#maleActor#","#femaleActor#"],
@@ -185,7 +193,7 @@
 	       "virus","infection","vaccine","containment","pandemic","covid-19"],
     "prodigy": ["polka","origami","sourdough","ASMR","juggling","machine learning"],
     "person1Job":["television producer","ad executive","event planner","architect","biologist","market researcher",
-		    "teacher","baker","chef","psychic","banker","socialite","financier","lawyer","nanny","entrepreneur",
+		    "teacher","baker","chef","psychic","banker","socialite","financier","lawyer","entrepreneur",
 		    "model","actor","artist","doctor","dancer","widow","real estate agent",
 		    "city planner","property developer","CEO","singer","coroner","capybara","DJ","hipster","millennial",
 		    "mastodon","journalist","yoga instructor","velociraptor","toastie","interior decorator",
@@ -193,8 +201,8 @@
 		    "poet","anarchist","robot","kleptomaniac","gerbil","duck","bartender","professor",
 		    "loan officer","forensic scientist","phlebotomist","sous chef","chemist","sandwich artist","key grip",
 		    "astronaut","cosmologist","life coach","travel agent","florist","somnambulist","flautist",
-		    "masseuse","statistician","bougie","#conservationist# conservationist#","influencer",
-		    "hockey player","extreme sports photographer","tour guide","dominatrix","blogger","choir director",
+		    "statistician","bougie","#conservationist# conservationist#","influencer",
+		    "hockey player","extreme sports photographer","tour guide","blogger","choir director",
 		    "cryptographer","spy","pop star","demon","feng shui consultant","nail polish namer",
 		    "deodorant tester","#expert# expert","science teacher","heir","accountant",
 		    "Cats extra","epidemiologist","nurse","virologist","immunologist","lab tech",
@@ -209,7 +217,7 @@
 			"swanky","quarrelsome","thorough","bookish","acerbic","persnickety","calm",
 			"obstreperous","high-profile","wistful","stubborn","career-focused","busy",
 			"independent","passive-aggressive","famous","award-winning","infamous",
-			"workaholic","career-driven","antifa","world-renowned"],
+			"workaholic","career-driven","antifa","world-renowned","cheugy","pescatarian"],
     "person1Desc":["#person1Job#","#person1Adj# #person1Job#","#christmasCompany# #bossPosition#"],
     
    "person2Adj":["cranky","neat freak","narcoleptic","immature","free-spirited","passionate","incontinent",
@@ -238,21 +246,21 @@
 	      ],
     "whisperer": ["horse","dog","ghost","frog","dudebro","cheese"],
     "monger": ["cheese","fish","war","hate","news","iron","scare","fashion","coster","fell","soup","wheel"],
-    "person2Job":["musician","gator wrestler","veterinarian","male dancer","doctor","mechanic","teacher",
-			  "hacker","IT professional","fisherman","duck","gopher","lumberjack","tow truck driver",
-			  "drug dealer","drifter","ghost","serial killer","artist","soldier","magician","priest",
+    "person2Job":["musician","gator wrestler","veterinarian","exotic dancer","doctor","mechanic","teacher",
+			  "hacker","IT professional","duck","gopher","lumberjack","tow truck driver",
+			  "drug dealer","drifter","ghost","serial killer","artist","soldier","magician",
 			  "bounty hunter","hermit","landscaper","ex-fiance","contractor","healer",
 			  "bike courier","flavorist","pianist","#whisperer# whisperer","cephalopod","vampire","butcher",
-			  "gingerbread man","hunk","cowboy","pilot","moose","superhero","electrician",
+			  "pilot","moose","superhero","electrician",
 			  "baseball player","hottie","Yeti","neighbor","music promoter","restaurant owner",
-			  "alpha male","science denier","conspiracy theorist","sheriff","cyborg",
+			  "science denier","conspiracy theorist","sheriff","cyborg",
 			  "blacksmith","furry","doomsday prepper","personal trainer","clown","best boy","race car driver",
 			  "truther","short order cook","toxicologist","investigator","drywaller",
 			  "psychiatrist","elf","sandwich artist","luthier","gynecologist",
 			  "music teacher","gamer","zombie","millionaire","plague doctor","telemarketer",
-			  "color expert","hippotherapist","pick-up artist","rental boyfriend","chicken sexer",
-			  "rat-catcher","#monger#monger","medieval knight","Christmas movie bot","grinch",
-			  "steel magnate","yule lad","tiger king","local","storm trooper","jedi","king","crown prince",
+			  "color expert","hippotherapist","pick-up artist","chicken sexer",
+			  "rat-catcher","#monger#monger","Christmas movie bot","grinch",
+			  "steel magnate","yule lad","local","storm trooper","jedi",
               "non-fungible token"],
     "person2Occupation":["#person2Adj# #person2Job#"],
 
@@ -876,7 +884,7 @@
 		      "the Christmas musical","the Christmas Concert","the Christmas Reckoning",
 		      "the Christmas cookie crawl","the Christmas Charity Gala","the Christmas dance","the Christmas SnowBall",
 		      "the Christmas tradition","the Christmas Carnival","the Christmas parade","the Christmas carousel",
-		      "the gingergread house competition"],
+		      "the gingerbread house competition"],
     "miscSaveStuff":["the whales","the orphaned children","the chestnuts","the planet","the bees","the pies","Medicare",
 		     "the park","the lake","the town tractor","the town mayor","the town lemur","the English language",
 		     "the elementary school","the town statue","the arts program","Majestic Playhouse",
@@ -1177,6 +1185,10 @@
 		      "#deadActor#"
 		     ],
     
+    "timeTravelTo": ["#year#",
+        "the #century# century"
+    ],
+
     "actionClause": ["save #saveThe#","#fightVerb# #fightThe#","learn #learn# for Christmas","get #get# for Christmas",
 		     "make #make# for Christmas","#organize# a Christmas #putOn#",
 		     "buy #buyNoun.a# for Christmas#","take up #takeUp# for Christmas",
@@ -1201,7 +1213,8 @@
 		     "embrace #embrace# for Christmas",
 		     "add #addTradition# to the Christmas tradition",
 		     "resurrect #theyResurrect# for Christmas",
-             "invent #invent# for Christmas"
+             "invent #invent# for Christmas",
+             "time travel to #timeTravelTo# for Christmas"
 		    ],
 
     "longActionSaveActivity": ["become #become#",
@@ -1374,9 +1387,9 @@
     "protagonistIntroBegin":["#person1Desc.a.capitalize# from #bigCity##person1Actor#",
 			     "#person1Adj.capitalize# #bigCity# #person1Job# #person1Name##person1Actor#"],
     "protagonistIntroMid":["#person1Name##person1Actor#, #person1Desc.a# from #bigCity#,",
-			   "#person1Desc.a# from #bigCity##person1Actor#",
+			   "#person1Desc.a# from #bigCity##person2Actor#",
 			   "#person1Adj# #person1Job# #person1Name##person1Actor#",
-			   "#person1Adj.a# #bigCity# #person1Job##person1Actor#"],
+			   "#person1Adj.a# #bigCity# #person2Job##person1Actor#"],
     "endsUp":["ends up","winds up","finds herself","turns up","wakes up","gets stranded"],
     "afterWhen":["after #triggeringEvent#",
 		 "after #person1Subject# #whenPerson1#",
@@ -2532,6 +2545,7 @@
 		     "Kafkaesque",
 		     "Lynchian",
 		     "televised",
+             "non-fungible",
 		     "#themed#-themed"
 		    ],
 
@@ -3008,8 +3022,8 @@
     "plotStart": ["#normalPlot#"],
     
     "origin":["#[person2Actor: (#maleActor#)][person1Actor: (#femaleActor#)][person1Name:#womanName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:she][person1Object:her][person1Possessive:her][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:her][person1ObjectPronoun:her][person1ActorAlt:#femaleActor#]plotStart#",
-            "#[person1Actor: (#maleActor#)][person2Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#manName#][person1Subject:he][person1Object:him][person1Possessive:his][person2Subject:she][person2Object:her][person2Possessive:her][person1SubjectPronoun:he][person1PossessivePronoun:his][person1ObjectPronoun:him][person2PossessivePronoun:her][person2ObjectPronoun:her][person2ActorAlt:#femaleActor#]plotStart#",
-	      "🏳️‍🌈🏗#[person2Actor: (#maleActor#)][person1Actor: (#maleActor#)][person1Name:#manName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:he][person1Object:him][person1Possessive:his][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:his][person1ObjectPronoun:him][person1ActorAlt:#maleActor#]plotStart#",
-	      "🏳️‍🌈🏗#[person2Actor: (#femaleActor#)][person1Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#womanName#][person2Subject:she][person2Object:her][person2Possessive:her][person1Subject:she][person1Object:her][person1Possessive:her][person1PossessivePronoun:her][person1ObjectPronoun:her][person2SubjectPronoun:she][person2PossessivePronoun:her][person2ObjectPronoun:her][person1ActorAlt:#femaleActor#]plotStart#"
+            "#[person1Actor: (#maleActor#)][person2Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#manName#][person1Subject:he][person1Object:him][person1Possessive:his][person2Subject:she][person2Object:her][person2Possessive:her][person2SubjectPronoun:she][person1PossessivePronoun:his][person1ObjectPronoun:him][person2PossessivePronoun:her][person2ObjectPronoun:her][person2ActorAlt:#femaleActor#]plotStart#",
+	      "#[person2Actor: (#maleActor#)][person1Actor: (#maleActor#)][person1Name:#manName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:he][person1Object:him][person1Possessive:his][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:his][person1ObjectPronoun:him][person1ActorAlt:#maleActor#]plotStart#",
+	      "#[person2Actor: (#femaleActor#)][person1Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#womanName#][person2Subject:she][person2Object:her][person2Possessive:her][person1Subject:she][person1Object:her][person1Possessive:her][person1PossessivePronoun:her][person1ObjectPronoun:her][person2SubjectPronoun:she][person2PossessivePronoun:her][person2ObjectPronoun:her][person1ActorAlt:#femaleActor#]plotStart#"
 	     ]
 }
