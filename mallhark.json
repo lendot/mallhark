@@ -41,6 +41,7 @@
           "Rahul Kohli","Billy Porter","Raúl Esparza","Lil Nas X","Jensen Ackles","Jared Padalecki",
           "Elliot Page","Jason Sudeikis","Brett Goldstein","John Cho","Manny Jacinto","Jared Harris","Joshua Jackson",
           "Mark Hamill","Toby Stephens","Josh Thomas","Henry Cavill","Dev Patel","Tony Leung",
+          "Rainbow Sun Francks",
 		  "ghost of #deadMaleActor#"],
 
     "deadFemaleActor": ["Lucille Ball","Audrey Hepburn","Elizabeth Taylor","Hedy Lamarr","Carol Channing","Joan Rivers"],
@@ -180,7 +181,7 @@
 		 "Elle","Gretchen","Samantha","Lacey","Whitney","Allison","Emily","Belinda","Peppermint",
 		 "Miracle","Aria","Jessica","Margot","Anna","Jess","Megan","Vivienne","Sam","Erin",
 		 "Avery","Michelle","Kayleigh","Lina","Lila","Christina","Charity","Lauren","Mackenzie",
-        "Kayla","Courtney","Jasmine","Morgan","Kelsey","Chelsea",
+        "Kayla","Courtney","Jasmine","Morgan","Kelsey","Chelsea","Julia","Skye",
         "Abby","Alexis","Chloe","Hailey","Makayla","Emma","Olivia","Sophia","Mia","Ella","Addison",
         "Aubrey"],
     "womanName2": ["#womanName#"],
@@ -190,7 +191,7 @@
 	    "Heath","Alec","Max","Blake","Brant","Brian","Andrew","Derrick","Duke","Todd","Gabe","Jax","Ryder",
 	    "Aidan","Trey","Charlie","Dustin","Logan","Jackson","Lucas","Gavin","Mike","Brandon",
 	    "Noah","William","Roman","Elliot","Nate","Carson","Tyler","Zachary","Austin","Kyle","Cody","Jordan",
-        "Taylor","Dakota","Dalton","Dillon","Ethan","Jayden","Diego","Hayden","Jaden","Caden",
+        "Taylor","Dalton","Dillon","Ethan","Jayden","Diego","Hayden","Jaden","Caden",
         "Liam","Loki","Nick"],
     "manName2": ["#manName#"],
 
@@ -211,7 +212,8 @@
 			"swanky","quarrelsome","thorough","bookish","acerbic","persnickety","calm",
 			"obstreperous","high-profile","wistful","stubborn","career-focused","busy",
 			"independent","passive-aggressive","famous","award-winning","infamous",
-			"workaholic","career-driven","antifa","world-renowned","cheugy","pescatarian"],
+			"workaholic","career-driven","antifa","world-renowned","cheugy","pescatarian",
+            "philandering"],
     "person1Desc":["#person1Job#","#person1Adj# #person1Job#","#christmasCompany# #bossPosition#"],
     
    "person2Adj":["cranky","neat freak","narcoleptic","immature","free-spirited","passionate","incontinent",
@@ -250,7 +252,7 @@
 			  "pilot","moose","superhero","electrician",
 			  "baseball player","hottie","Yeti","neighbor","music promoter","restaurant owner",
 			  "science denier","conspiracy theorist","sheriff","cyborg",
-			  "blacksmith","furry","doomsday prepper","personal trainer","clown","best boy","race car driver",
+			  "blacksmith","furry","doomsday prepper","personal trainer","clown","race car driver",
 			  "truther","short order cook","toxicologist","investigator","drywaller",
 			  "psychiatrist","elf","luthier","gynecologist",
 			  "music teacher","gamer","zombie","millionaire","plague doctor","telemarketer",
@@ -273,7 +275,8 @@
 		    "deodorant tester","#expert# expert","science teacher","heir","accountant",
 		    "Cats extra","epidemiologist","nurse","virologist","immunologist","lab tech",
 		    "wedding planner","pianist","violinist","romance writer","omegaverse writer",
-		    "resistance leader","#prodigy# prodigy","podcaster","queen","crown princess"],
+		    "resistance leader","#prodigy# prodigy","podcaster","ranch hand","#zodiac#",
+            "snow plow driver"],
     "person2Job": ["#personJob#"],
     "person2Occupation":["#person2Adj# #person2Job#"],
 
@@ -347,7 +350,7 @@
     "fleeing": ["the mafia","the law","the FBI","Big Pharma","the Catholic Church",
             "Google","Facebook","#person1Possessive# demons","a conversation",
             "the scene of a crime","a family dinner","a date","#person1Possessive# family",
-            "a pointless meeting"],
+            "a pointless meeting","libertarians"],
     
     "triggeringMisc1":["falling out of a plane at 25,000 ft","locking #person1ObjectPronoun#self in the trunk of a car",
 		       "a night of drinking","losing a bet","getting lost","another fugue state",
@@ -772,13 +775,11 @@
 			  "servant",
 			  "housepet",
 			  "life coach",
-			  "rent boy",
 			  "coffee table",
 			  "defense lawyer",
 			  "roommate",
 			  "houseplant",
 			  "chauffer",
-			  "pool boy",
 			  "conquistador",
 			  "acupuncturist",
 			  "druid",
@@ -906,7 +907,7 @@
 		      "the Christmas musical","the Christmas Concert","the Christmas Reckoning",
 		      "the Christmas cookie crawl","the Christmas Charity Gala","the Christmas dance","the Christmas SnowBall",
 		      "the Christmas tradition","the Christmas Carnival","the Christmas parade","the Christmas carousel",
-		      "the gingerbread house competition"],
+		      "the gingerbread house competition","the Mistletoe Ball"],
     "miscSaveStuff":["the whales","the orphaned children","the chestnuts","the planet","the bees","the pies","Medicare",
 		     "the park","the lake","the town tractor","the town mayor","the town lemur","the English language",
 		     "the elementary school","the town statue","the arts program","Majestic Playhouse",
@@ -1122,25 +1123,26 @@
 		  ],
 
     "build": [
-	"obelisk",
-	"tunnel",
-	"gazebo",
-	"time machine",
-	"nuclear warhead",
-	"fire pit",
-	"model rocket",
-	"bat cave",
-	"Quonset hut",
-	"underground bunker",
-	"data center",
-	"hockey rink",
-	"bear",
-	"mystery",
-	"website",
-	"chicken coop",
-	"trebuchet",
-	"guillotine",
-	"edifice of lies"
+	    "obelisk",
+	    "tunnel",
+	    "gazebo",
+	    "time machine",
+	    "nuclear warhead",
+	    "fire pit",
+	    "model rocket",
+	    "bat cave",
+	    "Quonset hut",
+	    "underground bunker",
+	    "data center",
+	    "hockey rink",
+	    "bear",
+	    "mystery",
+	    "website",
+	    "chicken coop",
+	    "trebuchet",
+	    "guillotine",
+	    "edifice of lies",
+        "giant snow maze"
     ],
 
     "eat": [
@@ -1267,7 +1269,7 @@
     
     "accidentally":["shoots","infects","stabs","kisses","poisons","licks","bites","shellacs","photographs",
 		    "trips","hypnotizes","bankrupts","shocks","pounces on","runs over","impersonates",
-		    "insults","tranquilizes","startles","decoupages","emasculates","defenestrates","offends",
+		    "insults","tranquilizes","startles","decoupages","defenestrates","offends",
 		    "humiliates","sneezes on","shoves","steps on","annoys","pepper sprays","bumps","buries","spies on",
 		    "disembowels","takes out a hit on","undresses","circumcises","shaves",
 		    "airbrushes","imprisons","crates","blackmails","hits","spills #spills# on",
@@ -1312,7 +1314,7 @@
 		"silence","sugar","evidence","flattery","furniture","gossip","guilt","homework","immortality",
 		"oxygen","sheep","stamina","sweat","caffeine","pho","biryani","lutefisk","ketamine",
 		"borscht","jorts","anxiety","privacy","a makeover","a massage","myrrh",
-		"orphans","a toaster","sexy sexy","a lap dance","bitcoin","a Tesla",
+		"orphans","a toaster","sexy sexy","a lap dance","bitcoin","a Tesla","hives",
 		"#lessons# lessons","a farm box","green onion Chex","a still-beating heart",
         "a counterfeit #counterfeit#","a stolen #stolen#"],
     "givesHer":["#givesHim#"],
@@ -1716,7 +1718,7 @@
 		   "disembowel","take out a hit on","circumcise",
 		   "imprison","crate","blackmail","hit","spill #spills# on"],
 
-    "willSheBecomeMisc": ["a lesbian","immortal","a misandrist","disillusioned","Mormon",
+    "willSheBecomeMisc": ["immortal","a misandrist","disillusioned","Mormon",
 			  "happy","a cat","a superhero","a serial killer",
 			  "evil personified","Death, the destroyer of worlds",
 			  "a sea witch","a novelist","independent","a roller derby player",
@@ -1763,8 +1765,7 @@
 		  "rediscover #rediscover#",
 		  "break #person2Possessive# #breakHis#",
 		  "accept #person1PossessivePronoun# #person1Job# job offer",
-		  "embrace #embrace#",
-		  "become #becomeLGBTQ#"
+		  "embrace #embrace#"
 		 ],
     "willTheySentence": ["Will they fall in love on Christmas or will #person1Subject# #orWillShe#?",
 			 "Will they fall in love or will #person1Subject# #orWillShe# on Christmas?"
@@ -2237,8 +2238,7 @@
 				     "They pretend #pretendSanta.a# is Santa and fall in love.",
                      "They invent #invent# for Christmas and fall in love."
 				    ],
-    "pairPlotTravel": ["#pairPlotTravelSetup#. #pairPlotTravelGoal#. #pairPlotTravelActionSentence#",
-		      "#pairPlotTravelSetup#. #pairPlotTravelDontMakeIt#. #pairPlotTravelAdHocChristmas#"],
+    "pairPlotTravel": ["#pairPlotTravelSetup#. #pairPlotTravelGoal#. #pairPlotTravelActionSentence#"],
     
     
     "forTheSakeOf": ["#hisHer# #relative#",
@@ -2462,7 +2462,7 @@
 		   "becomes #person1PossessivePronoun# unexpected #becomesUnexpected#"
 		  ],
 
-    "swornOff": ["men",
+    "swornOff": [
 		 "relationships",
 		 "WooHoo",
 		 "therapy",
@@ -2473,7 +2473,6 @@
 		 "cocaine",
 		 "medication",
 		 "sleep",
-		 "being straight",
 		 "Satan worship",
 		 "jazzercise",
 		 "gingerbread",
@@ -2556,20 +2555,11 @@
 		     "helter-skelter",
 		     "nihilistic",
 		     "godless",
-		     "draconian",
-		     "augmented reality",
 		     "upside down",
-    		     "magenta",
-		     "high-fiber",
 		     "leftist-only",
-		     "flammable",
-		     "microscopic",
 		     "post-modern",
-		     "hallucinogenic",
 		     "Kafkaesque",
 		     "Lynchian",
-		     "televised",
-             "non-fungible",
 		     "#themed#-themed"
 		    ],
 
@@ -2604,6 +2594,7 @@
 			"wake up",
 			"materialize"
 		       ],
+    "everythingCoveredIn": ["bacon","blood","glitter","syrup","elves","hair","propaganda leaflets"],
     "townEverythingIs": ["Danish",
 			 "moist",
 			 "fake",
@@ -2636,7 +2627,8 @@
 			 "vibrating",
 			 "sticky",
 			 "contaminated",
-			 "moist"
+			 "moist",
+             "covered in #everythingCoveredIn#"
 			],
 
     "townNothingIs": ["real",
@@ -2833,18 +2825,18 @@
 		    "smart"
 		   ],
 
-    "zodiac": ["aquarius",
-	       "pisces",
-	       "aries",
-	       "tarus",
-	       "gemini",
-	       "cancer",
-	       "leo",
-	       "virgo",
-	       "libra",
-	       "scorpio",
-	       "sagittarius",
-	       "capricorn"
+    "zodiac": ["Aquarius",
+	       "Pisces",
+	       "Aries",
+	       "Taurus",
+	       "Gemini",
+	       "Cancer",
+	       "Leo",
+	       "Virgo",
+	       "Libra",
+	       "Scorpio",
+	       "Sagittarius",
+	       "Capricorn"
 	      ],
 
     
@@ -3032,6 +3024,57 @@
 
     "timeReversePlot": ["#timeReversePlotSetup#. #timeReversePlotAction#. #timeReversePlotConclusion#",
 			"#timeReversePlotSetup#. #timeReversePlotActionLong#. #timeReversePlotConclusionShort#"],
+
+
+    "undercoverJob": ["cop",
+        "detective",
+        "agent",
+        "investigator"
+    ],
+    "undercoverAs": ["#animal.a#",
+        "#personJob.a#",
+        "#maleFemaleActor#",
+        "Santa",
+        "a Christmas tree",
+        "a reindeer",
+        "an elf",
+        "a snow plow",
+        "snow",
+        "an advent calendar"
+    ],
+    "undercoverBuild": ["giant snow maze",
+        "honey pot website",
+        "trap",
+        "fiery pit",
+        "North Pole decoy",
+        "ruse",
+        "sting operation",
+        "gingerbread house competition",
+        "Christmas musical"
+
+    ],
+    "undercoverCrimeJob": ["thief",
+        "serial killer",
+        "jaywalker",
+        "burglar",
+        "vandal",
+        "arsonist",
+        "cyber criminal",
+        "war criminal",
+        "crime boss",
+        "drug kingpin",
+        "counterfeiter",
+        "toy thief"],
+    "undercoverPlotSetup": ["#undercoverJob.capitalize# #person1Name##person1Actor# suspects #person2Name##person2Actor# is #crimeJob.a#, going undercover as #undercoverAs# to catch #person2ObjectPronoun#"], 
+    "undercoverPlotSetup": ["#undercoverJob.capitalize# #person1Name##person1Actor# goes undercover as #undercoverAs# to catch suspected #crimeJob# #person2Name##person2Actor#"],
+    "informant": ["#personJob.a#",
+        "#animal.a#",
+        "#maleFemaleActor#",
+        "a ghost"],
+    "undercoverPlotDiscover": ["Romance blooms until #informant# tells #person2Name# #person1Name#'s true identity"],
+    "undercoverPlotCatch": ["They create #undercoverBuild.a# to catch the real #crimeJob# and fall in love."],
+    "undercoverPlot_": ["#undercoverPlotSetup#. #undercoverPlotDiscover#. #undercoverPlotCatch#"],
+    "undercoverPlot": ["#[crimeJob:#undercoverCrimeJob#]undercoverPlot_#"],
     
     "normalPlot":["#smallTownPlot#",
 		  "#smallTownPlotLongAction#",
@@ -3040,7 +3083,8 @@
 		  "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]singleMomPlot#",
 		  "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]accidentalPlot#",
 		  "#aloneUntilNoMalePlot#",
-		  "#alwaysWantedPlot#"
+		  "#alwaysWantedPlot#",
+          "#undercoverPlot#"
 		 ],
 
     "plotStart": ["#normalPlot#"],
