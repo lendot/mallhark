@@ -125,7 +125,6 @@
     "business":["general store",
 		"bakery",
 		"restaurant",
-		"sensory deprivation chamber",
 		"inn",
 		"b&b",
 		"diner",
@@ -142,7 +141,16 @@
         "vape shop",
         "dispensary",
         "sex shop",
-        "leather shop"
+        "leather shop",
+        "olive oil store",
+        "candle shop",
+        "bodega",
+        "dojo",
+        "haberdashery",
+        "butcher shop",
+        "arcade",
+        "car wash",
+        "novelty store"
     ],
 
     "animal": ["kangaroo",
@@ -3119,12 +3127,15 @@
         "blog",
         "podcast",
         "passport",
-        "DNA",
         "mansion",
         "BMW",
         "LinkedIn",
-        "daughter",
-        "monogrammed underwear"
+        "monogrammed underwear",
+        "twitch stream",
+        "Tinder bio",
+        "wallet",
+        "medications",
+        "vaccination card"
     ],
 
     "slipsUpWhile": ["drunk",
@@ -3135,7 +3146,6 @@
         "pooping"
     ],
     "trueIdentity": ["#person2Name# finds #person1Name#'s #propertyFinds#",
-        "#person1Name# slips up while #slipsUpWhile#",
         "#informant# tells #person2Name# #person1Name#'s true identity"
     ],
 
@@ -3143,9 +3153,9 @@
         "change #person2PossessivePronoun# mind",
         "persuade #person2ObjectPronoun#"
     ],
-    "propertyPlotSetup": ["#person2Name##person2Actor# won't sell #person2PossessivePronoun# family's #sellProperty# so #developerJob# #person1Name##person1Actor# disguises #person1ObjectPronoun#self as #disguiseAs# to #propertyChangeMind#"],
+    "propertyPlotSetup": ["#person2Name##person2Actor# won't sell #person2PossessivePronoun# family's #sellProperty#. #developerJob.capitalize# #person1Name##person1Actor# masquerades as #disguiseAs# to #propertyChangeMind#"],
     "propertyPlotDiscover": ["Romance blooms until #trueIdentity#"],
-    "propertyPlotSave": ["They #longActionSaveActivity# to save the #sellProperty# and fall in love"],
+    "propertyPlotSave": ["They #longActionSaveActivity# to save the #sellProperty# for Christmas and fall in love"],
     "sellPropertyPlot_": ["#propertyPlotSetup#. #propertyPlotDiscover#. #propertyPlotSave#."],
     "sellPropertyPlot": ["#[sellProperty:#business#]sellPropertyPlot_#"], 
     
