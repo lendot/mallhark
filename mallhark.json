@@ -140,7 +140,9 @@
 		"ski village",
 		"cranberry bog",
         "vape shop",
-        "dispensary"
+        "dispensary",
+        "sex shop",
+        "leather shop"
     ],
 
     "animal": ["kangaroo",
@@ -1417,7 +1419,7 @@
 			   "#person1Desc.a# from #bigCity##person2Actor#",
 			   "#person1Adj# #person1Job# #person1Name##person1Actor#",
 			   "#person1Adj.a# #bigCity# #person2Job##person1Actor#"],
-    "endsUp":["ends up","winds up","finds herself","turns up","wakes up","gets stranded"],
+    "endsUp":["ends up","winds up","finds #person1ObjectPronoun#self","turns up","wakes up","gets stranded"],
     "afterWhen":["after #triggeringEvent#",
 		 "after #person1Subject# #whenPerson1#",
 		 "after #person1Possessive# bestie #whenPerson1#"
@@ -1447,7 +1449,7 @@
 		    "serenity","weed","gluten-free cranberry sauce","pleasure","eggnog","Dave Matthews",
 		    "rope","long, sharp knives","candle sticks","democracy","answers","molasses","God",
 		    "cleaning supplies","printer paper","light bulbs","space","scissors","stamps","C-clamps",
-		    "nail clippers","happiness","herself","courage","amusement","poutine","adventure","gas",
+		    "nail clippers","happiness","courage","amusement","poutine","adventure","gas",
 		    "froyo","enlightenment","spandex","arsenic","gelatin","Wyoming","Poland","uppers",
 		    "an N95 respirator"],
     "needsToActivity": ["find #needsToFind#","save #person1Possessive# #familys# #familysProperty#","find #person1Possessive# #lost#"],
@@ -3071,10 +3073,47 @@
         "#animal.a#",
         "#maleFemaleActor#",
         "a ghost"],
-    "undercoverPlotDiscover": ["Romance blooms until #informant# tells #person2Name# #person1Name#'s true identity"],
+    "undercoverPlotDiscover": ["Romance blooms until #trueIdentity#"],
     "undercoverPlotCatch": ["They create #undercoverBuild.a# to catch the real #crimeJob# and fall in love."],
     "undercoverPlot_": ["#undercoverPlotSetup#. #undercoverPlotDiscover#. #undercoverPlotCatch#"],
     "undercoverPlot": ["#[crimeJob:#undercoverCrimeJob#]undercoverPlot_#"],
+
+    "disguiseAs": ["#undercoverAs#"],
+    "developerJob": ["lawyer",
+        "architect",
+        "property developer",
+        "banker",
+        "late capitalist",
+        "Dickensian"
+    ],
+    "propertyFinds": [
+        "TikTok",
+        "youtube channel",
+        "instagram",
+        "blog",
+        "podcast",
+        "passport",
+        "DNA",
+        "mansion"
+    ],
+
+    "slipsUpWhile": ["drunk",
+        "high",
+        "sleepy",
+        "gaming",
+        "showering",
+        "pooping"
+    ],
+    "trueIdentity": ["#person2Name# finds #person1Name#'s #propertyFinds#",
+        "#person1Name# slips up while #slipsUpWhile#",
+        "#informant# tells #person2Name# #person1Name#'s true identity"
+    ],
+
+    "propertyPlotSetup": ["#person2Name##person2Actor# won't sell #person2PossessivePronoun# family's #sellProperty# so #developerJob# #person1Name##person1Actor# disguises #person1ObjectPronoun#self as #disguiseAs# to change #person2PossessivePronoun# mind"],
+    "propertyPlotDiscover": ["Romance blooms until #trueIdentity#"],
+    "propertyPlotSave": ["They #longActionSaveActivity# to save the #sellProperty# and fall in love"],
+    "sellPropertyPlot_": ["#propertyPlotSetup#. #propertyPlotDiscover#. #propertyPlotSave#."],
+    "sellPropertyPlot": ["#[sellProperty:#business#]sellPropertyPlot_#"], 
     
     "normalPlot":["#smallTownPlot#",
 		  "#smallTownPlotLongAction#",
@@ -3084,7 +3123,8 @@
 		  "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]accidentalPlot#",
 		  "#aloneUntilNoMalePlot#",
 		  "#alwaysWantedPlot#",
-          "#undercoverPlot#"
+          "#undercoverPlot#",
+          "#sellPropertyPlot#"
 		 ],
 
     "plotStart": ["#normalPlot#"],
