@@ -3031,7 +3031,18 @@
     "undercoverJob": ["cop",
         "detective",
         "agent",
-        "investigator"
+        "investigator",
+        "superhero"
+    ],
+    "reindeer": [
+        "Dasher",
+        "Dancer",
+        "Prancer",
+        "Vixen",
+        "Comet",
+        "Donner",
+        "Blitzen",
+        "Rudolph"
     ],
     "undercoverAs": ["#animal.a#",
         "#personJob.a#",
@@ -3042,7 +3053,16 @@
         "an elf",
         "a snow plow",
         "snow",
-        "an advent calendar"
+        "an advent calendar",
+        "Krampus",
+        "a wreath",
+        "a nativity scene",
+        "a candy cane",
+        "#reindeer#",
+        "a yule lad",
+        "a ghost",
+        "a lawn ornament",
+        "the spirit of Christmas"
     ],
     "undercoverBuild": ["giant snow maze",
         "honey pot website",
@@ -3066,7 +3086,11 @@
         "crime boss",
         "drug kingpin",
         "counterfeiter",
-        "toy thief"],
+        "toy thief",
+        "gang leader",
+        "embezzler",
+        "robber",
+        "launderer"],
     "undercoverPlotSetup": ["#undercoverJob.capitalize# #person1Name##person1Actor# suspects #person2Name##person2Actor# is #crimeJob.a#, going undercover as #undercoverAs# to catch #person2ObjectPronoun#"], 
     "undercoverPlotSetup": ["#undercoverJob.capitalize# #person1Name##person1Actor# goes undercover as #undercoverAs# to catch suspected #crimeJob# #person2Name##person2Actor#"],
     "informant": ["#personJob.a#",
@@ -3084,7 +3108,9 @@
         "property developer",
         "banker",
         "late capitalist",
-        "Dickensian"
+        "Dickensian",
+        "property flipper",
+        "CEO"
     ],
     "propertyFinds": [
         "TikTok",
@@ -3094,12 +3120,16 @@
         "podcast",
         "passport",
         "DNA",
-        "mansion"
+        "mansion",
+        "BMW",
+        "LinkedIn",
+        "daughter",
+        "monogrammed underwear"
     ],
 
     "slipsUpWhile": ["drunk",
         "high",
-        "sleepy",
+        "half asleep",
         "gaming",
         "showering",
         "pooping"
@@ -3109,7 +3139,11 @@
         "#informant# tells #person2Name# #person1Name#'s true identity"
     ],
 
-    "propertyPlotSetup": ["#person2Name##person2Actor# won't sell #person2PossessivePronoun# family's #sellProperty# so #developerJob# #person1Name##person1Actor# disguises #person1ObjectPronoun#self as #disguiseAs# to change #person2PossessivePronoun# mind"],
+    "propertyChangeMind": [
+        "change #person2PossessivePronoun# mind",
+        "persuade #person2ObjectPronoun#"
+    ],
+    "propertyPlotSetup": ["#person2Name##person2Actor# won't sell #person2PossessivePronoun# family's #sellProperty# so #developerJob# #person1Name##person1Actor# disguises #person1ObjectPronoun#self as #disguiseAs# to #propertyChangeMind#"],
     "propertyPlotDiscover": ["Romance blooms until #trueIdentity#"],
     "propertyPlotSave": ["They #longActionSaveActivity# to save the #sellProperty# and fall in love"],
     "sellPropertyPlot_": ["#propertyPlotSetup#. #propertyPlotDiscover#. #propertyPlotSave#."],
