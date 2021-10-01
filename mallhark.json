@@ -3116,9 +3116,9 @@
         "property developer",
         "banker",
         "late capitalist",
-        "Dickensian",
         "property flipper",
-        "CEO"
+        "CEO",
+        "executive"
     ],
     "propertyFinds": [
         "TikTok",
@@ -3159,6 +3159,32 @@
     "sellPropertyPlot_": ["#propertyPlotSetup#. #propertyPlotDiscover#. #propertyPlotSave#."],
     "sellPropertyPlot": ["#[sellProperty:#business#]sellPropertyPlot_#"], 
     
+    "buyPropertySetup": ["#bigCity# #developerJob# #person1Name##person1Actor# comes to #townName# to buy #person2Name#'s#person2Actor# #sellProperty#" ],
+    "resistCompete": ["compete","battle","square off"],
+    "resistTeaches": [
+        "BDSM",
+        "trepanation",
+        "burglary",
+        "calculus",
+        "metaphysics",
+        "necromancy",
+        "forgery",
+        "charisma",
+        "stealth",
+        "acrobatics",
+        "cannibalism",
+        "divination",
+        "dentistry",
+        "radiology"
+    ],
+    "resistsBut": ["and teaches #person1ObjectPronoun# small-town #resistTeaches#",
+        "and they #resistCompete# in #competeEvent.a#"
+    ],
+    "buyPropertyDevelop": ["#person2Name# resists #resistsBut#"],
+    "buyPropertySave": ["#propertyPlotSave#"],
+    "buyPropertyPlot_": ["#buyPropertySetup#. #buyPropertyDevelop#. #buyPropertySave#."],
+    "buyPropertyPlot": ["#[sellProperty:#business#]buyPropertyPlot_#"],
+    
     "normalPlot":["#smallTownPlot#",
 		  "#smallTownPlotLongAction#",
 		  "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]pairPlot#",
@@ -3168,7 +3194,8 @@
 		  "#aloneUntilNoMalePlot#",
 		  "#alwaysWantedPlot#",
           "#undercoverPlot#",
-          "#sellPropertyPlot#"
+          "#sellPropertyPlot#",
+          "#buyPropertyPlot#"
 		 ],
 
     "plotStart": ["#normalPlot#"],
