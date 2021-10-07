@@ -15,10 +15,22 @@
     "century2": ["20th","22nd","23rd","24th","25th","26th","27th","28th","29th"],
     "century": ["1#digit#th","#century2#"],
 
-    "deadMaleActor": ["Groucho Marx","Vincent Price","Jimmy Stewart","James Dean","Marlon Brando","James Doohan"],
+    "deadMaleActor": [
+        "Groucho Marx",
+        "Vincent Price",
+        "Jimmy Stewart",
+        "James Dean",
+        "Marlon Brando",
+        "James Doohan",
+        "Paul Newman",
+        "Spencer Tracy",
+        "Laurence Olivier",
+        "Jack Lemmon",
+        "Humphrey Bogart" 
+  ],
     "maleActor": ["Steve Buscemi","Gary Busey","Vanilla Ice","Ice T","Billy Ray Cyrus","Gordon Ramsey","Kirk Cameron",
 		  "MC Hammer","Sam Waterston","Anthony Hopkins","Rami Malek", "Brendan Fraser",
-		  "John Barrowman","Nathan Fillion","Neil Patrick Harris","Christian Slater","Jason Mewes","Michael C. Hall",
+		  "Nathan Fillion","Neil Patrick Harris","Christian Slater","Jason Mewes","Michael C. Hall",
 		  "Keanu Reeves","Jackson Galaxy","Henry Rollins","Guy Fieri","Elon Musk","Adam Rippon","David Hasselhoff",
 		  "Gilbert Gottfried","Steve Guttenberg","Tom Hardy","Liam Neeson","Jean-Claude van Damme","Vin Diesel",
 		  "Jared Leto","Aaron Paul","Danny Trejo","Mr. T","Gene Simmons","The Rock",
@@ -44,7 +56,18 @@
           "Rainbow Sun Francks",
 		  "ghost of #deadMaleActor#"],
 
-    "deadFemaleActor": ["Lucille Ball","Audrey Hepburn","Elizabeth Taylor","Hedy Lamarr","Carol Channing","Joan Rivers"],
+    "deadFemaleActor": [
+        "Lucille Ball",
+        "Audrey Hepburn",
+        "Elizabeth Taylor",
+        "Hedy Lamarr",
+        "Carol Channing",
+        "Joan Rivers",
+        "Ingrid Bergman",
+        "Bette Davis",
+        "Elizabeth Taylor",
+        "Grace Kelly"
+    ],
     "femaleActor": ["Candace Cameron Bure", "Courtney Love", "Scarlett Johansson","Beyonce","Lea DeLaria","Mia Farrow",
 		    "Lucy Lawless","Gillian Anderson","Julia Stiles","Ruby Rose","Kate Moss","Awkwafina","Mindy Kaling",
 		    "Catherine Zeta-Jones","Bernadette Peters","Helen Mirren","Judi Dench","Natasha Lyonne","Madonna",
@@ -150,7 +173,14 @@
         "butcher shop",
         "arcade",
         "car wash",
-        "novelty store"
+        "novelty store",
+        "magic shop",
+        "car dealership",
+        "comic book shop",
+        "pet store",
+        "flower shop",
+        "internet café",
+        "video rental store"
     ],
 
     "animal": ["kangaroo",
@@ -222,8 +252,8 @@
 			"swanky","quarrelsome","thorough","bookish","acerbic","persnickety","calm",
 			"obstreperous","high-profile","wistful","stubborn","career-focused","busy",
 			"independent","passive-aggressive","famous","award-winning","infamous",
-			"workaholic","career-driven","antifa","world-renowned","cheugy","pescatarian",
-            "philandering"],
+			"workaholic","career-driven","antifa","world-renowned","pescatarian"
+            ],
     "person1Desc":["#person1Job#","#person1Adj# #person1Job#","#christmasCompany# #bossPosition#"],
     
    "person2Adj":["cranky","neat freak","narcoleptic","immature","free-spirited","passionate","incontinent",
@@ -250,6 +280,7 @@
 	       "popular","smart","serious","hypocritical","adventurous","incognito","asymptomatic","antifa",
 	       "curbside"
 	      ],
+    "allAdj": ["#person1Adj#","#person2Adj#"],
     "whisperer": ["horse","dog","cat","ghost","frog","dudebro","cheese"],
     "monger": ["cheese","fish","war","hate","news","iron","scare","fashion","coster","fell","soup","wheel"],
     "thief": ["jewel","car","art","book","avocado","identity"],
@@ -3098,13 +3129,18 @@
         "gang leader",
         "embezzler",
         "robber",
-        "launderer"],
+        "launderer",
+        "loiterer",
+        "trespasser",
+        "litterbug"
+    ],
     "undercoverPlotSetup": ["#undercoverJob.capitalize# #person1Name##person1Actor# suspects #person2Name##person2Actor# is #crimeJob.a#, going undercover as #undercoverAs# to catch #person2ObjectPronoun#"], 
     "undercoverPlotSetup": ["#undercoverJob.capitalize# #person1Name##person1Actor# goes undercover as #undercoverAs# to catch suspected #crimeJob# #person2Name##person2Actor#"],
     "informant": ["#personJob.a#",
         "#animal.a#",
         "#maleFemaleActor#",
-        "a ghost"],
+        "a ghost",
+        "an anonymous letter"],
     "undercoverPlotDiscover": ["Romance blooms until #trueIdentity#"],
     "undercoverPlotCatch": ["They create #undercoverBuild.a# to catch the real #crimeJob# and fall in love."],
     "undercoverPlot_": ["#undercoverPlotSetup#. #undercoverPlotDiscover#. #undercoverPlotCatch#"],
@@ -3115,10 +3151,14 @@
         "architect",
         "property developer",
         "banker",
-        "late capitalist",
         "property flipper",
         "CEO",
-        "executive"
+        "executive",
+        "investor",
+        "planner",
+        "lottery winner",
+        "celebrity",
+        "trust fund kid"
     ],
     "propertyFinds": [
         "TikTok",
@@ -3135,7 +3175,8 @@
         "Tinder bio",
         "wallet",
         "medications",
-        "vaccination card"
+        "vaccination card",
+        "credit card"
     ],
 
     "slipsUpWhile": ["drunk",
@@ -3159,7 +3200,34 @@
     "sellPropertyPlot_": ["#propertyPlotSetup#. #propertyPlotDiscover#. #propertyPlotSave#."],
     "sellPropertyPlot": ["#[sellProperty:#business#]sellPropertyPlot_#"], 
     
-    "buyPropertySetup": ["#bigCity# #developerJob# #person1Name##person1Actor# comes to #townName# to buy #person2Name#'s#person2Actor# #sellProperty#" ],
+    "buyPropertyComesTo": [
+        "comes",
+        "flies",
+        "drives",
+        "travels",
+        "teleports",
+        "swims",
+        "roller skates",
+        "snowboards",
+        "crawls",
+        "walks",
+        "runs",
+        "tunnels",
+        "pole vaults",
+        "bikes"
+    ],
+    "buyPropertyArrivesIn": [
+        "materializes",
+        "arrives",
+        "appears",
+        "surfaces",
+        "lands"
+    ],
+    "buyPropertyGetsTo": [
+        "#buyPropertyComesTo# to",
+        "#buyPropertyArrivesIn# in"
+    ],
+    "buyPropertySetup": ["#person1Adj.capitalize# #bigCity# #developerJob# #person1Name##person1Actor# #buyPropertyGetsTo# #townName# to buy #person2Name#'s#person2Actor# #sellProperty#" ],
     "resistCompete": ["compete","battle","square off"],
     "resistTeaches": [
         "BDSM",
@@ -3170,17 +3238,130 @@
         "necromancy",
         "forgery",
         "charisma",
-        "stealth",
         "acrobatics",
         "cannibalism",
         "divination",
         "dentistry",
-        "radiology"
+        "radiology",
+        "sorcery",
+        "pharmacology",
+        "gene splicing",
+        "microscopy",
+        "vampirism"
     ],
-    "resistsBut": ["and teaches #person1ObjectPronoun# small-town #resistTeaches#",
-        "and they #resistCompete# in #competeEvent.a#"
+    "resistPutsIn": [
+        "the corner",
+        "a re-education camp",
+        "kindergarten",
+        "stirrups",
+        "handcuffs",
+        "carbonite",
+        "a submarine"
     ],
-    "buyPropertyDevelop": ["#person2Name# resists #resistsBut#"],
+    "resistPutsOn": [
+        "display",
+        "antibiotics",
+        "antidepressants",
+        "notice",
+        "probation",
+        "reddit"
+    ],
+    "resistMakesDoPossessive": [
+        "taxes",
+        "dishes",
+        "laundry"
+    ],
+    "resistMakesDo": [
+        "pilates",
+        "push-ups",
+        "homework",
+        "#person2PossessivePronoun# #resistMakesDoPossessive#"
+    ],
+    "resistMakesWear": [
+        "a Members Only jacket",
+        "crocs",
+        "parachute pants",
+        "Axe body spray",
+        "sideburns",
+        "chest hair",
+        "bell bottoms",
+        "a leisure suit",
+        "#animal.a# fursuit"
+    ],
+    "color": [
+        "yellow",
+        "orange",
+        "purple",
+        "magenta",
+        "blue",
+        "teal"
+    ],
+    "resistMakes": [
+        "wear #resistMakesWear#",
+        "do #resistMakesDo#",
+        "leave",
+        "beatbox",
+        "dance",
+        "line dance",
+        "burp",
+        "kneel"
+    ],
+    "resistTurns": [
+        "#color#",
+        "socialist",
+        "anticapitalist",
+        "antifascist",
+        "Presbyterian",
+        "hairy",
+        "evil",
+        "invisible",
+        "upside-down",
+        "inside-out",
+        "goth",
+        "pagan",
+        "carnivorous",
+        "paranoid",
+        "twitchy",
+        "renegade",
+        "spotted",
+        "away"
+    ],
+    "resistsBut": ["and teaches #person1ObjectPronoun# the magic of small-town #resistTeaches#",
+        "and they #resistCompete# in #competeEvent.a#",
+        "and makes #person1ObjectPronoun# #resistCompete# in #competeEvent.a#",
+        "and puts #person1ObjectPronoun# in #resistPutsIn#",
+        "and puts #person1ObjectPronoun# on #resistPutsOn#",
+        "and makes #person1ObjectPronoun# #resistMakes#",
+        "and turns #person1ObjectPronoun# #resistTurns#"
+    ],
+    "resistsVerb": [
+        "resists",
+        "refuses",
+        "says no",
+        "rejects #person1ObjectPronoun#",
+        "is uninterested",
+        "is adamantly opposed",
+        "won't sell"
+    ],
+    "familyRaise": [
+        "son",
+        "daughter",
+        "niece",
+        "nephew"
+    ],
+    "buyPropertyHandsFull": [
+        "#allAdj# #familyRaise#",
+        "#allAdj# #familyRaise.s#",
+        "#allAdj# #animal#",
+        "#allAdj# #animal.s#",
+        "#allAdj# army",
+        "robot army",
+        "#animal# army"
+    ],
+    "buyPropertyDevelop": [
+        "#person2Name# #resistsVerb# #resistsBut#",
+        "It's failing and #person2Name# is also trying to raise #person2PossessivePronoun# #buyPropertyHandsFull#"
+    ],
     "buyPropertySave": ["#propertyPlotSave#"],
     "buyPropertyPlot_": ["#buyPropertySetup#. #buyPropertyDevelop#. #buyPropertySave#."],
     "buyPropertyPlot": ["#[sellProperty:#business#]buyPropertyPlot_#"],
