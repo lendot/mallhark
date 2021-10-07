@@ -735,13 +735,13 @@
     "triesTo":["#triesToVerb# #person1Possessive# #triesToObject#"],
 
     "classType": ["self defense","decoupage","knitting","decorating","yoga","Lamaze","sky diving","archery","cookie baking"],
-    "showsUpAtHer":["hotel","motel","door","#familys# #business#","brunch",
+    "showsUpAtPerson1s":["hotel","motel","door","#familys# #business#","brunch",
 		    "interview","confession","oil change","audition","recital","furnace","bank",
 		    "pharmacy","gallery opening","movie premiere","#classType# class"],
 
     "findMisc": ["purpose","courage","inner child","empathy"],
     "findHis": ["#relative#","#organ#","#drink#","#inheritance#","#findMisc#","#food#"],
-    "findHer": ["#findHis#"],
+    "findPerson1s": ["#findHis#"],
 
     "fixHis": ["#challenge_count_noun#"],
 
@@ -769,9 +769,9 @@
     "thinksHes":["#person2Adj#","#person1Adj#"],
     "thinksPerson1s":["#person2Adj#","#person1Adj#","#person1ActorAlt#","too #person2Adj#","too #person1Adj#","#person1Job.a#"],
 
-    "makesPerson1DoubtHer": ["virginity","career choice","makeup","height","passion","hair","shoes","necklace",
+    "makesPerson1DoubtTheir": ["virginity","career choice","makeup","height","passion","hair","shoes","necklace",
 			 "#animal#","mental health","age"],
-    "makesPerson1Doubt": ["#person1Possessive# #makesPerson1DoubtHer#"],
+    "makesPerson1Doubt": ["#person1Possessive# #makesPerson1DoubtTheir#"],
     "doubtVerb": ["question","second guess","rethink"],
     
     "makesPerson1Verb": ["vomit","cringe","swoon","vacuum","cook","bleed","contort","schnitzel","burp","hiccup","sneeze",
@@ -794,7 +794,7 @@
 		    "shirtless","buff","eccentric","bicurious"],
     "makesPerson1":["#makesPerson1Verb#","#makesPerson1Adj#","feel #makesPerson1Adj#"],
     
-    "judgesHer": ["nails","hair","lipstick","shoes","accent","profession","vocabulary","family","personality",
+    "judgesPerson1s": ["nails","hair","lipstick","shoes","accent","profession","vocabulary","family","personality",
 		  "vocal fry","upspeak","cooking","baking","driving","lifestyle","posture","#animal#","talent",
 		  "#bodyPart#","teeth","knees","makeup","smile","voice","coffee choices","ancestry"],
     "judgesVerb": ["judges","mocks","makes fun of"],
@@ -803,13 +803,13 @@
 
 
     "constant": ["laughing","beatboxing","burping","bench pressing","jumping","blinking","yodeling"],
-    "doesntUnderstandHer": ["reasoning","grammar","motivations","clothing choices","innuendo","reproductive system",
+    "doesntUnderstandPerson1s": ["reasoning","grammar","motivations","clothing choices","innuendo","reproductive system",
 			    "perfume choices","psychic powers","constant #constant#","fear of #person2AfraidOf#",
 			    "diet","Santa Conspiracy Wall","martial arts","#fetish# fetish","birthmark","tattoos",
 			    "piercings","hair","religion","typography","color palette","ring tone",
 			    "puns","mating call","social distancing"
 			   ],
-    "doesntUnderstand": ["#person1Possessive# #doesntUnderstandHer#"],
+    "doesntUnderstand": ["#person1Possessive# #doesntUnderstandPerson1s#"],
     "understandVerb": ["understand","appreciate","approve of"],
 
     "becomesUnexpected": ["houseguest",
@@ -856,10 +856,10 @@
     
     "person2ActionMisc": ["lends #person1Object# #person2PossessivePronoun# #person2Lends#",
 		       "#accidentallyAdverb# #person2Accidentally#",
-		       "#showsUpAtVerb# #person1Possessive# #showsUpAtHer#","thinks #person1Subject#'s #thinksPerson1s#",
+		       "#showsUpAtVerb# #person1Possessive# #showsUpAtPerson1s#","thinks #person1Subject#'s #thinksPerson1s#",
 		       "makes #person1Object# #makesPerson1#","helps #person1Object# #person2Helps#","tries to #triesTo#",
 		       "#hiresVerb# #person1Object# to #hiresPerson1#",
-		       "#judgesVerb# #person1Possessive# #judgesHer#","doesn't #understandVerb# #doesntUnderstand#",
+		       "#judgesVerb# #person1Possessive# #judgesPerson1s#","doesn't #understandVerb# #doesntUnderstand#",
 		       "becomes #person1Possessive# unexpected #becomesUnexpected#"],
 
     "person2Action":["#person2ActionMisc#"],
@@ -960,8 +960,8 @@
     "fightThe":["#enemy# threatening Christmas"],
     "fightVerb":["fight","survive"],
 
-    "hisHer":["#person2Possessive#","#person1Possessive#"],
-    "theyWatch":["#hisHer# #watchHis#"],
+    "person1OrPerson2Possessive":["#person2Possessive#","#person1Possessive#"],
+    "theyWatch":["#person1OrPerson2Possessive# #watchHis#"],
     "watchVerb":["watch","train","clean","fix","find"],
     "orphaned":["cousin","cousins","niece","nieces","nephew","nephews"],
     "watchHis":["#relative#","#animal#","#bodyPart#","orphaned #orphaned#"],
@@ -1245,7 +1245,7 @@
 		  "#deadFemaleActor#"
 		 ],
     
-    "theyResurrect": ["#hisHer# #relative#",
+    "theyResurrect": ["#person1OrPerson2Possessive# #relative#",
 		      "#animal.a#",
 		      "#deadActor#"
 		     ],
@@ -1265,7 +1265,7 @@
 		     "rediscover #rediscover# for Christmas","help #helpClause# for Christmas",
 		     "protest #protest# for Christmas","form #theyForm.a# for Christmas",
 		     "become #become# for Christmas","#watchVerb# #theyWatch# for Christmas",
-		     "find #person1Possessive# #findHer# for Christmas","find #person1Possessive# #findHis# for Christmas",
+		     "find #person1Possessive# #findPerson1s# for Christmas","find #person1Possessive# #findHis# for Christmas",
 		     "solve a Christmas #solve#","#saveTownVerb# the town from #enemy# for Christmas",
 		     "brutally impose the way Christmas used to be",
 		     "save the town from the way Christmas used to be",
@@ -1291,7 +1291,7 @@
 			       "#competeShort#",
 			       "form #theyForm.a#",
 			       "take the #challenge.capitalizeAll# Challenge",
-			       "go #takesHim#",
+			       "go #takesPerson2#",
 			       "#organize# #putOn.a#"],
     "longActionSaveObject": ["save #saveThe#",
 			     "repair #repairObject# for Christmas",
@@ -1327,25 +1327,25 @@
 
     "hatch":["work","work together","join forces","unite","come together"],
 
-    "helpsHimLearnTo":["tie #person2PossessivePronoun# shoes","take care of #person2ObjectPronoun#self","do dishes","show emotions"],
+    "helpsPerson2LearnTo":["tie #person2PossessivePronoun# shoes","take care of #person2ObjectPronoun#self","do dishes","show emotions"],
     "cleanHis": ["basement","registry","knife wound","social media","criminal record","fish tank","browser history",
 		 "septic tank"],
 
     "dealWith": ["rejection","#person2Possessive# past","bills","insomnia","termites"],
     
-    "helpsHimMisc":["dye #person2PossessivePronoun# hair","deal with #dealWith#","fix #person2PossessivePronoun# laptop","shave #person2PossessivePronoun# yak"],
-    "helpsHim":["learn to #helpsHimLearnTo#","clean #person2PossessivePronoun# #cleanHis#","restore #person2PossessivePronoun# #business#",
-		"#helpsHimMisc#","rebuild #person2PossessivePronoun# #rebuild#"],
+    "helpsPerson2Misc":["dye #person2PossessivePronoun# hair","deal with #dealWith#","fix #person2PossessivePronoun# laptop","shave #person2PossessivePronoun# yak"],
+    "helpsPerson2":["learn to #helpsPerson2LearnTo#","clean #person2PossessivePronoun# #cleanHis#","restore #person2PossessivePronoun# #business#",
+		"#helpsPerson2Misc#","rebuild #person2PossessivePronoun# #rebuild#"],
 
-    "givesHimSubscription": ["Audible","CuriosityStream","New York Time","Hulu","Meowbox","CSA"],
+    "givesPerson2Subscription": ["Audible","CuriosityStream","New York Time","Hulu","Meowbox","CSA"],
     "lessons": ["dance","ballet","yoga","kung fu","SEO","cowbell","fencing"],
     "disease": ["herpes","west nile virus","strep throat","pink eye","chlamydia","cholera",
 		"diphtheria","gonorrhea","rabies","yellow fever","diarrhea","heartburn",
 		"coronavirus"],
     "counterfeit": ["$20","painting","statue","tree ornament"],
     "stolen": ["Xbox","BMW","necklace","#animal#","iPhone"],
-    "givesHim":["#disease#","a bath","vegemite","a baby","tofu","incense",
-		"#givesHimSubscription.a# subscription","a nervous tic","bacon","steak",
+    "givesPerson2":["#disease#","a bath","vegemite","a baby","tofu","incense",
+		"#givesPerson2Subscription.a# subscription","a nervous tic","bacon","steak",
 		"a mummy","coffee grounds","anthrax","collages",
 		"a pentagram","an alibi","a conniption","a WAP","a Members Only jacket",
 		"fleas","tuna","butter","yak milk","toner","nootropics","acetone","Belgium","staples",
@@ -1358,24 +1358,24 @@
 		"orphans","a toaster","sexy sexy","a lap dance","bitcoin","a Tesla","hives",
 		"#lessons# lessons","a farm box","green onion Chex","a still-beating heart",
         "a counterfeit #counterfeit#","a stolen #stolen#"],
-    "givesHer":["#givesHim#"],
+    "givesPerson1":["#givesPerson2#"],
 
     "huntingType": ["scavenger","moose","deal","ghost","Bigfoot","treasure"],
-    "takesHimTo": ["Gainesville","court","hell","Cambodia","Wawa","Walmart","Graceland","Carhenge",
+    "takesPerson2To": ["Gainesville","court","hell","Cambodia","Wawa","Walmart","Graceland","Carhenge",
 		   "Purgatory","the Upside Down","White Castle","jail","Nebraska","Taco Bell",
 		   "South Dakota","Kentucky","Denny's","IHOP","Fuddruckers","Bob Evans",
 		   "Home Depot","North Carolina","Montreal","Liechtenstein","Tasmania"],
-    "takesHimToThe": ["opera","playground","library","sewers","catacombs","scrap yard",
+    "takesPerson2ToThe": ["opera","playground","library","sewers","catacombs","scrap yard",
 		      "astral plane","thunderdome","North Pole","moon"],
-    "takesHimMisc": ["bowling","skiing","shopping","gambling","racing","on a picnic","clubbing",
+    "takesPerson2Misc": ["bowling","skiing","shopping","gambling","racing","on a picnic","clubbing",
 		     "fencing","pole vaulting","roller skating","hang gliding",
 		     "antiquing","yiffing","skinny dipping","pole dancing","busking","cow tipping",
 		     "camel racing","spelunking","pillaging","vaccinating"],
-    "takesHim": ["#huntingType# hunting",
-		 "to #takesHimTo#",
-		 "to the #takesHimToThe#",
-		 "#takesHimMisc#"],
-    "takesHer": ["#takesHim#"],
+    "takesPerson2": ["#huntingType# hunting",
+		 "to #takesPerson2To#",
+		 "to the #takesPerson2ToThe#",
+		 "#takesPerson2Misc#"],
+    "takesPerson1s": ["#takesPerson2#"],
    
     
     "stealsHis":["heart","virginity","Macarena CD","cockatiel","poinsettias","pain meds","passport","identity"],
@@ -1387,9 +1387,9 @@
     "bests": ["bests","beats","destroys"],
     
     "person1Person2ClauseMisc": ["martinizes #person2Possessive# shorts #forChristmas#","quits #person1Object# job #forChristmas#"],
-    "person1Person2Clause":["helps #person2Object# #helpsHim# #forChristmas#",
-		    "gives #person2Object# #givesHim# for Christmas",
-		    "takes #person2Object# #takesHim# for Christmas",
+    "person1Person2Clause":["helps #person2Object# #helpsPerson2# #forChristmas#",
+		    "gives #person2Object# #givesPerson2# for Christmas",
+		    "takes #person2Object# #takesPerson2# for Christmas",
 		    "#bests# #person2Object# in the Christmas #competeEvent#",
 		    "builds #person2Object# #build.a# for Christmas"],
 
@@ -1424,10 +1424,10 @@
 
     "rebuildVerb": ["rebuild","restore"],
     
-    "helpsHer": ["find #person1PossessivePronoun# #findHer#","#rebuildVerb# #person1PossessivePronoun# #rebuild#"],
-    "heHerClause": ["helps #person1Name# #helpsHer# #forChristmas#",
-		    "gives #person1Name# #givesHer# for Christmas",
-		    "takes #person1Name# #takesHer# for Christmas",
+    "helpsPerson1": ["find #person1PossessivePronoun# #findPerson1s#","#rebuildVerb# #person1PossessivePronoun# #rebuild#"],
+    "person2Person1Clause": ["helps #person1Name# #helpsPerson1# #forChristmas#",
+		    "gives #person1Name# #givesPerson1# for Christmas",
+		    "takes #person1Name# #takesPerson1s# for Christmas",
 		    "builds #person1Name# #build.a# for Christmas"],
 
 
@@ -1438,7 +1438,7 @@
     "theySentence":["#they# #actionClause# and fall in love.",
 		    "#they# #actionClause# and fall in love.",
 		    "#person1Subject.capitalize# #person1Person2Clause# and they fall in love.",
-		    "#person2Subject.capitalize# #heHerClause# and they fall in love."],
+		    "#person2Subject.capitalize# #person2Person1Clause# and they fall in love."],
     "actionSentence":["#theySentence#"],
 
     "meetsObject":["#person2NameActor#, #person2Desc#","#person2Job.a##person2Actor# #person2Modifier#","#person2Occupation.a##person2Actor# #person2Modifier#"],
@@ -1477,8 +1477,8 @@
 		   "#leadsEventMisc#"],
     "leadsToTownMisc": ["#person1Possessive# hometown","a Christmas town","a remote town",
 			"a cozy town","a folksy town","#person1Possessive# childhood home","a 1950s town"],
-    "leadsToHerFamilys": ["#onFamilys#","#atFamilys#","#inFamilys#"],
-    "leadsToTown": ["#townName#","#townAdj# #townName#","#leadsToTownMisc#","#person1Possessive# #familys# #leadsToHerFamilys#"],
+    "leadsToPerson1Familys": ["#onFamilys#","#atFamilys#","#inFamilys#"],
+    "leadsToTown": ["#townName#","#townAdj# #townName#","#leadsToTownMisc#","#person1Possessive# #familys# #leadsToPerson1Familys#"],
     
     
     "christmasTime": ["Christmas time","Christmas","Christmas season"],
@@ -1574,11 +1574,11 @@
     "approaching": ["approaching","coming","near","fast approaching","almost here"],
 
     "butGoalDoesntHave": ["feelings","internet","clothing","hope","bacon","common sense","time","friends","a job"],
-    "butGoalDoesntHaveHer": ["#lost#"],
+    "butGoalDoesntHaveTheir": ["#lost#"],
     
     "butGoalDoesntBelieve": ["Santa","solstices","December","capitalism","reindeer","magic","holidays",
 			     "rampant consumerism","Jesus","the North Pole","reindeer"],
-    "butGoalDoesnt": ["have #butGoalDoesntHave#","believe in #butGoalDoesntBelieve#","have #person1Possessive# #butGoalDoesntHaveHer#"],
+    "butGoalDoesnt": ["have #butGoalDoesntHave#","believe in #butGoalDoesntBelieve#","have #person1Possessive# #butGoalDoesntHaveTheir#"],
 
     "planet": ["Mercury", "Venus", "Mars","Jupiter","Saturn","Uranus","Pluto"],
     "busyThinkingAboutMisc": ["calculus","bathtubs","physics","microcontrollers","blenders","concrete","fertilizer",
@@ -1587,7 +1587,7 @@
 			      "acetyl-l-carnitine","knotting","OSIRIS-REx","Theranos","NXIVM","Bennu"],
     "busyThinkingAboutActor": ["#maleActor#","#femaleActor#"],
     "busyThinkingAbout": ["#busyThinkingAboutActor#","#challenge_mass_noun#","#busyThinkingAboutMisc#"],
-    "busyWithHer": ["hair","motorcycle","pants","dolls","leeches","podcast","youtube channel","hostages","necromancy","fondue",
+    "busyWithTheir": ["hair","motorcycle","pants","dolls","leeches","podcast","youtube channel","hostages","necromancy","fondue",
 		    "bitcoin mining","garlic","forensics","ferret","cats","monorail","makeup","toast","decoupage",
 		    "kitting","alchemy","juggling","dressage","parkour","consumerism","pus","music","artwork","yoga",
 		    "electricity","cutlery","oil","garbage","gossip","guilt","homework","immortality","jealousy",
@@ -1595,7 +1595,7 @@
     "worryingAboutMisc": ["climate change","aliens","gnomes","asteroids","armageddon","bikers","capitalism",
 			  "fire extinguishers","Krampus","the pandemic"],
     "busyWorryingAbout": ["#worryingAboutMisc#","#kidnapper#","#becomeNoun.s#"],
-    "butGoalBusy": ["thinking about #busyThinkingAbout#","with #person1Possessive# #busyWithHer#","worrying about #busyWorryingAbout#"],
+    "butGoalBusy": ["thinking about #busyThinkingAbout#","with #person1Possessive# #busyWithTheir#","worrying about #busyWorryingAbout#"],
 
     "oneThing": ["#busyThinkingAbout#","#busyWorryingAbout#"],
 
@@ -1719,24 +1719,24 @@
 			  "harass","sweet-talk","hug","lick","glue","bounce","sew","cook",
 			  "smoke","bleach"],
     
-    "decideHerObject": ["#relative#","#animal#","family's #business#"],
+    "decidePerson1sObject": ["#relative#","#animal#","family's #business#"],
     "decideObject": ["#femaleActor#","#maleActor#","the town's #repairTheTowns#"],
     "decideObjectLiving": ["#femaleActor#","#maleActor#","#person1Possessive# #relative#","#person1Possessive# #animal#"],
-    "decideOtherOption": ["#decideBetweenVerb# #person1Possessive# #decideHerObject#",
+    "decideOtherOption": ["#decideBetweenVerb# #person1Possessive# #decidePerson1sObject#",
 			  "#decideBetweenVerb# #decideObject#",
-			  "taking #decideObjectLiving# #takesHim#"],
+			  "taking #decideObjectLiving# #takesPerson2#"],
     "decideFirstOption": ["#decideBetweenVerb# him",
-			  "taking him #takesHim#",
+			  "taking him #takesPerson2#",
 			  "#decideBetweenVerb# #person2Possessive# #person2WithA#",
-			  "giving him #givesHim#"],
+			  "giving him #givesPerson2#"],
     "decideBetween": ["#decideFirstOption# and #decideOtherOption#"],
 
     "chooseFirstOption": ["#chooseBetweenVerb# him",
-			  "take him #takesHim#",
+			  "take him #takesPerson2#",
 			  "#chooseBetweenVerb# #person2Possessive# #person2WithA#"],
-    "chooseOtherOption": ["#chooseBetweenVerb# #person1Possessive# #decideHerObject#",
+    "chooseOtherOption": ["#chooseBetweenVerb# #person1Possessive# #decidePerson1sObject#",
 			  "#chooseBetweenVerb# #decideObject#",
-			  "take #decideObjectLiving# #takesHim#"],
+			  "take #decideObjectLiving# #takesPerson2#"],
     "chooseTo": ["#chooseFirstOption# or #chooseOtherOption#"],
     
     "looming": ["looming","approaching","near"],
@@ -1747,7 +1747,7 @@
 			     ],
     "person1NoLoveSentence": ["#noLoveSentenceChoose#"],
     
-    "person1Person2ActionSentence": ["#person2Subject.capitalize# #heHerClause# and they fall in love."],
+    "person1Person2ActionSentence": ["#person2Subject.capitalize# #person2Person1Clause# and they fall in love."],
     "person2Person1ActionSentence": ["#person1Subject.capitalize# #person1Person2Clause# and they fall in love."],
     "theyActionSentence": ["They #actionClause# and fall in love.",
 			   "They try to #boomClause# for Christmas and fall in lov*BOOM*"],
@@ -1802,7 +1802,7 @@
 		  "buy #buyNoun.a#",
 		  "take up #takeUp#",
 		  "learn #learn#",
-		  "find #person1PossessivePronoun# #findHer#",
+		  "find #person1PossessivePronoun# #findPerson1s#",
 		  "rediscover #rediscover#",
 		  "break #person2Possessive# #breakHis#",
 		  "accept #person1PossessivePronoun# #person1Job# job offer",
@@ -1828,7 +1828,7 @@
 		  "horniness"
 		 ],
     "trafficking": ["drug","organ"],
-    "affectHer": ["work",
+    "affectTheir": ["work",
 		  "confidence",
 		  "yoga",
 		  "serotonin",
@@ -1845,11 +1845,11 @@
 		  "tuba playing",
 		  "spite"
 		 ],
-    "affectHerVerb": ["affect #person1Possessive#",
+    "affectTheirVerb": ["affect #person1Possessive#",
 		      "get in the way of",
 		      "interfere with #person1Possessive#"
 		     ],
-    "doesntExpectManSetup": ["#person1Desc.capitalize# #person1NameActor# doesn't let #doesntLet# #affectHerVerb# #affectHer#"],
+    "doesntExpectManSetup": ["#person1Desc.capitalize# #person1NameActor# doesn't let #doesntLet# #affectTheirVerb# #affectTheir#"],
     
 
     "unexpectedManUntil": ["#person2NameActor# #aloneUntil#",
@@ -1975,8 +1975,8 @@
 		"VW microbus"
 	       ],
     "travelingVehicle": ["in a rental #carType#",
-			 "in #hisHer# #carType#",
-			 "in #hisHer# #relative#'s #carType#",
+			 "in #person1OrPerson2Possessive# #carType#",
+			 "in #person1OrPerson2Possessive# #relative#'s #carType#",
 			 "in a stolen #carType#",
 			 "in a decrepit #carType#"
 			],
@@ -2079,7 +2079,7 @@
 			 "a restroom",
 			 "pot",
 			 "a 1.21 gigawatt source",
-			 "#hisHer# #lost#",
+			 "#person1OrPerson2Possessive# #lost#",
 			 "#challenge_count_noun.s#"
 			],
 
@@ -2108,7 +2108,7 @@
 			     "become rabid"
 			    ],
     
-    "ifNotHomeInTime": ["If they don't hurry #hisHer# #ifNotHomeObject# will #ifNotHomeConsequence#"
+    "ifNotHomeInTime": ["If they don't hurry #person1OrPerson2Possessive# #ifNotHomeObject# will #ifNotHomeConsequence#"
 		       ],
 
     "pairPlotTravelGoal": ["They must #finishJourney# their #journey# with only #withOnly#",
@@ -2198,8 +2198,8 @@
     "broken": ["arm","finger","spirit","leg","phone","scooter","skateboard","glasses"],
     "missing": ["foot","eye","nose","tongue","phone","pants","shoe","hand","elf","#animal#"],
 
-    "withCondition": ["#hisHer# broken #broken#",
-		      "#hisHer# #missing# missing",
+    "withCondition": ["#person1OrPerson2Possessive# broken #broken#",
+		      "#person1OrPerson2Possessive# #missing# missing",
 		      "the weather getting worse"
 		     ],
 
@@ -2282,9 +2282,9 @@
     "pairPlotTravel": ["#pairPlotTravelSetup#. #pairPlotTravelGoal#. #pairPlotTravelActionSentence#"],
     
     
-    "forTheSakeOf": ["#hisHer# #relative#",
-		     "#hisHer# #animal#",
-		     "#hisHer# #familys# #business#",
+    "forTheSakeOf": ["#person1OrPerson2Possessive# #relative#",
+		     "#person1OrPerson2Possessive# #animal#",
+		     "#person1OrPerson2Possessive# #familys# #business#",
 		     "the way Christmas used to be",
 		     "the town's #business#",
 		     "the town's #christmasCompany#",
@@ -2320,7 +2320,7 @@
 		       "the freemasons",
 		       "hospital EHR problems"
 		      ],
-    "toPlacate": ["#hisHer# #placate#",
+    "toPlacate": ["#person1OrPerson2Possessive# #placate#",
 		  "the town #townPerson#"
 		 ],
     "pretendDating": ["to placate #toPlacate#",
@@ -2454,7 +2454,7 @@
 				"form #theyForm.a#",
 				"become #become#",
 				"#watchVerb# #theyWatch#",
-				"find #person1Possessive# #findHer#",
+				"find #person1Possessive# #findPerson1s#",
 				"find #person2Possessive# #findHis#",
 				"binge watch #bingeWatch#",
 				"build #build.a#",
@@ -2979,7 +2979,31 @@
 		      "#person2WithA#"
 		     ],
 
-    "person1FindsPerson2": ["#findsHimIncreasingly#"],
+    "findsPerson2Increasingly": ["immature",
+        "smarmy",
+        "obnoxious",
+        "pompous",
+        "distant",
+        "cranky",
+        "hairy",
+        "cocky",
+        "creepy",
+        "unreliable",
+        "greasy",
+        "gross",
+        "snippy",
+        "untidy",
+        "selfish",
+        "impatient",
+        "disobedient",
+        "pessimistic",
+        "overbearing",
+        "arrogant",
+        "cryptic",
+        "hostile"
+    ],
+
+    "person1FindsPerson2": ["#findsPerson2Increasingly#"],
     
     "person2CuteButPerson1": ["#person1Subject# doesn't like #person2PossessivePronoun# #doesntLikeHis#",
 		       "#person1Subject# finds #person2ObjectPronoun# #person1FindsPerson2#"
