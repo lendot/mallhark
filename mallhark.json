@@ -767,7 +767,7 @@
 		"be #person2PossessivePronoun# #beTheir#","subdue #person2PossessivePronoun# #subdueTheir#"],
 
     "thinksHes":["#person2Adj#","#person1Adj#"],
-    "thinksShes":["#person2Adj#","#person1Adj#","#person1ActorAlt#","too #person2Adj#","too #person1Adj#","#person1Job.a#"],
+    "thinksPerson1s":["#person2Adj#","#person1Adj#","#person1ActorAlt#","too #person2Adj#","too #person1Adj#","#person1Job.a#"],
 
     "makesPerson1DoubtHer": ["virginity","career choice","makeup","height","passion","hair","shoes","necklace",
 			 "#animal#","mental health","age"],
@@ -856,7 +856,7 @@
     
     "person2ActionMisc": ["lends #person1Object# #person2PossessivePronoun# #person2Lends#",
 		       "#accidentallyAdverb# #person2Accidentally#",
-		       "#showsUpAtVerb# #person1Possessive# #showsUpAtHer#","thinks #person1Subject#'s #thinksShes#",
+		       "#showsUpAtVerb# #person1Possessive# #showsUpAtHer#","thinks #person1Subject#'s #thinksPerson1s#",
 		       "makes #person1Object# #makesPerson1#","helps #person1Object# #person2Helps#","tries to #triesTo#",
 		       "#hiresVerb# #person1Object# to #hiresPerson1#",
 		       "#judgesVerb# #person1Possessive# #judgesHer#","doesn't #understandVerb# #doesntUnderstand#",
@@ -1386,8 +1386,8 @@
 
     "bests": ["bests","beats","destroys"],
     
-    "sheHimClauseMisc": ["martinizes #person2Possessive# shorts #forChristmas#","quits #person1Object# job #forChristmas#"],
-    "sheHimClause":["helps #person2Object# #helpsHim# #forChristmas#",
+    "person1Person2ClauseMisc": ["martinizes #person2Possessive# shorts #forChristmas#","quits #person1Object# job #forChristmas#"],
+    "person1Person2Clause":["helps #person2Object# #helpsHim# #forChristmas#",
 		    "gives #person2Object# #givesHim# for Christmas",
 		    "takes #person2Object# #takesHim# for Christmas",
 		    "#bests# #person2Object# in the Christmas #competeEvent#",
@@ -1437,7 +1437,7 @@
     "they": ["They","Together they"],
     "theySentence":["#they# #actionClause# and fall in love.",
 		    "#they# #actionClause# and fall in love.",
-		    "#person1Subject.capitalize# #sheHimClause# and they fall in love.",
+		    "#person1Subject.capitalize# #person1Person2Clause# and they fall in love.",
 		    "#person2Subject.capitalize# #heHerClause# and they fall in love."],
     "actionSentence":["#theySentence#"],
 
@@ -1520,8 +1520,8 @@
     "hasJustBecome": ["has just become #becomes#","has become #becomes#"],
 
 
-    "thinksSheVerb": ["is","might be"],
-    "thinksSheObject": ["stupid",
+    "thinksPerson1Verb": ["is","might be"],
+    "thinksPerson1Object": ["stupid",
 			"brilliant",
 			"sick",
 			"purple",
@@ -1558,14 +1558,14 @@
 			"magical",
 			"a cat lady"
 		       ],
-    "sheThinksSheIs": ["thinks #person1Subject# #thinksSheVerb# #thinksSheObject#"],
+    "person1ThinksTheyAre": ["thinks #person1Subject# #thinksPerson1Verb# #thinksPerson1Object#"],
     
     "alreadyInTownGoal": ["#needsToVerb# #needsToActivity#",
 			  "#hasJustLost#",
 			  "#inTownGoalMisc#",
 			  "#hasJustBecome#",
 			  "is becoming #becomes#",
-			  "#sheThinksSheIs#"
+			  "#person1ThinksTheyAre#"
 			 ],
 
     "inTownProtagonist": ["#person1Name#","#person1Adj# #person1Name#"],
@@ -1655,11 +1655,11 @@
 
     "person2ActionSentenceShort":["#meetsObjectBegin.capitalize# #person2Action#","#meetsObjectBeginUnnamed.capitalize# #person2Action#"],
 
-    "sheActionMisc": ["stalks","serenades","patronizes","sabotages","dehydrates","searches for","sedates",
+    "person1ActionMisc": ["stalks","serenades","patronizes","sabotages","dehydrates","searches for","sedates",
 		      "can read the thoughts of","anesthetizes","robs","locates","abducts","finds","wrestles",
 		      "vaccinates","spies on"],
     
-    "sheWrites": ["article","story","essay","poem","song","haiku","sonnet","screenplay","biography","reddit post",
+    "person1Writes": ["article","story","essay","poem","song","haiku","sonnet","screenplay","biography","reddit post",
 		  "opera","concept album","TV show","instagram story","blog post"],
     "shoppingItem": ["lawnmower","handcuff","parachute","guillotine","monster truck","jumpsuit","hedgehog","lighthouse",
 		     "gauze","casket","harmonica","hurdy gurdy","tutu","yacht","relic","yarn","Instant Pot","pencil",
@@ -1669,19 +1669,19 @@
 		  "bagels","#lessons# lessons","the flu","community service","#classType# class","an affair",
 		  "a duel","trust issues","knockwurst","a quickie","an obsession"],
 
-    "sheActionIs": ["intrigued","repulsed","rescued","motivated","flabbergasted","dumbfounded","resuscitated",
+    "person1ActionIs": ["intrigued","repulsed","rescued","motivated","flabbergasted","dumbfounded","resuscitated",
 		    "enthralled","amused","confused","mansplained to","mesmerized","blindsided","ignored",
 		    "encouraged","appalled","charmed","betrayed","confounded","bewitched","bothered",
 		    "angered","frustrated","bewildered"],
     
-    "sheActionClause": ["#meets#","#accidentallyAdverb# #accidentally#","#sheActionMisc#",
-			"goes on a blind date with","has #hasCoffee# with","writes #sheWrites.a# about",
-			"goes #shoppingItem# shopping with","is #sheActionIs# by"],
-    "sheActionSentence": ["#person1Subject.capitalize# #sheActionClause# #meetsObject#"],
-    "sheActionSentenceShort": ["#person1Subject.capitalize# #sheActionClause# #meetsObjectShort#"],
+    "person1ActionClause": ["#meets#","#accidentallyAdverb# #accidentally#","#person1ActionMisc#",
+			"goes on a blind date with","has #hasCoffee# with","writes #person1Writes.a# about",
+			"goes #shoppingItem# shopping with","is #person1ActionIs# by"],
+    "person1ActionSentence": ["#person1Subject.capitalize# #person1ActionClause# #meetsObject#"],
+    "person1ActionSentenceShort": ["#person1Subject.capitalize# #person1ActionClause# #meetsObjectShort#"],
 
 
-    "smallTownMeetSentence":["#sheActionSentence#","#person2ActionSentence#"],
+    "smallTownMeetSentence":["#person1ActionSentence#","#person2ActionSentence#"],
 
     "chooseMeetsObjectShort":["#manName# (#maleActor#), #person2Occupation.a#","#person2Occupation.a# (#maleActor#)"],
     "chooseBetween": ["#chooseMeetsObjectShort#","#person1PossessivePronoun# #lost#",
@@ -1689,7 +1689,7 @@
 		      "#person1PossessivePronoun# #fetish# fetish",
 		      "#person1PossessivePronoun# agency",
 		      "#decideOtherOption#"],
-    "sheNoLoveClause": ["must choose between #person2Object# and #chooseBetween#"],
+    "person1NoLoveClause": ["must choose between #person2Object# and #chooseBetween#"],
 
     
     "decideBetweenVerb": ["killing","pawning","juggling","snorting","swallowing","wiggling","placating","breaking",
@@ -1745,29 +1745,29 @@
     "noLoveSentenceChoose": ["#christmasNearIntro# #person1Name# must choose between #person2Object# and #chooseBetween#.",
 			     "Will #person1Name# choose #person2Object# or #chooseBetween# for Christmas?"
 			     ],
-    "sheNoLoveSentence": ["#noLoveSentenceChoose#"],
+    "person1NoLoveSentence": ["#noLoveSentenceChoose#"],
     
-    "sheHeActionSentence": ["#person2Subject.capitalize# #heHerClause# and they fall in love."],
-    "heSheActionSentence": ["#person1Subject.capitalize# #sheHimClause# and they fall in love."],
+    "person1Person2ActionSentence": ["#person2Subject.capitalize# #heHerClause# and they fall in love."],
+    "person2Person1ActionSentence": ["#person1Subject.capitalize# #person1Person2Clause# and they fall in love."],
     "theyActionSentence": ["They #actionClause# and fall in love.",
 			   "They try to #boomClause# for Christmas and fall in lov*BOOM*"],
     
-    "willSheVerb":["shoot","infect","stab","poison","lick","bite","shellac",
+    "willPerson1Verb":["shoot","infect","stab","poison","lick","bite","shellac",
 		   "hypnotize","bankrupt","shock",
 		   "insult","tranquilize","startle","decoupage","emasculate","defenestrate","offend",
 		   "humiliate","sneeze on","step on","pepper spray","bury",
 		   "disembowel","take out a hit on","circumcise",
 		   "imprison","crate","blackmail","hit","spill #spills# on"],
 
-    "willSheBecomeMisc": ["immortal","a misandrist","disillusioned","Mormon",
+    "willPerson1BecomeMisc": ["immortal","a misandrist","disillusioned","Mormon",
 			  "happy","a cat","a superhero","a serial killer",
 			  "evil personified","Death, the destroyer of worlds",
 			  "a sea witch","a novelist","independent","a roller derby player",
 			  "a pirate","antimatter","dark energy","a supernova",
 			  "one with the universe","a witch","a reality TV star",
 			  "a vampire"],
-    "willSheBecome":["#person1Job.a#",
-		     "#willSheBecomeMisc#"],
+    "willPerson1Become":["#person1Job.a#",
+		     "#willPerson1BecomeMisc#"],
 
     "breakHis": [
 	"clavicle",
@@ -1794,11 +1794,11 @@
 		    "asexual"
 		   ],
     
-    "orWillShe": ["#willSheVerb# #person2Object#",
+    "orWillPerson1": ["#willPerson1Verb# #person2Object#",
 		  "give #person2Object# #disease#",
 		  "poison #person2Possessive# #drinkType#",
 		  "harvest #person2Possessive# #organ#",
-		  "become #willSheBecome#",
+		  "become #willPerson1Become#",
 		  "buy #buyNoun.a#",
 		  "take up #takeUp#",
 		  "learn #learn#",
@@ -1808,8 +1808,8 @@
 		  "accept #person1PossessivePronoun# #person1Job# job offer",
 		  "embrace #embrace#"
 		 ],
-    "willTheySentence": ["Will they fall in love on Christmas or will #person1Subject# #orWillShe#?",
-			 "Will they fall in love or will #person1Subject# #orWillShe# on Christmas?"
+    "willTheySentence": ["Will they fall in love on Christmas or will #person1Subject# #orWillPerson1#?",
+			 "Will they fall in love or will #person1Subject# #orWillPerson1# on Christmas?"
 			],
 
     "doesntLet": ["personal feelings",
@@ -1858,31 +1858,31 @@
 
     "unexpectedManSentence": ["Until #unexpectedManUntil#"] ,
     
-    "unexpectedActionSentence": ["#sheHeActionSentence#",
+    "unexpectedActionSentence": ["#person1Person2ActionSentence#",
 				  "#theyActionSentence#",
-				  "#heSheActionSentence#",
+				  "#person2Person1ActionSentence#",
 				  "#willTheySentence#",
-				  "#sheNoLoveSentence#"
+				  "#person1NoLoveSentence#"
 				 ],
 				  
-    "smallTownPlot":["#smallTownSetup#. #sheActionSentence#. #sheHeActionSentence#",
-		     "#smallTownSetup#. #sheActionSentence#. #theyActionSentence#",
-		     "#smallTownSetup#. #person2ActionSentence#. #heSheActionSentence#",
+    "smallTownPlot":["#smallTownSetup#. #person1ActionSentence#. #person1Person2ActionSentence#",
+		     "#smallTownSetup#. #person1ActionSentence#. #theyActionSentence#",
+		     "#smallTownSetup#. #person2ActionSentence#. #person2Person1ActionSentence#",
 		     "#smallTownSetup#. #person2ActionSentence#. #theyActionSentence#",
-		     "#smallTownNoLoveSetup#. #person2ActionSentence#. #sheNoLoveSentence#",
+		     "#smallTownNoLoveSetup#. #person2ActionSentence#. #person1NoLoveSentence#",
 		     "#smallTownSetup#. #person2ActionSentence#. #willTheySentence#",
 		     "#doesntExpectManSetup#. #unexpectedManSentence#. #unexpectedActionSentence#"],
 
     "longActionSentence": ["They #longActionClause# and fall in love.",
 			  "To #longActionSaveObjectBegin#, they #longActionSaveActivity# and fall in love."],
-    "smallTownPlotLongAction": ["#smallTownSetupShort#. #sheActionSentence#. #longActionSentence#",
+    "smallTownPlotLongAction": ["#smallTownSetupShort#. #person1ActionSentence#. #longActionSentence#",
 				"#smallTownSetupShort#. #person2ActionSentence#. #longActionSentence#",
-				"#smallTownSetup#. #sheActionSentenceShort#. #longActionSentence#",
+				"#smallTownSetup#. #person1ActionSentenceShort#. #longActionSentence#",
 				"#smallTownSetup#. #person2ActionSentenceShort#. #longActionSentence#"],
 
-    "pairPlotActionSentence": ["#sheHeActionSentence#",
-			       "#heSheActionSentence#",
-			       "#sheNoLoveSentence#",
+    "pairPlotActionSentence": ["#person1Person2ActionSentence#",
+			       "#person2Person1ActionSentence#",
+			       "#person1NoLoveSentence#",
 			       "#willTheySentence#"],
     
     "former": ["lovers","colleagues","co-workers","classmates","couple","juggling duo",
@@ -2477,25 +2477,9 @@
     
     "pairPlot": ["#pairPlotSetup#. #pairPlotGoal#. #pairPlotActionSentence#"],
 
-    "timeMachine": ["invents a time machine",
-		    "steps into a time machine",
-		    "gets sucked into a time warp",
-		    "travels back in time"],
-    "timeTravelSetup": ["#protagonistIntroBegin# #timeMachine#"],
-    
-    "timeTravelPlot": ["#sheActionSentence#. #sheHeActionSentence# #timeTravelSetup#.",
-		     "#sheActionSentence#. #theyActionSentence# #timeTravelSetup#.",
-		     "#person2ActionSentence#. #heSheActionSentence# #timeTravelSetup#.",
-		     "#person2ActionSentence#. #theyActionSentence# #timeTravelSetup#.",
-		     "#person2ActionSentence#. #sheNoLoveSentence# #timeTravelSetup#.",
-		     "#person2ActionSentence#. #willTheySentence# #timeTravelSetup#."],
-
     "lastChristmas": ["#protagonistIntroBegin# gets Last Christmas stuck in #person1Possessive# head. Last Christmas I gave you my heart, but the very next day you gave it away. This year, to save me from tears, I'll give it to someone special."],
 
-    "herself": ["She #sheActionClause#"],
-    "herselfPlot": ["#smallTownSetup#. #herself# herself (#femaleActor#). #theyActionSentence#"],
-    
-    "absurdistPlot": ["#lastChristmas#","#herselfPlot#"],
+    "absurdistPlot": ["#lastChristmas#"],
 
     "aloneUntil": ["accidentally #person2Accidentally#",
 		   "lends #person1Object# #person2PossessivePronoun# #person2Lends#",
@@ -2537,9 +2521,9 @@
     "singleMomPlotGoal": ["#pairPlotGoal#"],
     "singleMomPlotActionSentence": ["#pairPlotActionSentence#"],
 
-    "singleMomRegularTwoThree": ["#sheActionSentence#. #sheHeActionSentence#",
-				 "#sheActionSentence#. #theyActionSentence#",
-				 "#person2ActionSentence#. #heSheActionSentence#",
+    "singleMomRegularTwoThree": ["#person1ActionSentence#. #person1Person2ActionSentence#",
+				 "#person1ActionSentence#. #theyActionSentence#",
+				 "#person2ActionSentence#. #person2Person1ActionSentence#",
 				 "#person2ActionSentence#. #theyActionSentence#"
 
 				],
@@ -2622,7 +2606,7 @@
 		    ],
     "alwaysWantedSetup": ["#person1Desc.capitalize# #person1NameActor# #alwaysWanted# #alwaysWantedObject#"],
 
-    "alwaysWantedPlot": ["#alwaysWantedSetup#. #sheActionSentence#. #longActionSentence#",
+    "alwaysWantedPlot": ["#alwaysWantedSetup#. #person1ActionSentence#. #longActionSentence#",
 			 "#alwaysWantedSetup#. #person2ActionSentence#. #longActionSentence#"
 			],
 
@@ -2995,76 +2979,16 @@
 		      "#person2WithA#"
 		     ],
 
-    "sheFindsHim": ["#findsHimIncreasingly#"],
+    "person1FindsPerson2": ["#findsHimIncreasingly#"],
     
-    "person2CuteButShe": ["#person1Subject# doesn't like #person2PossessivePronoun# #doesntLikeHis#",
-		       "#person1Subject# finds #person2ObjectPronoun# #sheFindsHim#"
+    "person2CuteButPerson1": ["#person1Subject# doesn't like #person2PossessivePronoun# #doesntLikeHis#",
+		       "#person1Subject# finds #person2ObjectPronoun# #person1FindsPerson2#"
 		      ],
     
 
     "person2CuteBut": ["#person2CuteButHe#",
-		    "#person2CuteButShe#"
+		    "#person2CuteButPerson1#"
 		   ],
-
-    
-    "timeReversePlotSetup": ["Time reverses on Christmas #namedTown#"],
-    "findsHimIncreasingly": ["immature",
-			     "smarmy",
-			     "obnoxious",
-			     "pompous",
-			     "distant",
-			     "cranky",
-			     "hairy",
-			     "cocky",
-			     "creepy",
-			     "unreliable",
-			     "greasy",
-			     "gross",
-			     "snippy",
-			     "untidy",
-			     "selfish",
-			     "impatient",
-			     "disobedient",
-			     "pessimistic",
-			     "overbearing",
-			     "arrogant",
-			     "cryptic",
-			     "hostile"
-			    ],
-
-    "timeReverseMeetClause": ["removes the dent from #possessive# car",
-			      "takes the hot coffee from #possessive# coat and puts it in #possessiveSubj# cup" 
-			     ],
-
-    "sheReverseSoloAction": ["takes down the Christmas decorations",
-			     "depletes the orphan fund",
-			     "becomes disillusioned with Christmas",
-			     "loses the magic of Christmas",
-			     "rejects the Christmas tradition",
-			     "stops believing in Christmas"
-			    ],
-
-    
-    "timeReverseMeet": ["#person1Subject.capitalize# #[object:him][possessive:his][possessiveSubj:her]timeReverseMeetClause# and",
-			"#person2Subject.capitalize# #[object:her][possessive:her][possessiveSubj:his]timeReverseMeetClause# and #person1Subject#",
-			"#person1Subject.capitalize# #sheReverseSoloAction# and"
-		       ],
-    
-    "timeReversePlotAction": ["#person1NameActor# is loving #person2NameActor# less and #person2Subject# is getting increasingly #findsHimIncreasingly#",
-			      "#person1NameActor# thought #person1Subject# loved #person2NameActor# but #person2Subject# is getting increasingly #findsHimIncreasingly#"
-			     ],
-    "timeReversePlotActionLong": ["#person1NameActor# thought #person1Subject# loved #person2NameActor# but the more #person2Subject# #sheReverseSoloAction# the more #findsHimIncreasingly# #person2Subject# gets"
-			     ],
-    
-    "timeReversePlotConclusion": ["#timeReverseMeet# leaves #person2Object# and the town for #person1Job.a# dream job in #bigCity#."],
-
-    "timeReversePlotConclusionShort": ["She leaves him and the town for #person1Job.a# dream job in #bigCity#."],
-
-
-    
-
-    "timeReversePlot": ["#timeReversePlotSetup#. #timeReversePlotAction#. #timeReversePlotConclusion#",
-			"#timeReversePlotSetup#. #timeReversePlotActionLong#. #timeReversePlotConclusionShort#"],
 
 
     "undercoverJob": ["cop",
