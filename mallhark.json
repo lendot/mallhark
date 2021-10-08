@@ -317,7 +317,7 @@
 		    "Cats extra","epidemiologist","nurse","virologist","immunologist","lab tech",
 		    "wedding planner","pianist","violinist","romance writer","omegaverse writer",
 		    "resistance leader","#prodigy# prodigy","podcaster","ranch hand","#zodiac#",
-            "snow plow driver"],
+            "snow plow driver","time traveler"],
     "person2Job": ["#personJob#"],
     "person2Occupation":["#person2Adj# #person2Job#"],
 
@@ -790,7 +790,7 @@
 		    "creepy","smarmy","lonely","square-jawed","manic","moody",
 		    "unreliable","libertarian","forgetful","incorrigible",
 		    "greasy","funky","snippy","stinky","beefy","thick","daring","grimy","gross",
-		    "fiberous","wooly","villainous","rusty","chill","oozy","floppy",
+		    "wooly","villainous","rusty","chill","oozy","floppy",
 		    "shirtless","buff","eccentric","bicurious"],
     "makesPerson1":["#makesPerson1Verb#","#makesPerson1Adj#","feel #makesPerson1Adj#"],
     
@@ -1670,7 +1670,7 @@
 		  "a duel","trust issues","knockwurst","a quickie","an obsession"],
 
     "person1ActionIs": ["intrigued","repulsed","rescued","motivated","flabbergasted","dumbfounded","resuscitated",
-		    "enthralled","amused","confused","mansplained to","mesmerized","blindsided","ignored",
+		    "enthralled","amused","confused","mesmerized","blindsided","ignored",
 		    "encouraged","appalled","charmed","betrayed","confounded","bewitched","bothered",
 		    "angered","frustrated","bewildered"],
     
@@ -2585,6 +2585,9 @@
 		     "post-modern",
 		     "Kafkaesque",
 		     "Lynchian",
+             "traditional",
+             "old timey",
+             "old fashioned",
 		     "#themed#-themed"
 		    ],
 
@@ -2596,8 +2599,8 @@
 		    "folksy"
 		   ],
     
-    "alwaysWantedObject": ["#christmasAdj.a# Christmas",
-			  "#traditional.a# #christmasAdj# Christmas"],
+    "alwaysWantedObject": ["#christmasAdj.a# Christmas"],
+
     "alwaysWanted": ["always wanted",
 		     "never had",
 		     "wants",
@@ -3295,7 +3298,13 @@
         "son",
         "daughter",
         "niece",
-        "nephew"
+        "nephew",
+        "cousin"
+    ],
+    "standardizedTest": [
+        "SAT",
+        "MCAT",
+        "LSAT"
     ],
     "buyPropertyHandsFull": [
         "#allAdj# #familyRaise#",
@@ -3304,11 +3313,24 @@
         "#allAdj# #animal.s#",
         "#allAdj# army",
         "robot army",
-        "#animal# army"
+        "#animal# army",
+        "baby demon",
+        "baby demons",
+        "dead #relative#",
+        "blood sugar",
+        "minions",
+        "#standardizedTest# score",
+        "roof"
+    ],
+    "buyPropertyFailing": [
+        "failing",
+        "going bankrupt",
+        "in the red",
+        "going under"
     ],
     "buyPropertyDevelop": [
         "#person2Name# #resistsVerb# #resistsBut#",
-        "It's failing and #person2Name# is also trying to raise #person2PossessivePronoun# #buyPropertyHandsFull#"
+        "It's #buyPropertyFailing# and #person2Name# is also trying to raise #person2PossessivePronoun# #buyPropertyHandsFull#"
     ],
     "buyPropertySave": ["#propertyPlotSave#"],
     "buyPropertyPlot_": ["#buyPropertySetup#. #buyPropertyDevelop#. #buyPropertySave#."],
