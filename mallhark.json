@@ -113,6 +113,7 @@
     "townGrove": ["#townTree#","Holly","Christmas","Yule"],
     "townHarbor": ["Bedford","Quaint","Christmas","Santa","Yule"],
     "townField": ["Deer","Moose","Wheat","Tree","#townTree#","Holly","Snow","Pleasant","Hope","Joy","Yule"],
+    "townCreek": ["#townField#","#townPark#","#townSprings#"],
     "townMisc": ["Chesterville","Maysville","Guilford","Yuletidesville","Quaintberry","Mayberry","Christiansburg",
 		 "Staunton","Santaburg","Ashby","Hopedale","Rockport","Mount Holly","Hollyville","Mistletoe",
 		 "Christmasville","Miracle","Sleepy Eye","Candy Cane","Christmastown","Masonville",
@@ -128,6 +129,7 @@
 		"#townSprings# Springs",
 		"#townGrove# Grove",
 		"#townHarbor# Harbor",
+        "#townCreek# Creek",
 		"#townField#field"],
 
 
@@ -524,7 +526,7 @@
 		  "No Regerts","Santa","Krampus","Bing Crosby","#maleActor#","#femaleActor#"],
 
     "lotsOf": ["lots of","an abundance of","too many","many"],
-    "person2WithLotsOf": ["cats","candy canes","reindeer","toys","wives"],
+    "person2WithLotsOf": ["cats","candy canes","reindeer","toys","wives","husbands"],
     "symptom": ["coronavirus","flu","scurvy"],
     "person2With": ["secrets","insomnia","medieval torture devices","Chocodiles","principles",
 		 "debts","anger management issues","#lotsOf# #person2WithLotsOf#","flashbacks",
@@ -534,7 +536,7 @@
 		 "tendinitis","tinnitus","bad teeth","telekinesis","bony ankles","elbow dimples",
 		 "knobby knees","extraterrestrial blood","chapped lips","purple eyes","rippling pecs",
 		 "werewolf powers","mad skillz","two left feet","horns","arsenic","glitter","dolls",
-		 "fruitcake","ham","acne","#symptom# symptoms"],
+		 "fruitcake","ham","acne","amnesia","#symptom# symptoms"],
 
     "fetish": ["balloon","butter","reindeer","elf","eggnog","Christmas tree","Christmas carol","shoe",
 	       "underwear","foot","snow","mistletoe","Santa","gift","wrapping paper","Rudolph",
@@ -3018,12 +3020,13 @@
 		   ],
 
 
-    "undercoverJob": ["cop",
+    "undercoverJob": [
+        "cop",
         "detective",
         "agent",
-        "investigator",
-        "superhero"
+        "investigator"
     ],
+    
     "reindeer": [
         "Dasher",
         "Dancer",
@@ -3085,16 +3088,33 @@
         "trespasser",
         "litterbug"
     ],
-    "undercoverPlotSetup": ["#undercoverJob.capitalize# #person1Name##person1Actor# suspects #person2Name##person2Actor# is #crimeJob.a#, going undercover as #undercoverAs# to catch #person2ObjectPronoun#"], 
-    "undercoverPlotSetup": ["#undercoverJob.capitalize# #person1Name##person1Actor# goes undercover as #undercoverAs# to catch suspected #crimeJob# #person2Name##person2Actor#"],
+    "undercoverPlotSetup": [
+        "#undercoverJob.capitalize# #person1Name##person1Actor# suspects #person2Name##person2Actor# is #crimeJob.a#, going undercover as #undercoverAs# to catch #person2ObjectPronoun#", 
+        "#undercoverJob.capitalize# #person1Name##person1Actor# goes undercover as #undercoverAs# to catch suspected #crimeJob# #person2Name##person2Actor#"
+    ],
+    "pairUndercoverAs": [
+        "#personJob.a#",
+        "#undercoverAs#"
+    ],
+
+    "undercoverPairPlotSetup": [
+        "#undercoverJob.capitalize.s# #person1Name##person1Actor# and #person2Name##person2Actor# go undercover as #pairUndercoverAs# and #pairUndercoverAs# to catch #crimeJob.a#"
+    ],
     "informant": ["#personJob.a#",
         "#animal.a#",
         "#maleFemaleActor#",
         "a ghost",
         "an anonymous letter"],
-    "undercoverPlotDiscover": ["Romance blooms until #trueIdentity#"],
-    "undercoverPlotCatch": ["They create #undercoverBuild.a# to catch the real #crimeJob# and fall in love."],
-    "undercoverPlot_": ["#undercoverPlotSetup#. #undercoverPlotDiscover#. #undercoverPlotCatch#"],
+    "romanceBlooms": [
+        "romance blooms",
+        "sparks fly"
+    ],
+    "undercoverPlotDiscover": ["#romanceBlooms.capitalize# until #trueIdentity#"],
+    "undercoverPlotCatch": ["They create #undercoverBuild.a# on Christmas to catch the real #crimeJob# and fall in love."],
+    "undercoverPairCatch": ["They create #undercoverBuild.a# on Christmas to foil the #crimeJob# and fall in love."],
+    "undercoverPairDiscover": ["#pairPlotGoal#"],
+    "undercoverPlot_": ["#undercoverPlotSetup#. #undercoverPlotDiscover#. #undercoverPlotCatch#",
+                        "#undercoverPairPlotSetup#. #undercoverPairDiscover#. #undercoverPairCatch#"],
     "undercoverPlot": ["#[crimeJob:#undercoverCrimeJob#]undercoverPlot_#"],
 
     "disguiseAs": ["#undercoverAs#"],
@@ -3109,7 +3129,11 @@
         "planner",
         "lottery winner",
         "celebrity",
-        "trust fund kid"
+        "trust fund kid",
+        "bitcoin enthusiast",
+        "loan shark",
+        "real estate agent",
+        "tycoon"
     ],
     "propertyFinds": [
         "TikTok",
@@ -3145,10 +3169,31 @@
         "change #person2PossessivePronoun# mind",
         "persuade #person2ObjectPronoun#"
     ],
+    "changeOfHeartClause": [
+        "has a change of heart",
+        "has an epiphany"
+    ],
+    "whenGetsTo": [
+        "know",
+        "massage",
+        "marinade"
+    ],
+    "changeOfHeartWhenClause": [
+        "#person1SubjectPronoun# gets to #whenGetsTo# #person2ObjectPronoun#"
+    ],
+    "propertyChangeOfHeart": [
+        "#person1Name# #changeOfHeartClause# when #changeOfHeartWhenClause#"
+    ],
     "propertyPlotSetup": ["#person2Name##person2Actor# won't sell #person2PossessivePronoun# family's #sellProperty#. #developerJob.capitalize# #person1Name##person1Actor# masquerades as #disguiseAs# to #propertyChangeMind#"],
-    "propertyPlotDiscover": ["Romance blooms until #trueIdentity#"],
-    "propertyPlotSave": ["They #longActionSaveActivity# to save the #sellProperty# for Christmas and fall in love"],
-    "sellPropertyPlot_": ["#propertyPlotSetup#. #propertyPlotDiscover#. #propertyPlotSave#."],
+    "propertyPlotDiscover": [
+        "Romance blooms until #trueIdentity#",
+        "#propertyChangeOfHeart#"
+    ],
+    "propertyPlotSave": [
+        "They #longActionSaveActivity# to save the #sellProperty# for Christmas and fall in love.",
+        "#willTheySentence#"
+    ],
+    "sellPropertyPlot_": ["#propertyPlotSetup#. #propertyPlotDiscover#. #propertyPlotSave#"],
     "sellPropertyPlot": ["#[sellProperty:#business#]sellPropertyPlot_#"], 
     
     "buyPropertyComesTo": [
@@ -3328,9 +3373,60 @@
         "in the red",
         "going under"
     ],
+    "perfectRecipe": [
+        "turkey",
+        "Christmas loaf",
+        "stuffing",
+        "meth",
+        "cranberry sauce",
+        "egg nog",
+        "moonshine"
+    ],
+    "christmasPerson": [
+        "Santa",
+        "Krampus",
+        "elf",
+        "Rudolph",
+        "baby Jesus",
+        "Yule Lad"
+    ],
+    "statue": [
+        "#animal#",
+        "#maleFemaleActor#",
+        "#christmasPerson#"
+    ],
+    "buyPropertyPerfect": [
+        "#perfectRecipe# recipe" ,
+        "lassoing",
+        "#statue# statue",
+        "retirement plan",
+        "Klingon",
+        "Camaro",
+        "eyebrows",
+        "yodeling",
+        "triple axel",
+        "tango",
+        "signature",
+        "bird call",
+        "forgery",
+        "pickup lines",
+        "high jump",
+        "time machine",
+        "CSS",
+        "cosplay outfit",
+        "ransomware attack",
+        "accent",
+        "hair",
+        "bathroom",
+        "bunker"
+    ],
+    "busyTryingTo": [
+        "raise #person2PossessivePronoun# #buyPropertyHandsFull#",
+        "perfect #person2PossessivePronoun# #buyPropertyPerfect#"
+    ],
     "buyPropertyDevelop": [
         "#person2Name# #resistsVerb# #resistsBut#",
-        "It's #buyPropertyFailing# and #person2Name# is also trying to raise #person2PossessivePronoun# #buyPropertyHandsFull#"
+        "It's #buyPropertyFailing#, and #person2Name# is also busy trying to #busyTryingTo#"
     ],
     "buyPropertySave": ["#propertyPlotSave#"],
     "buyPropertyPlot_": ["#buyPropertySetup#. #buyPropertyDevelop#. #buyPropertySave#."],
@@ -3344,16 +3440,16 @@
 		  "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]accidentalPlot#",
 		  "#aloneUntilNoMalePlot#",
 		  "#alwaysWantedPlot#",
-          "#undercoverPlot#",
-          "#sellPropertyPlot#",
-          "#buyPropertyPlot#"
+          "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]undercoverPlot#",
+          "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]sellPropertyPlot#",
+          "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]buyPropertyPlot#"
 		 ],
 
     "plotStart": ["#normalPlot#"],
     
-    "origin":["#[person2Actor: (#maleActor#)][person1Actor: (#femaleActor#)][person1Name:#womanName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:she][person1Object:her][person1Possessive:her][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:her][person1ObjectPronoun:her][person1ActorAlt:#femaleActor#]plotStart#",
-            "#[person1Actor: (#maleActor#)][person2Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#manName#][person1Subject:he][person1Object:him][person1Possessive:his][person2Subject:she][person2Object:her][person2Possessive:her][person2SubjectPronoun:she][person1PossessivePronoun:his][person1ObjectPronoun:him][person2PossessivePronoun:her][person2ObjectPronoun:her][person2ActorAlt:#femaleActor#]plotStart#",
-	      "#[person2Actor: (#maleActor#)][person1Actor: (#maleActor#)][person1Name:#manName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:he][person1Object:him][person1Possessive:his][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:his][person1ObjectPronoun:him][person1ActorAlt:#maleActor#]plotStart#",
-	      "#[person2Actor: (#femaleActor#)][person1Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#womanName#][person2Subject:she][person2Object:her][person2Possessive:her][person1Subject:she][person1Object:her][person1Possessive:her][person1PossessivePronoun:her][person1ObjectPronoun:her][person2SubjectPronoun:she][person2PossessivePronoun:her][person2ObjectPronoun:her][person1ActorAlt:#femaleActor#]plotStart#"
+    "origin":["#[person2Actor: (#maleActor#)][person1Actor: (#femaleActor#)][person1Name:#womanName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:she][person1Object:her][person1Possessive:her][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:her][person1ObjectPronoun:her][person1ActorAlt:#femaleActor#][person1SubjectPronoun:she]plotStart#",
+            "#[person1Actor: (#maleActor#)][person2Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#manName#][person1Subject:he][person1Object:him][person1Possessive:his][person2Subject:she][person2Object:her][person2Possessive:her][person2SubjectPronoun:she][person1PossessivePronoun:his][person1ObjectPronoun:him][person2PossessivePronoun:her][person2ObjectPronoun:her][person2ActorAlt:#femaleActor#][person1SubjectPronoun:he]plotStart#",
+	      "#[person2Actor: (#maleActor#)][person1Actor: (#maleActor#)][person1Name:#manName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:he][person1Object:him][person1Possessive:his][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:his][person1ObjectPronoun:him][person1ActorAlt:#maleActor#][person1SubjectPronoun:he]plotStart#",
+	      "#[person2Actor: (#femaleActor#)][person1Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#womanName#][person2Subject:she][person2Object:her][person2Possessive:her][person1Subject:she][person1Object:her][person1Possessive:her][person1PossessivePronoun:her][person1ObjectPronoun:her][person2SubjectPronoun:she][person2PossessivePronoun:her][person2ObjectPronoun:her][person1ActorAlt:#femaleActor#][person1SubjectPronoun:she]plotStart#"
 	     ]
 }
