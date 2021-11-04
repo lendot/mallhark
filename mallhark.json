@@ -685,7 +685,24 @@
     "spills": ["tea","coffee","oil","brake fluid","lighter fluid","acetone","blood","molasses","ball bearings","cocoa",
 	       "cider","soup","salt","sugar","nutmeg","cloves","cat litter","tree ornaments","vinegar","tar"],
 
-    "accidentallyBreaks": ["arm","leg","clavicle","jaw","window","urn","Xbox","blender"],
+    "accidentallyBreaks": [
+        "arm",
+        "leg",
+        "clavicle",
+        "jaw",
+        "window",
+        "urn",
+        "Xbox",
+        "blender",
+        "phone",
+        "pelvis",
+        "wrist",
+        "keyboard",
+        "headset",
+        "fibula",
+        "chair",
+        "backhoe"
+    ],
     
     "person2Accidentally":["breaks #person1PossessivePronoun# #accidentallyBreaks#",
 			"hits #person1PossessivePronoun# car",
@@ -1134,7 +1151,7 @@
     "protest": ["wage disparity","avocados","cilantro","self-driving cars","halibut","monopolies","Big Dairy",
 		"first-person shooters","elf working conditions","commercialism","meat husks","taxes"],
 
-    "theyForm": ["subcommittee","farming collective","improv troupe","religion","country","thruple"],
+    "theyForm": ["subcommittee","farming collective","improv troupe","religion","country","throuple"],
 
     "launch": ["TV show","missile","satellite","production company","toy line","clothing line","ad campaign"],
 
@@ -1606,7 +1623,7 @@
 
     "alreadyInTownSetup": ["It's #christmasTime# #namedOrUnnamedTown# and #inTownProtagonist##person1Actor# #alreadyInTownGoal#",
 			   "As Christmas approaches #namedOrUnnamedTown#, #inTownProtagonist##person1Actor# #alreadyInTownGoal#",
-			   "Christmas is #approaching# #namedOrUnnamedTown# and #inTownProtagonist##person1Actor# #alreadyInTownGoal#",
+			   "Christmas is #approaching# #namedOrUnnamedTown# and #inTownProtagonist##person2Actor# #alreadyInTownGoal#",
 			   "Christmas is #approaching# #namedOrUnnamedTown# but #inTownProtagonist##person1Actor# #inTownButGoal#",
 			   "#namedTown.capitalize#, Christmas is #approaching# and #inTownProtagonist##person1Actor# #alreadyInTownGoal#",
 			   "It's #christmasTime# #namedOrUnnamedTown# but #inTownProtagonist##person1Actor# #inTownButGoal#"],
@@ -3431,6 +3448,74 @@
     "buyPropertySave": ["#propertyPlotSave#"],
     "buyPropertyPlot_": ["#buyPropertySetup#. #buyPropertyDevelop#. #buyPropertySave#."],
     "buyPropertyPlot": ["#[sellProperty:#business#]buyPropertyPlot_#"],
+
+    "injuryBreaks": [
+        "#accidentallyBreaks#"
+    ],
+
+    "breakWhileSaving": [
+        "#animal.a#",
+        "democracy",
+        "a child",
+        "#maleFemaleActor#",
+        "face",
+        "a nun",
+        "an old lady",
+        "an old man",
+        "Santa",
+        "Christmas"
+    ],
+    "injurySaveVerb": [
+        "save",
+        "rescue"
+    ],
+    "breakWhilePreventing": [
+        "fascism",
+        "a pandemic",
+        "forest fires",
+        "Christmas",
+        "a marriage",
+        "an insurrection",
+        "a bris",
+        "global thermonuclear war",
+        "tooth decay",
+        "pregnancy",
+        "armageddon",
+        "snow",
+        "a sacrifice",
+        "a robbery",
+        "a gender reveal party"
+    ],
+    "injuryBreaksWhile": [
+        "tapdance",
+        "#injurySaveVerb# #breakWhileSaving#",
+        "time travel",
+        "lucid dream",
+        "mine cryptocurrency",
+        "prevent #breakWhilePreventing#"
+    ],
+
+    "injuryPlotSetupStory": [
+        "breaks #person1Possessive# #injuryBreaks# while trying to #injuryBreaksWhile#"
+    ],
+    "injuryPlotSetup": [
+        "#person1Adj.capitalize# #person1Job# #person1Name##person1Actor# #injuryPlotSetupStory#"
+    ],
+
+    "injuryPlotPerson2": [
+        "#meetsObjectBegin.capitalize# #person2Action#"
+    ],
+
+    "injuryPlotAction": [
+        "#person1Person2ActionSentence#",
+        "#theyActionSentence#",
+        "#person2Person1ActionSentence#",
+        "#willTheySentence#"
+    ],
+
+    "injuryPlot": [
+        "#injuryPlotSetup#. #injuryPlotPerson2#. #injuryPlotAction#"
+    ],
     
     "normalPlot":["#smallTownPlot#",
 		  "#smallTownPlotLongAction#",
@@ -3442,7 +3527,8 @@
 		  "#alwaysWantedPlot#",
           "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]undercoverPlot#",
           "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]sellPropertyPlot#",
-          "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]buyPropertyPlot#"
+          "#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]buyPropertyPlot#",
+          "#injuryPlot#"
 		 ],
 
     "plotStart": ["#normalPlot#"],
