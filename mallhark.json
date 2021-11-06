@@ -1768,12 +1768,32 @@
     
     "person1Person2ActionSentence": ["#person2Subject.capitalize# #person2Person1Clause# and they fall in love."],
     "person2Person1ActionSentence": ["#person1Subject.capitalize# #person1Person2Clause# and they fall in love."],
+    "whamageddonLocation": [
+        "coffee shop",
+        "sex dungeon",
+        "trance",
+        "subway station",
+        "MRI",
+        "church",
+        "gang hideout",
+        "auto parts store",
+        "bakery",
+        "Buddhist temple",
+        "time warp",
+        "bank",
+        "tattoo shop",
+        "sperm bank",
+        "hidden room",
+        "VR simulation",
+        "massage parlor"
+    ],
     "theyActionSentence": ["They #actionClause# and fall in love.",
-			   "They try to #boomClause# for Christmas and fall in lov*BOOM*"],
+			   "They try to #boomClause# for Christmas and fall in lov*BOOM*",
+               "They enter #whamageddonLocation.a# and 'Last Christmas I gave you my heart, but the very next day...'"],
     
     "willPerson1Verb":["shoot","infect","stab","poison","lick","bite","shellac",
 		   "hypnotize","bankrupt","shock",
-		   "insult","tranquilize","startle","decoupage","emasculate","defenestrate","offend",
+		   "insult","tranquilize","startle","decoupage","defenestrate","offend",
 		   "humiliate","sneeze on","step on","pepper spray","bury",
 		   "disembowel","take out a hit on","circumcise",
 		   "imprison","crate","blackmail","hit","spill #spills# on"],
@@ -3446,7 +3466,7 @@
         "It's #buyPropertyFailing#, and #person2Name# is also busy trying to #busyTryingTo#"
     ],
     "buyPropertySave": ["#propertyPlotSave#"],
-    "buyPropertyPlot_": ["#buyPropertySetup#. #buyPropertyDevelop#. #buyPropertySave#."],
+    "buyPropertyPlot_": ["#buyPropertySetup#. #buyPropertyDevelop#. #buyPropertySave#"],
     "buyPropertyPlot": ["#[sellProperty:#business#]buyPropertyPlot_#"],
 
     "injuryBreaks": [
@@ -3484,7 +3504,36 @@
         "snow",
         "a sacrifice",
         "a robbery",
-        "a gender reveal party"
+        "a gender reveal party",
+        "aging",
+        "beef consumption",
+        "necromancy",
+        "a time travel paradox",
+        "a lunar eclipse",
+        "supply chain delays",
+        "Whamageddon",
+        "dandruff",
+        "scurvy",
+        "suburban sprawl",
+        "cholera",
+        "an alien abduction",
+        "a mass extinction"
+    ],
+    "breakWhileMaking": [
+        "gender reveal pipe bombs",
+        "gingerbread cookies",
+        "eggnog",
+        "snow angels",
+        "a tesla coil",
+        "hot cocoa",
+        "fake snow",
+        "viking armor",
+        "abstract art",
+        "cranberry sauce",
+        "robot Santas",
+        "kimchi",
+        "sushi",
+        "hydrofluoric acid"
     ],
     "injuryBreaksWhile": [
         "tapdance",
@@ -3492,11 +3541,13 @@
         "time travel",
         "lucid dream",
         "mine cryptocurrency",
-        "prevent #breakWhilePreventing#"
+        "prevent #breakWhilePreventing#",
+        "make #breakWhileMaking#"
     ],
 
     "injuryPlotSetupStory": [
-        "breaks #person1Possessive# #injuryBreaks# while trying to #injuryBreaksWhile#"
+        "breaks #person1Possessive# #injuryBreaks# while trying to #injuryBreaksWhile#",
+        "loses #person1Possessive# #lost# while trying to #injuryBreaksWhile#"
     ],
     "injuryPlotSetup": [
         "#person1Adj.capitalize# #person1Job# #person1Name##person1Actor# #injuryPlotSetupStory#"
