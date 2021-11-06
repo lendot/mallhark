@@ -1460,23 +1460,22 @@
 		    "#person2Subject.capitalize# #person2Person1Clause# and they fall in love."],
     "actionSentence":["#theySentence#"],
 
-    "meetsObject":["#person2NameActor#, #person2Desc#","#person2Job.a##person2Actor# #person2Modifier#","#person2Occupation.a##person2Actor# #person2Modifier#"],
+    "meetsObject":["#person2NameActor#, #person2Desc#"],
     "meetsObjectBeginNamed":["#person2NameActor#, #person2Desc#,"],
     "meetsObjectBeginUnnamed":["#person2Job.a##person2Actor# #person2Modifier#","#person2Occupation.a##person2Actor# #person2Modifier#"],
-    "meetsObjectBegin":["#meetsObjectBeginNamed#","#meetsObjectBeginUnnamed#"],
+    "meetsObjectBegin":["#meetsObjectBeginNamed#"],
 
-    "meetsObjectShort":["#person2NameActor#, #person2Occupation.a#","#person2Occupation.a##person2Actor#"],
+    "meetsObjectShort":["#person2NameActor#, #person2Occupation.a#"],
     "meetsObjectBeginNamedShort":["#person2NameActor#, #person2Occupation.a#,"],
     "meetsObjectBeginUnnamedShort":["#person2Job.a##person2Actor#","#person2Occupation.a##person2Actor#"],
-    "meetsObjectBeginShort": ["#meetsObjectBeginNamedShort#","#meetsObjectBeginUnnamedShort#"],
+    "meetsObjectBeginShort": ["#meetsObjectBeginNamedShort#"],
     
 
-    "protagonistIntroBegin":["#person1Desc.a.capitalize# from #bigCity##person1Actor#",
+    "protagonistIntroBegin":[
 			     "#person1Adj.capitalize# #bigCity# #person1Job# #person1Name##person1Actor#"],
     "protagonistIntroMid":["#person1Name##person1Actor#, #person1Desc.a# from #bigCity#,",
-			   "#person1Desc.a# from #bigCity##person2Actor#",
-			   "#person1Adj# #person1Job# #person1Name##person1Actor#",
-			   "#person1Adj.a# #bigCity# #person2Job##person1Actor#"],
+			   "#person1Adj# #person1Job# #person1Name##person1Actor#"
+    ],
     "endsUp":["ends up","winds up","finds #person1ObjectPronoun#self","turns up","wakes up","gets stranded"],
     "afterWhen":["after #triggeringEvent#",
 		 "after #person1Subject# #whenPerson1#",
