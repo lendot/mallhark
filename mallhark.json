@@ -1669,9 +1669,9 @@
     "smallTownSetupShort":["#endsUpInTownSetupShort#","#alreadyInTownSetupShort#"],
 
     
-    "person2ActionSentence":["#meetsObjectBegin.capitalize# #person2Action#","#meetsObjectBeginUnnamed.capitalize# #person2Action#"],
+    "person2ActionSentence":["#meetsObjectBegin.capitalize# #person2Action#"],
 
-    "person2ActionSentenceShort":["#meetsObjectBegin.capitalize# #person2Action#","#meetsObjectBeginUnnamed.capitalize# #person2Action#"],
+    "person2ActionSentenceShort":["#meetsObjectBegin.capitalize# #person2Action#"],
 
     "person1ActionMisc": ["stalks","serenades","patronizes","sabotages","dehydrates","searches for","sedates",
 		      "can read the thoughts of","anesthetizes","robs","locates","abducts","finds","wrestles",
