@@ -3573,7 +3573,8 @@
         "cursed",
         "demonic",
         "possessed",
-        "mysterious"
+        "mysterious",
+        "supernatural"
     ],
     "magicalItem": [
         "#animal#",
@@ -3585,7 +3586,26 @@
         "sleigh",
         "snowman",
         "cocoa",
-        "advent calendar"
+        "advent calendar",
+        "candy cane",
+        "diaper",
+        "fuel rod",
+        "cereal box",
+        "snow plow",
+        "bagel",
+        "brownie",
+        "cinnamon stick",
+        "brick",
+        "phone",
+        "fungus",
+        "mitten",
+        "cup",
+        "doorstop",
+        "hoodie",
+        "quilt",
+        "shoe",
+        "litterbox",
+        "book"
     ],
     "magicalItemThat": [
         "grants wishes",
@@ -3593,10 +3613,16 @@
         "corrects history",
         "plays matchmaker",
         "controls minds",
+        "time travels",
+        "glows",
         "sings",
         "flies",
         "haunts dreams",
         "juggles",
+        "yodels",
+        "undulates",
+        "gyrates",
+        "oozes",
         "#person2WhoVerb#"
     ],
     "magicalPerson1Intro": [
@@ -3605,8 +3631,13 @@
     "magicalPerson2Intro": [
         "#meetsObject#"
     ],
+    "magicalBringsTogether": [
+        "brings together",
+        "unites",
+        "reunites"
+    ],
     "magicalPlotSetup": [
-        "#magicalAdj.a.capitalize# #magicalItem# that #magicalItemThat# brings together #magicalPerson1Intro# and #magicalPerson2Intro#" 
+        "#magicalAdj.a.capitalize# #magicalItem# that #magicalItemThat# #magicalBringsTogether# #magicalPerson1Intro# and #magicalPerson2Intro#" 
     ],
     "magicalPlotAction": [
         "#person1Person2ActionSentence#",
@@ -3632,6 +3663,7 @@
         "#injuryPlot#",
         "#magicalPlot#"
     ],
+
 
     "plotStart": ["#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]normalPlot#"],
     
