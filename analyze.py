@@ -3,12 +3,13 @@
 import json
 import re
 
-GRAMMAR_START = "normalPlot"
+GRAMMAR_START = "origin"
 
 with open("mallhark.json","r") as grammar_file:
     grammar = json.load(grammar_file)
 
-pattern = re.compile("\#[a-zA-Z0-9_\.]+\#")
+#pattern = re.compile("\#[a-zA-Z0-9_\.]+\#")
+pattern = re.compile("\#(?:\[.*\])*[a-zA-Z0-9_\.]+\#")
 
 touched_nodes = {}
 
@@ -37,6 +38,7 @@ def walk_grammar(grammar_node):
             
         nodes = pattern.findall(token)
         for node in nodes:
+            node=re.sub(r"\[.*\]","",node)
             node=node.replace('#',"")
             node=node.replace(".a","")
             node=node.replace(".capitalize","")
