@@ -3625,6 +3625,23 @@
         "oozes",
         "#person2WhoVerb#"
     ],
+    "magicalItemAdj": [
+        "wish-granting",
+        "meddling",
+        "history-correcting",
+        "matchmaking",
+        "mind-controlling",
+        "time-travelling",
+        "glowing",
+        "singing",
+        "flying",
+        "dream-haunting",
+        "juggling",
+        "yodeling",
+        "undulating",
+        "gyrating",
+        "oozing"
+    ],
     "magicalPerson1Intro": [
         "#protagonistIntroMid#"
     ],
@@ -3636,8 +3653,13 @@
         "unites",
         "reunites"
     ],
+    "magicalPlotSetupIntro": [
+        "#magicalAdj.a.capitalize# #magicalItem# that #magicalItemThat#",
+        "#magicalAdj.a.capitalize# #magicalItemAdj# #magicalItem#"
+    ],
+
     "magicalPlotSetup": [
-        "#magicalAdj.a.capitalize# #magicalItem# that #magicalItemThat# #magicalBringsTogether# #magicalPerson1Intro# and #magicalPerson2Intro#" 
+        "#magicalPlotSetupIntro# #magicalBringsTogether# #magicalPerson1Intro# and #magicalPerson2Intro#" 
     ],
     "magicalPlotAction": [
         "#person1Person2ActionSentence#",
@@ -3663,7 +3685,6 @@
         "#injuryPlot#",
         "#magicalPlot#"
     ],
-
 
     "plotStart": ["#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]normalPlot#"],
     
