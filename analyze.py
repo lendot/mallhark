@@ -10,6 +10,7 @@ with open("mallhark.json","r") as grammar_file:
 
 #pattern = re.compile("\#[a-zA-Z0-9_\.]+\#")
 pattern = re.compile("\#(?:\[.*\])*[a-zA-Z0-9_\.]+\#")
+variable_pattern = re.compile("\#[a-zA-Z0-9_\.]+\#")
 
 touched_nodes = {}
 
@@ -38,10 +39,14 @@ def walk_grammar(grammar_node):
             
         nodes = pattern.findall(token)
         for node in nodes:
+            variables = variable_pattern.findall(node)
+            for variable in variables:
+                variable = variable.replace('#',"")
+                variable = variable.replace("\.[a-zA-Z]+","")
+                walk_grammar(node)
             node=re.sub(r"\[.*\]","",node)
             node=node.replace('#',"")
-            node=node.replace(".a","")
-            node=node.replace(".capitalize","")
+            node=node.replace("\.[a-zA-Z]+","")
             walk_grammar(node)
 
 walk_grammar(GRAMMAR_START)
