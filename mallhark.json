@@ -59,7 +59,6 @@
     "deadFemaleActor": [
         "Lucille Ball",
         "Audrey Hepburn",
-        "Elizabeth Taylor",
         "Hedy Lamarr",
         "Carol Channing",
         "Joan Rivers",
@@ -1001,7 +1000,7 @@
 	    "ASMR videos","cat sweaters","kale treats","botnets","tesla coils","cryptocurrency","a yule goat",
 	    "a miracle","a new tradition","a movie","tacos","sausage","flyers","guillotines","furniture","torpedos",
 	    "baskets","zines","poutine","guac","avocado toast","memes","a catalan poop log","a snowzilla",
-	    "brutalist architecture","a mural","vaccines","face masks","sourdough","hand sanitizer","farm boxes",
+	    "brutalist architecture","a mural","face masks","sourdough","hand sanitizer","farm boxes",
 	    "green onion Chex"],
 
     "reopenTheTown": ["diner","time capsule","vape shop"],
@@ -1454,7 +1453,7 @@
     "boomClause": ["disarm #disarm.a#","fix a gas leak"],
 
     "they": ["They","Together they"],
-    "theySentence":["#they# #actionClause# and fall in love.",
+    "theySentence":[
 		    "#they# #actionClause# and fall in love.",
 		    "#person1Subject.capitalize# #person1Person2Clause# and they fall in love.",
 		    "#person2Subject.capitalize# #person2Person1Clause# and they fall in love."],
@@ -1595,7 +1594,7 @@
     "butGoalDoesntHaveTheir": ["#lost#"],
     
     "butGoalDoesntBelieve": ["Santa","solstices","December","capitalism","reindeer","magic","holidays",
-			     "rampant consumerism","Jesus","the North Pole","reindeer"],
+			     "rampant consumerism","Jesus","the North Pole"],
     "butGoalDoesnt": ["have #butGoalDoesntHave#","believe in #butGoalDoesntBelieve#","have #person1Possessive# #butGoalDoesntHaveTheir#"],
 
     "planet": ["Mercury", "Venus", "Mars","Jupiter","Saturn","Uranus","Pluto"],
@@ -2022,7 +2021,7 @@
     "forHolidays": ["Christmas",
 		    "the holidays"
 		   ],
-    "homeDescriptor": ["to #townName#",
+    "homeDescriptor": [
 		       "to #townName#",
 		       "home"
 		      ],
@@ -2693,7 +2692,6 @@
 			 "vibrating",
 			 "sticky",
 			 "contaminated",
-			 "moist",
              "covered in #everythingCoveredIn#"
 			],
 
@@ -2738,7 +2736,6 @@
 		  "sees them",
 		  "ages",
 		  "flosses",
-		  "breathes",
 		  "is neurotypical"
 		 ],
 
@@ -3798,10 +3795,10 @@
     ],
 
 
-    "normalPlot": ["#movieTitlePlot#"],
+    "normalPlot_": ["#movieTitlePlot#"],
 
 
-    "normalPlot_":[
+    "normalPlot":[
         "#smallTownPlot#",
 		"#smallTownPlotLongAction#",
 		"#pairPlot#",
@@ -3814,7 +3811,9 @@
         "#sellPropertyPlot#",
         "#buyPropertyPlot#",
         "#injuryPlot#",
-        "#magicalPlot#"
+        "#magicalPlot#",
+        "#movieTitlePlot#"
+
     ],
 
     "plotStart": ["#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]normalPlot#"],
