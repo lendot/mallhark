@@ -3689,7 +3689,9 @@
     ],
 
     "titleLookLike": [
-        "#disease#"
+        "#disease#",
+        "#maleFemaleActor#",
+        "Krampus"
     ],
     
     "titleMerry": [
@@ -3718,7 +3720,21 @@
         "Faradays",
         "doomsdays",
         "buffets",
-        "ashtrays"
+        "ashtrays",
+        "#animal.s#",
+        "#maleFemaleActor.s#"
+    ],
+
+    "titleDeck": [
+        "wreck",
+        "blech",
+        "tech",
+        "trebek",
+        "redneck",
+        "Quebec",
+        "exec",
+        "Czech",
+        "feck"
     ],
 
     "movieTitle": [
@@ -3727,7 +3743,8 @@
         "It's Beginning To Look A Lot Like #titleLookLike.capitalizeAll#",
         "We Wish You A #titleMerry.capitalizeAll# Christmas",
         "#titleHome.capitalizeAll# For The Holidays",
-        "The 12 #titleDays.capitalizeAll# Of Christmas"
+        "The 12 #titleDays.capitalizeAll# Of Christmas",
+        "#titleDeck.capitalizeAll# The Halls"
     ],
 
 
@@ -3772,7 +3789,8 @@
 
     "movieTitleTeaser": [
         "#movieTitleMurdersBegin#",
-        "What happens when they stop being polite...and start getting real?"
+        "What happens when they stop being polite...and start getting real?",
+        "#willTheySentence#"
     ],
 
     "movieTitlePlot": [
@@ -3780,10 +3798,10 @@
     ],
 
 
-    "normalPlot_": ["#movieTitlePlot#"],
+    "normalPlot": ["#movieTitlePlot#"],
 
 
-    "normalPlot":[
+    "normalPlot_":[
         "#smallTownPlot#",
 		"#smallTownPlotLongAction#",
 		"#pairPlot#",
