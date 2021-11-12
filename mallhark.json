@@ -1575,7 +1575,7 @@
 			"magical",
 			"a cat lady"
 		       ],
-    "person1ThinksTheyAre": ["thinks #person1Subject# #thinksPerson1Verb# #thinksPerson1Object#"],
+    "person1ThinksTheyAre": ["thinks #person1SubjectPronoun# #thinksPerson1Verb# #thinksPerson1Object#"],
     
     "alreadyInTownGoal": ["#needsToVerb# #needsToActivity#",
 			  "#hasJustLost#",
