@@ -3605,7 +3605,9 @@
         "quilt",
         "shoe",
         "litterbox",
-        "book"
+        "book",
+        "train",
+        "placenta"
     ],
     "magicalItemThat": [
         "grants wishes",
@@ -3670,6 +3672,117 @@
     "magicalPlot": [
         "#magicalPlotSetup#. #magicalPlotAction#"
     ],
+
+
+
+    "titleFirst": [
+        "Thirst",
+        "Worst",
+        "Wurst",
+        "Fred Durst"
+    ],
+
+    "titleLastChristmasGave": [
+        "#organ#",
+        "#animal#",
+        "#disease#"
+    ],
+
+    "titleLookLike": [
+        "#disease#"
+    ],
+    
+    "titleMerry": [
+        "hairy",
+        "Gary",
+        "dairy",
+        "Larry",
+        "barely"
+    ],
+
+    "titleHome": [
+        "gnome",
+        "Noam",
+        "comb",
+        "foam",
+        "Ethan Frome",
+        "chrome",
+        "dome"
+    ],
+
+    "titleDays": [
+        "bidets",
+        "toupees",
+        "Takeis",
+        "souffles",
+        "Faradays",
+        "doomsdays",
+        "buffets",
+        "ashtrays"
+    ],
+
+    "movieTitle": [
+        "On The #titleFirst# Day Of Christmas",
+        "Last Christmas I Gave You My #titleLastChristmasGave.capitalizeAll#",
+        "It's Beginning To Look A Lot Like #titleLookLike.capitalizeAll#",
+        "We Wish You A #titleMerry.capitalizeAll# Christmas",
+        "#titleHome.capitalizeAll# For The Holidays",
+        "The 12 #titleDays.capitalizeAll# Of Christmas"
+    ],
+
+
+    "movieTitlePerson1Intro": [
+        "#protagonistIntroBegin#",
+        "#protagonistIntroMid#",
+        "#inTownProtagonist##person1Actor#"
+    ],
+
+    "movieTitlePremise": [
+        "#movieTitlePerson1Intro.capitalize# #person1ActionClause# #meetsObject#",
+        "#pairPlotSetup#"
+    ],
+
+    "murdersBegin": [
+        "murders",
+        "kidnappings",
+        "burglaries",
+        "alien abductions",
+        "cattle mutilations"
+    ],
+
+    "murderBegins": [
+        "ransomware",
+        "arson",
+        "organ harvesting",
+        "infrastructure collapse",
+        "zombie apocalypse"
+    ],
+
+    "murderBeginAll": [
+        "#murdersBegin#",
+        "#murderBegins#"
+    ],
+
+    "movieTitleMurdersBegin": [
+        "And then the #murdersBegin# begin.",
+        "And then the #murderBegins# begins.",
+        "Just as the #murdersBegin# are beginning.",
+        "Just as the #murderBegins# is beginning."
+    ],
+
+    "movieTitleTeaser": [
+        "#movieTitleMurdersBegin#",
+        "What happens when they stop being polite...and start getting real?"
+    ],
+
+    "movieTitlePlot": [
+        "#movieTitle#\n\n#movieTitlePremise#. #movieTitleTeaser#"
+    ],
+
+
+    "normalPlot_": ["#movieTitlePlot#"],
+
+
     "normalPlot":[
         "#smallTownPlot#",
 		"#smallTownPlotLongAction#",
