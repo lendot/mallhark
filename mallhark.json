@@ -1201,7 +1201,8 @@
 	    "trebuchet",
 	    "guillotine",
 	    "edifice of lies",
-        "giant snow maze"
+        "giant snow maze",
+        "five-over-one"
     ],
 
     "eat": [
@@ -1843,7 +1844,8 @@
 		  "rediscover #rediscover#",
 		  "break #person2Possessive# #breakHis#",
 		  "accept #person1PossessivePronoun# #person1Job# job offer",
-		  "embrace #embrace#"
+		  "embrace #embrace#",
+          "perfect #person1PossessivePronoun# #buyPropertyPerfect#"
 		 ],
     "willTheySentence": ["Will they fall in love on Christmas or will #person1Subject# #orWillPerson1#?",
 			 "Will they fall in love or will #person1Subject# #orWillPerson1# on Christmas?"
@@ -3685,10 +3687,28 @@
         "#disease#"
     ],
 
+    "artStyle": [
+        "brutalism",
+        "bauhaus",
+        "art deco",
+        "expressionism",
+        "cubism",
+        "dada",
+        "minimalism",
+        "performance art",
+        "socialist realism",
+        "Italian neorealism",
+        "anime",
+        "manga"
+    ],
+
     "titleLookLike": [
         "#disease#",
         "#maleFemaleActor#",
-        "Krampus"
+        "Krampus",
+        "the Riemann-Zeta function",
+        "#artStyle#",
+        "#relative.s#"
     ],
     
     "titleMerry": [
@@ -3733,6 +3753,39 @@
         "Czech",
         "feck"
     ],
+    
+    "titleDashing": [
+        "cashing",
+        "clashing",
+        "crashing",
+        "flashing",
+        "gnashing",
+        "lashing",
+        "rehashing",
+        "slashing",
+        "smashing",
+        "thrashing",
+        "trashing"
+    ],
+
+    "titleWinter": [
+        "hinter",
+        "printer",
+        "splinter",
+        "sprinter",
+        "tinder"
+    ],
+
+    "titleMagic": [
+        "tragic",
+        "manic",
+        "schematic",
+        "homeostatic",
+        "idiomatic",
+        "mechanic",
+        "pragmatic",
+        "psychosomatic"
+    ],
 
     "movieTitle": [
         "On The #titleFirst# Day Of Christmas",
@@ -3741,7 +3794,10 @@
         "We Wish You A #titleMerry.capitalizeAll# Christmas",
         "#titleHome.capitalizeAll# For The Holidays",
         "The 12 #titleDays.capitalizeAll# Of Christmas",
-        "#titleDeck.capitalizeAll# The Halls"
+        "#titleDeck.capitalizeAll# The Halls",
+        "#titleDashing.capitalizeAll# Through The Snow",
+        "Walking In #titleWinter.a.capitalizeAll# Wonderland",
+        "The #titleMagic.capitalizeAll# of Christmas"
     ],
 
 
@@ -3761,7 +3817,8 @@
         "kidnappings",
         "burglaries",
         "alien abductions",
-        "cattle mutilations"
+        "cattle mutilations",
+        "end times"
     ],
 
     "murderBegins": [
@@ -3769,7 +3826,8 @@
         "arson",
         "organ harvesting",
         "infrastructure collapse",
-        "zombie apocalypse"
+        "zombie apocalypse",
+        "rapture"
     ],
 
     "murderBeginAll": [
@@ -3795,10 +3853,10 @@
     ],
 
 
-    "normalPlot_": ["#movieTitlePlot#"],
+    "normalPlot": ["#movieTitlePlot#"],
 
 
-    "normalPlot":[
+    "normalPlot_":[
         "#smallTownPlot#",
 		"#smallTownPlotLongAction#",
 		"#pairPlot#",
