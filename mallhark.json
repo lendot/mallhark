@@ -1331,7 +1331,7 @@
 		    "trips","hypnotizes","bankrupts","shocks","pounces on","runs over","impersonates",
 		    "insults","tranquilizes","startles","decoupages","defenestrates","offends",
 		    "humiliates","sneezes on","shoves","steps on","annoys","pepper sprays","bumps","buries","spies on",
-		    "disembowels","takes out a hit on","undresses","circumcises","shaves",
+		    "disembowels","takes out a hit on","undresses","shaves",
 		    "airbrushes","imprisons","crates","blackmails","hits","spills #spills# on",
 		    "rear ends"],
     "accidentallyAdverb":["accidentally","unintentionally","inadvertently","passive-aggressively"],
@@ -1794,7 +1794,7 @@
 		   "hypnotize","bankrupt","shock",
 		   "insult","tranquilize","startle","decoupage","defenestrate","offend",
 		   "humiliate","sneeze on","step on","pepper spray","bury",
-		   "disembowel","take out a hit on","circumcise",
+		   "disembowel","take out a hit on",
 		   "imprison","crate","blackmail","hit","spill #spills# on"],
 
     "willPerson1BecomeMisc": ["immortal","a misandrist","disillusioned","Mormon",
@@ -3787,6 +3787,52 @@
         "psychosomatic"
     ],
 
+    "titleCold": [
+        "mold",
+        "Diebold",
+        "old",
+        "pigeonholed",
+        "Avenged Sevenfold"
+    ],
+
+    "titleHelper": [
+        "yelper",
+        "hell purr",
+        "smelter"
+    ],
+
+    "titleGreetings": [
+        "deletings",
+        "eatings",
+        "heatings",
+        "meetings",
+        "overeatings",
+        "repeatings"
+    ],
+
+    "titleBright": [
+        "trite",
+        "contrite",
+        "right",
+        "white",
+        "uptight",
+        "spite",
+        "shite",
+        "gaslight",
+        "fight",
+        "dwight",
+        "cite",
+        "airtight"
+    ],
+
+    "titleBah": [
+        "bra"
+        "spa",
+        "grandpa",
+        "grandma",
+        "bot"
+    ],
+
     "movieTitle": [
         "On The #titleFirst# Day Of Christmas",
         "Last Christmas I Gave You My #titleLastChristmasGave.capitalizeAll#",
@@ -3797,7 +3843,12 @@
         "#titleDeck.capitalizeAll# The Halls",
         "#titleDashing.capitalizeAll# Through The Snow",
         "Walking In #titleWinter.a.capitalizeAll# Wonderland",
-        "The #titleMagic.capitalizeAll# of Christmas"
+        "The #titleMagic.capitalizeAll# of Christmas",
+        "Baby It's #titleCold.capitalizeAll# Outside",
+        "Santa's Little #titleHelper.capitalizeAll#",
+        "Seasons #titleGreetings.capitalizeAll#",
+        "Making Spirits #titleBright.capitalizeAll#",
+        "#titleBah.capitalizeAll# Humbug"
     ],
 
 
@@ -3818,16 +3869,17 @@
         "burglaries",
         "alien abductions",
         "cattle mutilations",
-        "end times"
+        "end times",
+        "arsons"
     ],
 
     "murderBegins": [
         "ransomware",
-        "arson",
         "organ harvesting",
         "infrastructure collapse",
         "zombie apocalypse",
-        "rapture"
+        "rapture",
+        "time loop"
     ],
 
     "murderBeginAll": [
@@ -3853,10 +3905,10 @@
     ],
 
 
-    "normalPlot": ["#movieTitlePlot#"],
+    "normalPlot_": ["#movieTitlePlot#"],
 
 
-    "normalPlot_":[
+    "normalPlot":[
         "#smallTownPlot#",
 		"#smallTownPlotLongAction#",
 		"#pairPlot#",
