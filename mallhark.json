@@ -1273,6 +1273,37 @@
         "the #century# century"
     ],
 
+    "caughtIn": [
+        "tornado",
+        "mosh pit",
+        "stampede",
+        "elevator",
+        "bear trap",
+        "compromising position",
+        "landslide",
+        "time paradox",
+        "time loop",
+        "fishing net",
+        "sting operation",
+        "blizzard",
+        "cryptocurrency scam",
+        "turnstile",
+        "revolving door",
+        "lie",
+        "rain of blood",
+        "tractor beam"
+    ],
+
+
+    "riskLivesToSaveA": [
+        "#animal#"
+    ],
+
+    "riskLivesTo": [
+        "#injuryBreaksWhile#",
+        "save #riskLivesToSaveA.a#"
+    ],
+
     "actionClause": ["save #saveThe#","#fightVerb# #fightThe#","learn #learn# for Christmas","get #get# for Christmas",
 		     "make #make# for Christmas","#organize# a Christmas #putOn#",
 		     "buy #buyNoun.a# for Christmas#","take up #takeUp# for Christmas",
@@ -1298,7 +1329,9 @@
 		     "add #addTradition# to the Christmas tradition",
 		     "resurrect #theyResurrect# for Christmas",
              "invent #invent# for Christmas",
-             "time travel to #timeTravelTo# for Christmas"
+             "time travel to #timeTravelTo# for Christmas",
+             "get caught in #caughtIn.a# on Christmas",
+             "risk their lives to #riskLivesTo# for Christmas"
 		    ],
 
     "longActionSaveActivity": ["become #become#",
@@ -1453,7 +1486,7 @@
     "disarm": ["bomb","nuclear weapon"],
     "boomClause": ["disarm #disarm.a#","fix a gas leak"],
 
-    "they": ["They","Together they"],
+    "they": ["They"],
     "theySentence":[
 		    "#they# #actionClause# and fall in love.",
 		    "#person1Subject.capitalize# #person1Person2Clause# and they fall in love.",
@@ -3773,7 +3806,8 @@
         "printer",
         "splinter",
         "sprinter",
-        "tinder"
+        "tinder",
+        "Hinterkaifeck"
     ],
 
     "titleMagic": [
@@ -3826,7 +3860,7 @@
     ],
 
     "titleBah": [
-        "bra"
+        "bra",
         "spa",
         "grandpa",
         "grandma",
