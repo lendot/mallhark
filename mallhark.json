@@ -1425,10 +1425,36 @@
 		     "fencing","pole vaulting","roller skating","hang gliding",
 		     "antiquing","yiffing","skinny dipping","pole dancing","busking","cow tipping",
 		     "camel racing","spelunking","pillaging","vaccinating"],
+
+    "takeToSecret": [
+        "water park",
+        "butcher shop",
+        "makerspace",
+        "country",
+        "ice maze",
+        "dungeon",
+        "shark tank",
+        "sensory deprivation chamber",
+        "crawl space",
+        "anechoic chamber",
+        "erotic bookstore",
+        "fishing spot",
+        "laboratory",
+        "scrap yard",
+        "yurt",
+        "cave",
+        "treehouse"
+    ],
+    "secretAdj": [
+        "secret",
+        "favorite",
+        "hidden"
+    ],
     "takesPerson2": ["#huntingType# hunting",
 		 "to #takesPerson2To#",
 		 "to the #takesPerson2ToThe#",
-		 "#takesPerson2Misc#"],
+		 "#takesPerson2Misc#",
+         "to #person1PossessivePronoun# #secretAdj# #takeToSecret#"],
     "takesPerson1s": ["#takesPerson2#"],
    
     
