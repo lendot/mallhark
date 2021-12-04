@@ -1344,7 +1344,9 @@
 			       "form #theyForm.a#",
 			       "take the #challenge.capitalizeAll# Challenge",
 			       "go #takesPerson2#",
-			       "#organize# #putOn.a#"],
+			       "#organize# #putOn.a#",
+                   "risk their lives"
+    ],
     "longActionSaveObject": ["save #saveThe#",
 			     "repair #repairObject# for Christmas",
 			     "fix #fixObject# for Christmas",
@@ -1484,13 +1486,35 @@
 
 
     "disarm": ["bomb","nuclear weapon"],
-    "boomClause": ["disarm #disarm.a#","fix a gas leak"],
+    "boomClause": ["disarm #disarm.a#","fix a gas leak","defuse a gender reveal pipe bomb"],
+
+    "christmasSpirit": [
+        "the Christmas spirit",
+        "Santa"
+    ],
+    "offspring": [
+        "a baby",
+        "twins",
+        "triplets",
+        "quadruplets",
+        "quintuplets",
+        "#animal.a#-human hybrid",
+        "a demon child"
+    ],
+    "spiritBringsThem": [
+        "Bad Idea jeans",
+        "hypothermia",
+        "#disease#",
+        "hallucinogenics",
+        "#offspring#"
+    ],
 
     "they": ["They"],
     "theySentence":[
 		    "#they# #actionClause# and fall in love.",
 		    "#person1Subject.capitalize# #person1Person2Clause# and they fall in love.",
-		    "#person2Subject.capitalize# #person2Person1Clause# and they fall in love."],
+		    "#person2Subject.capitalize# #person2Person1Clause# and they fall in love.",
+            "#christmasSpirit.capitalize# brings them #spiritBringsThem# and they fall in love."],
     "actionSentence":["#theySentence#"],
 
     "meetsObject":["#person2NameActor#, #person2Desc#"],
@@ -1864,7 +1888,14 @@
 		    "pansexual",
 		    "asexual"
 		   ],
-    
+    "radicalizedBy":[
+        "#animal.s#",
+        "#maleFemaleActor#",
+        "zombies",
+        "#letterSender#",
+        "#visitor#",
+        "#person2Worships#"
+    ],
     "orWillPerson1": ["#willPerson1Verb# #person2Object#",
 		  "give #person2Object# #disease#",
 		  "poison #person2Possessive# #drinkType#",
@@ -1878,10 +1909,20 @@
 		  "break #person2Possessive# #breakHis#",
 		  "accept #person1PossessivePronoun# #person1Job# job offer",
 		  "embrace #embrace#",
-          "perfect #person1PossessivePronoun# #buyPropertyPerfect#"
+          "perfect #person1PossessivePronoun# #buyPropertyPerfect#",
+          "become radicalized by #radicalizedBy#"
 		 ],
+    "orWillThey": [
+        "become radicalized by #radicalizedBy#",
+        "buy #buyNoun.a#",
+        "take up #takeUp#",
+        "learn #learn#",
+        "rediscover #rediscover#",
+        "embrace #embrace#"
+    ],
     "willTheySentence": ["Will they fall in love on Christmas or will #person1Subject# #orWillPerson1#?",
-			 "Will they fall in love or will #person1Subject# #orWillPerson1# on Christmas?"
+			 "Will they fall in love or will #person1Subject# #orWillPerson1# on Christmas?",
+             "Will they fall in love on Christmas or will they #orWillThey#?"
 			],
 
     "doesntLet": ["personal feelings",
@@ -3246,8 +3287,19 @@
         "massage",
         "marinade"
     ],
+    "readsPerson2s":[
+        "diary",
+        "will",
+        "screenplay",
+        "novel",
+        "fanfic"
+    ],
     "changeOfHeartWhenClause": [
-        "#person1SubjectPronoun# gets to #whenGetsTo# #person2ObjectPronoun#"
+        "#person1SubjectPronoun# gets to #whenGetsTo# #person2ObjectPronoun#",
+        "#person2Name# #resistsBut#",
+        "#person1SubjectPronoun# reads #person2Name#'s #readsPerson2s#",
+        "#person1SubjectPronoun# loses #person1PossessivePronoun# #lost#",
+        "#person1SubjectPronoun# comes out of a coma"
     ],
     "propertyChangeOfHeart": [
         "#person1Name# #changeOfHeartClause# when #changeOfHeartWhenClause#"
@@ -3390,13 +3442,13 @@
         "spotted",
         "away"
     ],
-    "resistsBut": ["and teaches #person1ObjectPronoun# the magic of small-town #resistTeaches#",
-        "and they #resistCompete# in #competeEvent.a#",
-        "and makes #person1ObjectPronoun# #resistCompete# in #competeEvent.a#",
-        "and puts #person1ObjectPronoun# in #resistPutsIn#",
-        "and puts #person1ObjectPronoun# on #resistPutsOn#",
-        "and makes #person1ObjectPronoun# #resistMakes#",
-        "and turns #person1ObjectPronoun# #resistTurns#"
+    "resistsBut": ["teaches #person1ObjectPronoun# the magic of small-town #resistTeaches#",
+        "they #resistCompete# in #competeEvent.a#",
+        "makes #person1ObjectPronoun# #resistCompete# in #competeEvent.a#",
+        "puts #person1ObjectPronoun# in #resistPutsIn#",
+        "puts #person1ObjectPronoun# on #resistPutsOn#",
+        "makes #person1ObjectPronoun# #resistMakes#",
+        "turns #person1ObjectPronoun# #resistTurns#"
     ],
     "resistsVerb": [
         "resists",
@@ -3493,7 +3545,7 @@
         "perfect #person2PossessivePronoun# #buyPropertyPerfect#"
     ],
     "buyPropertyDevelop": [
-        "#person2Name# #resistsVerb# #resistsBut#",
+        "#person2Name# #resistsVerb# and #resistsBut#",
         "It's #buyPropertyFailing#, and #person2Name# is also busy trying to #busyTryingTo#"
     ],
     "buyPropertySave": ["#propertyPlotSave#"],
@@ -3867,6 +3919,16 @@
         "bot"
     ],
 
+    "titleClaus": [
+        "flaws",
+        "pause",
+        "paws",
+        "claws",
+        "jaws",
+        "cross"
+    ],
+
+
     "movieTitle": [
         "On The #titleFirst# Day Of Christmas",
         "Last Christmas I Gave You My #titleLastChristmasGave.capitalizeAll#",
@@ -3882,7 +3944,8 @@
         "Santa's Little #titleHelper.capitalizeAll#",
         "Seasons #titleGreetings.capitalizeAll#",
         "Making Spirits #titleBright.capitalizeAll#",
-        "#titleBah.capitalizeAll# Humbug"
+        "#titleBah.capitalizeAll# Humbug",
+        "Santa #titleClaus.capitalizeAll#"
     ],
 
 
@@ -3922,10 +3985,10 @@
     ],
 
     "movieTitleMurdersBegin": [
-        "And then the #murdersBegin# begin.",
-        "And then the #murderBegins# begins.",
-        "Just as the #murdersBegin# are beginning.",
-        "Just as the #murderBegins# is beginning."
+        "And then the Christmas #murdersBegin# begin.",
+        "And then the Christmas #murderBegins# begins.",
+        "Just as the Christmas #murdersBegin# are beginning.",
+        "Just as the Christmas #murderBegins# is beginning."
     ],
 
     "movieTitleTeaser": [
