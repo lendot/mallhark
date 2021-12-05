@@ -42,11 +42,13 @@ def walk_grammar(grammar_node):
             variables = variable_pattern.findall(node)
             for variable in variables:
                 variable = variable.replace('#',"")
-                variable = variable.replace("\.[a-zA-Z]+","")
-                walk_grammar(node)
+                variable = re.sub(r"\.[a-zA-Z]+","",variable)
+                # print("walking "+variable)
+                walk_grammar(variable)
             node=re.sub(r"\[.*\]","",node)
             node=node.replace('#',"")
-            node=node.replace("\.[a-zA-Z]+","")
+            node=re.sub(r"\.[a-zA-Z]+","",node)
+            # print("walking "+node)
             walk_grammar(node)
 
 walk_grammar(GRAMMAR_START)
