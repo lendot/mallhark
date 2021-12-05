@@ -1426,6 +1426,15 @@
 		     "antiquing","yiffing","skinny dipping","pole dancing","busking","cow tipping",
 		     "camel racing","spelunking","pillaging","vaccinating"],
 
+    "secretFactory": [
+        "nixie tube",
+        "gelatin",
+        "dildo",
+        "asbestos",
+        "diaper",
+        "face mask"
+    ],
+
     "takeToSecret": [
         "water park",
         "butcher shop",
@@ -1443,7 +1452,9 @@
         "scrap yard",
         "yurt",
         "cave",
-        "treehouse"
+        "treehouse",
+        "temple",
+        "#secretFactory# factory"
     ],
     "secretAdj": [
         "secret",
