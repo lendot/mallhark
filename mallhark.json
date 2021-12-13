@@ -1334,6 +1334,30 @@
              "risk their lives to #riskLivesTo# for Christmas"
 		    ],
 
+    "enlistSingular": [
+        "toddler",
+        "infant",
+        "stripper",
+        "pharmacist",
+        "veterinarian",
+        "race car driver",
+        "timpanist",
+        "welder",
+        "mortician",
+        "accountant",
+        "#animal#",
+        "#undercoverCrimeJob#"
+    ],
+
+
+    "enlistToSave": [
+        "#maleFemaleActor#",
+        "#enlistSingular.a#",
+        "#enlistSingular.s#",
+        "a retired #enlistSingular#",
+        "retired #enlistSingular.s#"
+    ],
+
     "longActionSaveActivity": ["become #become#",
 			       "launch #launch.a#",
 			       "fight #enemy#",
@@ -1345,7 +1369,8 @@
 			       "take the #challenge.capitalizeAll# Challenge",
 			       "go #takesPerson2#",
 			       "#organize# #putOn.a#",
-                   "risk their lives"
+                   "risk their lives",
+                   "enlist #enlistToSave#"
     ],
     "longActionSaveObject": ["save #saveThe#",
 			     "repair #repairObject# for Christmas",
@@ -3347,8 +3372,7 @@
         "#propertyChangeOfHeart#"
     ],
     "propertyPlotSave": [
-        "They #longActionSaveActivity# to save the #sellProperty# for Christmas and fall in love.",
-        "#willTheySentence#"
+        "They #longActionSaveActivity# to save the #sellProperty# for Christmas and fall in love."
     ],
     "sellPropertyPlot_": ["#propertyPlotSetup#. #propertyPlotDiscover#. #propertyPlotSave#"],
     "sellPropertyPlot": ["#[sellProperty:#business#]sellPropertyPlot_#"], 
@@ -4038,10 +4062,85 @@
         "#movieTitle#\n\n#movieTitlePremise#. #movieTitleTeaser#"
     ],
 
+    "doReindeerHave": [
+        "souls",
+        "spleens",
+        "orgies",
+        "internet",
+        "migraines"
+    ],
 
-    "normalPlot_": ["#movieTitlePlot#"],
+    "questionCure": [
+        "eggnog",
+        "mistletoe",
+        "fruitcake",
+        "hot cocoa",
+        "Santa",
+        "yule logs",
+        "sleighbells",
+        "gingerbread men",
+        "wrapping paper",
+        "caroling",
+        "poinsettias",
+        "chimneys"
+    ],
+
+    "questionDisease": [
+        "#disease#"
+    ],
+
+    "questionDoesSanta": [
+        "exist",
+        "gamble",
+        "loiter",
+        "levitate",
+        "rap",
+        "yodel",
+        "vibrate",
+        "glow",
+        "eat babies",
+        "molt",
+        "use 2FA"
+    ],
+
+    "questionAsk": [
+        "Do reindeer have #doReindeerHave#",
+        "Can #questionCure# cure #questionDisease#",
+        "Does Santa really #questionDoesSanta#"
+    ],
+
+    "questionFindAnswer": [
+        "is determined to find out",
+        "wants answers",
+        "must find the answer",
+        "must get to the bottom of this",
+        "needs to know"
+    ],
+
+    "questionPerson1": [
+        "#person1Adj.capitalize# #person1Job# #person1Name##person1Actor# #questionFindAnswer#"
+    ],
+
+    "questionPerson2": [
+        "#person1ActionSentence#",
+        "#person2ActionSentence#",
+        "#unexpectedManSentence#"
+    ],
+
+    "questionAction": [
+        "#person1Person2ActionSentence#",
+        "#theyActionSentence#",
+        "#person2Person1ActionSentence#",
+        "#willTheySentence#"
+    ],
 
 
+    "questionPlot": [
+        "#questionAsk#? #questionPerson1#. #questionPerson2#. #questionAction#"
+    ],
+
+
+    "normalPlot_": ["#questionPlot#"],
     "normalPlot":[
         "#smallTownPlot#",
 		"#smallTownPlotLongAction#",
@@ -4056,7 +4155,8 @@
         "#buyPropertyPlot#",
         "#injuryPlot#",
         "#magicalPlot#",
-        "#movieTitlePlot#"
+        "#movieTitlePlot#",
+        "#questionPlot#"
 
     ],
 
