@@ -304,7 +304,7 @@
               "non-fungible token","cop","detective","#suspect# suspect","#thief# thief",
             "television producer","ad executive","event planner","architect","biologist","market researcher",
 		    "teacher","baker","chef","psychic","banker","socialite","financier","lawyer","entrepreneur",
-		    "model","actor","artist","dancer","widow","real estate agent",
+		    "model","actor","artist","dancer","real estate agent",
 		    "city planner","property developer","CEO","singer","coroner","capybara","DJ","hipster","millennial",
 		    "mastodon","journalist","yoga instructor","velociraptor","toastie","interior decorator",
 		    "control freak","crafter","attorney","Etsy trend expert","anti-vaxxer","LARPer",
@@ -1491,8 +1491,13 @@
 		 "to the #takesPerson2ToThe#",
 		 "#takesPerson2Misc#",
          "to #person1PossessivePronoun# #secretAdj# #takeToSecret#"],
-    "takesPerson1s": ["#takesPerson2#"],
-   
+
+     "takesPerson1s": ["#huntingType# hunting",
+		 "to #takesPerson2To#",
+		 "to the #takesPerson2ToThe#",
+		 "#takesPerson2Misc#",
+         "to #person2PossessivePronoun# #secretAdj# #takeToSecret#"],
+         
     
     "stealsHis":["heart","virginity","Macarena CD","cockatiel","poinsettias","pain meds","passport","identity"],
     "steals":["steals","takes"],
@@ -2040,13 +2045,21 @@
 				  "#person1NoLoveSentence#"
 				 ],
 				  
-    "smallTownPlot":["#smallTownSetup#. #person1ActionSentence#. #person1Person2ActionSentence#",
-		     "#smallTownSetup#. #person1ActionSentence#. #theyActionSentence#",
-		     "#smallTownSetup#. #person2ActionSentence#. #person2Person1ActionSentence#",
-		     "#smallTownSetup#. #person2ActionSentence#. #theyActionSentence#",
-		     "#smallTownNoLoveSetup#. #person2ActionSentence#. #person1NoLoveSentence#",
-		     "#smallTownSetup#. #person2ActionSentence#. #willTheySentence#",
-		     "#doesntExpectManSetup#. #unexpectedManSentence#. #unexpectedActionSentence#"],
+    "smallTownPlot":[
+        "#smallTownSetup#. #person1ActionSentence#. #person1Person2ActionSentence#",
+        "#smallTownSetup#. #person1ActionSentence#. #theyActionSentence#",
+        "#smallTownSetup#. #person2ActionSentence#. #person2Person1ActionSentence#",
+        "#smallTownSetup#. #person2ActionSentence#. #theyActionSentence#",
+        "#smallTownSetup#. #person2ActionSentence#. #willTheySentence#"
+    ],
+
+    "doesntExpectPlot": [
+        "#doesntExpectManSetup#. #unexpectedManSentence#. #unexpectedActionSentence#"
+    ],
+
+    "noLovePlot": [
+        "#smallTownNoLoveSetup#. #person2ActionSentence#. #person1NoLoveSentence#"
+    ],
 
     "longActionSentence": ["They #longActionClause# and fall in love.",
 			  "To #longActionSaveObjectBegin#, they #longActionSaveActivity# and fall in love."],
@@ -4100,7 +4113,10 @@
         "glow",
         "eat babies",
         "molt",
-        "use 2FA"
+        "use 2FA",
+        "speak Klingon",
+        "top",
+        "bottom"
     ],
 
     "questionAsk": [
@@ -4139,10 +4155,19 @@
         "#questionAsk#? #questionPerson1#. #questionPerson2#. #questionAction#"
     ],
 
+    "miscPlot": [
+        "#undercoverPlot#",
+        "#sellPropertyPlot#",
+        "#buyPropertyPlot#",
+        "#movieTitlePlot#",
+        "#magicalPlot#"
+    ],
+
 
     "normalPlot_": ["#questionPlot#"],
     "normalPlot":[
         "#smallTownPlot#",
+        "#doesntExpectPlot#",
 		"#smallTownPlotLongAction#",
 		"#pairPlot#",
 		"#pairPlotTravel#",
@@ -4150,13 +4175,9 @@
 		"#accidentalPlot#",
 		"#aloneUntilNoMalePlot#",
 		"#alwaysWantedPlot#",
-        "#undercoverPlot#",
-        "#sellPropertyPlot#",
-        "#buyPropertyPlot#",
         "#injuryPlot#",
-        "#magicalPlot#",
-        "#movieTitlePlot#",
-        "#questionPlot#"
+        "#questionPlot#",
+        "#miscPlot#"
 
     ],
 
