@@ -1586,19 +1586,19 @@
 
     "meetsObject":["#person2NameActor#, #person2Desc#"],
     "meetsObjectBeginNamed":["#person2NameActor#, #person2Desc#,"],
-    "meetsObjectBeginUnnamed":["#person2Job.a##person2Actor# #person2Modifier#","#person2Occupation.a##person2Actor# #person2Modifier#"],
+    "meetsObjectBeginUnnamed":["#person2Job.a# #person2Modifier#","#person2Occupation.a# #person2Modifier#"],
     "meetsObjectBegin":["#meetsObjectBeginNamed#"],
 
     "meetsObjectShort":["#person2NameActor#, #person2Occupation.a#"],
     "meetsObjectBeginNamedShort":["#person2NameActor#, #person2Occupation.a#,"],
-    "meetsObjectBeginUnnamedShort":["#person2Job.a##person2Actor#","#person2Occupation.a##person2Actor#"],
+    "meetsObjectBeginUnnamedShort":["#person2Job.a#","#person2Occupation.a#"],
     "meetsObjectBeginShort": ["#meetsObjectBeginNamedShort#"],
     
 
     "protagonistIntroBegin":[
-			     "#person1Adj.capitalize# #bigCity# #person1Job# #person1Name##person1Actor#"],
-    "protagonistIntroMid":["#person1Name##person1Actor#, #person1Desc.a# from #bigCity#,",
-			   "#person1Adj# #person1Job# #person1Name##person1Actor#"
+			     "#person1Adj.capitalize# #bigCity# #person1Job# #person1Name#"],
+    "protagonistIntroMid":["#person1Name#, #person1Desc.a# from #bigCity#,",
+			   "#person1Adj# #person1Job# #person1Name#"
     ],
     "endsUp":["ends up","winds up","finds #person1ObjectPronoun#self","turns up","wakes up","gets stranded"],
     "afterWhen":["after #triggeringEvent#",
@@ -1744,18 +1744,18 @@
     "inTownBusyGoal": ["is busy #butGoalBusy#","is too busy #butGoalBusy#"],
     "inTownButGoal": ["doesn't #butGoalDoesnt#","#inTownBusyGoal#","has only one thing on #person1PossessivePronoun# mind: #oneThing#"],
 
-    "alreadyInTownSetup": ["It's #christmasTime# #namedOrUnnamedTown# and #inTownProtagonist##person1Actor# #alreadyInTownGoal#",
-			   "As Christmas approaches #namedOrUnnamedTown#, #inTownProtagonist##person1Actor# #alreadyInTownGoal#",
-			   "Christmas is #approaching# #namedOrUnnamedTown# and #inTownProtagonist##person2Actor# #alreadyInTownGoal#",
-			   "Christmas is #approaching# #namedOrUnnamedTown# but #inTownProtagonist##person1Actor# #inTownButGoal#",
-			   "#namedTown.capitalize#, Christmas is #approaching# and #inTownProtagonist##person1Actor# #alreadyInTownGoal#",
-			   "It's #christmasTime# #namedOrUnnamedTown# but #inTownProtagonist##person1Actor# #inTownButGoal#"],
-    "alreadyInTownSetupShort": ["It's #christmasTime# #namedOrUnnamedTown# and #inTownProtagonistShort##person1Actor# #alreadyInTownGoal#",
-				"As Christmas approaches #namedOrUnnamedTown#, #inTownProtagonistShort##person1Actor# #alreadyInTownGoal#",
-				"Christmas is #approaching# #namedOrUnnamedTown# and #inTownProtagonistShort##person1Actor# #alreadyInTownGoal#",
-				"Christmas is #approaching# #namedOrUnnamedTown# but #inTownProtagonistShort##person1Actor# #inTownButGoal#",
-				"#namedTown.capitalize#, Christmas is #approaching# and #inTownProtagonistShort##person1Actor# #alreadyInTownGoal#",
-				"It's #christmasTime# #namedOrUnnamedTown# but #inTownProtagonistShort##person1Actor# #inTownButGoal#"
+    "alreadyInTownSetup": ["It's #christmasTime# #namedOrUnnamedTown# and #inTownProtagonist# #alreadyInTownGoal#",
+			   "As Christmas approaches #namedOrUnnamedTown#, #inTownProtagonist# #alreadyInTownGoal#",
+			   "Christmas is #approaching# #namedOrUnnamedTown# and #inTownProtagonist# #alreadyInTownGoal#",
+			   "Christmas is #approaching# #namedOrUnnamedTown# but #inTownProtagonist# #inTownButGoal#",
+			   "#namedTown.capitalize#, Christmas is #approaching# and #inTownProtagonist# #alreadyInTownGoal#",
+			   "It's #christmasTime# #namedOrUnnamedTown# but #inTownProtagonist# #inTownButGoal#"],
+    "alreadyInTownSetupShort": ["It's #christmasTime# #namedOrUnnamedTown# and #inTownProtagonistShort# #alreadyInTownGoal#",
+				"As Christmas approaches #namedOrUnnamedTown#, #inTownProtagonistShort# #alreadyInTownGoal#",
+				"Christmas is #approaching# #namedOrUnnamedTown# and #inTownProtagonistShort# #alreadyInTownGoal#",
+				"Christmas is #approaching# #namedOrUnnamedTown# but #inTownProtagonistShort# #inTownButGoal#",
+				"#namedTown.capitalize#, Christmas is #approaching# and #inTownProtagonistShort# #alreadyInTownGoal#",
+				"It's #christmasTime# #namedOrUnnamedTown# but #inTownProtagonistShort# #inTownButGoal#"
 			       ],
 
     "protagonistReturns":["home","to #townName#","to #person1Possessive# family's #business#"],
@@ -1786,7 +1786,7 @@
 		 "a black pit of despair","jail","time out","flagrante delicto","pants","over #person1Possessive# head",
 		 "hot water","a tight spot"],
     "noTownClause": ["with a secret #withASecret#","in need of #inTownNeeds.a#","in #noTownIn#"],
-    "noTownSetup": ["#person1Name##person1Actor# is #person1Desc.a# #noTownClause#"],
+    "noTownSetup": ["#person1Name# is #person1Desc.a# #noTownClause#"],
     
     "smallTownSetup":["#endsUpInTownSetup#","#alreadyInTownSetup#","#noTownSetup#"],
     "smallTownNoLoveSetup":["#endsUpInTownSetup#","#noTownSetup#"],
@@ -1911,8 +1911,7 @@
         "massage parlor"
     ],
     "theyActionSentence": ["They #actionClause# and fall in love.",
-			   "They try to #boomClause# for Christmas and fall in lov*BOOM*",
-               "They enter #whamageddonLocation.a# and 'Last Christmas I gave you my heart, but the very next day...'"],
+			   "They try to #boomClause# for Christmas and fall in love."],
     
     "willPerson1Verb":["shoot","infect","stab","poison","lick","bite","shellac",
 		   "hypnotize","bankrupt","shock",
@@ -2204,8 +2203,8 @@
 		],
     
     
-    "person1NameActor": ["#person1Name##person1Actor#"],
-    "person2NameActor": ["#person2Name##person2Actor#"],
+    "person1NameActor": ["#person1Name#"],
+    "person2NameActor": ["#person2Name#"],
     "characterNameIntros": ["#person1NameActor# and #person2NameActor#"],
 
     "rival": ["rival","competing","enemy"],
@@ -3273,8 +3272,8 @@
         "litterbug"
     ],
     "undercoverPlotSetup": [
-        "#undercoverJob.capitalize# #person1Name##person1Actor# suspects #person2Name##person2Actor# is #crimeJob.a#, going undercover as #undercoverAs# to catch #person2ObjectPronoun#", 
-        "#undercoverJob.capitalize# #person1Name##person1Actor# goes undercover as #undercoverAs# to catch suspected #crimeJob# #person2Name##person2Actor#"
+        "#undercoverJob.capitalize# #person1Name# suspects #person2Name# is #crimeJob.a#, going undercover as #undercoverAs# to catch #person2ObjectPronoun#", 
+        "#undercoverJob.capitalize# #person1Name# goes undercover as #undercoverAs# to catch suspected #crimeJob# #person2Name#"
     ],
     "pairUndercoverAs": [
         "#personJob.a#",
@@ -3282,7 +3281,7 @@
     ],
 
     "undercoverPairPlotSetup": [
-        "#undercoverJob.capitalize.s# #person1Name##person1Actor# and #person2Name##person2Actor# go undercover as #pairUndercoverAs# and #pairUndercoverAs# to catch #crimeJob.a#"
+        "#undercoverJob.capitalize.s# #person1Name# and #person2Name# go undercover as #pairUndercoverAs# and #pairUndercoverAs# to catch #crimeJob.a#"
     ],
     "informant": ["#personJob.a#",
         "#animal.a#",
@@ -3379,7 +3378,7 @@
     "propertyChangeOfHeart": [
         "#person1Name# #changeOfHeartClause# when #changeOfHeartWhenClause#"
     ],
-    "propertyPlotSetup": ["#person2Name##person2Actor# won't sell #person2PossessivePronoun# family's #sellProperty#. #developerJob.capitalize# #person1Name##person1Actor# masquerades as #disguiseAs# to #propertyChangeMind#"],
+    "propertyPlotSetup": ["#person2Name# won't sell #person2PossessivePronoun# family's #sellProperty#. #developerJob.capitalize# #person1Name# masquerades as #disguiseAs# to #propertyChangeMind#"],
     "propertyPlotDiscover": [
         "Romance blooms until #trueIdentity#",
         "#propertyChangeOfHeart#"
@@ -3417,7 +3416,7 @@
         "#buyPropertyComesTo# to",
         "#buyPropertyArrivesIn# in"
     ],
-    "buyPropertySetup": ["#person1Adj.capitalize# #bigCity# #developerJob# #person1Name##person1Actor# #buyPropertyGetsTo# #townName# to buy #person2Name#'s#person2Actor# #sellProperty#" ],
+    "buyPropertySetup": ["#person1Adj.capitalize# #bigCity# #developerJob# #person1Name# #buyPropertyGetsTo# #townName# to buy #person2Name#'s #sellProperty#" ],
     "resistCompete": ["compete","battle","square off"],
     "resistTeaches": [
         "BDSM",
@@ -3707,7 +3706,7 @@
         "loses #person1PossessivePronoun# #lost# while trying to #injuryBreaksWhile#"
     ],
     "injuryPlotSetup": [
-        "#person1Adj.capitalize# #person1Job# #person1Name##person1Actor# #injuryPlotSetupStory#"
+        "#person1Adj.capitalize# #person1Job# #person1Name# #injuryPlotSetupStory#"
     ],
 
     "injuryPlotPerson2": [
@@ -3833,359 +3832,35 @@
 
 
 
-    "titleFirst": [
-        "Thirst",
-        "Worst",
-        "Wurst",
-        "Fred Durst"
-    ],
-
-    "titleLastChristmasGave": [
-        "#organ#",
-        "#animal#",
-        "#disease#"
-    ],
-
-    "artStyle": [
-        "brutalism",
-        "bauhaus",
-        "art deco",
-        "expressionism",
-        "cubism",
-        "dada",
-        "minimalism",
-        "performance art",
-        "socialist realism",
-        "Italian neorealism",
-        "anime",
-        "manga"
-    ],
-
-    "titleLookLike": [
-        "#disease#",
-        "#maleFemaleActor#",
-        "Krampus",
-        "the Riemann-Zeta function",
-        "#artStyle#",
-        "#relative.s#"
-    ],
-    
-    "titleMerry": [
-        "hairy",
-        "Gary",
-        "dairy",
-        "Larry",
-        "barely"
-    ],
-
-    "titleHome": [
-        "gnome",
-        "Noam",
-        "comb",
-        "foam",
-        "Ethan Frome",
-        "chrome",
-        "dome"
-    ],
-
-    "titleDays": [
-        "bidets",
-        "toupees",
-        "Takeis",
-        "souffles",
-        "Faradays",
-        "doomsdays",
-        "buffets",
-        "ashtrays",
-        "#animal.s#",
-        "#maleFemaleActor.s#"
-    ],
-
-    "titleDeck": [
-        "wreck",
-        "blech",
-        "tech",
-        "trebek",
-        "redneck",
-        "Quebec",
-        "exec",
-        "Czech",
-        "feck"
-    ],
-    
-    "titleDashing": [
-        "cashing",
-        "clashing",
-        "crashing",
-        "flashing",
-        "gnashing",
-        "lashing",
-        "rehashing",
-        "slashing",
-        "smashing",
-        "thrashing",
-        "trashing"
-    ],
-
-    "titleWinter": [
-        "hinter",
-        "printer",
-        "splinter",
-        "sprinter",
-        "tinder",
-        "Hinterkaifeck"
-    ],
-
-    "titleMagic": [
-        "tragic",
-        "manic",
-        "schematic",
-        "homeostatic",
-        "idiomatic",
-        "mechanic",
-        "pragmatic",
-        "psychosomatic"
-    ],
-
-    "titleCold": [
-        "mold",
-        "Diebold",
-        "old",
-        "pigeonholed",
-        "Avenged Sevenfold"
-    ],
-
-    "titleHelper": [
-        "yelper",
-        "hell purr",
-        "smelter"
-    ],
-
-    "titleGreetings": [
-        "deletings",
-        "eatings",
-        "heatings",
-        "meetings",
-        "overeatings",
-        "repeatings"
-    ],
-
-    "titleBright": [
-        "trite",
-        "contrite",
-        "right",
-        "white",
-        "uptight",
-        "spite",
-        "shite",
-        "gaslight",
-        "fight",
-        "dwight",
-        "cite",
-        "airtight"
-    ],
-
-    "titleBah": [
-        "bra",
-        "spa",
-        "grandpa",
-        "grandma",
-        "bot"
-    ],
-
-    "titleClaus": [
-        "flaws",
-        "pause",
-        "paws",
-        "claws",
-        "jaws",
-        "cross"
-    ],
-
-
-    "movieTitle": [
-        "On The #titleFirst# Day Of Christmas",
-        "Last Christmas I Gave You My #titleLastChristmasGave.capitalizeAll#",
-        "It's Beginning To Look A Lot Like #titleLookLike.capitalizeAll#",
-        "We Wish You A #titleMerry.capitalizeAll# Christmas",
-        "#titleHome.capitalizeAll# For The Holidays",
-        "The 12 #titleDays.capitalizeAll# Of Christmas",
-        "#titleDeck.capitalizeAll# The Halls",
-        "#titleDashing.capitalizeAll# Through The Snow",
-        "Walking In #titleWinter.a.capitalizeAll# Wonderland",
-        "The #titleMagic.capitalizeAll# of Christmas",
-        "Baby It's #titleCold.capitalizeAll# Outside",
-        "Santa's Little #titleHelper.capitalizeAll#",
-        "Seasons #titleGreetings.capitalizeAll#",
-        "Making Spirits #titleBright.capitalizeAll#",
-        "#titleBah.capitalizeAll# Humbug",
-        "Santa #titleClaus.capitalizeAll#"
-    ],
-
-
-    "movieTitlePerson1Intro": [
-        "#protagonistIntroBegin#",
-        "#protagonistIntroMid#",
-        "#inTownProtagonist##person1Actor#"
-    ],
-
-    "movieTitlePremise": [
-        "#movieTitlePerson1Intro.capitalize# #person1ActionClause# #meetsObject#",
-        "#pairPlotSetup#"
-    ],
-
-    "murdersBegin": [
-        "murders",
-        "kidnappings",
-        "burglaries",
-        "alien abductions",
-        "cattle mutilations",
-        "end times",
-        "arsons"
-    ],
-
-    "murderBegins": [
-        "ransomware",
-        "organ harvesting",
-        "infrastructure collapse",
-        "zombie apocalypse",
-        "rapture",
-        "time loop"
-    ],
-
-    "murderBeginAll": [
-        "#murdersBegin#",
-        "#murderBegins#"
-    ],
-
-    "movieTitleMurdersBegin": [
-        "And then the Christmas #murdersBegin# begin.",
-        "And then the Christmas #murderBegins# begins.",
-        "Just as the Christmas #murdersBegin# are beginning.",
-        "Just as the Christmas #murderBegins# is beginning."
-    ],
-
-    "movieTitleTeaser": [
-        "#movieTitleMurdersBegin#",
-        "What happens when they stop being polite...and start getting real?",
-        "#willTheySentence#"
-    ],
-
-    "movieTitlePlot": [
-        "#movieTitle#\n\n#movieTitlePremise#. #movieTitleTeaser#"
-    ],
-
-    "doReindeerHave": [
-        "souls",
-        "spleens",
-        "orgies",
-        "internet",
-        "migraines"
-    ],
-
-    "questionCure": [
-        "eggnog",
-        "mistletoe",
-        "fruitcake",
-        "hot cocoa",
-        "Santa",
-        "yule logs",
-        "sleighbells",
-        "gingerbread men",
-        "wrapping paper",
-        "caroling",
-        "poinsettias",
-        "chimneys"
-    ],
-
-    "questionDisease": [
-        "#disease#"
-    ],
-
-    "questionDoesSanta": [
-        "exist",
-        "gamble",
-        "loiter",
-        "levitate",
-        "rap",
-        "yodel",
-        "vibrate",
-        "glow",
-        "eat babies",
-        "molt",
-        "use 2FA",
-        "speak Klingon",
-        "top",
-        "bottom"
-    ],
-
-    "questionAsk": [
-        "Do reindeer have #doReindeerHave#",
-        "Can #questionCure# cure #questionDisease#",
-        "Does Santa really #questionDoesSanta#"
-    ],
-
-    "questionFindAnswer": [
-        "is determined to find out",
-        "wants answers",
-        "must find the answer",
-        "must get to the bottom of this",
-        "needs to know"
-    ],
-
-    "questionPerson1": [
-        "#person1Adj.capitalize# #person1Job# #person1Name##person1Actor# #questionFindAnswer#"
-    ],
-
-    "questionPerson2": [
-        "#person1ActionSentence#",
-        "#person2ActionSentence#",
-        "#unexpectedManSentence#"
-    ],
-
-    "questionAction": [
-        "#person1Person2ActionSentence#",
-        "#theyActionSentence#",
-        "#person2Person1ActionSentence#",
-        "#willTheySentence#"
-    ],
-
-
-    "questionPlot": [
-        "#questionAsk#? #questionPerson1#. #questionPerson2#. #questionAction#"
-    ],
 
     "miscPlot": [
         "#undercoverPlot#",
         "#sellPropertyPlot#",
         "#buyPropertyPlot#",
-        "#movieTitlePlot#",
         "#magicalPlot#"
     ],
 
 
-    "normalPlot_": ["#questionPlot#"],
     "normalPlot":[
         "#smallTownPlot#",
         "#doesntExpectPlot#",
 		"#smallTownPlotLongAction#",
 		"#pairPlot#",
-		"#pairPlotTravel#",
 		"#singleMomPlot#",
 		"#accidentalPlot#",
 		"#aloneUntilNoMalePlot#",
 		"#alwaysWantedPlot#",
         "#injuryPlot#",
-        "#questionPlot#",
         "#miscPlot#"
 
     ],
 
-    "plotStart": ["#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]normalPlot#"],
+    "plotStart": ["#[person1Subject:#person1Name#][person1Object:#person1Name#][person1Possessive:#person1Name#'s][person2Subject:#person2Name#][person2Object:#person2Name#][person2Possessive:#person2Name#'s]normalPlot# #person1Name# is played by #person1Actor#. #person2Name# is played by #person2Actor#."],
     
-    "origin":["#[person2Actor: (#maleActor#)][person1Actor: (#femaleActor#)][person1Name:#womanName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:she][person1Object:her][person1Possessive:her][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:her][person1ObjectPronoun:her][person1ActorAlt:#femaleActor#][person1SubjectPronoun:she]plotStart#",
-            "#[person1Actor: (#maleActor#)][person2Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#manName#][person1Subject:he][person1Object:him][person1Possessive:his][person1ActorAlt:#maleActor#][person2Subject:she][person2Object:her][person2Possessive:her][person2SubjectPronoun:she][person1PossessivePronoun:his][person1ObjectPronoun:him][person2PossessivePronoun:her][person2ObjectPronoun:her][person2ActorAlt:#femaleActor#][person1SubjectPronoun:he]plotStart#",
-	      "#[person2Actor: (#maleActor#)][person1Actor: (#maleActor#)][person1Name:#manName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:he][person1Object:him][person1Possessive:his][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:his][person1ObjectPronoun:him][person1ActorAlt:#maleActor#][person1SubjectPronoun:he]plotStart#",
-	      "#[person2Actor: (#femaleActor#)][person1Actor: (#femaleActor#)][person2Name:#womanName#][person1Name:#womanName#][person2Subject:she][person2Object:her][person2Possessive:her][person1Subject:she][person1Object:her][person1Possessive:her][person1PossessivePronoun:her][person1ObjectPronoun:her][person2SubjectPronoun:she][person2PossessivePronoun:her][person2ObjectPronoun:her][person1ActorAlt:#femaleActor#][person1SubjectPronoun:she]plotStart#"
-	     ]
+    "plot":["#[person2Actor:#maleActor#][person1Actor:#femaleActor#][person1Name:#womanName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:she][person1Object:her][person1Possessive:her][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:her][person1ObjectPronoun:her][person1ActorAlt:#femaleActor#][person1SubjectPronoun:she]plotStart#",
+            "#[person1Actor:#maleActor#][person2Actor:#femaleActor#][person2Name:#womanName#][person1Name:#manName#][person1Subject:he][person1Object:him][person1Possessive:his][person1ActorAlt:#maleActor#][person2Subject:she][person2Object:her][person2Possessive:her][person2SubjectPronoun:she][person1PossessivePronoun:his][person1ObjectPronoun:him][person2PossessivePronoun:her][person2ObjectPronoun:her][person2ActorAlt:#femaleActor#][person1SubjectPronoun:he]plotStart#",
+	      "#[person2Actor:#maleActor#][person1Actor:#maleActor#][person1Name:#manName#][person2Name:#manName#][person2Subject:he][person2Object:him][person2Possessive:his][person1Subject:he][person1Object:him][person1Possessive:his][person2SubjectPronoun:he][person2PossessivePronoun:his][person2ObjectPronoun:him][person1PossessivePronoun:his][person1ObjectPronoun:him][person1ActorAlt:#maleActor#][person1SubjectPronoun:he]plotStart#",
+	      "#[person2Actor:#femaleActor#][person1Actor:#femaleActor#][person2Name:#womanName#][person1Name:#womanName#][person2Subject:she][person2Object:her][person2Possessive:her][person1Subject:she][person1Object:her][person1Possessive:her][person1PossessivePronoun:her][person1ObjectPronoun:her][person2SubjectPronoun:she][person2PossessivePronoun:her][person2ObjectPronoun:her][person1ActorAlt:#femaleActor#][person1SubjectPronoun:she]plotStart#"
+	     ],
+    "origin":["#plot#"]
 }
