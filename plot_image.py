@@ -1,12 +1,11 @@
 import json
+import numpy as np
 from wand.image import Image
 from wand.drawing import Drawing
 from wand.font import Font
 from wand.color import Color
 
 FONT_FILE = "fonts/Caudex-Regular.ttf"
-
-OUTPUT_FILE = "texttest.png"
 
 TEMPLATE_DIR = "templates"
 
@@ -46,5 +45,6 @@ class PlotImage:
                         gravity='north_west'
                 )
 
-            canvas.save(filename=OUTPUT_FILE)
+            img_array = np.array(canvas)
 
+        return img_array

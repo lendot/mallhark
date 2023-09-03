@@ -1,5 +1,5 @@
 tracery
-
+gradio
 wand
 
 # llama-cpp-python without GPU support
