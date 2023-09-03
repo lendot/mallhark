@@ -1,0 +1,9 @@
+{
+	"default": {
+		"template": "default.png",
+		"left": 300,
+		"top": 50,
+		"width": 1570,
+		"height": 980
+    }	
+}
