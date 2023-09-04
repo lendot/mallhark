@@ -33,7 +33,7 @@ class PlotImage:
         with Image(filename = template_image) as canvas:
 
             with Drawing() as context:
-                font = Font(FONT_FILE, color = Color('#a00000'))
+                font = Font(FONT_FILE, color = Color('#650000'))
                 context(canvas)
                 canvas.caption(
                         plot, 
