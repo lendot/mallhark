@@ -16,16 +16,19 @@ class LLMPlot:
 
     def _load_model(self,model_path):
         print(f'loading {model_path}...')
-        llama = Llama(model_path = model_path,n_ctx = self.n_ctx, n_gpu_layers = self.n_gpu_layers)
+        llama = Llama(model_path = model_path,n_ctx = self.n_ctx, n_gpu_layers = self.n_gpu_layers, seed = 1225)
         print("Done.")
         return llama
 
+    def _post_process(self,plot):
+        plot = plot.replace("Hallmark","Hellmark")
+        return plot
 
     def generate(self, prompt, top_k = 40, top_p = 0.9, temperature = 0.9, max_tokens = 300):
 
         self.llama.reset()
 
-        plot_instructions = PROMPT_PRE + "Write a description in 100 words or less for the following Hallmark Movie. " + prompt + PROMPT_POST 
+        plot_instructions = PROMPT_PRE + "Write a description in 100 words or less for the following Hallmark Movie: " + prompt + PROMPT_POST 
         print(plot_instructions) 
 
         completion_chunks = self.llama.create_completion(
@@ -45,5 +48,5 @@ class LLMPlot:
             output += text
             print(text,end='',flush=True)
 
-        return output
+        return self._post_process(output)
 
