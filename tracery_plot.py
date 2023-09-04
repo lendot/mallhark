@@ -10,10 +10,6 @@ class TraceryPlot:
 
         self.grammar_file = grammar_file
 
-        grammar_rules = self._load_json(self.grammar_file)
-        self.grammar =  tracery.Grammar(grammar_rules)
-        self.grammar.add_modifiers(base_english)
-
 
     def _load_json(self,filename):
         with open(filename) as file:
@@ -22,6 +18,10 @@ class TraceryPlot:
         return data
 
     def generate(self, start_token = "#origin#"):
+        grammar_rules = self._load_json(self.grammar_file)
+        self.grammar =  tracery.Grammar(grammar_rules)
+        self.grammar.add_modifiers(base_english)
+
         plot = self.grammar.flatten(start_token)
         return plot
 
