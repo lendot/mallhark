@@ -1,14 +1,5 @@
 {
 
-
-    "hour_number": ["12","24","48","72"],
-    "day_number": ["7","10","15","30","60","90","120"],
-    "minute_number": ["5","10","15","30","60","90"],
-    "time": ["#hour_number# hour","#day_number# day","#minute_number# minute"],
-
-    "dollar": ["5","10","25","50","100","500","1000","5000","10000","50000","100,000","500,000"],
-    "price": ["$#dollar#"],
-
     "digit":["0","1","2","3","4","5","6","7","8","9"],
     "yeardigit":["1","2"],
     "year":["#yeardigit##digit##digit##digit#"],
@@ -33,7 +24,7 @@
 		  "Nathan Fillion","Neil Patrick Harris","Christian Slater","Jason Mewes","Michael C. Hall",
 		  "Keanu Reeves","Jackson Galaxy","Henry Rollins","Guy Fieri","Elon Musk","Adam Rippon","David Hasselhoff",
 		  "Gilbert Gottfried","Steve Guttenberg","Tom Hardy","Liam Neeson","Jean-Claude van Damme","Vin Diesel",
-		  "Jared Leto","Aaron Paul","Danny Trejo","Mr. T","Gene Simmons","The Rock",
+		  "Jared Leto","Aaron Paul","Danny Trejo","Mr. T","Gene Simmons","Dwayne Johnson",
 		  "Michael Ian Black","Mario Lopez","Steven Seagal","Justin Timberlake","Reggie Watts","David Boreanaz",
 		  "David Duchovny","Rainn Wilson","David Harbour","Joaquin Phoenix","Robert de Niro","Patrick Stewart",
 		  "Marc Maron","Chris Hemsworth","James Duval","Idris Elba","Morrissey","Glenn Danzig","Ted Danson",
@@ -42,13 +33,13 @@
 		  "Corey Feldman","Daniel Radcliffe","Nicolas Cage","Matthew Gray Gubler","Timothée Chalamet",
 		  "John Boyega","Ezra Miller","Hugh Dancy","Oscar Isaac","Robert Pattinson","Tom Holland",
 		  "Tyler Hoechlin","Lee Pace","Cole Sprouse","Alfonso Herrera","Jason Momoa","Jake Gyllenhaal",
-		  "Sebastian Bach","Mike Colter","Tom Hiddleston","Benedict Cumberbatch","Patrick Duffy",
+		  "Mike Colter","Tom Hiddleston","Benedict Cumberbatch","Patrick Duffy",
 		  "Fred Armisen","Ralph Macchio","Adam Driver","Macaulay Culkin","Sebastian Stan","Scott Baio",
 		  "Scott Bakula","Sean Penn","Ken Marino","Matt Damon","Christian Bale","Don Cheadle",
 		  "Robert Downey Jr","Liev Schreiber","Gael Garcia Bernal","Edward James Olmos",
 		  "Hugh Jackman","Eriq La Salle","Kyle MacLachlan","Matthew McConaughey","Bradley Cooper",
 		  "Benicio Del Toro","Jonah Hill","Samuel L. Jackson","Matthew Modine","Morgan Freeman","Gary Oldman",
-		  "Mads Mikkelsen","Chad Michael Murray","Pee-wee Herman","Anthony Fauci",
+		  "Mads Mikkelsen","Chad Michael Murray","Anthony Fauci",
 		  "Marwan Kenzari","Paul Hollywood","Lakeith Stanfield","Dylan O'Brien","Marc Blucas","Jason Priestley",
           "Rahul Kohli","Billy Porter","Raúl Esparza","Lil Nas X","Jensen Ackles","Jared Padalecki",
           "Elliot Page","Jason Sudeikis","Brett Goldstein","John Cho","Manny Jacinto","Jared Harris","Joshua Jackson",
@@ -81,14 +72,14 @@
 		    "Helena Bonham Carter","Jodie Sweetin","Kristin Chenoweth","Danica McKellar","Alicia Witt","Patti LaBelle",
 		    "Kiernan Shipka","Hailee Steinfeld","Rebel Wilson","Zendaya","Constance Wu","Chloe Grace Moretz",
 		    "Mia Wasikowska","Hayley Atwell","Janelle Monáe","Joséphine Jobert","Lauren Lee Smith",
-		    "Chantel Riley","Arden Cho","Betty White","Sarah Michelle Gellar","Maggie Gyllenhaal","Brie Larson",
+		    "Chantel Riley","Arden Cho","Sarah Michelle Gellar","Maggie Gyllenhaal","Brie Larson",
 		    "Juliette Lewis","Daisy Ridley","Shakira","Krysten Ritter","Stephanie Beatriz","Cobie Smulders",
 		    "Julie Andrews","Vanessa Hudgens","Carrie Brownstein","Natasha Leggero","Riki Lindhome","Amber Tamblyn",
 		    "Lizzy Caplan","Reese Witherspoon","Elisabeth Moss","Lily Tomlin","Zoe Saldana","Elizabeth Olsen",
 		    "Frances McDormand","Zoë Kravitz","Anne Hathaway","Karen Gillan","Margot Robbie","Olivia Wilde",
 		    "Olivia Munn","Viola Davis","Maria Bello","Uma Thurman","Erin Cahill","Kellie Pickler",
 		    "Sarah Cooper","Cardi B","Florence Pugh","Sophie Turner","Yara Shahidi","Kristen Stewart",
-		    "Alison Brie","Mackenzie Davis","Lauren Lapkus","Angela Lansbury","Mj Rodriguez",
+		    "Alison Brie","Mackenzie Davis","Lauren Lapkus","Mj Rodriguez",
             "Indya Moore","Beanie Feldstein","Tessa Thompson","Sarah Paulson","Emmy Raver-Lampman",
             "Hannah Waddingham","Juno Temple","Allison Janney","Anya Taylor-Joy","Kathryn Hahn","Sandra Oh",
             "Jennifer Coolidge","Mae Martin","Kayla Cromer","Jean Smart","Lana Condor","Carrie-Anne Moss",
@@ -99,7 +90,7 @@
     "bigCity": ["New York","Chicago","Los Angeles","Boston","Philadelphia","San Francisco","Seattle","DC","Portland",
 		"San Diego","Big City","Brooklyn","Manhattan","Queens","Denver","Bed-Stuy","Pittsburgh","Cleveland",
 		"Vancouver","Toronto","Baltimore","Houston","Phoenix","Dallas","San Jose","Indianapolis","Las Vegas",
-    "Milwaukee","Fresno","Kansas City","Miami"],
+        "Milwaukee","Fresno","Kansas City","Miami"],
 
     "townTree": ["Evergreen","Pine","Fir","Spruce","Maple"],
     "townBay": ["Nilson's","Hope","Yule"],
@@ -223,9 +214,8 @@
 		 "Miracle","Aria","Jessica","Margot","Anna","Jess","Megan","Vivienne","Sam","Erin",
 		 "Avery","Michelle","Kayleigh","Lina","Lila","Christina","Charity","Lauren","Mackenzie",
         "Kayla","Courtney","Jasmine","Morgan","Kelsey","Chelsea","Julia","Skye",
-        "Abby","Alexis","Chloe","Hailey","Makayla","Emma","Olivia","Sophia","Mia","Ella","Addison",
+        "Abby","Alexis","Chloe","Hailey","Makayla","Olivia","Sophia","Mia","Ella","Addison",
         "Aubrey"],
-    "womanName2": ["#womanName#"],
 
     "manName":["Brad","Chad","Travis","Joe","Kevin","Tanner","Connor","Jack","Scott","Jake","Cole","Garrett",
 	    "Jacob","Brett","Dylan","Chris","Noel","Luke","Sean","Devin","Mark","Michael","Thor","Carter","Gage",
@@ -234,9 +224,7 @@
 	    "Noah","William","Roman","Elliot","Nate","Carson","Tyler","Zachary","Austin","Kyle","Cody","Jordan",
         "Taylor","Dalton","Dillon","Ethan","Jayden","Diego","Hayden","Jaden","Caden",
         "Liam","Loki","Nick"],
-    "manName2": ["#manName#"],
 
-    "personName": ["#womanName#","#manName#"],
  
     "conservationist": ["elephant","emu","turtle","platypus","tiger","walrus","fish","soil","tree","flower","otter","moose"],
     "expert": ["cybersecurity","makeup","sex","cheese","wine","beer","hummus","solar power","furniture",
@@ -352,8 +340,6 @@
     "becomeNoun":["#person1Job#","#person2Job#"],
 
     
-    "reading":["Kerouac","Wittgenstein","Kafka","Nietzsche","Kierkegaard","'A Christmas Carol'","a Tingler",
-	       "Jane Austen","a romance novel","a memoir","a legal contract","'Eat, Pray, Love'","the Necronomicon"],
 
     "relative":["mother","father","grandmother","grandfather","aunt","uncle","brother","sister"],
 
@@ -381,7 +367,6 @@
 
     "getsIll": ["#relative#","#animal#"],
     "fallingOff": ["caboose","cliff","roof","camel","skateboard","bike","bridge","horse","utility pole"],
-    "forgetting": ["#person1Possessive# PIN","the number 7","#person1Possessive# password","about Christmas"],
 
     "language": ["Latin","Klingon","Esperanto","German","Chinese"],
 
@@ -580,8 +565,6 @@
 
     "person2WhoRaces":["snails","horses","chipmunks","wiener dogs","in a Santa speedo","sleighs"],
 
-    "person2WhoSings":["karaoke","tenor","death metal","baritone","bass","soprano","alto","show tunes",
-		    "in just intonation","flat","out of tune"],
 
     "person2WhoWalks":["saunters","struts","gallops","meanders","moseys","bounces","strolls","stomps","hops",
 		    "sashays","gyrates","wobbles","undulates"],
@@ -743,10 +726,6 @@
 		 "spleen","underwear","sewing machine","guitar","magic crystal","legal expertise",
 		 "foot","binoculars","reindeer","snow machine","wig collection","enchanted #enchanted#",
 		 "chainsaw","scythe","cousin","bulldozer","#organ#"],
-    "person2Gives":["a ride","#person2Possessive# debit card","a dead body to dispose of","a magic ring","a manicure","a pedicure"],
-    "person2Memories":["comes back into #person1Possessive# life","reminds #person1Object# of someone","brings back memories for #person1Object#","opens old wounds for #person1Object#"],
-    "person2Question":["makes #person1Object# rethink everything","makes #person1Object# question #person1Possessive# choices"],
-    "person2Annoys":["follows #person1Object# everywhere","gets on #person1Possessive# nerves","annoys #person1Object# to no end"],
     
     "triesToVerb":["buy","sell","renovate","demolish","take over","bankrupt"],
     "triesToObject":["#business#","#familys# #business#"],
@@ -763,7 +742,6 @@
 
     "fixHis": ["#challenge_count_noun#"],
 
-    "cleanHisMisc": ["ducts","bathroom","kitchen","chicken coop","carpets","barn"],
     "cleanHis": ["#watchHis#","#cleanHisMisc#"],
 
     "subdueTheir": ["#relative#","#animal#"],
@@ -784,7 +762,6 @@
 		"#hiresPerson1Misc#",
 		"be #person2PossessivePronoun# #beTheir#","subdue #person2PossessivePronoun# #subdueTheir#"],
 
-    "thinksHes":["#person2Adj#","#person1Adj#"],
     "thinksPerson1s":["#person2Adj#","#person1Adj#","#person1ActorAlt#","too #person2Adj#","too #person1Adj#","#person1Job.a#"],
 
     "makesPerson1DoubtTheir": ["virginity","career choice","makeup","height","passion","hair","shoes","necklace",
@@ -990,11 +967,6 @@
 	   "ionized","makeovers","pedicures","IRB approval","scurvy","tan","naked","lit","swole",
 	   "excommunicated","hangry","hammered"],
 
-    "kill":["Applebee's","weddings","gender reveal parties","vacation homes","cold shoulder tops","exorcisms",
-	    "the print news industry","napkins","golf","soap bars","homeownership","wine corks","department stores",
-	    "kitchens","country clubs","mayonnaise","post offices","American cheese","canned tuna","dress codes",
-	    "office holiday parties","the oil industry","marmalade","marriage","postcards","traditional education","fascism"],
-
     "make":["cookies","music","ornaments","babies","enemies","meth","moonshine","vaccines","websites","voodoo dolls",
 	    "stone tools","Death Santas","surveillance elves","software-defined radios","wreaths","instructables",
 	    "ASMR videos","cat sweaters","kale treats","botnets","tesla coils","cryptocurrency","a yule goat",
@@ -1015,10 +987,6 @@
 	     "monster truck rally","hoe down","concert","charity event","purge","trepanation","spelling bee","talent show",
 	     "robot battle","poetry slam","battle of the bands","improv show","TED talk","exorcism","festival of lights",
 	     "contest","auction"],
-    "putOnForThe":["livestock","children","old people","traditionalists","townfolk","endangered animals","town fund",
-		   "hell of it","reasons","baby boomers","sick children","reindeer zoo","ornament museum",
-		   "nursing home","hospital","high school","town hall repairs","millennials","objectivists","elves",
-		   "Flat Earth Society","youth center"],
 
     "competeVerb":["compete","battle","square off","team up","pair up"],
     "competeEvent":["bake-off","floral competition","5k","hot dog eating contest","cow chip throwing contest",
@@ -1032,15 +1000,6 @@
     "competeShort": ["#competeVerb# in the #competeEvent#"],
     "organize":["organize","plan"],
 
-    "argueVerb": ["fight","argue"],
-    "argueOver":["who gets to chop down the tree","how to make eggnog","Marxism","cat names",
-		 "the Oxford comma","machine learning frameworks","the Iowa caucuses","climate change","cranberry sauce recipes",
-		 "typography","the DSM-5","skin care regimens","the internet of things","late capitalism",
-		 "cilantro","gender reveal parties","pizza toppings","Gwyneth Paltrow","essential oils","string theory",
-		 "multi-level marketing","dark energy","3D printer filament","soldering iron temperature","Dickens",
-		 "gentrification","GIF vs. JIF","ornaments","turkey recipes","stuffing","the synoptic gospels",
-		 "bike lanes","veganism","art history","taxes","marketing strategies","the royal family",
-		 "product placement","spiders","pineapple pizza","golf","Batman"],
 
     "fixAnimal": ["rat","moose","badger","frog","snake","locust","goose"],
     "fixOutbreak": ["cholera","e. coli","flu","diarrhea","covid-19"],
@@ -1064,20 +1023,7 @@
     "uncoverObject": ["murder","conspiracy","scandal","botnet","cabal","dark web","brothel","security breach","coven",
 		      "black market","pyramid scheme"],
 
-    "challenge_number": ["one","five","ten","fifty","100"],
 
-    "challenge_adj": ["wet","cold","electric","gyrating","purple","sloppy","magnetic","soapy","slippery","drunk","frozen",
-		      "sticky","moist","splendid","fragile","speedy","quirky","smelly","radiant","limp","shocking","fluffy",
-		      "graceful","scorched","naughty","irritated","endangered","scrofulous","defamatory","windblown",
-		      "wooden","blue","orphaned","legitimate","tall","teal","splendid","opaque","decaffeinated","alternating",
-		      "slimy","naked","topless","blindfolded","stoned","burping","Rube Goldberg","oxygenated","clean","tidy",
-		      "perfect","lucid","manly","sexy","nasal","exquisite","live","homeopathic","corporeal","long","big",
-		      "wide","tiny","flaccid","plush","genderqueer","absurd","bicuspid","didactic","undulating","pagan",
-		      "quantum","french","canadian","hungarian","swedish","crooked","mansplaining","facebook","garish",
-		      "comatose","wretched","boisterous","Flemish","yellow","blue","gray","orange","seductive","caustic",
-		      "dowdy","boorish","belligerent","didactic","fastidious","heuristic","insolent","irksome","nefarious",
-		      "luminous","petulant","pernicious","puckish","tenacious","turbulent","turgid","ubiquitous","verdant",
-		      "zealous","eternal","bisexual","pansexual","missing"],
     "challenge_count_noun": ["g-string","rice","tattoo","piercing","sponge","bracelet","electrode","octopus","Faraday cage",
 			     "hot sauce","taco","avocado","mortgage","sausage","cucumber","router","peanut","box","crocodile",
 			     "Kevin","Chad","pope","mirror","bisexual","placebo","tiara","goat","cow","bungee cord","almond",
@@ -1103,39 +1049,7 @@
 			    "biryani","religion","cheese","brie","gnocchi","vinyl","melon","proletariat","ritual","ketamine","brexit",
 			    "fish","lutefisk","diarrhea","heartburn","heartache","spinach","exfiltration","cryptocurrency","borscht",
 			    "jorts","anxiety","lithium","viagra","xanax","privacy","socks"],
-    "challenge_noun": ["#challenge_count_noun#","#challenge_mass_noun#"],
-    "challenge_take": ["take","bring"],
-    "challenge_work": ["work","school","church","the gym","the park","the grocery store","space","the beach","Canada","Cleveland",
-		       "yoga","Target","Burger King","Chipotle","Idaho","California","choir practice","meditation","graduation",
-		       "the shop","the post office","the bank","the hairdresser","the airport","the railroad","the lake",
-		       "the kitchen","the bedroom","the bathroom","the movies","hell","the library","Brazil","Moscow","Tokyo",
-		       "dinner","lunch","the opera","a meetup","the ER","the mechanic","the dentist","the rodeo"],
-    "challenge_verbing": ["licking","gluing","feeding","bouncing","sewing","cooking","eating","smoking","flipping","bleaching",
-			  "singing","burping","texting","pooping","juggling","buying","stealing","swallowing","snorting"],
-    "challenge_verb": ["pawn","juggle","snort","swallow","wiggle","placate","break","decorate","wash","tattoo","brainwash",
-		       "love","regurgitate","shuffle","coddle","shave","paint","eat","scold","startle","thank","fold","study",
-		       "pat","rotate","clean","shellac","collate","feed","burp","text","placate","marinade","wax","moisturize",
-		       "exfoliate","conjugate","flee","clothe","control","organize","program","launch","stimulate","modify",
-		       "redesign","revamp","transform","mentor","mobilize","regulate","train","analyze","audit","measure","test",
-		       "map","explore","critique","simulate","publicize","define","inspect","scrutinize","floss","remember",
-		       "forget","amend","mystify","multiply","dangle","devour","climb","broadcast","ignite","seize","amplify",
-		       "absorb","drag","erase","fling","gobble","tickle","make","masticate","impersonate","berate","taunt",
-		       "harass","sweet-talk","pawn","hug","guess"],
-    "challenge_verb_no_do": ["dance","laugh","sleep","play","complain","juggle","kickstart","chop","conjugate","wonder","balance",
-			     "swim","harmonize","investigate","vomit","travel","exfoliate","shower","yawn","smile","cuddle","feel","spawn"],
-    "challenge_keep_verb": ["dancing","laughing","sleeping","playing","complaining","juggling","kickstarting","chopping","conjugating",
-			    "wondering","balancing","swimming","harmonizing","investigating","vomiting","traveling","exfoliating",
-			    "showering","yawning","smiling","cuddling","feeling","spawning"],
-    "challenge_verb_your": ["your","that"],
-    "challenge_misc_event": ["makeover","selfie"],
-    "challenge_misc": ["#challenge_noun# #challenge_misc_event#"],
-    "challenge_try": ["try","try not"],
 
-    "challenge": ["#challenge_adj# #challenge_noun#","#challenge_number# #challenge_count_noun#",
-		  "#challenge_misc#","#challenge_verb# #challenge_verb_your# #challenge_count_noun#",
-		  "#challenge_try# to #challenge_verb_no_do#","keep #challenge_keep_verb#",
-		  "#time# #challenge_noun#","#price# #challenge_noun#","#challenge_noun# #challenge_verbing#"],
-    
 
     "adopt": ["dog","cat","pig","child","teenager","octogenarian","gremlin","accent","whale","penguin","orphan","alien","ferret",
 	      "libertarian","objectivist","highway","ghost","elf","reindeer","accountant","baby boomer"],
@@ -1240,10 +1154,6 @@
         "kombucha"
 	       ],
 
-    "embraceVerb": ["embrace",
-		    "accept"
-		   ],
-    
     "addTradition": ["human sacrifice",
 		     "animal worship",
 		     "trepanation",
@@ -1254,11 +1164,6 @@
 		     "extortion",
 		     "embezzlement"
 		    ],
-
-    "actionClauseMisc": ["social distance for Christmas",
-			 "defund the police for Christmas",
-			 "adjust to the new normal for Christmas"
-			],
 
     "deadActor": ["#deadMaleActor#",
 		  "#deadFemaleActor#"
@@ -1311,7 +1216,7 @@
 		     "launch #launch.a# for Christmas",
 		     "repair #repairObject# for Christmas","fix #fixObject# for Christmas",
 		     "uncover a Christmas #uncoverObject#",
-		     "take the Christmas #challenge.capitalizeAll# Challenge","adopt #adopt.a# for Christmas",
+		     "adopt #adopt.a# for Christmas",
 		     "rediscover #rediscover# for Christmas","help #helpClause# for Christmas",
 		     "protest #protest# for Christmas","form #theyForm.a# for Christmas",
 		     "become #become# for Christmas","#watchVerb# #theyWatch# for Christmas",
@@ -1366,7 +1271,6 @@
 			       "get #get#",
 			       "#competeShort#",
 			       "form #theyForm.a#",
-			       "take the #challenge.capitalizeAll# Challenge",
 			       "go #takesPerson2#",
 			       "#organize# #putOn.a#",
                    "risk their lives",
@@ -1395,16 +1299,6 @@
 		    "airbrushes","imprisons","crates","blackmails","hits","spills #spills# on",
 		    "rear ends"],
     "accidentallyAdverb":["accidentally","unintentionally","inadvertently","passive-aggressively"],
-
-    "helpFrom":["psilocybin","Mark Wahlberg","a rival gang","dolphins","CWA Local 2101","a secret Santa","#person1Possessive# inheritence",
-		"GoFundMe","reddit","the town fathers","#person2Possessive# brother","#person1Possessive# best friend","Santa","Santa's elves",
-		"a higher power","the internet","child labor","the writings of Thoreau","the football team","pencils",
-		"real estate law","an old friend","an unlikely source","the mafia","The Necronomicon","a benefactor",
-		"the war veterans","the dark web","Sebastian Bach","Todd Rundgren","Jaromir Jagr","Xena: Warrior Princess",
-		"Mark Zuckerberg","Richard Branson","the Dalai Lama","Baphomet","Owen Wilson","Seth Rogen","BTS"],
-    "withHelp":["With help from","With some help from","Helped by","Thanks to"],
-
-    "hatch":["work","work together","join forces","unite","come together"],
 
     "helpsPerson2LearnTo":["tie #person2PossessivePronoun# shoes","take care of #person2ObjectPronoun#self","do dishes","show emotions"],
     "cleanHis": ["basement","registry","knife wound","social media","criminal record","fish tank","browser history",
@@ -1499,15 +1393,12 @@
          "to #person2PossessivePronoun# #secretAdj# #takeToSecret#"],
          
     
-    "stealsHis":["heart","virginity","Macarena CD","cockatiel","poinsettias","pain meds","passport","identity"],
-    "steals":["steals","takes"],
 
     "forChristmasPrep":["for","on"],
     "forChristmas":["#forChristmasPrep# Christmas"],
 
     "bests": ["bests","beats","destroys"],
     
-    "person1Person2ClauseMisc": ["martinizes #person2Possessive# shorts #forChristmas#","quits #person1Object# job #forChristmas#"],
     "person1Person2Clause":["helps #person2Object# #helpsPerson2# #forChristmas#",
 		    "gives #person2Object# #givesPerson2# for Christmas",
 		    "takes #person2Object# #takesPerson2# for Christmas",
@@ -1586,13 +1477,9 @@
 
     "meetsObject":["#person2NameActor#, #person2Desc#"],
     "meetsObjectBeginNamed":["#person2NameActor#, #person2Desc#,"],
-    "meetsObjectBeginUnnamed":["#person2Job.a# #person2Modifier#","#person2Occupation.a# #person2Modifier#"],
     "meetsObjectBegin":["#meetsObjectBeginNamed#"],
 
     "meetsObjectShort":["#person2NameActor#, #person2Occupation.a#"],
-    "meetsObjectBeginNamedShort":["#person2NameActor#, #person2Occupation.a#,"],
-    "meetsObjectBeginUnnamedShort":["#person2Job.a#","#person2Occupation.a#"],
-    "meetsObjectBeginShort": ["#meetsObjectBeginNamedShort#"],
     
 
     "protagonistIntroBegin":[
@@ -1789,7 +1676,6 @@
     "noTownSetup": ["#person1Name# is #person1Desc.a# #noTownClause#"],
     
     "smallTownSetup":["#endsUpInTownSetup#","#alreadyInTownSetup#","#noTownSetup#"],
-    "smallTownNoLoveSetup":["#endsUpInTownSetup#","#noTownSetup#"],
     "smallTownSetupShort":["#endsUpInTownSetupShort#","#alreadyInTownSetupShort#"],
 
     
@@ -1823,15 +1709,12 @@
     "person1ActionSentenceShort": ["#person1Subject.capitalize# #person1ActionClause# #meetsObjectShort#"],
 
 
-    "smallTownMeetSentence":["#person1ActionSentence#","#person2ActionSentence#"],
-
     "chooseMeetsObjectShort":["#manName# (#maleActor#), #person2Occupation.a#","#person2Occupation.a# (#maleActor#)"],
     "chooseBetween": ["#chooseMeetsObjectShort#","#person1PossessivePronoun# #lost#",
 		      "the family #business#",
 		      "#person1PossessivePronoun# #fetish# fetish",
 		      "#person1PossessivePronoun# agency",
 		      "#decideOtherOption#"],
-    "person1NoLoveClause": ["must choose between #person2Object# and #chooseBetween#"],
 
     
     "decideBetweenVerb": ["killing","pawning","juggling","snorting","swallowing","wiggling","placating","breaking",
@@ -1847,19 +1730,6 @@
 			  "gobbling","tickling","making","masticating","impersonating","berating","taunting",
 			  "harassing","sweet-talking","hugging","licking","gluing","bouncing","sewing","cooking",
 			  "smoking","bleaching"],
-    "chooseBetweenVerb": ["kill","pawn","juggle","snort","swallow","wiggle","placate","break",
-			  "decorate","wash","brainwash","regurgitate","shuffle","coddle","shave",
-			  "paint","eat","scold","startle","thank","fold","study",
-			  "rotate","clean","collate","feed","burp","text","marinade","wax",
-			  "moisturize","exfoliate","conjugate","control","organize","stimulate","modify",
-			  "redesign","revamp","transform","mentor","mobilize","regulate","train",
-			  "analyze","audit","measure","test","map","explore","critique","simulate",
-			  "publicize","define","inspect","scrutinize","floss","remember",
-			  "forget","amend","mystify","multiply","dangle","devour","climb",
-			  "broadcast","ignite","seize","amplify","absorb","drag","erase","fling",
-			  "gobble","tickle","make","masticate","impersonate","berate","taunt",
-			  "harass","sweet-talk","hug","lick","glue","bounce","sew","cook",
-			  "smoke","bleach"],
     
     "decidePerson1sObject": ["#relative#","#animal#","family's #business#"],
     "decideObject": ["#femaleActor#","#maleActor#","the town's #repairTheTowns#"],
@@ -1867,20 +1737,7 @@
     "decideOtherOption": ["#decideBetweenVerb# #person1Possessive# #decidePerson1sObject#",
 			  "#decideBetweenVerb# #decideObject#",
 			  "taking #decideObjectLiving# #takesPerson2#"],
-    "decideFirstOption": ["#decideBetweenVerb# him",
-			  "taking him #takesPerson2#",
-			  "#decideBetweenVerb# #person2Possessive# #person2WithA#",
-			  "giving him #givesPerson2#"],
-    "decideBetween": ["#decideFirstOption# and #decideOtherOption#"],
 
-    "chooseFirstOption": ["#chooseBetweenVerb# him",
-			  "take him #takesPerson2#",
-			  "#chooseBetweenVerb# #person2Possessive# #person2WithA#"],
-    "chooseOtherOption": ["#chooseBetweenVerb# #person1Possessive# #decidePerson1sObject#",
-			  "#chooseBetweenVerb# #decideObject#",
-			  "take #decideObjectLiving# #takesPerson2#"],
-    "chooseTo": ["#chooseFirstOption# or #chooseOtherOption#"],
-    
     "looming": ["looming","approaching","near"],
     "christmasNearIntro": ["With Christmas #looming#",
 			   "Christmas is #looming# and"],
@@ -1891,25 +1748,7 @@
     
     "person1Person2ActionSentence": ["#person2Subject.capitalize# #person2Person1Clause# and they fall in love."],
     "person2Person1ActionSentence": ["#person1Subject.capitalize# #person1Person2Clause# and they fall in love."],
-    "whamageddonLocation": [
-        "coffee shop",
-        "sex dungeon",
-        "trance",
-        "subway station",
-        "MRI",
-        "church",
-        "gang hideout",
-        "auto parts store",
-        "bakery",
-        "Buddhist temple",
-        "time warp",
-        "bank",
-        "tattoo shop",
-        "sperm bank",
-        "hidden room",
-        "VR simulation",
-        "massage parlor"
-    ],
+
     "theyActionSentence": ["They #actionClause# and fall in love.",
 			   "They try to #boomClause# for Christmas and fall in love."],
     
@@ -1946,14 +1785,6 @@
 	"window"
     ],
 
-    "becomeLGBTQ": ["lesbian",
-		    "bisexual",
-		    "queer",
-		    "nonbinary",
-		    "genderqueer",
-		    "pansexual",
-		    "asexual"
-		   ],
     "radicalizedBy":[
         "#animal.s#",
         "#maleFemaleActor#",
@@ -2056,9 +1887,6 @@
         "#doesntExpectManSetup#. #unexpectedManSentence#. #unexpectedActionSentence#"
     ],
 
-    "noLovePlot": [
-        "#smallTownNoLoveSetup#. #person2ActionSentence#. #person1NoLoveSentence#"
-    ],
 
     "longActionSentence": ["They #longActionClause# and fall in love.",
 			  "To #longActionSaveObjectBegin#, they #longActionSaveActivity# and fall in love."],
@@ -2141,47 +1969,11 @@
 			"carpooling",
 			"driving"
 		       ],
-    "carType": ["Chevy Vega",
-		"Chevy Nova",
-		"convertible",
-		"'67 Mustang",
-		"Ford Escort",
-		"Peugeot",
-		"Model T",
-		"Yugo",
-		"Ford Pinto",
-		"AMC Gremlin",
-		"bitchin' Camaro",
-		"El Camino",
-		"Lada",
-		"Pontiac Aztek",
-		"AMC Pacer",
-		"Le Car",
-		"VW Rabbit",
-		"DeLorean",
-		"VW microbus"
-	       ],
-    "travelingVehicle": ["in a rental #carType#",
-			 "in #person1OrPerson2Possessive# #carType#",
-			 "in #person1OrPerson2Possessive# #relative#'s #carType#",
-			 "in a stolen #carType#",
-			 "in a decrepit #carType#"
-			],
 
     "forHolidays": ["Christmas",
 		    "the holidays"
 		   ],
-    "homeDescriptor": [
-		       "to #townName#",
-		       "home"
-		      ],
-    "travelingHome": ["#homeDescriptor# for #forHolidays#",
-		      "#homeDescriptor# for #forHolidays# #travelingVehicle#"
-		     ],
 			 
-    "formerTravelingPremise": [
-	"are #travelingMethod# #travelingHome# when #travelingWhen#"
-    ],
 
 
     "bothLove": ["haggis",
@@ -2232,243 +2024,7 @@
     "pairPlotSetup": ["#pairPlotRivals#","#pairPlotFormer#"],
 
 
-    "pairPlotFormerTraveling": ["Former #former# #characterNameIntros# #formerTravelingPremise#"],
-    "pairPlotTravelSetup": ["#pairPlotFormerTraveling#"],
-    "finishJourney": ["finish", "complete"],
-    "journey": ["journey","trip"],
-    "withOnly": ["their underwear",
-		 "a hubcap",
-		 "a candy cane",
-		 "their sarcasm",
-		 "a groundhog",
-		 "a blunt",
-		 "a colander",
-		 "a soccer trophy",
-		 "their parachute pants",
-		 "barbecue sauce",
-		 "a Nietzsche primer",
-		 "#person1Possessive# Blackberry",
-		 "#person2Possessive# compass",
-		 "#person2Possessive# shoelace",
-		 "#person1Possessive# lipstick",
-		 "#person1Possessive# yoga mat",
-		 "a decorative geode",
-		 "a pair of chopsticks",
-		 "#person2Possessive# stress ball",
-		 "a Funko pop",
-		 "a magnet",
-		 "a SCSI cable",
-		 "silly putty",
-		 "an Ernest Saves Christmas VHS"
-		],
 
-    "travelNeedToFind": ["#maleFemaleActor#",
-			 "a restroom",
-			 "pot",
-			 "a 1.21 gigawatt source",
-			 "#person1OrPerson2Possessive# #lost#",
-			 "#challenge_count_noun.s#"
-			],
-
-
-    "ifNotHomeObjectMisc": ["fruitcake",
-			    "glitter",
-			    "dolls",
-			    "boots",
-			    "teeth",
-			    "Christmas tree",
-			    "phone"
-			   ],
-
-
-    "ifNotHomeObject": ["#animal#",
-			"#relative#",
-			"#familys# #business#",
-			"#ifNotHomeObjectMisc#"
-		       ],
-
-    "ifNotHomeConsequence": ["evaporate",
-			     "disintegrate",
-			     "transmigrate",
-			     "explode",
-			     "become deadly",
-			     "become rabid"
-			    ],
-    
-    "ifNotHomeInTime": ["If they don't hurry #person1OrPerson2Possessive# #ifNotHomeObject# will #ifNotHomeConsequence#"
-		       ],
-
-    "pairPlotTravelGoal": ["They must #finishJourney# their #journey# with only #withOnly#",
-			   "Time's running out and they must find #travelNeedToFind# fast",
-			   "#ifNotHomeInTime#"
-			  ],
-    "theyLocate": ["locate","find","uncover"],
-    "locateMagical": ["#opensA#","#drinkType#"],
-    "powerOf": ["science",
-		"yoga",
-		"capitalism",
-		"country music",
-		"rainbows and kittens",
-		"Gritty",
-		"Chaucer",
-		"Chuck Tingle",
-		"Philip K. Dick",
-		"tungsten",
-		"Red Bull",
-		"witchcraft",
-		"alien technology",
-		"spite",
-		"reiki",
-		"special relativity",
-		"turkey",
-		"good skin care",
-		"beatboxing",
-		"baking soda",
-		"cynicism"
-	       ],
-
-    "pairBuildTravel": ["Camaro",
-			"time machine",
-			"transporter",
-			"wormhole",
-			"helicopter",
-			"trebuchet",
-			"rocket",
-			"cannon",
-			"sleigh",
-			"potato battery",
-			"transmission",
-			"hang glider",
-			"wheelbarrow",
-			"travois",
-			"robot horse",
-			"robot #animal#",
-			"warp drive",
-			"tricycle",
-			"zamboni",
-			"funicular",
-			"catapult",
-			"hoverboard",
-			"earth mover",
-			"particle accelerator",
-			"hot air balloon",
-			"tank",
-			"snowmobile",
-			"engine block"
-		       ],
-
-
-    "locateNotMagical": ["ketamine",
-			 "pot",
-			 "meth candy",
-			 "an IPA",
-			 "a Satanic Bible",
-			 "a tuba",
-			 "an oracle",
-			 "a drunken Santa",
-			 "a snow globe",
-			 "a hockey mascot",
-			 "a jet pack",
-			 "egg nog",
-			 "a Chick tract",
-			 "a bone saw"
-			],
-    
-    "pairPlotTravelActionSentence": [
-	"#withHelp# #helpFrom# they make it home for Christmas and fall in love.",
-	"They #theyLocate# a magical #locateMagical# that takes them home for Christmas and fall in love.",
-	"They #theyLocate# #locateNotMagical# that helps them get home for Christmas and fall in love.",
-	"Through the power of #powerOf# they make it home for Christmas and fall in love.",
-	"After building #pairBuildTravel.a# they make it home for Christmas and fall in love."
-    ],
-
-    "broken": ["arm","finger","spirit","leg","phone","scooter","skateboard","glasses"],
-    "missing": ["foot","eye","nose","tongue","phone","pants","shoe","hand","elf","#animal#"],
-
-    "withCondition": ["#person1OrPerson2Possessive# broken #broken#",
-		      "#person1OrPerson2Possessive# #missing# missing",
-		      "the weather getting worse"
-		     ],
-
-    "notHomeInTimeCondition": ["only #withOnly# to use",
-			       "#withCondition#"
-			      ],
-
-
-    
-    "pairPlotTravelDontMakeIt": ["With #notHomeInTimeCondition# they won't get home in time",
-				 "They're lost and with #withCondition# they won't get home in time"
-				],
-    "ownChristmasIn": ["a mine shaft",
-		       "a cave",
-		       "a tauntaun",
-		       "an abandoned house",
-		       "a missile silo",
-		       "an abandoned warehouse",
-		       "an ancient pyramid",
-		       "a shack",
-		       "an abandoned IHOP",
-		       "a cemetery",
-		       "a bunker",
-		       "a fallout shelter",
-		       "a corpse pit"
-		      ],
-    "christmasTreeOutOf": ["a transmission",
-			   "a bear carcass",
-			   "55 gallon drums",
-			   "spit",
-			   "deer droppings",
-			   "barbed wire",
-			   "tires",
-			   "limestone",
-			   "tumbleweed",
-			   "a slag heap",
-			   "a garbage pile",
-			   "burlap",
-			   "ice"
-			  ],
-
-
-    "abandonedBusiness": ["Denny's",
-			  "IHOP",
-			  "Walmart",
-			  "Waffle House",
-			  "Best Buy",
-			  "Radio Shack",
-			  "Circuit City",
-			  "Applebee's"
-			 ],
-    
-    "pretendSanta": ["lopsided boulder",
-		     "pizza box",
-		     "beer bottle",
-		     "groundhog",
-		     "moose",
-		     "bear",
-		     "chipmunk",
-		     "pine cone",
-		     "plastic bag",
-		     "gravestone",
-		     "obelisk",
-		     "pentagram",
-		     "human skull",
-		     "abandoned #abandonedBusiness#",
-		     "streetlight",
-		     "pile of rocks",
-		     "large crab",
-		     "soccer ball",
-		     "dumpster"
-		    ],
-		     
-    
-    "pairPlotTravelAdHocChristmas": ["They make Christmas in #ownChristmasIn# and fall in love.",
-				     "They fashion a Christmas tree out of #christmasTreeOutOf# and fall in love.",
-				     "They pretend #pretendSanta.a# is Santa and fall in love.",
-                     "They invent #invent# for Christmas and fall in love."
-				    ],
-    "pairPlotTravel": ["#pairPlotTravelSetup#. #pairPlotTravelGoal#. #pairPlotTravelActionSentence#"],
-    
-    
     "forTheSakeOf": ["#person1OrPerson2Possessive# #relative#",
 		     "#person1OrPerson2Possessive# #animal#",
 		     "#person1OrPerson2Possessive# #familys# #business#",
@@ -2652,9 +2208,9 @@
 			       ],
     
     "pairPlotGoal": ["They pretend to get along #getAlong#",
-		     "They have to work together to #actionClauseNoChristmas#",
+		     "They have to work together to #actionClauseNoChristmas# for the sake of #saveTheNoChristmas#",
 		     "They pretend to be #pretendToBe# #pretendDating#",
-		     "They have to put aside their differences to #actionClauseNoChristmas#",
+		     "They have to put aside their differences to #actionClauseNoChristmas# for the sake of #saveTheNoChristmas#",
 		     "The town #townPerson# #forces# them to #actionClauseNoChristmas#",
 		     "They try to avoid each other but end up #avoidEndUp#",
 		     "Their attempts to #pairAvoidVerb# each other are thwarted by #thwartedBy#",
@@ -2664,9 +2220,6 @@
     
     "pairPlot": ["#pairPlotSetup#. #pairPlotGoal#. #pairPlotActionSentence#"],
 
-    "lastChristmas": ["#protagonistIntroBegin# gets Last Christmas stuck in #person1Possessive# head. Last Christmas I gave you my heart, but the very next day you gave it away. This year, to save me from tears, I'll give it to someone special."],
-
-    "absurdistPlot": ["#lastChristmas#"],
 
     "aloneUntil": ["accidentally #person2Accidentally#",
 		   "lends #person1Object# #person2PossessivePronoun# #person2Lends#",
@@ -2778,13 +2331,6 @@
 		     "#themed#-themed"
 		    ],
 
-    "traditional": ["traditional",
-		    "old fashioned",
-		    "old timey",
-		    "time-honored",
-		    "conventional",
-		    "folksy"
-		   ],
     
     "alwaysWantedObject": ["#christmasAdj.a# Christmas"],
 
@@ -3337,13 +2883,6 @@
         "credit card"
     ],
 
-    "slipsUpWhile": ["drunk",
-        "high",
-        "half asleep",
-        "gaming",
-        "showering",
-        "pooping"
-    ],
     "trueIdentity": ["#person2Name# finds #person1Name#'s #propertyFinds#",
         "#informant# tells #person2Name# #person1Name#'s true identity"
     ],
