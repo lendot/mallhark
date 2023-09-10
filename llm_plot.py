@@ -28,7 +28,7 @@ class LLMPlot:
 
         self.llama.reset()
 
-        plot_instructions = PROMPT_PRE + "Write a description in 100 words or less for the following Hallmark Movie: " + prompt + PROMPT_POST 
+        plot_instructions = PROMPT_PRE + "Write a description in 150 words or less for the following Hallmark Movie: " + prompt + PROMPT_POST 
         print(plot_instructions) 
 
         completion_chunks = self.llama.create_completion(
