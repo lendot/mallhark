@@ -28,7 +28,7 @@ with gr.Blocks() as server:
 
 MODEL_FILE = "/home/llanphar/src/oobabooga_linux/text-generation-webui/models/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_M.bin"
 
-tracery = tracery_plot.TraceryPlot("mallhark.json")
+tracery = tracery_plot.TraceryPlot("hellmark.json")
 plot_image = PlotImage() 
 llm = llm_plot.LLMPlot(MODEL_FILE,n_gpu_layers=100)
 

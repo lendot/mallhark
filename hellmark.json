@@ -1859,7 +1859,7 @@
 		      "get in the way of",
 		      "interfere with #person1Possessive#"
 		     ],
-    "doesntExpectManSetup": ["#person1Desc.capitalize# #person1NameActor# doesn't let #doesntLet# #affectTheirVerb# #affectTheir#"],
+    "doesntExpectManSetup": ["#person1Desc.capitalize# #person1NameActor# has a problem with #doesntLet# but doesn't let that #affectTheirVerb# #affectTheir#"],
     
 
     "unexpectedManUntil": ["#person2NameActor# #aloneUntil#",
@@ -2208,12 +2208,12 @@
 			       ],
     
     "pairPlotGoal": ["They pretend to get along #getAlong#",
-		     "They have to work together to #actionClauseNoChristmas# for the sake of #saveTheNoChristmas#",
-		     "They pretend to be #pretendToBe# #pretendDating#",
+		     "They don't get alogn but they have to work together to #actionClauseNoChristmas# for the sake of #saveTheNoChristmas#",
+		     "They don't get along but pretend to be #pretendToBe# #pretendDating#",
 		     "They have to put aside their differences to #actionClauseNoChristmas# for the sake of #saveTheNoChristmas#",
-		     "The town #townPerson# #forces# them to #actionClauseNoChristmas#",
-		     "They try to avoid each other but end up #avoidEndUp#",
-		     "Their attempts to #pairAvoidVerb# each other are thwarted by #thwartedBy#",
+		     "THey don't get along but the town #townPerson# #forces# them to #actionClauseNoChristmas#",
+		     "They clash and try to avoid each other but end up #avoidEndUp#",
+		     "They clash, but their attempts to #pairAvoidVerb# each other are thwarted by #thwartedBy#",
 		     "They soon discover they share a love of #bothLove#",
 		     "#person2Name.capitalize#'s #person2CuteAdj# but #person2CuteBut#"
 		    ],
@@ -2569,7 +2569,9 @@
 			     "#famousAdj# for its #accidentalGoalWith#",
 			     "whose #accidentalGoalWhose#"
 			    ],
-    "accidentalPlotGoal": ["They #accidentalEndUp# #townNoFamily#, #accidentalGoalClause#" ],
+    "accidentalPlotGoal": [
+        "They #accidentalEndUp# #townNoFamily#, #accidentalGoalClause#" 
+    ],
     "accidentalPlot": ["#accidentalPlotSetup#. #accidentalPlotGoal#. #actionSentence#"],
 
 

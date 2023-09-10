@@ -5,7 +5,7 @@ import re
 
 GRAMMAR_START = "origin"
 
-with open("mallhark.json","r") as grammar_file:
+with open("hellmark.json","r") as grammar_file:
     grammar = json.load(grammar_file)
 
 #pattern = re.compile("\#[a-zA-Z0-9_\.]+\#")
