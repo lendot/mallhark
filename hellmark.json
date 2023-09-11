@@ -433,8 +433,8 @@
 		    "a pub trivia team"
 		   ],
     "kickedOutOf": ["a hair metal band",
-		    "#person1Possessive# city",
-		    "#person1Possessive# apartment",
+		    "#person1PossessivePronoun# city",
+		    "#person1PossessivePronoun# apartment",
 		    "Target",
 		    "Walmart",
 		    "Home Depot",
@@ -517,7 +517,7 @@
 		 "purple boots","children","psychic powers","superpowers","Photoshop","swagger",
 		 "sexy moves","connections","delusions of grandeur","fleas","jackhammers","pizzazz",
 		 "big dick energy","thimbles","hockey jaw","male pattern baldness","elf socks",
-		 "tendinitis","tinnitus","bad teeth","telekinesis","bony ankles","elbow dimples",
+		 "tendinitis","tinnitus","telekinesis","bony ankles","elbow dimples",
 		 "knobby knees","extraterrestrial blood","chapped lips","purple eyes","rippling pecs",
 		 "werewolf powers","mad skillz","two left feet","horns","arsenic","glitter","dolls",
 		 "fruitcake","ham","acne","amnesia","#symptom# symptoms"],
@@ -854,7 +854,8 @@
 		       "#showsUpAtVerb# #person1Possessive# #showsUpAtPerson1s#","thinks #person1Subject#'s #thinksPerson1s#",
 		       "makes #person1Object# #makesPerson1#","helps #person1Object# #person2Helps#","tries to #triesTo#",
 		       "#hiresVerb# #person1Object# to #hiresPerson1#",
-		       "#judgesVerb# #person1Possessive# #judgesPerson1s#","doesn't #understandVerb# #doesntUnderstand#",
+		       "#judgesVerb# #person1Possessive# #judgesPerson1s# and they fight over this",
+               "doesn't #understandVerb# #doesntUnderstand# and it's a point of contention",
 		       "becomes #person1Possessive# unexpected #becomesUnexpected#"],
 
     "person2Action":["#person2ActionMisc#"],
@@ -1483,9 +1484,9 @@
     
 
     "protagonistIntroBegin":[
-			     "#person1Adj.capitalize# #bigCity# #person1Job# #person1Name#"],
+			     "#person1Name#, #person1Adj.a# #bigCity# #person1Job#,"],
     "protagonistIntroMid":["#person1Name#, #person1Desc.a# from #bigCity#,",
-			   "#person1Adj# #person1Job# #person1Name#"
+			   "#person1Name#, #person1Adj.a# #person1Job#,"
     ],
     "endsUp":["ends up","winds up","finds #person1ObjectPronoun#self","turns up","wakes up","gets stranded"],
     "afterWhen":["after #triggeringEvent#",
@@ -1497,8 +1498,8 @@
     "leadsEvent": ["A call from #distressedCaller#","A call from #letterSender#",
 		   "A visit from #visitor#","Losing #person1Possessive# #lost#","A kidnapping by #kidnapper#",
 		   "Needing #inTownNeeds.a#","Drinking #drink.a#","Eating #food.a#",
-		   "An encounter with a #strange# #strangeNoun# in a #strangePersonMeet#",
-		   "An encounter with a #strange# #strangeNoun#","Becoming #becomes#",
+		   "A creepy encounter with a #strange# #strangeNoun# in a #strangePersonMeet#",
+		   "A creepy encounter with a #strange# #strangeNoun#","Becoming #becomes#",
 		   "Inheriting #inheritance.a#","Turning into #turnsIntoA.a#",
 		   "Getting kicked off of #kickedOffOf#",
 		   "Getting kicked out of #kickedOutOf#",
@@ -1542,10 +1543,9 @@
 		    "lobotomy","hug","mandoline"],
     
     "inTownGoalMisc": ["needs #inTownNeeds.a#","is #christmasFeeling# about the holidays","has #inTownHas#",
-		       "is having #inTownIsHaving#","is #becomeAdj# af","is social distancing","is in quarantine",
-		       "is in lockdown","is having trouble adjusting to the new normal"],
+		       "is having #inTownIsHaving#","is #becomeAdj# af"],
 
-    "hasJustLost": ["has just lost #person1Possessive# #inTownLost#","has lost #person1Possessive# #inTownLost#"],
+    "hasJustLost": ["has just lost #person1PossessivePronoun# #inTownLost#","has lost #person1PossessivePronoun# #inTownLost#"],
     "hasJustBecome": ["has just become #becomes#","has become #becomes#"],
 
 
@@ -1855,9 +1855,9 @@
 		  "tuba playing",
 		  "spite"
 		 ],
-    "affectTheirVerb": ["affect #person1Possessive#",
+    "affectTheirVerb": ["affect #person1PossessivePronoun#",
 		      "get in the way of",
-		      "interfere with #person1Possessive#"
+		      "interfere with #person1PossessivePronoun#"
 		     ],
     "doesntExpectManSetup": ["#person1Desc.capitalize# #person1NameActor# has a problem with #doesntLet# but doesn't let that #affectTheirVerb# #affectTheir#"],
     
@@ -2207,11 +2207,11 @@
                 "invent #invent#"
 			       ],
     
-    "pairPlotGoal": ["They pretend to get along #getAlong#",
-		     "They don't get alogn but they have to work together to #actionClauseNoChristmas# for the sake of #saveTheNoChristmas#",
+    "pairPlotGoal": ["They clash but pretend to get along #getAlong#",
+		     "They don't get along but they have to work together to #actionClauseNoChristmas# for the sake of #saveTheNoChristmas#",
 		     "They don't get along but pretend to be #pretendToBe# #pretendDating#",
 		     "They have to put aside their differences to #actionClauseNoChristmas# for the sake of #saveTheNoChristmas#",
-		     "THey don't get along but the town #townPerson# #forces# them to #actionClauseNoChristmas#",
+		     "They don't get along but the town #townPerson# #forces# them to #actionClauseNoChristmas#",
 		     "They clash and try to avoid each other but end up #avoidEndUp#",
 		     "They clash, but their attempts to #pairAvoidVerb# each other are thwarted by #thwartedBy#",
 		     "They soon discover they share a love of #bothLove#",
@@ -2257,7 +2257,7 @@
 		   "has sworn off #swornOff# for Christmas,"
 		  ],
     
-    "singleMomPlotSetup": ["#person1Desc.capitalize# #person1NameActor# #facesAlone# until #person2NameActor# #aloneUntil#"],
+    "singleMomPlotSetup": ["#person1NameActor#, #person1Desc.a#, #facesAlone# until #person2NameActor# #aloneUntil#"],
     "singleMomPlotGoal": ["#pairPlotGoal#"],
     "singleMomPlotActionSentence": ["#pairPlotActionSentence#"],
 
@@ -2267,7 +2267,7 @@
 				 "#person2ActionSentence#. #theyActionSentence#"
 
 				],
-    "singleMomSetupNoMale": ["#person1Desc.capitalize# #person1NameActor# #facesAlone# until #person1SubjectPronoun# #whenPerson1#"],
+    "singleMomSetupNoMale": ["#person1NameActor#, #person1Desc.a#, #facesAlone# until #person1SubjectPronoun# #whenPerson1#"],
 
     "singleMomPlot": ["#singleMomPlotSetup#. #singleMomPlotGoal#. #singleMomPlotActionSentence#"
 		     ],
@@ -2340,7 +2340,7 @@
 		     "longs for",
 		     "yearns for"
 		    ],
-    "alwaysWantedSetup": ["#person1Desc.capitalize# #person1NameActor# #alwaysWanted# #alwaysWantedObject#"],
+    "alwaysWantedSetup": ["#person1NameActor#, #person1Desc.a#, #alwaysWanted# #alwaysWantedObject#"],
 
     "alwaysWantedPlot": ["#alwaysWantedSetup#. #person1ActionSentence#. #longActionSentence#",
 			 "#alwaysWantedSetup#. #person2ActionSentence#. #longActionSentence#"
@@ -2914,7 +2914,7 @@
         "#person2Name# #resistsBut#",
         "#person1SubjectPronoun# reads #person2Name#'s #readsPerson2s#",
         "#person1SubjectPronoun# loses #person1PossessivePronoun# #lost#",
-        "#person1SubjectPronoun# comes out of a coma"
+        "#person1SubjectPronoun# has a horrible accident and comes out of a coma"
     ],
     "propertyChangeOfHeart": [
         "#person1Name# #changeOfHeartClause# when #changeOfHeartWhenClause#"
@@ -3247,7 +3247,7 @@
         "loses #person1PossessivePronoun# #lost# while trying to #injuryBreaksWhile#"
     ],
     "injuryPlotSetup": [
-        "#person1Adj.capitalize# #person1Job# #person1Name# #injuryPlotSetupStory#"
+        "#person1Name#, #person1Adj.a #person1Job#, #iinjuryPlotSetupStory#"
     ],
 
     "injuryPlotPerson2": [
