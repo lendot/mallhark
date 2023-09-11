@@ -2,8 +2,8 @@
 	"default": {
 		"template": "default.png",
 		"left": 75,
-		"top": 350,
+		"top": 260,
 		"width": 930,
-		"height": 1500
+		"height": 1190
     }	
 }
