@@ -3247,7 +3247,7 @@
         "loses #person1PossessivePronoun# #lost# while trying to #injuryBreaksWhile#"
     ],
     "injuryPlotSetup": [
-        "#person1Name#, #person1Adj.a #person1Job#, #iinjuryPlotSetupStory#"
+        "#person1Name#, #person1Adj.a# #person1Job#, #injuryPlotSetupStory#"
     ],
 
     "injuryPlotPerson2": [
