@@ -1,3 +1,4 @@
+import tomli
 import tracery_plot
 from plot_image import PlotImage
 import llm_plot
@@ -26,11 +27,20 @@ with gr.Blocks() as server:
     generate_image_btn.click(fn=generate_image, inputs=llm_output, outputs=image_output, api_name="generate_image")
                            
 
-MODEL_FILE = "/home/llanphar/src/oobabooga_linux/text-generation-webui/models/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_M.bin"
+with open("config.toml", mode="rb") as fp:
+    config = tomli.load(fp)
 
-tracery = tracery_plot.TraceryPlot("hellmark.json")
+#MODEL_FILE = "/home/llanphar/src/text-generation-webui/models/Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_M.bin"
+MODEL_FILE = "/home/llanphar/src/text-generation-webui/models/wizardlm-30b-uncensored.ggmlv3.q4_K_M.bin"
+
+tracery = tracery_plot.TraceryPlot(config['tracery']['grammar'])
 plot_image = PlotImage() 
-llm = llm_plot.LLMPlot(MODEL_FILE,n_gpu_layers=100)
+llm = llm_plot.LLMPlot(
+        config['llm']['model'],
+        n_gpu_layers = config['llm']['n_gpu_layers'],
+        prompt_pre = config['llm']['prompt_pre'],
+        prompt_post = config['llm']['prompt_post']
+)
 
 server.launch(server_name="0.0.0.0")
 
