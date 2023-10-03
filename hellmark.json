@@ -22,8 +22,8 @@
     "maleActor": ["Steve Buscemi","Gary Busey","Vanilla Ice","Ice T","Billy Ray Cyrus","Gordon Ramsey","Kirk Cameron",
 		  "MC Hammer","Sam Waterston","Anthony Hopkins","Rami Malek", "Brendan Fraser",
 		  "Nathan Fillion","Neil Patrick Harris","Christian Slater","Jason Mewes","Michael C. Hall",
-		  "Keanu Reeves","Jackson Galaxy","Henry Rollins","Guy Fieri","Elon Musk","Adam Rippon","David Hasselhoff",
-		  "Gilbert Gottfried","Steve Guttenberg","Tom Hardy","Liam Neeson","Jean-Claude van Damme","Vin Diesel",
+		  "Keanu Reeves","Jackson Galaxy","Henry Rollins","Guy Fieri","Adam Rippon","David Hasselhoff",
+		  "Steve Guttenberg","Tom Hardy","Liam Neeson","Jean-Claude van Damme","Vin Diesel",
 		  "Jared Leto","Aaron Paul","Danny Trejo","Mr. T","Gene Simmons","Dwayne Johnson",
 		  "Michael Ian Black","Mario Lopez","Steven Seagal","Justin Timberlake","Reggie Watts","David Boreanaz",
 		  "David Duchovny","Rainn Wilson","David Harbour","Joaquin Phoenix","Robert de Niro","Patrick Stewart",
@@ -39,13 +39,12 @@
 		  "Robert Downey Jr","Liev Schreiber","Gael Garcia Bernal","Edward James Olmos",
 		  "Hugh Jackman","Eriq La Salle","Kyle MacLachlan","Matthew McConaughey","Bradley Cooper",
 		  "Benicio Del Toro","Jonah Hill","Samuel L. Jackson","Matthew Modine","Morgan Freeman","Gary Oldman",
-		  "Mads Mikkelsen","Chad Michael Murray","Anthony Fauci",
+		  "Mads Mikkelsen","Chad Michael Murray",
 		  "Marwan Kenzari","Paul Hollywood","Lakeith Stanfield","Dylan O'Brien","Marc Blucas","Jason Priestley",
           "Rahul Kohli","Billy Porter","Raúl Esparza","Lil Nas X","Jensen Ackles","Jared Padalecki",
           "Elliot Page","Jason Sudeikis","Brett Goldstein","John Cho","Manny Jacinto","Jared Harris","Joshua Jackson",
           "Mark Hamill","Toby Stephens","Josh Thomas","Henry Cavill","Dev Patel","Tony Leung",
-          "Rainbow Sun Francks",
-		  "ghost of #deadMaleActor#"],
+          "Rainbow Sun Francks","Ryan Gosling"],
 
     "deadFemaleActor": [
         "Lucille Ball",
@@ -82,8 +81,7 @@
 		    "Alison Brie","Mackenzie Davis","Lauren Lapkus","Mj Rodriguez",
             "Indya Moore","Beanie Feldstein","Tessa Thompson","Sarah Paulson","Emmy Raver-Lampman",
             "Hannah Waddingham","Juno Temple","Allison Janney","Anya Taylor-Joy","Kathryn Hahn","Sandra Oh",
-            "Jennifer Coolidge","Mae Martin","Kayla Cromer","Jean Smart","Lana Condor","Carrie-Anne Moss",
-		    "ghost of #deadFemaleActor#"],
+            "Jennifer Coolidge","Mae Martin","Kayla Cromer","Jean Smart","Lana Condor","Carrie-Anne Moss"],
 
     "maleFemaleActor": ["#maleActor#","#femaleActor#"],
 
