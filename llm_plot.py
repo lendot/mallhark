@@ -29,14 +29,17 @@ class LLMPlot:
 
     def _post_process(self,plot):
         plot = plot.replace("Hallmark","Hellmark")
-        plot = plot.replace("\n","")
+        plot = plot.replace("\n"," ")
         return plot
 
-    def generate(self, prompt, top_k = 40, top_p = 0.9, temperature = 0.9, max_tokens = 300):
+    def generate(self, prompt, top_k = 40, top_p = 0.9, temperature = 0.9, max_tokens = 300, style = None):
 
         self.llama.reset()
+        style_str = ""
+        if style is not None:
+            style_str = f' in a {style} style'
 
-        plot_instructions = self.prompt_pre + "Write a description in 150 words or less for the following Hallmark Christmas Movie in a space opera style: " + prompt + self.prompt_post 
+        plot_instructions = self.prompt_pre + f'Write a description in 150 words or less for the following Hallmark Christmas Movie{style_str}: ' + prompt + self.prompt_post 
         print(plot_instructions) 
 
         completion_chunks = self.llama.create_completion(
