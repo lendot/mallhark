@@ -12,7 +12,12 @@ styles = [
         'spaghetti western',
         'dystopian',
         'post-apocalyptic',
-        'time travel'
+        'time travel',
+        'psychological thriller',
+        'buddy cop',
+        'suspense',
+        'film noir',
+        'science fiction'
 ]
 
 def generate_tracery():
@@ -56,6 +61,7 @@ llm = llm_plot.LLMPlot(
         prompt_post = config['llm']['prompt_post']
 )
 
+print("Starting server")
 server.launch(server_name="0.0.0.0")
 
 
