@@ -870,9 +870,9 @@
 		"music store"],
     "inFamilys":["prepper bunker","cookie factory","workshop","mansion","mine shaft","bog","trailer home",
 		 "trailer park","compound","cranberry bog"],
-    "familyDestination":["on #person1Possessive# #familys# #onFamilys#", 
-        "at #person1Possessive# #familys# #atFamilys#",
-        "in #person1Possessive# #familys# #inFamilys#"],
+    "familyDestination":["on #person1PossessivePronoun# #familys# #onFamilys#", 
+        "at #person1PossessivePronoun# #familys# #atFamilys#",
+        "in #person1PossessivePronoun# #familys# #inFamilys#"],
     "town":["#namedTown#","#unnamedTown#","#familyDestination#"],
     "townNoFamily": ["#namedTown#","#unnamedTown#"],
 
@@ -1643,7 +1643,7 @@
 				"It's #christmasTime# #namedOrUnnamedTown# but #inTownProtagonistShort# #inTownButGoal#"
 			       ],
 
-    "protagonistReturns":["home","to #townName#","to #person1Possessive# family's #business#"],
+    "protagonistReturns":["home","to #townName#","to #person1PossessivePronoun# family's #business#"],
     "relativePurposeVerb": ["bury","rotate","burp","kick","cremate","bail out","exfoliate","disown","slap",
 			    "deprogram","euthanize","decorate","assassinate","harvest","infect","defenestrate",
 			    "poison","bite","hypnotize","sue","annoy","ensorcel","innoculate","vaccinate"],
@@ -1652,7 +1652,7 @@
 		  "snow globe","lawnmower","poster","sandwich","toxin","manuscript","laxative","cheese",
 		  "rave drug","toaster","tabby","tea","potato chip","steak","pony","herb"],
     "toFind": ["a rare #findARare#"],
-    "returnsPurpose": ["#returnPurposeFindVerb# #person1Possessive# #lost#","#relativePurposeVerb# #person1Possessive# #relative#","find #toFind#"],
+    "returnsPurpose": ["#returnPurposeFindVerb# #person1PossessivePronoun# #lost#","#relativePurposeVerb# #person1PossessivePronoun# #relative#","find #toFind#"],
     
     "endsUpInTownSetup":["#protagonistIntroBegin# #endsUp# #town# #afterWhen#",
 			 "#afterWhen.capitalize#, #protagonistIntroMid# #endsUp# #town#",
